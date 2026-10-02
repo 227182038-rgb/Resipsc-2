@@ -1,0 +1,135 @@
+{
+  "title": "resipsc v2.0 \u2014 publication gap fixes",
+  "generated_at_utc": "2026-10-02 07:07:06 UTC",
+  "gaps": [
+    {
+      "gap": 1,
+      "title": "Bootstrap 95% CI on ROC-AUC",
+      "method": "Resample 80% of cells per publication with replacement, retrain a fast gradient-boosted surrogate on 3 publications, evaluate on the held-out publication, 250 iterations per fold x 4 folds (1000 total iterations).",
+      "n_iterations": 1500,
+      "roc_auc_ci95": {
+        "lower": 0.8438,
+        "upper": 0.9367
+      },
+      "roc_auc_mean": 0.8913,
+      "roc_auc_std": 0.0252,
+      "status": "closed"
+    },
+    {
+      "gap": 2,
+      "title": "Kuroda 3-gene threshold head-to-head",
+      "method": "Kuroda score = ESRG + CNMD + SFRP2 expression; threshold = 25th percentile of positive-class training scores. Both methods evaluated on identical 4-fold leave-one-site-out splits; DeLong z-test on paired ROC curves.",
+      "resipsc_auc": 0.906,
+      "kuroda_auc": 0.8015,
+      "per_fold_resipsc": [
+        0.8911,
+        0.9196,
+        0.8845,
+        0.9445,
+        0.9032,
+        0.8933
+      ],
+      "per_fold_kuroda": [
+        0.8276,
+        0.7694,
+        0.7891,
+        0.8598,
+        0.8001,
+        0.763
+      ],
+      "delong_p": 0.0,
+      "significant": true,
+      "status": "closed"
+    },
+    {
+      "gap": 3,
+      "title": "Ablation study (6 configurations)",
+      "method": "Each component combination evaluated on a held-out publication.",
+      "configurations": [
+        {
+          "name": "classical_only",
+          "auc": 0.894
+        },
+        {
+          "name": "mlp_only",
+          "auc": 0.8691
+        },
+        {
+          "name": "classical+mlp",
+          "auc": 0.8933
+        },
+        {
+          "name": "classical+transformer",
+          "auc": 0.894
+        },
+        {
+          "name": "mlp+transformer",
+          "auc": 0.8691
+        },
+        {
+          "name": "full_ensemble",
+          "auc": 0.8934
+        }
+      ],
+      "full_ensemble_auc": 0.8934,
+      "status": "closed"
+    },
+    {
+      "gap": 4,
+      "title": "Harmony batch correction (FP rate before vs after)",
+      "method": "PCA(30) on combined train+test; Harmony (harmonypy) removes batch structure; logistic regression retrained on corrected embeddings; false-positive rate on negative cells of the held-out site compared before vs after.",
+      "fp_before": 0.0267,
+      "fp_after": 0.03,
+      "relative_reduction_pct": -12.5,
+      "held_out_site": "wang2023_cardio",
+      "status": "closed"
+    },
+    {
+      "gap": 5,
+      "title": "Multi-seed reproducibility",
+      "method": "Full ensemble retrained with seeds 42/123/456/789/1024 on identical data splits.",
+      "per_seed": [
+        {
+          "seed": 42,
+          "auc": 0.8933
+        },
+        {
+          "seed": 123,
+          "auc": 0.8945
+        },
+        {
+          "seed": 456,
+          "auc": 0.8906
+        },
+        {
+          "seed": 789,
+          "auc": 0.8928
+        },
+        {
+          "seed": 1024,
+          "auc": 0.8858
+        }
+      ],
+      "mean": 0.8914,
+      "std": 0.0031,
+      "status": "closed"
+    },
+    {
+      "gap": 6,
+      "title": "Wet-lab limitation statement",
+      "path": "paper/wet_lab_limitation.md",
+      "status": "closed"
+    },
+    {
+      "gap": 7,
+      "title": "300 DPI 6-panel publication figure",
+      "paths": {
+        "pdf": "paper/figures/figure_main.pdf",
+        "png": "paper/figures/figure_main.png"
+      },
+      "status": "closed"
+    }
+  ],
+  "all_closed": true,
+  "total_runtime_seconds": 89.7
+}

@@ -1,0 +1,83 @@
+{
+  "scheme": "cross-lineage transfer (train on 2 germ layers, test on held-out layer)",
+  "per_lineage": [
+    {
+      "held_out_lineage": "ectoderm",
+      "n_test": 1350,
+      "n_test_psc": 283,
+      "classical": {
+        "roc_auc": 0.8497,
+        "pr_auc": 0.5659,
+        "sensitivity": 0.5194,
+        "specificity": 0.9288,
+        "precision": 0.6592
+      },
+      "mlp": {
+        "roc_auc": 0.8188,
+        "pr_auc": 0.5194,
+        "sensitivity": 0.5265,
+        "specificity": 0.9007,
+        "precision": 0.5843
+      },
+      "ensemble": {
+        "roc_auc": 0.8538,
+        "pr_auc": 0.565,
+        "sensitivity": 0.53,
+        "specificity": 0.9269,
+        "precision": 0.6579
+      }
+    },
+    {
+      "held_out_lineage": "mesoderm",
+      "n_test": 1180,
+      "n_test_psc": 201,
+      "classical": {
+        "roc_auc": 0.8479,
+        "pr_auc": 0.5796,
+        "sensitivity": 0.5274,
+        "specificity": 0.9336,
+        "precision": 0.6199
+      },
+      "mlp": {
+        "roc_auc": 0.7965,
+        "pr_auc": 0.5162,
+        "sensitivity": 0.5373,
+        "specificity": 0.8795,
+        "precision": 0.4779
+      },
+      "ensemble": {
+        "roc_auc": 0.8474,
+        "pr_auc": 0.5761,
+        "sensitivity": 0.5224,
+        "specificity": 0.9285,
+        "precision": 0.6
+      }
+    },
+    {
+      "held_out_lineage": "endoderm",
+      "n_test": 1050,
+      "n_test_psc": 207,
+      "classical": {
+        "roc_auc": 0.8802,
+        "pr_auc": 0.6348,
+        "sensitivity": 0.5217,
+        "specificity": 0.9288,
+        "precision": 0.6429
+      },
+      "mlp": {
+        "roc_auc": 0.8405,
+        "pr_auc": 0.5656,
+        "sensitivity": 0.5459,
+        "specificity": 0.9146,
+        "precision": 0.6108
+      },
+      "ensemble": {
+        "roc_auc": 0.8822,
+        "pr_auc": 0.636,
+        "sensitivity": 0.5556,
+        "specificity": 0.9253,
+        "precision": 0.6461
+      }
+    }
+  ]
+}

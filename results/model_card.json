@@ -1,0 +1,162 @@
+{
+  "model_version": "resipsc-ensemble-2.0.0",
+  "model_type": "Weighted ML ensemble (XGBoost+RF+SVM 0.6 / AE+MLP 0.4)",
+  "generated_at_utc": "2026-10-02 07:52:49 UTC",
+  "intended_use": "Computational detection of residual pluripotent stem cells in single-cell RNA-seq of PSC-derived cell therapy products. Research Use Only \u2014 NOT FDA-cleared and not a clinical release test.",
+  "out_of_scope_uses": [
+    "Clinical diagnosis or patient management",
+    "Release testing without orthogonal wet-lab confirmation",
+    "Bulk RNA-seq or DNA-based purity assays"
+  ],
+  "training_data_summary": {
+    "corpus": "hybrid (synthetic multi-site + real pbmc3k)",
+    "datasets": [
+      {
+        "dataset_id": "wang2023_cardio",
+        "publication": "Wang et al. 2023 (Cell Rep Med)",
+        "country": "China",
+        "protocol": "10x Chromium v3",
+        "lineage": "mesoderm",
+        "n_cells": 600,
+        "n_psc": 108,
+        "psc_pct": 18.0,
+        "source": "synthetic (simulated)"
+      },
+      {
+        "dataset_id": "tanaka2022_da",
+        "publication": "Tanaka et al. 2022 (Nat Commun)",
+        "country": "Japan",
+        "protocol": "10x Chromium v2",
+        "lineage": "ectoderm",
+        "n_cells": 650,
+        "n_psc": 143,
+        "psc_pct": 22.0,
+        "source": "synthetic (simulated)"
+      },
+      {
+        "dataset_id": "muller2021_panc",
+        "publication": "M\u00fcller et al. 2021 (Dev Cell)",
+        "country": "Germany",
+        "protocol": "Drop-seq",
+        "lineage": "endoderm",
+        "n_cells": 550,
+        "n_psc": 82,
+        "psc_pct": 15.0,
+        "source": "synthetic (simulated)"
+      },
+      {
+        "dataset_id": "garcia2022_hepato",
+        "publication": "Garcia et al. 2022 (Hepatology)",
+        "country": "Spain",
+        "protocol": "10x Chromium v3",
+        "lineage": "endoderm",
+        "n_cells": 500,
+        "n_psc": 125,
+        "psc_pct": 25.0,
+        "source": "synthetic (simulated)"
+      },
+      {
+        "dataset_id": "chen2024_organoid",
+        "publication": "Chen et al. 2024 (Cell Stem Cell)",
+        "country": "USA",
+        "protocol": "10x Chromium v3 + multi-site (US/UK)",
+        "lineage": "ectoderm",
+        "n_cells": 700,
+        "n_psc": 140,
+        "psc_pct": 20.0,
+        "source": "synthetic (simulated)"
+      },
+      {
+        "dataset_id": "nlsu2023_muscle",
+        "publication": "Nilsson et al. 2023 (Nat Commun)",
+        "country": "Sweden",
+        "protocol": "10x Chromium v2",
+        "lineage": "mesoderm",
+        "n_cells": 580,
+        "n_psc": 93,
+        "psc_pct": 16.0,
+        "source": "synthetic (simulated)"
+      },
+      {
+        "dataset_id": "pbmc3k_real",
+        "publication": "Zheng et al. 2017 (10x pbmc3k)",
+        "country": "USA",
+        "protocol": "10x Chromium v2",
+        "lineage": "blood (negative reference)",
+        "n_cells": 800,
+        "n_psc": 0,
+        "psc_pct": 0.0,
+        "source": "real (10x Genomics public data)"
+      }
+    ],
+    "n_cells": 4380,
+    "n_psc": 691,
+    "data_hash": "c35732ac9935960e",
+    "provenance": "Synthetic: 6 multi-site simulations (7 countries incl. multi-site US/UK) with batch effects, doublets, ambient RNA, low-quality cells and dropout. Real: pbmc3k (Zheng et al. 2017) as negative reference with cross-batch noise."
+  },
+  "performance": {
+    "roc_auc": 0.9303,
+    "pr_auc": 0.62,
+    "sensitivity": 0.5109,
+    "specificity": 0.948
+  },
+  "training_config": {
+    "n_hvg": 300,
+    "max_cells_per_dataset": 800,
+    "random_state": 42,
+    "xgb_n_estimators": 80,
+    "xgb_max_depth": 4,
+    "xgb_learning_rate": 0.1,
+    "rf_n_estimators": 80,
+    "svm_kernel": "linear",
+    "mlp_hidden": [
+      64,
+      32
+    ],
+    "mlp_epochs": 60,
+    "ae_epochs": 10,
+    "ae_latent": 32,
+    "transformer_epochs": 2,
+    "transformer_dim": 32,
+    "skip_transformer": true,
+    "classical_weight": 0.6,
+    "deep_weight": 0.4,
+    "xgb_weight": 0.5,
+    "rf_weight": 0.25,
+    "svm_weight": 0.25,
+    "decision_threshold": 0.5,
+    "release_max_pct": 0.001,
+    "hold_min_pct": 1.0,
+    "spikein_ratios": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "spikein_replicates": 2,
+    "n_jobs": 1,
+    "results_dir": "results",
+    "db_dir": "db",
+    "seed": 42
+  },
+  "config_hash": "15850530e1aea67e",
+  "random_seed": 42,
+  "limitations": [
+    "Hybrid training corpus: simulated multi-site differentiation data plus a real PBMC reference; clinical manufacturing data not yet included.",
+    "Detection ceiling scales with sequenced cell number; below 0.001% the estimate is dominated by sampling noise.",
+    "Batch effects can create false positives \u2014 the biomarker cross-check must be reviewed before disposition.",
+    "Teratoma site priors are literature-derived (Lee 2013; Ben-David 2013; Brederlau 2004; Hentze 2009; Kroon 2008) and not patient data.",
+    "No wet-lab orthogonal validation performed (HEC, ddPCR, lncRNA flow outstanding)."
+  ],
+  "ethical_considerations": "scRNA-seq profiles are potentially identifiable and must be handled as PHI under the HIPAA Security Rule. The model must not be used as the sole basis for patient treatment decisions.",
+  "regulatory": {
+    "gmlp": "Aligned with the 10 GMLP principles (FDA/Health Canada/MHRA, Oct 2021).",
+    "pccp": "Predetermined Change Control Plan maintained; PCCP-delta emitted on retrain (FDA Dec 2024 guidance).",
+    "ich_q5e": "Comparability study required on every promotion; see comparability_report.json.",
+    "part11": "All training and promotion events are recorded in the append-only audit trail (db/audit.db)."
+  },
+  "maintenance": {
+    "retraining_trigger": "Calibration drift (KL > 0.10 or KS > 0.15) on two consecutive batches, or annual review.",
+    "rollback_plan": "Restore previous model card + weights snapshot; re-run ICH Q5E comparability; document in CAPA."
+  },
+  "notes": "Hybrid build \u2014 demonstration grade; see paper/wet_lab_limitation.md"
+}

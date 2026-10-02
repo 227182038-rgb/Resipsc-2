@@ -1,0 +1,30 @@
+{
+  "gap": 5,
+  "title": "Multi-seed reproducibility",
+  "method": "Full ensemble retrained with seeds 42/123/456/789/1024 on identical data splits.",
+  "per_seed": [
+    {
+      "seed": 42,
+      "auc": 0.8933
+    },
+    {
+      "seed": 123,
+      "auc": 0.8945
+    },
+    {
+      "seed": 456,
+      "auc": 0.8906
+    },
+    {
+      "seed": 789,
+      "auc": 0.8928
+    },
+    {
+      "seed": 1024,
+      "auc": 0.8858
+    }
+  ],
+  "mean": 0.8914,
+  "std": 0.0031,
+  "status": "closed"
+}

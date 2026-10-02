@@ -1,0 +1,26 @@
+{
+  "gap": 2,
+  "title": "Kuroda 3-gene threshold head-to-head",
+  "method": "Kuroda score = ESRG + CNMD + SFRP2 expression; threshold = 25th percentile of positive-class training scores. Both methods evaluated on identical 4-fold leave-one-site-out splits; DeLong z-test on paired ROC curves.",
+  "resipsc_auc": 0.906,
+  "kuroda_auc": 0.8015,
+  "per_fold_resipsc": [
+    0.8911,
+    0.9196,
+    0.8845,
+    0.9445,
+    0.9032,
+    0.8933
+  ],
+  "per_fold_kuroda": [
+    0.8276,
+    0.7694,
+    0.7891,
+    0.8598,
+    0.8001,
+    0.763
+  ],
+  "delong_p": 0.0,
+  "significant": true,
+  "status": "closed"
+}

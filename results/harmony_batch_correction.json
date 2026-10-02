@@ -1,0 +1,10 @@
+{
+  "gap": 4,
+  "title": "Harmony batch correction (FP rate before vs after)",
+  "method": "PCA(30) on combined train+test; Harmony (harmonypy) removes batch structure; logistic regression retrained on corrected embeddings; false-positive rate on negative cells of the held-out site compared before vs after.",
+  "fp_before": 0.0267,
+  "fp_after": 0.03,
+  "relative_reduction_pct": -12.5,
+  "held_out_site": "wang2023_cardio",
+  "status": "closed"
+}

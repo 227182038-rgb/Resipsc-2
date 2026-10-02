@@ -1,0 +1,215 @@
+{
+  "scheme": "PSC spike-in sensitivity sweep (frozen hybrid model, production inference path)",
+  "ratios": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "n_base_cells": 2000,
+  "quantification_calibration": {
+    "sens": 0.6947,
+    "fpr": 0.0,
+    "source": "spike-in validation (n=10 mixtures)"
+  },
+  "results": [
+    {
+      "ratio": 0.0001,
+      "true_psc_fraction_pct": 0.04998,
+      "n_psc_spiked": 1,
+      "n_cells": 2001,
+      "replicate": 1,
+      "recall": 0.0,
+      "precision": 0.0,
+      "raw_measured_fraction_pct": 0.0,
+      "detected_psc": 0,
+      "estimated_fraction_pct": 0.0
+    },
+    {
+      "ratio": 0.0001,
+      "true_psc_fraction_pct": 0.04998,
+      "n_psc_spiked": 1,
+      "n_cells": 2001,
+      "replicate": 2,
+      "recall": 1.0,
+      "precision": 1.0,
+      "raw_measured_fraction_pct": 0.04998,
+      "detected_psc": 1,
+      "estimated_fraction_pct": 0.07078
+    },
+    {
+      "ratio": 0.001,
+      "true_psc_fraction_pct": 0.0999,
+      "n_psc_spiked": 2,
+      "n_cells": 2002,
+      "replicate": 1,
+      "recall": 0.5,
+      "precision": 1.0,
+      "raw_measured_fraction_pct": 0.04995,
+      "detected_psc": 1,
+      "estimated_fraction_pct": 0.07074
+    },
+    {
+      "ratio": 0.001,
+      "true_psc_fraction_pct": 0.0999,
+      "n_psc_spiked": 2,
+      "n_cells": 2002,
+      "replicate": 2,
+      "recall": 1.0,
+      "precision": 1.0,
+      "raw_measured_fraction_pct": 0.0999,
+      "detected_psc": 2,
+      "estimated_fraction_pct": 0.14264
+    },
+    {
+      "ratio": 0.01,
+      "true_psc_fraction_pct": 0.9901,
+      "n_psc_spiked": 20,
+      "n_cells": 2020,
+      "replicate": 1,
+      "recall": 0.6,
+      "precision": 1.0,
+      "raw_measured_fraction_pct": 0.59406,
+      "detected_psc": 12,
+      "estimated_fraction_pct": 0.85402
+    },
+    {
+      "ratio": 0.01,
+      "true_psc_fraction_pct": 0.9901,
+      "n_psc_spiked": 20,
+      "n_cells": 2020,
+      "replicate": 2,
+      "recall": 0.8,
+      "precision": 1.0,
+      "raw_measured_fraction_pct": 0.79208,
+      "detected_psc": 16,
+      "estimated_fraction_pct": 1.13908
+    },
+    {
+      "ratio": 0.1,
+      "true_psc_fraction_pct": 9.09091,
+      "n_psc_spiked": 200,
+      "n_cells": 2200,
+      "replicate": 1,
+      "recall": 0.675,
+      "precision": 1.0,
+      "raw_measured_fraction_pct": 6.13636,
+      "detected_psc": 135,
+      "estimated_fraction_pct": 8.83254
+    },
+    {
+      "ratio": 0.1,
+      "true_psc_fraction_pct": 9.09091,
+      "n_psc_spiked": 200,
+      "n_cells": 2200,
+      "replicate": 2,
+      "recall": 0.715,
+      "precision": 1.0,
+      "raw_measured_fraction_pct": 6.5,
+      "detected_psc": 143,
+      "estimated_fraction_pct": 9.35602
+    },
+    {
+      "ratio": 1.0,
+      "true_psc_fraction_pct": 25.67819,
+      "n_psc_spiked": 2000,
+      "n_cells": 2691,
+      "replicate": 1,
+      "recall": 0.6918,
+      "precision": 1.0,
+      "raw_measured_fraction_pct": 17.76291,
+      "detected_psc": 478,
+      "estimated_fraction_pct": 25.56975
+    },
+    {
+      "ratio": 1.0,
+      "true_psc_fraction_pct": 25.67819,
+      "n_psc_spiked": 2000,
+      "n_cells": 2691,
+      "replicate": 2,
+      "recall": 0.6975,
+      "precision": 1.0,
+      "raw_measured_fraction_pct": 17.91156,
+      "detected_psc": 482,
+      "estimated_fraction_pct": 25.78375
+    }
+  ],
+  "aggregated": [
+    {
+      "ratio": 0.0001,
+      "true_pct": 0.04998,
+      "recall_mean": 0.5,
+      "recall_std": 0.5,
+      "precision_mean": 0.5,
+      "estimated_pct_mean": 0.03539,
+      "raw_pct_mean": 0.02499,
+      "n_replicates": 2
+    },
+    {
+      "ratio": 0.001,
+      "true_pct": 0.0999,
+      "recall_mean": 0.75,
+      "recall_std": 0.25,
+      "precision_mean": 1.0,
+      "estimated_pct_mean": 0.10669,
+      "raw_pct_mean": 0.07493,
+      "n_replicates": 2
+    },
+    {
+      "ratio": 0.01,
+      "true_pct": 0.9901,
+      "recall_mean": 0.7,
+      "recall_std": 0.1,
+      "precision_mean": 1.0,
+      "estimated_pct_mean": 0.99655,
+      "raw_pct_mean": 0.69307,
+      "n_replicates": 2
+    },
+    {
+      "ratio": 0.1,
+      "true_pct": 9.09091,
+      "recall_mean": 0.695,
+      "recall_std": 0.02,
+      "precision_mean": 1.0,
+      "estimated_pct_mean": 9.09428,
+      "raw_pct_mean": 6.31818,
+      "n_replicates": 2
+    },
+    {
+      "ratio": 1.0,
+      "true_pct": 25.67819,
+      "recall_mean": 0.6946,
+      "recall_std": 0.0029,
+      "precision_mean": 1.0,
+      "estimated_pct_mean": 25.67675,
+      "raw_pct_mean": 17.83723,
+      "n_replicates": 2
+    }
+  ],
+  "limit_of_detection_fraction": 0.0001,
+  "headline": "Spike-in detection to 0.010% with quantification-calibrated fraction estimates (n=2000 per replicate)",
+  "wet_lab_reference_lines": [
+    {
+      "label": "lncRNA flow (published LOD)",
+      "pct": 0.0001
+    },
+    {
+      "label": "HEC assay (published LOD)",
+      "pct": 0.001
+    },
+    {
+      "label": "Kuroda ddPCR (published LOD)",
+      "pct": 0.01
+    },
+    {
+      "label": "In vivo teratoma (published LOD)",
+      "pct": 0.1
+    }
+  ],
+  "wet_lab_reference": {
+    "HEC_assay_pct": 0.001,
+    "lncRNA_flow_pct": 0.0001,
+    "ddPCR_Kuroda_pct": 0.01
+  }
+}

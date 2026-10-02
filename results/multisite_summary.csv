@@ -1,0 +1,4 @@
+model,roc_auc_mean,roc_auc_std,roc_auc_min,roc_auc_max,sensitivity_mean,specificity_mean
+classical,0.8821,0.0245,0.8473,0.9057,0.5471,0.9243
+mlp,0.8489,0.0312,0.8006,0.8863,0.5387,0.9044
+ensemble (resipsc),0.883,0.0211,0.8494,0.9012,0.5488,0.9249

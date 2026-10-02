@@ -1,0 +1,33 @@
+{
+  "gap": 3,
+  "title": "Ablation study (6 configurations)",
+  "method": "Each component combination evaluated on a held-out publication.",
+  "configurations": [
+    {
+      "name": "classical_only",
+      "auc": 0.894
+    },
+    {
+      "name": "mlp_only",
+      "auc": 0.8691
+    },
+    {
+      "name": "classical+mlp",
+      "auc": 0.8933
+    },
+    {
+      "name": "classical+transformer",
+      "auc": 0.894
+    },
+    {
+      "name": "mlp+transformer",
+      "auc": 0.8691
+    },
+    {
+      "name": "full_ensemble",
+      "auc": 0.8934
+    }
+  ],
+  "full_ensemble_auc": 0.8934,
+  "status": "closed"
+}

@@ -1,0 +1,5575 @@
+{
+  "batch_id": "CLEAN-DIRECT",
+  "decision": "QUARANTINE",
+  "decision_reason": "Estimated residual PSC fraction 7.8614% exceeds the quarantine threshold of 1.0% \u2014 batch fails release testing; investigate and consider re-processing.",
+  "n_cells": 500,
+  "n_cells_above_threshold": 25,
+  "estimated_psc_fraction": 0.07861354296944793,
+  "raw_measured_fraction": 0.05,
+  "estimated_psc_count": 39,
+  "psc_probability_mean": 0.11730772851086367,
+  "psc_probability_max": 0.8273967730574426,
+  "lineage_breakdown": {
+    "endoderm": 430,
+    "pluripotent": 25,
+    "mesoderm": 22,
+    "ectoderm": 23
+  },
+  "mean_teratoma_risk_score": 0.03675049814041967,
+  "max_teratoma_risk_score": 0.2895888705701049,
+  "thresholds": {
+    "decision_threshold": 0.5,
+    "release_max_pct": 0.001,
+    "hold_min_pct": 1.0
+  },
+  "per_cell_summary": [
+    {
+      "cell_id": "clean_batch_c00000",
+      "psc_probability": 0.034805253406133,
+      "pluripotency_score": 0.7158858776092529,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00001",
+      "psc_probability": 0.03447599433482222,
+      "pluripotency_score": 1.0578957796096802,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00002",
+      "psc_probability": 0.04009208491042067,
+      "pluripotency_score": 0.38274121284484863,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00003",
+      "psc_probability": 0.05136576674923088,
+      "pluripotency_score": 1.19016695022583,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00004",
+      "psc_probability": 0.07602858668729436,
+      "pluripotency_score": 2.409231424331665,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00005",
+      "psc_probability": 0.3541457404520165,
+      "pluripotency_score": 0.4375886619091034,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00008",
+      "psc_probability": 0.0912257226015184,
+      "pluripotency_score": 0.2860899865627289,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00009",
+      "psc_probability": 0.022192984463524794,
+      "pluripotency_score": 0.1971948891878128,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00011",
+      "psc_probability": 0.038267461457215504,
+      "pluripotency_score": 1.3566192388534546,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00012",
+      "psc_probability": 0.20663463884136646,
+      "pluripotency_score": 1.3946605920791626,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00013",
+      "psc_probability": 0.03416343315436862,
+      "pluripotency_score": 1.8633443117141724,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00015",
+      "psc_probability": 0.06307486573483984,
+      "pluripotency_score": 2.1017892360687256,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00016",
+      "psc_probability": 0.03406722871696486,
+      "pluripotency_score": 1.2548338174819946,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00017",
+      "psc_probability": 0.05451227047195836,
+      "pluripotency_score": 0.7317107319831848,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00019",
+      "psc_probability": 0.03647336514018946,
+      "pluripotency_score": 1.2057836055755615,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00020",
+      "psc_probability": 0.5861248350299877,
+      "pluripotency_score": 3.6582679748535156,
+      "teratoma_lineage": "pluripotent"
+    },
+    {
+      "cell_id": "clean_batch_c00022",
+      "psc_probability": 0.03400940118423755,
+      "pluripotency_score": 0.24686551094055176,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00023",
+      "psc_probability": 0.07566782453760881,
+      "pluripotency_score": 1.8160886764526367,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00024",
+      "psc_probability": 0.03046615043945418,
+      "pluripotency_score": 0.38026392459869385,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00025",
+      "psc_probability": 0.051425487735997755,
+      "pluripotency_score": 1.544721007347107,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00028",
+      "psc_probability": 0.04232633699649793,
+      "pluripotency_score": 1.3455114364624023,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00030",
+      "psc_probability": 0.11200423356316794,
+      "pluripotency_score": 0.810695469379425,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00031",
+      "psc_probability": 0.041850693807314196,
+      "pluripotency_score": 1.0020254850387573,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00032",
+      "psc_probability": 0.12288499979047869,
+      "pluripotency_score": 2.062594175338745,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00033",
+      "psc_probability": 0.05641974033772157,
+      "pluripotency_score": 1.643381118774414,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00034",
+      "psc_probability": 0.3628464912643055,
+      "pluripotency_score": 2.222763776779175,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00036",
+      "psc_probability": 0.04750466147901161,
+      "pluripotency_score": 2.2407147884368896,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00037",
+      "psc_probability": 0.02872938197865149,
+      "pluripotency_score": 0.8971344828605652,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00038",
+      "psc_probability": 0.1307141554618975,
+      "pluripotency_score": 1.9940208196640015,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00039",
+      "psc_probability": 0.05103672146337482,
+      "pluripotency_score": 1.9196947813034058,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00040",
+      "psc_probability": 0.10579917933933812,
+      "pluripotency_score": 1.5817493200302124,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00041",
+      "psc_probability": 0.10473393253452239,
+      "pluripotency_score": 1.0004082918167114,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00042",
+      "psc_probability": 0.677539797288832,
+      "pluripotency_score": 2.0846407413482666,
+      "teratoma_lineage": "pluripotent"
+    },
+    {
+      "cell_id": "clean_batch_c00043",
+      "psc_probability": 0.04387754421041114,
+      "pluripotency_score": 0.3402378559112549,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00044",
+      "psc_probability": 0.4843051777859404,
+      "pluripotency_score": 1.9843835830688477,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00045",
+      "psc_probability": 0.03882650963472695,
+      "pluripotency_score": 1.6355390548706055,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00046",
+      "psc_probability": 0.06651224834697192,
+      "pluripotency_score": 1.8834728002548218,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00048",
+      "psc_probability": 0.05776026651802241,
+      "pluripotency_score": 1.6595226526260376,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00049",
+      "psc_probability": 0.1257700953122364,
+      "pluripotency_score": 0.8606000542640686,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00050",
+      "psc_probability": 0.03448434578927459,
+      "pluripotency_score": 0.25556525588035583,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00051",
+      "psc_probability": 0.024150559713859657,
+      "pluripotency_score": 1.6923002004623413,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00052",
+      "psc_probability": 0.15843385544590724,
+      "pluripotency_score": 1.065116286277771,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00053",
+      "psc_probability": 0.09089376590153153,
+      "pluripotency_score": 2.008336305618286,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00056",
+      "psc_probability": 0.04908651938690196,
+      "pluripotency_score": 1.5324044227600098,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00058",
+      "psc_probability": 0.028504516135961958,
+      "pluripotency_score": 1.1742547750473022,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00059",
+      "psc_probability": 0.20855550954201346,
+      "pluripotency_score": 1.7501258850097656,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00061",
+      "psc_probability": 0.07174205449319451,
+      "pluripotency_score": 1.915662169456482,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00062",
+      "psc_probability": 0.2630494462985663,
+      "pluripotency_score": 2.9206998348236084,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00063",
+      "psc_probability": 0.06913034731152798,
+      "pluripotency_score": 0.18526248633861542,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "clean_batch_c00064",
+      "psc_probability": 0.06305762590072855,
+      "pluripotency_score": 0.19835495948791504,
+      "teratoma_lineage": "endoderm"
+    }
+  ],
+  "biomarker_model_agreement": 0.652,
+  "biomarker_model_disagreement": 0.348,
+  "cross_check_warning": "biomarker-positive cells missed by model \u2014 review borderline probabilities",
+  "clinical_notification": {
+    "title": "Residual PSC Detection \u2014 Clinical Risk Notification",
+    "batch_id": "CLEAN-DIRECT",
+    "decision": "QUARANTINE",
+    "risk_summary": "Elevated residual PSC burden (39 cells, 7.861%). Teratoma formation risk is material \u2014 clinical notification and imaging surveillance recommended.",
+    "confidence": "high",
+    "overall_psc_fraction": 0.07861354296944793,
+    "overall_psc_count": 39,
+    "total_cells_analysed": 500,
+    "teratoma_risk_sites": [
+      {
+        "anatomical_site": "Sacrococcygeal",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.35,
+        "site_prior": 0.35,
+        "absolute_risk_probability": 0.22990416578789516,
+        "risk_level": "HIGH",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Pelvic MRI + excisional biopsy; OCT4/SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Gonads",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.25,
+        "site_prior": 0.25,
+        "absolute_risk_probability": 0.16421726127706798,
+        "risk_level": "HIGH",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Pelvic/testicular ultrasound + tumor markers; OCT4 IHC"
+      },
+      {
+        "anatomical_site": "Mediastinum",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.18,
+        "site_prior": 0.18,
+        "absolute_risk_probability": 0.11823642811948894,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Chest CT + mediastinoscopy biopsy"
+      },
+      {
+        "anatomical_site": "Retroperitoneum",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.09196166631515808,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Abdominal CT + core needle biopsy"
+      },
+      {
+        "anatomical_site": "Skeletal muscle",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.28,
+        "site_prior": 0.28,
+        "absolute_risk_probability": 0.08222692314738245,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with myogenin IHC"
+      },
+      {
+        "anatomical_site": "Bone",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.22,
+        "site_prior": 0.22,
+        "absolute_risk_probability": 0.06460686818722906,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "X-ray/CT + biopsy with osteocalcin IHC"
+      },
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.060672851178713065,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Heart",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.18,
+        "site_prior": 0.18,
+        "absolute_risk_probability": 0.052860164880460137,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Echocardiogram + cardiac MRI; troponin surveillance"
+      },
+      {
+        "anatomical_site": "Any (disseminated)",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.08,
+        "site_prior": 0.08,
+        "absolute_risk_probability": 0.052549523608661754,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Whole-body PET-CT + site-directed biopsy"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.04929669158270437,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Kidney",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.04111346157369122,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Renal ultrasound + CT with PAX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.030336425589356533,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Blood",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.1,
+        "site_prior": 0.1,
+        "absolute_risk_probability": 0.0293667582669223,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CBC + flow cytometry + bone marrow aspirate"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.02654437239068697,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Vessels",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.08,
+        "site_prior": 0.08,
+        "absolute_risk_probability": 0.02349340661353784,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Vascular imaging (CTA/MRA) + CD31 IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.0227523191920174,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      },
+      {
+        "anatomical_site": "Pancreas",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.3,
+        "site_prior": 0.3,
+        "absolute_risk_probability": 0.021914365207347995,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT/MRI pancreas protocol + endoscopic biopsy; PDX1 IHC"
+      },
+      {
+        "anatomical_site": "Liver",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.22,
+        "site_prior": 0.22,
+        "absolute_risk_probability": 0.01607053448538853,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Liver ultrasound + AFP surveillance + biopsy with ALB IHC"
+      },
+      {
+        "anatomical_site": "GI tract",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.2,
+        "site_prior": 0.2,
+        "absolute_risk_probability": 0.014609576804898664,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Endoscopy/colonoscopy + biopsy with CDX2 IHC"
+      },
+      {
+        "anatomical_site": "Thyroid",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.010226703763429065,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Neck ultrasound + FNA; TTF1/TG IHC"
+      },
+      {
+        "anatomical_site": "Lung",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.1,
+        "site_prior": 0.1,
+        "absolute_risk_probability": 0.007304788402449332,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Chest CT + biopsy with NKX2-1 IHC"
+      },
+      {
+        "anatomical_site": "Biliary",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.04,
+        "site_prior": 0.04,
+        "absolute_risk_probability": 0.002921915360979733,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRCP + ERCP brushings with CK7/CK19 IHC"
+      }
+    ],
+    "possible_onset_locations": [
+      "Sacrococcygeal",
+      "Gonads",
+      "Mediastinum",
+      "Retroperitoneum",
+      "Skeletal muscle",
+      "Bone"
+    ],
+    "disclaimer": "Risk probabilities are model-derived estimates from scRNA-seq data only. They do not substitute for in vivo tumorigenicity testing or clinical judgement. Research Use Only \u2014 NOT FDA-cleared."
+  },
+  "model_credentials": {
+    "model_version": "resipsc-ensemble-2.0.0",
+    "benchmark": "multi-site 4-fold CV ROC-AUC 0.883",
+    "sensitivity": "Spike-in detection to 0.010% with quantification-calibrated fraction estimates (n=2000 per replicate)",
+    "training_data": "hybrid (synthetic multi-site + real pbmc3k)"
+  },
+  "executive_summary": {
+    "headline": "Residual PSC burden fails release criteria \u2014 T4 disposition",
+    "detail": "resipsc analysed 500 cells from batch CLEAN-DIRECT. 39 cells exceeded the PSC decision threshold (estimated fraction 7.8614%). Biomarker cross-check agreement was 65.2%. The dominant detected lineage is endoderm.",
+    "caveat": "This is a computational inference from scRNA-seq data. It does not replace orthogonal wet-lab release assays (HEC, ddPCR, flow cytometry) and has not been cleared by FDA or EMA.",
+    "one_line_verdict": "QUARANTINE \u2014 High risk (> 1% residual PSC)"
+  },
+  "risk_tier": {
+    "tier": "T4",
+    "label": "High risk (> 1% residual PSC)",
+    "color": "rose",
+    "fda_rationale": "Fails release testing under 21 CFR 1271; quarantine and investigate.",
+    "ema_rationale": "EMEA/CHMP/410869/2006: purity criterion not met without justification; QP consultation required.",
+    "numerical_threshold": "> 1%"
+  },
+  "methodology": {
+    "model_versions": {
+      "resipsc": "2.0.0",
+      "scikit-learn": "1.5.2",
+      "numpy": "2.1.3",
+      "anndata": "0.13.4",
+      "pandas": "3.0.6",
+      "scipy": "1.14.1",
+      "xgboost": "2.1.3",
+      "matplotlib": "3.9.2"
+    },
+    "pipeline": [
+      "1. Input parsing (h5ad/csv/mtx; counts or log-normalised)",
+      "2. Cell QC filter (>= 10 detected genes)",
+      "3. Gene QC filter (>= 3 expressing cells; markers always retained)",
+      "4. Library-size normalisation to 10,000 counts per cell",
+      "5. log1p transformation",
+      "6. Highly-variable gene selection (top 300 by variance)",
+      "7. Per-gene z-scaling (clip +-10)",
+      "8. Ensemble scoring (XGB+RF+SVM 0.6 / AE+MLP 0.4)",
+      "9. Biomarker cross-check (POU5F1/NANOG/SOX2 panel)",
+      "10. Lineage assignment + teratoma site mapping (22 sites)"
+    ],
+    "input_dimensions": {
+      "cells": 500,
+      "genes": 1464
+    },
+    "decision_threshold": 0.5,
+    "random_seed": 42
+  },
+  "statistical_confidence": {
+    "bootstrap_ci_95": {
+      "lower": 0.042880114346971594,
+      "upper": 0.11881365016973378,
+      "mean": 0.0777648740396641,
+      "std": 0.0195750118395529,
+      "n_iterations": 1000
+    },
+    "binomial_test": {
+      "null_hypothesis": "true PSC fraction = release threshold (0.001%)",
+      "alternative": "true PSC fraction exceeds release threshold",
+      "p_value": 1.0391558771023226e-83,
+      "significant_at_alpha_0_05": true,
+      "observed_count": 25,
+      "expected_under_null": 0.005
+    },
+    "post_hoc_power": {
+      "value": 1.0,
+      "interpretation": "adequate (>= 0.8) to detect the observed deviation at alpha=0.05",
+      "assumed_effect_size": 555.8137616656041,
+      "alpha": 0.05,
+      "sample_size": 500
+    }
+  },
+  "probability_distribution": {
+    "bins": [
+      {
+        "label": "0.00-0.05",
+        "count": 223,
+        "fraction": 0.446
+      },
+      {
+        "label": "0.05-0.10",
+        "count": 136,
+        "fraction": 0.272
+      },
+      {
+        "label": "0.10-0.15",
+        "count": 51,
+        "fraction": 0.102
+      },
+      {
+        "label": "0.15-0.20",
+        "count": 16,
+        "fraction": 0.032
+      },
+      {
+        "label": "0.20-0.25",
+        "count": 15,
+        "fraction": 0.03
+      },
+      {
+        "label": "0.25-0.30",
+        "count": 6,
+        "fraction": 0.012
+      },
+      {
+        "label": "0.30-0.35",
+        "count": 8,
+        "fraction": 0.016
+      },
+      {
+        "label": "0.35-0.40",
+        "count": 8,
+        "fraction": 0.016
+      },
+      {
+        "label": "0.40-0.45",
+        "count": 5,
+        "fraction": 0.01
+      },
+      {
+        "label": "0.45-0.50",
+        "count": 7,
+        "fraction": 0.014
+      },
+      {
+        "label": "0.50-0.55",
+        "count": 4,
+        "fraction": 0.008
+      },
+      {
+        "label": "0.55-0.60",
+        "count": 4,
+        "fraction": 0.008
+      },
+      {
+        "label": "0.60-0.65",
+        "count": 3,
+        "fraction": 0.006
+      },
+      {
+        "label": "0.65-0.70",
+        "count": 5,
+        "fraction": 0.01
+      },
+      {
+        "label": "0.70-0.75",
+        "count": 4,
+        "fraction": 0.008
+      },
+      {
+        "label": "0.75-0.80",
+        "count": 4,
+        "fraction": 0.008
+      },
+      {
+        "label": "0.80-0.85",
+        "count": 1,
+        "fraction": 0.002
+      },
+      {
+        "label": "0.85-0.90",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.90-0.95",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.95-1.00",
+        "count": 0,
+        "fraction": 0.0
+      }
+    ],
+    "n_cells": 500,
+    "p50": 0.055258669309009356,
+    "p95": 0.49971215843793243,
+    "p99": 0.718535994421943,
+    "mean": 0.11730772851086367,
+    "max": 0.8273967730574426
+  },
+  "calibration_metrics": {
+    "brier_score_vs_biomarker": 0.2749630009223891,
+    "brier_interpretation": "poor (Brier >= 0.15): recalibrate before use",
+    "ece_surrogate_vs_biomarker": 0.2530586522507622,
+    "ece_interpretation": "poor calibration (ECE >= 0.15)",
+    "biomarker_model_agreement": 0.652
+  },
+  "recommendations": [
+    {
+      "priority": 1,
+      "category": "Batch disposition",
+      "action": "Quarantine batch and initiate investigation per SOP-QA-014",
+      "rationale": "Residual PSC fraction 7.861% exceeds the 1% quarantine threshold.",
+      "owner": "QA officer",
+      "effort": "immediate"
+    },
+    {
+      "priority": 2,
+      "category": "Data quality",
+      "action": "Review biomarker cross-check discrepancies at single-cell level",
+      "rationale": "Model/biomarker agreement was 65.2% (< 90%).",
+      "owner": "Bioinformatics",
+      "effort": "2-4 hours"
+    },
+    {
+      "priority": 3,
+      "category": "Regulatory",
+      "action": "Archive report + audit trail export to batch record (21 CFR Part 11)",
+      "rationale": "Electronic records must be retained >= 5 years after batch release.",
+      "owner": "QA",
+      "effort": "routine"
+    },
+    {
+      "priority": 4,
+      "category": "Model governance",
+      "action": "Confirm current model version in registry matches promotion record (ICH Q5E)",
+      "rationale": "Change control requires concordance documentation on every retrain.",
+      "owner": "ML governance",
+      "effort": "routine"
+    }
+  ],
+  "citation_block": {
+    "bibtex": "@software{resipsc2026,\n  title  = {resipsc v2.0.0: residual pluripotent stem cell detection for cell therapy QC},\n  year   = {2026},\n  note   = {Machine-learning ensemble for residual PSC detection in scRNA-seq},\n}",
+    "citation_text": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "doi_placeholder": "10.5281/zenodo.XXXXXXX (to be assigned on release)",
+    "license": "MIT (code); CC-BY-4.0 (data and figures)",
+    "software_heritage_id": "pending archival on first public release"
+  },
+  "regulatory_context": {
+    "disposition_code": "QUARANTINE",
+    "fda": "21 CFR 1271 (HCT/Ps): release testing for residual PSCs is required before administration of PSC-derived cell therapy products. resipsc supports release at observed residual PSC fraction <= 0.001% and recommends quarantine above 1%. 21 CFR 211 (cGMP) applies to more-than-minimally-manipulated PSC derivatives. 21 CFR Part 11: audit trail implemented as an append-only, SHA-256 hash-chained event log with UTC timestamps.",
+    "ema": "EMEA/CHMP/410869/2006 (Guideline on human cell-based medicinal products): requires identity, potency, purity, microbiological safety, viability and tumorigenicity testing. Purity criterion: residual undifferentiated cells below a sponsor-justified threshold; QP release is defensible at <= 0.001% with orthogonal confirmation.",
+    "ich": "ICH Q5E Comparability of Biotechnological/Biological Products: pre/post retrain concordance analysis (sensitivity/specificity/kappa). ICH Q9(R1) Quality Risk Management: formal FMEA covering input data quality, model failure modes and infrastructure. ICH Q10 Pharmaceutical Quality System: change control, CAPA, management review and knowledge management implemented around the model lifecycle.",
+    "observed_psc_fraction_pct": 7.861354296944794,
+    "audit_trail": "db/audit.db \u2014 append-only SHA-256 hash-chained event log (21 CFR Part 11)"
+  },
+  "report_metadata": {
+    "report_id": "8056d23125ec8a876a83b840f27cc38bb243557e3d46d9dd8d49320080d854b0",
+    "generated_at_utc": "2026-10-02 07:41:46 UTC",
+    "batch_id": "CLEAN-DIRECT",
+    "software_version": "2.0.0",
+    "report_version": "2.1",
+    "input_file_format": "h5ad",
+    "input_cells": 500,
+    "input_genes": 1464,
+    "input_hash_short": "1fe62e4a68709637",
+    "signature_line": "Electronic signature: resipsc automated QC pipeline (RUO) \u2014 unsigned",
+    "intended_use": "Research Use Only \u2014 NOT FDA-cleared"
+  },
+  "threshold_sensitivity": {
+    "thresholds": {
+      "0.3": {
+        "n_above": 53,
+        "fraction_pct": 10.6
+      },
+      "0.5": {
+        "n_above": 25,
+        "fraction_pct": 5.0
+      },
+      "0.7": {
+        "n_above": 9,
+        "fraction_pct": 1.8
+      }
+    },
+    "all_thresholds_agree": false,
+    "decision_stability": "SENSITIVE \u2014 counts vary (53/25/9); inspect borderline cells in [0.3, 0.7]"
+  },
+  "per_cell_classification": {
+    "counts": {
+      "high_confidence_psc": 17,
+      "model_only_psc": 8,
+      "biomarker_only_psc": 166,
+      "ambiguous": 8,
+      "high_confidence_negative": 306
+    },
+    "fractions": {
+      "high_confidence_psc": 0.033663366336633666,
+      "model_only_psc": 0.015841584158415842,
+      "biomarker_only_psc": 0.3287128712871287,
+      "ambiguous": 0.015841584158415842,
+      "high_confidence_negative": 0.6059405940594059
+    },
+    "total": 505,
+    "interpretation": {
+      "high_confidence_psc": "PSC called by both the ML ensemble and the OCT4/NANOG/SOX2 biomarker panel \u2014 treat as confirmed residual PSCs.",
+      "model_only_psc": "PSC called by the model without biomarker support \u2014 possible batch-effect false positive; verify with orthogonal assay.",
+      "biomarker_only_psc": "Biomarker-positive without model support \u2014 possible differentiated-cell marker expression; review manually.",
+      "ambiguous": "Borderline model probabilities (0.35-0.65) without biomarker support \u2014 indeterminate calls.",
+      "high_confidence_negative": "Concordant negative \u2014 differentiated cells with quiet pluripotency programme."
+    }
+  },
+  "disease_site_probabilities": {
+    "sites": [
+      {
+        "anatomical_site": "Sacrococcygeal",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.35,
+        "site_prior": 0.35,
+        "absolute_risk_probability": 0.22990416578789516,
+        "risk_level": "HIGH",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Pelvic MRI + excisional biopsy; OCT4/SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Gonads",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.25,
+        "site_prior": 0.25,
+        "absolute_risk_probability": 0.16421726127706798,
+        "risk_level": "HIGH",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Pelvic/testicular ultrasound + tumor markers; OCT4 IHC"
+      },
+      {
+        "anatomical_site": "Mediastinum",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.18,
+        "site_prior": 0.18,
+        "absolute_risk_probability": 0.11823642811948894,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Chest CT + mediastinoscopy biopsy"
+      },
+      {
+        "anatomical_site": "Retroperitoneum",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.09196166631515808,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Abdominal CT + core needle biopsy"
+      },
+      {
+        "anatomical_site": "Skeletal muscle",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.28,
+        "site_prior": 0.28,
+        "absolute_risk_probability": 0.08222692314738245,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with myogenin IHC"
+      },
+      {
+        "anatomical_site": "Bone",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.22,
+        "site_prior": 0.22,
+        "absolute_risk_probability": 0.06460686818722906,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "X-ray/CT + biopsy with osteocalcin IHC"
+      },
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.060672851178713065,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Heart",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.18,
+        "site_prior": 0.18,
+        "absolute_risk_probability": 0.052860164880460137,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Echocardiogram + cardiac MRI; troponin surveillance"
+      },
+      {
+        "anatomical_site": "Any (disseminated)",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 25,
+        "lineage_probability": 0.05,
+        "site_probability": 0.08,
+        "site_prior": 0.08,
+        "absolute_risk_probability": 0.052549523608661754,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Whole-body PET-CT + site-directed biopsy"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.04929669158270437,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Kidney",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.04111346157369122,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Renal ultrasound + CT with PAX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.030336425589356533,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Blood",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.1,
+        "site_prior": 0.1,
+        "absolute_risk_probability": 0.0293667582669223,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CBC + flow cytometry + bone marrow aspirate"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.02654437239068697,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Vessels",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 22,
+        "lineage_probability": 0.044,
+        "site_probability": 0.08,
+        "site_prior": 0.08,
+        "absolute_risk_probability": 0.02349340661353784,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Vascular imaging (CTA/MRA) + CD31 IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 23,
+        "lineage_probability": 0.046,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.0227523191920174,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      },
+      {
+        "anatomical_site": "Pancreas",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.3,
+        "site_prior": 0.3,
+        "absolute_risk_probability": 0.021914365207347995,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT/MRI pancreas protocol + endoscopic biopsy; PDX1 IHC"
+      },
+      {
+        "anatomical_site": "Liver",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.22,
+        "site_prior": 0.22,
+        "absolute_risk_probability": 0.01607053448538853,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Liver ultrasound + AFP surveillance + biopsy with ALB IHC"
+      },
+      {
+        "anatomical_site": "GI tract",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.2,
+        "site_prior": 0.2,
+        "absolute_risk_probability": 0.014609576804898664,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Endoscopy/colonoscopy + biopsy with CDX2 IHC"
+      },
+      {
+        "anatomical_site": "Thyroid",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.010226703763429065,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Neck ultrasound + FNA; TTF1/TG IHC"
+      },
+      {
+        "anatomical_site": "Lung",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.1,
+        "site_prior": 0.1,
+        "absolute_risk_probability": 0.007304788402449332,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Chest CT + biopsy with NKX2-1 IHC"
+      },
+      {
+        "anatomical_site": "Biliary",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 430,
+        "lineage_probability": 0.86,
+        "site_probability": 0.04,
+        "site_prior": 0.04,
+        "absolute_risk_probability": 0.002921915360979733,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRCP + ERCP brushings with CK7/CK19 IHC"
+      }
+    ],
+    "total_sites_evaluated": 22,
+    "high_risk_sites": 2,
+    "moderate_risk_sites": 7,
+    "low_risk_sites": 11,
+    "negligible_risk_sites": 2,
+    "formula": "absolute_risk = mean(model probability of lineage cells) x literature site prior",
+    "priors_source": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008"
+  },
+  "qc_flags": [
+    {
+      "severity": "warning",
+      "category": "subsample",
+      "message": "Input had 600 cells; analysis subsampled to 500 for memory safety (RESIPSC_MAX_CELLS).",
+      "action": "Set RESIPSC_MAX_CELLS higher on machines with more RAM."
+    },
+    {
+      "severity": "info",
+      "category": "ambiguity",
+      "message": "Notable model/biomarker disagreement",
+      "action": "Manual review of discordant cells"
+    }
+  ],
+  "disclaimer": {
+    "primary": "Research Use Only \u2014 NOT FDA-cleared. This report is a computational inference from single-cell RNA-seq data and does not constitute a clinical release test.",
+    "limitations": [
+      "Model trained on a hybrid corpus (simulated multi-site data + real PBMC reference); clinical performance on therapeutic manufacturing batches is not yet established.",
+      "Detection limits below 0.001% PSC depend on sequenced cell count and depth; bootstrap CIs quantify this uncertainty.",
+      "Lineage assignment and teratoma site priors are literature-derived estimates, not patient-level predictions.",
+      "Batch effects, ambient RNA and doublets can inflate apparent PSC fractions; the biomarker cross-check mitigates but does not eliminate this.",
+      "No wet-lab orthogonal validation (HEC, ddPCR, lncRNA flow) has been performed for this build."
+    ],
+    "wet_lab_confirmation": "Confirm any non-RELEASE disposition with an orthogonal assay: ddPCR for LIN28A/ESRG, immunostaining for OCT4/TRA-1-60, or the histological embryoid-body assay, per EMEA/CHMP/410869/2006.",
+    "decision_authority": "The disposition code is a recommendation. Release authority rests with the Qualified Person under EMA rules or the responsible QA officer under FDA rules.",
+    "audit_trail": "All model inputs, outputs and decisions are recorded in the append-only audit trail (db/audit.db).",
+    "citation": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "license": "MIT (code); CC-BY-4.0 (figures)",
+    "version": "resipsc 2.0.0 / report v2.1"
+  },
+  "cell_projection": {
+    "points": [
+      {
+        "x": 1.9511547088623047,
+        "y": -2.2979767322540283,
+        "p": 0.034805253406133,
+        "cell_id": "clean_batch_c00000",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.552408218383789,
+        "y": -1.1490447521209717,
+        "p": 0.03447599433482222,
+        "cell_id": "clean_batch_c00001",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.9901838302612305,
+        "y": 0.5251055359840393,
+        "p": 0.04009208491042067,
+        "cell_id": "clean_batch_c00002",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.914790153503418,
+        "y": 0.3375547528266907,
+        "p": 0.05136576674923088,
+        "cell_id": "clean_batch_c00003",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.1581282615661621,
+        "y": 1.153236746788025,
+        "p": 0.07602858668729436,
+        "cell_id": "clean_batch_c00004",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.70078182220459,
+        "y": 0.9418111443519592,
+        "p": 0.3541457404520165,
+        "cell_id": "clean_batch_c00005",
+        "class": "ambiguous"
+      },
+      {
+        "x": -2.1257874965667725,
+        "y": -1.6515555381774902,
+        "p": 0.0912257226015184,
+        "cell_id": "clean_batch_c00008",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.8413238525390625,
+        "y": -0.20914287865161896,
+        "p": 0.022192984463524794,
+        "cell_id": "clean_batch_c00009",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0007247924804688,
+        "y": -1.1830568313598633,
+        "p": 0.038267461457215504,
+        "cell_id": "clean_batch_c00011",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.24593448638916,
+        "y": 0.028864577412605286,
+        "p": 0.20663463884136646,
+        "cell_id": "clean_batch_c00012",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.020698070526123,
+        "y": -0.3976603150367737,
+        "p": 0.03416343315436862,
+        "cell_id": "clean_batch_c00013",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.34326982498168945,
+        "y": 0.5994365811347961,
+        "p": 0.06307486573483984,
+        "cell_id": "clean_batch_c00015",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.0896391868591309,
+        "y": 1.5967371463775635,
+        "p": 0.03406722871696486,
+        "cell_id": "clean_batch_c00016",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.8462343215942383,
+        "y": 1.3472692966461182,
+        "p": 0.05451227047195836,
+        "cell_id": "clean_batch_c00017",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.5716776847839355,
+        "y": -0.5874078869819641,
+        "p": 0.03647336514018946,
+        "cell_id": "clean_batch_c00019",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -5.055368900299072,
+        "y": 0.5107007622718811,
+        "p": 0.5861248350299877,
+        "cell_id": "clean_batch_c00020",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 1.2883014678955078,
+        "y": 1.3428659439086914,
+        "p": 0.03400940118423755,
+        "cell_id": "clean_batch_c00022",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.36647820472717285,
+        "y": 1.248207926750183,
+        "p": 0.07566782453760881,
+        "cell_id": "clean_batch_c00023",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.9942646026611328,
+        "y": 1.2256507873535156,
+        "p": 0.03046615043945418,
+        "cell_id": "clean_batch_c00024",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.5571084022521973,
+        "y": 0.7381777763366699,
+        "p": 0.051425487735997755,
+        "cell_id": "clean_batch_c00025",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.3281316757202148,
+        "y": -1.1245297193527222,
+        "p": 0.04232633699649793,
+        "cell_id": "clean_batch_c00028",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.0058083534240723,
+        "y": -0.2651524543762207,
+        "p": 0.11200423356316794,
+        "cell_id": "clean_batch_c00030",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.1859097480773926,
+        "y": 0.5459136962890625,
+        "p": 0.041850693807314196,
+        "cell_id": "clean_batch_c00031",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.5658411979675293,
+        "y": -2.7864997386932373,
+        "p": 0.12288499979047869,
+        "cell_id": "clean_batch_c00032",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.08314037322998047,
+        "y": -0.16248531639575958,
+        "p": 0.05641974033772157,
+        "cell_id": "clean_batch_c00033",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.896552085876465,
+        "y": -2.7282333374023438,
+        "p": 0.3628464912643055,
+        "cell_id": "clean_batch_c00034",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.6645331382751465,
+        "y": -0.7436268925666809,
+        "p": 0.04750466147901161,
+        "cell_id": "clean_batch_c00036",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.8954081535339355,
+        "y": 0.7515825033187866,
+        "p": 0.02872938197865149,
+        "cell_id": "clean_batch_c00037",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.20658540725708,
+        "y": -0.9539363980293274,
+        "p": 0.1307141554618975,
+        "cell_id": "clean_batch_c00038",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.10766005516052246,
+        "y": 0.41171759366989136,
+        "p": 0.05103672146337482,
+        "cell_id": "clean_batch_c00039",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.9710795879364014,
+        "y": -0.37610530853271484,
+        "p": 0.10579917933933812,
+        "cell_id": "clean_batch_c00040",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.6445674896240234,
+        "y": -0.6538448333740234,
+        "p": 0.10473393253452239,
+        "cell_id": "clean_batch_c00041",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.487707138061523,
+        "y": 0.1641281694173813,
+        "p": 0.677539797288832,
+        "cell_id": "clean_batch_c00042",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 0.5256180763244629,
+        "y": 0.10935519635677338,
+        "p": 0.04387754421041114,
+        "cell_id": "clean_batch_c00043",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.477777004241943,
+        "y": -0.17182472348213196,
+        "p": 0.4843051777859404,
+        "cell_id": "clean_batch_c00044",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.4642820358276367,
+        "y": 0.7768710255622864,
+        "p": 0.03882650963472695,
+        "cell_id": "clean_batch_c00045",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.262082576751709,
+        "y": -0.24703897535800934,
+        "p": 0.06651224834697192,
+        "cell_id": "clean_batch_c00046",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.0571708679199219,
+        "y": -0.2458895444869995,
+        "p": 0.05776026651802241,
+        "cell_id": "clean_batch_c00048",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.5552852153778076,
+        "y": -0.3817562460899353,
+        "p": 0.1257700953122364,
+        "cell_id": "clean_batch_c00049",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.1625003814697266,
+        "y": -1.0409551858901978,
+        "p": 0.03448434578927459,
+        "cell_id": "clean_batch_c00050",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.3060860633850098,
+        "y": 1.7238647937774658,
+        "p": 0.024150559713859657,
+        "cell_id": "clean_batch_c00051",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.6555583477020264,
+        "y": 0.18172483146190643,
+        "p": 0.15843385544590724,
+        "cell_id": "clean_batch_c00052",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.0864171981811523,
+        "y": -1.352953314781189,
+        "p": 0.09089376590153153,
+        "cell_id": "clean_batch_c00053",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.1937837600708008,
+        "y": 2.385516405105591,
+        "p": 0.04908651938690196,
+        "cell_id": "clean_batch_c00056",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.5169315338134766,
+        "y": -1.4264187812805176,
+        "p": 0.028504516135961958,
+        "cell_id": "clean_batch_c00058",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.8154025077819824,
+        "y": -0.7842097878456116,
+        "p": 0.20855550954201346,
+        "cell_id": "clean_batch_c00059",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.11681842803955078,
+        "y": -0.999189555644989,
+        "p": 0.07174205449319451,
+        "cell_id": "clean_batch_c00061",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -5.471810817718506,
+        "y": 1.4671801328659058,
+        "p": 0.2630494462985663,
+        "cell_id": "clean_batch_c00062",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.4422173500061035,
+        "y": -1.4456193447113037,
+        "p": 0.06913034731152798,
+        "cell_id": "clean_batch_c00063",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7662496566772461,
+        "y": 1.3523685932159424,
+        "p": 0.06305762590072855,
+        "cell_id": "clean_batch_c00064",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.619394063949585,
+        "y": -2.670346260070801,
+        "p": 0.14473355967207446,
+        "cell_id": "clean_batch_c00065",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.8757596015930176,
+        "y": 0.37734323740005493,
+        "p": 0.03056621085377103,
+        "cell_id": "clean_batch_c00066",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.2398123741149902,
+        "y": 0.2811047434806824,
+        "p": 0.06926252923871613,
+        "cell_id": "clean_batch_c00068",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.6539089679718018,
+        "y": -0.09042496979236603,
+        "p": 0.2123345612786034,
+        "cell_id": "clean_batch_c00069",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.8442883491516113,
+        "y": 0.6261746287345886,
+        "p": 0.04338964778119266,
+        "cell_id": "clean_batch_c00070",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.698286294937134,
+        "y": 0.3712032437324524,
+        "p": 0.71820458674025,
+        "cell_id": "clean_batch_c00071",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 0.5399494171142578,
+        "y": -0.1756293922662735,
+        "p": 0.05560395473550201,
+        "cell_id": "clean_batch_c00072",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.2476015090942383,
+        "y": 0.020879164338111877,
+        "p": 0.32599978289032466,
+        "cell_id": "clean_batch_c00073",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.6227383613586426,
+        "y": 1.190626621246338,
+        "p": 0.04935210399729689,
+        "cell_id": "clean_batch_c00074",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.5116217136383057,
+        "y": -1.0826417207717896,
+        "p": 0.07111482537521364,
+        "cell_id": "clean_batch_c00075",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 4.210791110992432,
+        "y": -2.1163387298583984,
+        "p": 0.0246226851107402,
+        "cell_id": "clean_batch_c00076",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.6287641525268555,
+        "y": -1.2423996925354004,
+        "p": 0.043952221019789635,
+        "cell_id": "clean_batch_c00077",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.1708171367645264,
+        "y": 0.6378165483474731,
+        "p": 0.1378908423715673,
+        "cell_id": "clean_batch_c00078",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.8547983169555664,
+        "y": -1.131072998046875,
+        "p": 0.3268194282271814,
+        "cell_id": "clean_batch_c00080",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.0954170227050781,
+        "y": 2.6502013206481934,
+        "p": 0.041430334062768484,
+        "cell_id": "clean_batch_c00081",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.290363073348999,
+        "y": 0.7270901203155518,
+        "p": 0.2899924368718737,
+        "cell_id": "clean_batch_c00082",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.9515509605407715,
+        "y": 1.5336211919784546,
+        "p": 0.08739393658597133,
+        "cell_id": "clean_batch_c00084",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.5355777740478516,
+        "y": 1.3533493280410767,
+        "p": 0.07941453113876619,
+        "cell_id": "clean_batch_c00085",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.138863563537598,
+        "y": -1.2701866626739502,
+        "p": 0.12606422001046086,
+        "cell_id": "clean_batch_c00086",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.9309396743774414,
+        "y": -2.182215452194214,
+        "p": 0.0380636662637773,
+        "cell_id": "clean_batch_c00088",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.6142972707748413,
+        "y": -0.9516488313674927,
+        "p": 0.061797549295885615,
+        "cell_id": "clean_batch_c00089",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.3506026268005371,
+        "y": 0.6529085636138916,
+        "p": 0.0633473569701757,
+        "cell_id": "clean_batch_c00090",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0576510429382324,
+        "y": -0.4008641242980957,
+        "p": 0.03948927717549922,
+        "cell_id": "clean_batch_c00092",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.8726480007171631,
+        "y": -0.4424014687538147,
+        "p": 0.03712238910327114,
+        "cell_id": "clean_batch_c00093",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.8192956447601318,
+        "y": -0.8355976939201355,
+        "p": 0.050669757757554806,
+        "cell_id": "clean_batch_c00094",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.4180231094360352,
+        "y": 0.331759512424469,
+        "p": 0.0527356727208072,
+        "cell_id": "clean_batch_c00095",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.178138256072998,
+        "y": -2.669295072555542,
+        "p": 0.040101195037565096,
+        "cell_id": "clean_batch_c00096",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.4641706943511963,
+        "y": -0.47239428758621216,
+        "p": 0.42073388257709277,
+        "cell_id": "clean_batch_c00097",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.648394584655762,
+        "y": 0.7176812291145325,
+        "p": 0.48414382619828766,
+        "cell_id": "clean_batch_c00098",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.1587369441986084,
+        "y": 0.8054109215736389,
+        "p": 0.07768022068499555,
+        "cell_id": "clean_batch_c00099",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.7856760025024414,
+        "y": 0.5836697220802307,
+        "p": 0.06078340049099279,
+        "cell_id": "clean_batch_c00100",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.46822190284729004,
+        "y": -2.722831964492798,
+        "p": 0.06930567559322345,
+        "cell_id": "clean_batch_c00101",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.6669435501098633,
+        "y": 1.410711646080017,
+        "p": 0.0379135039509796,
+        "cell_id": "clean_batch_c00102",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.3096232414245605,
+        "y": -0.8796959519386292,
+        "p": 0.28615565168213564,
+        "cell_id": "clean_batch_c00103",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.39986300468444824,
+        "y": -1.2230757474899292,
+        "p": 0.04729126825340009,
+        "cell_id": "clean_batch_c00104",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.549431324005127,
+        "y": -0.3522709608078003,
+        "p": 0.06620380993100142,
+        "cell_id": "clean_batch_c00105",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.6104183197021484,
+        "y": -0.1491297334432602,
+        "p": 0.030389869165545442,
+        "cell_id": "clean_batch_c00106",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.4066038131713867,
+        "y": 0.08722727000713348,
+        "p": 0.02686526461790279,
+        "cell_id": "clean_batch_c00107",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.36059045791626,
+        "y": -1.0591635704040527,
+        "p": 0.46485942048095463,
+        "cell_id": "clean_batch_c00108",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.034306526184082,
+        "y": -1.8239110708236694,
+        "p": 0.19401575868747614,
+        "cell_id": "clean_batch_c00109",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.13426637649536133,
+        "y": -0.3293299973011017,
+        "p": 0.052464796269570194,
+        "cell_id": "clean_batch_c00110",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.8998508453369141,
+        "y": 1.209411859512329,
+        "p": 0.06172466371397758,
+        "cell_id": "clean_batch_c00111",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.861053943634033,
+        "y": -1.2580558061599731,
+        "p": 0.035392101710031834,
+        "cell_id": "clean_batch_c00112",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.685184955596924,
+        "y": 1.3588712215423584,
+        "p": 0.5195635027388206,
+        "cell_id": "clean_batch_c00113",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -3.9381039142608643,
+        "y": 0.25901108980178833,
+        "p": 0.7170493582251217,
+        "cell_id": "clean_batch_c00114",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -0.3015882968902588,
+        "y": -1.3852288722991943,
+        "p": 0.05098783087184279,
+        "cell_id": "clean_batch_c00115",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.487856864929199,
+        "y": -1.810067057609558,
+        "p": 0.4900507312802774,
+        "cell_id": "clean_batch_c00117",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.3752412796020508,
+        "y": 1.2638442516326904,
+        "p": 0.09658707298054095,
+        "cell_id": "clean_batch_c00119",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.3722538948059082,
+        "y": -1.8883824348449707,
+        "p": 0.04371434382671385,
+        "cell_id": "clean_batch_c00121",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.232640027999878,
+        "y": -0.812567949295044,
+        "p": 0.11321524463125836,
+        "cell_id": "clean_batch_c00122",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.2118363380432129,
+        "y": 0.09613125026226044,
+        "p": 0.09962171898074693,
+        "cell_id": "clean_batch_c00123",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.7471933364868164,
+        "y": -0.044494107365608215,
+        "p": 0.0262921257826262,
+        "cell_id": "clean_batch_c00124",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.0402817726135254,
+        "y": 0.47466105222702026,
+        "p": 0.0434172234136581,
+        "cell_id": "clean_batch_c00125",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.4165661334991455,
+        "y": 0.9266578555107117,
+        "p": 0.07954807530786367,
+        "cell_id": "clean_batch_c00127",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.6314077377319336,
+        "y": -1.1310029029846191,
+        "p": 0.03446598424971682,
+        "cell_id": "clean_batch_c00131",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.1603665351867676,
+        "y": 0.49398213624954224,
+        "p": 0.038411783552393365,
+        "cell_id": "clean_batch_c00132",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.6921415328979492,
+        "y": -0.9049404859542847,
+        "p": 0.0999798868182938,
+        "cell_id": "clean_batch_c00133",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.3463482856750488,
+        "y": -2.396260976791382,
+        "p": 0.1358470965607573,
+        "cell_id": "clean_batch_c00135",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.392861843109131,
+        "y": 0.3859174847602844,
+        "p": 0.02743493796681586,
+        "cell_id": "clean_batch_c00136",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.0880365371704102,
+        "y": 2.324335813522339,
+        "p": 0.09022802326642783,
+        "cell_id": "clean_batch_c00138",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.093964099884033,
+        "y": -0.12792690098285675,
+        "p": 0.33822540514275456,
+        "cell_id": "clean_batch_c00139",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.518465995788574,
+        "y": -1.0818195343017578,
+        "p": 0.019779410400888202,
+        "cell_id": "clean_batch_c00140",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.8151092529296875,
+        "y": 0.25340867042541504,
+        "p": 0.6134699952552305,
+        "cell_id": "clean_batch_c00141",
+        "class": "model_only_psc"
+      },
+      {
+        "x": 0.5794644355773926,
+        "y": 1.1777849197387695,
+        "p": 0.08774391621212156,
+        "cell_id": "clean_batch_c00142",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.2371807098388672,
+        "y": 0.43047434091567993,
+        "p": 0.05216613627907865,
+        "cell_id": "clean_batch_c00143",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.9942235946655273,
+        "y": -1.0202356576919556,
+        "p": 0.028452388537005963,
+        "cell_id": "clean_batch_c00144",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.38985252380371094,
+        "y": 1.4063061475753784,
+        "p": 0.0930859706367948,
+        "cell_id": "clean_batch_c00147",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.6791396141052246,
+        "y": -0.09048415720462799,
+        "p": 0.7513453549095881,
+        "cell_id": "clean_batch_c00148",
+        "class": "model_only_psc"
+      },
+      {
+        "x": 0.2523612976074219,
+        "y": -0.15493936836719513,
+        "p": 0.06470438826774413,
+        "cell_id": "clean_batch_c00149",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.6088957786560059,
+        "y": 0.5857089161872864,
+        "p": 0.07045067173909889,
+        "cell_id": "clean_batch_c00150",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.1388130187988281,
+        "y": -0.44300949573516846,
+        "p": 0.13971879693456363,
+        "cell_id": "clean_batch_c00151",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.5073051452636719,
+        "y": -0.6699365973472595,
+        "p": 0.03423316985660513,
+        "cell_id": "clean_batch_c00152",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.79978346824646,
+        "y": 1.8773252964019775,
+        "p": 0.23350631409112466,
+        "cell_id": "clean_batch_c00153",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -5.128620147705078,
+        "y": 1.0785624980926514,
+        "p": 0.7988806916599587,
+        "cell_id": "clean_batch_c00155",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 1.39949369430542,
+        "y": 2.4766833782196045,
+        "p": 0.046884401509788697,
+        "cell_id": "clean_batch_c00156",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.238692283630371,
+        "y": -0.9106916189193726,
+        "p": 0.025266940947182487,
+        "cell_id": "clean_batch_c00157",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.017350196838379,
+        "y": -0.7267002463340759,
+        "p": 0.037047499418507726,
+        "cell_id": "clean_batch_c00158",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 4.855494499206543,
+        "y": -1.1701120138168335,
+        "p": 0.024248675256317978,
+        "cell_id": "clean_batch_c00160",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.1551513671875,
+        "y": 0.13433746993541718,
+        "p": 0.03612912797202601,
+        "cell_id": "clean_batch_c00161",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.705585241317749,
+        "y": -0.26163381338119507,
+        "p": 0.05996159943863782,
+        "cell_id": "clean_batch_c00162",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.5809974670410156,
+        "y": 0.9242944121360779,
+        "p": 0.039417697643866795,
+        "cell_id": "clean_batch_c00164",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.087614059448242,
+        "y": 0.08134953677654266,
+        "p": 0.08148128424965072,
+        "cell_id": "clean_batch_c00165",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.9983654022216797,
+        "y": -0.6734294295310974,
+        "p": 0.02923962797951538,
+        "cell_id": "clean_batch_c00166",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.10972785949707031,
+        "y": -0.25655022263526917,
+        "p": 0.06463704054790279,
+        "cell_id": "clean_batch_c00167",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.7822813987731934,
+        "y": -1.5673234462738037,
+        "p": 0.15242207406249697,
+        "cell_id": "clean_batch_c00168",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.169900894165039,
+        "y": 0.8098422884941101,
+        "p": 0.5939911838185764,
+        "cell_id": "clean_batch_c00169",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 3.021235942840576,
+        "y": 1.7520397901535034,
+        "p": 0.03509320420757779,
+        "cell_id": "clean_batch_c00170",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.25299859046936035,
+        "y": 0.6986351609230042,
+        "p": 0.06504138018014541,
+        "cell_id": "clean_batch_c00172",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.1820764541625977,
+        "y": -0.299454927444458,
+        "p": 0.05959001139426627,
+        "cell_id": "clean_batch_c00173",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.319365978240967,
+        "y": 0.6385931372642517,
+        "p": 0.03880337989533533,
+        "cell_id": "clean_batch_c00175",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.5777673721313477,
+        "y": -0.5507297515869141,
+        "p": 0.03012865653350598,
+        "cell_id": "clean_batch_c00178",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.6440494060516357,
+        "y": -1.3169854879379272,
+        "p": 0.13965715815645696,
+        "cell_id": "clean_batch_c00179",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.092566967010498,
+        "y": -1.1359007358551025,
+        "p": 0.03875258521147677,
+        "cell_id": "clean_batch_c00180",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.8072264194488525,
+        "y": 0.6105571389198303,
+        "p": 0.09663789763443122,
+        "cell_id": "clean_batch_c00181",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.5406851768493652,
+        "y": 0.47909438610076904,
+        "p": 0.029857388526445143,
+        "cell_id": "clean_batch_c00182",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.116755485534668,
+        "y": -0.20792491734027863,
+        "p": 0.028179511350172402,
+        "cell_id": "clean_batch_c00183",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.586024284362793,
+        "y": 1.7195115089416504,
+        "p": 0.0399390120025257,
+        "cell_id": "clean_batch_c00185",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.8408031463623047,
+        "y": -0.08583654463291168,
+        "p": 0.05392025674092298,
+        "cell_id": "clean_batch_c00186",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.4248957633972168,
+        "y": -0.3842213749885559,
+        "p": 0.06427077598754573,
+        "cell_id": "clean_batch_c00187",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.2686452865600586,
+        "y": -0.27169936895370483,
+        "p": 0.029888943911468215,
+        "cell_id": "clean_batch_c00189",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.129932880401611,
+        "y": 0.1451212614774704,
+        "p": 0.595649980012694,
+        "cell_id": "clean_batch_c00191",
+        "class": "model_only_psc"
+      },
+      {
+        "x": -2.958461284637451,
+        "y": -0.9811534285545349,
+        "p": 0.17261754795358006,
+        "cell_id": "clean_batch_c00192",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.10414981842041,
+        "y": -0.6997036337852478,
+        "p": 0.029485290253750664,
+        "cell_id": "clean_batch_c00194",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.4076707363128662,
+        "y": 0.025150015950202942,
+        "p": 0.1042947588579572,
+        "cell_id": "clean_batch_c00195",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 4.070539474487305,
+        "y": -1.0023787021636963,
+        "p": 0.027615998044306783,
+        "cell_id": "clean_batch_c00197",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.071178436279297,
+        "y": 0.39115142822265625,
+        "p": 0.03406520237630006,
+        "cell_id": "clean_batch_c00198",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.7763359546661377,
+        "y": -1.5101892948150635,
+        "p": 0.12298528664623246,
+        "cell_id": "clean_batch_c00199",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.3361124992370605,
+        "y": -2.0233047008514404,
+        "p": 0.028758075846407112,
+        "cell_id": "clean_batch_c00200",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.3492951393127441,
+        "y": 0.5461940169334412,
+        "p": 0.12092898024630255,
+        "cell_id": "clean_batch_c00201",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.550065279006958,
+        "y": -3.4394965171813965,
+        "p": 0.21905949497280272,
+        "cell_id": "clean_batch_c00202",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.624302864074707,
+        "y": -0.5497571229934692,
+        "p": 0.04438471443206808,
+        "cell_id": "clean_batch_c00203",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.164393424987793,
+        "y": 2.0372021198272705,
+        "p": 0.03993581322571628,
+        "cell_id": "clean_batch_c00204",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7997112274169922,
+        "y": 0.8306902050971985,
+        "p": 0.04739827936373988,
+        "cell_id": "clean_batch_c00205",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.8560857772827148,
+        "y": 0.014906451106071472,
+        "p": 0.16032691690842393,
+        "cell_id": "clean_batch_c00206",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.246453285217285,
+        "y": -0.46145445108413696,
+        "p": 0.024628271970447414,
+        "cell_id": "clean_batch_c00207",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.713555335998535,
+        "y": 0.8148989081382751,
+        "p": 0.14199258720670582,
+        "cell_id": "clean_batch_c00208",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.4560825824737549,
+        "y": 0.4857986569404602,
+        "p": 0.06461523104137319,
+        "cell_id": "clean_batch_c00209",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.2417259216308594,
+        "y": 0.6082146167755127,
+        "p": 0.02909961148135591,
+        "cell_id": "clean_batch_c00210",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5490007400512695,
+        "y": -0.6136765480041504,
+        "p": 0.04586171850792527,
+        "cell_id": "clean_batch_c00211",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.7145190238952637,
+        "y": 0.06067042052745819,
+        "p": 0.3448071802121787,
+        "cell_id": "clean_batch_c00212",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.0588526725769043,
+        "y": -0.9827017188072205,
+        "p": 0.09746967432900983,
+        "cell_id": "clean_batch_c00213",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.462627410888672,
+        "y": 0.26774126291275024,
+        "p": 0.6815812458764737,
+        "cell_id": "clean_batch_c00214",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -1.8382378816604614,
+        "y": -1.6714586019515991,
+        "p": 0.09305813247576625,
+        "cell_id": "clean_batch_c00215",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.8736562728881836,
+        "y": -0.4818812608718872,
+        "p": 0.6879065678675483,
+        "cell_id": "clean_batch_c00216",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 2.226484775543213,
+        "y": 0.24747683107852936,
+        "p": 0.033806283736916826,
+        "cell_id": "clean_batch_c00217",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.3695602416992188,
+        "y": -0.37376123666763306,
+        "p": 0.1019045828664524,
+        "cell_id": "clean_batch_c00219",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.218692779541016,
+        "y": -1.0396090745925903,
+        "p": 0.3819214801935901,
+        "cell_id": "clean_batch_c00220",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.9336719512939453,
+        "y": -1.3674144744873047,
+        "p": 0.026496779033656673,
+        "cell_id": "clean_batch_c00221",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.525137424468994,
+        "y": -0.41546645760536194,
+        "p": 0.10486542652619968,
+        "cell_id": "clean_batch_c00222",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.8399386405944824,
+        "y": 0.35172325372695923,
+        "p": 0.04890447963673316,
+        "cell_id": "clean_batch_c00223",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.6481962203979492,
+        "y": 0.12211708724498749,
+        "p": 0.048499449960592245,
+        "cell_id": "clean_batch_c00224",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.1926324367523193,
+        "y": -0.4419752359390259,
+        "p": 0.21160930169413528,
+        "cell_id": "clean_batch_c00226",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.0356347560882568,
+        "y": 1.2506449222564697,
+        "p": 0.13340752456972219,
+        "cell_id": "clean_batch_c00228",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.7813053131103516,
+        "y": 1.117007851600647,
+        "p": 0.036004633757265085,
+        "cell_id": "clean_batch_c00230",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.195418357849121,
+        "y": -0.19168104231357574,
+        "p": 0.027937934230821276,
+        "cell_id": "clean_batch_c00231",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.8389148712158203,
+        "y": 2.132193088531494,
+        "p": 0.0505203489113949,
+        "cell_id": "clean_batch_c00232",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.48582911491394043,
+        "y": -0.5424367785453796,
+        "p": 0.07526353020692785,
+        "cell_id": "clean_batch_c00233",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.012722015380859375,
+        "y": -0.7280277013778687,
+        "p": 0.03798963418553314,
+        "cell_id": "clean_batch_c00234",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.3256545066833496,
+        "y": -0.33032679557800293,
+        "p": 0.04474316871079258,
+        "cell_id": "clean_batch_c00235",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7884812355041504,
+        "y": 0.6076687574386597,
+        "p": 0.07206092564334485,
+        "cell_id": "clean_batch_c00236",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0644464492797852,
+        "y": 0.7507271766662598,
+        "p": 0.07470064717221436,
+        "cell_id": "clean_batch_c00238",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.2979812622070312,
+        "y": -0.2515615224838257,
+        "p": 0.031503424117618944,
+        "cell_id": "clean_batch_c00239",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.6000423431396484,
+        "y": 0.8602619767189026,
+        "p": 0.0297199745953147,
+        "cell_id": "clean_batch_c00240",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.053142070770264,
+        "y": 0.3233060836791992,
+        "p": 0.38443309553556904,
+        "cell_id": "clean_batch_c00241",
+        "class": "ambiguous"
+      },
+      {
+        "x": 1.370800495147705,
+        "y": -0.47772616147994995,
+        "p": 0.02766403310262638,
+        "cell_id": "clean_batch_c00242",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.275160312652588,
+        "y": -0.10541565716266632,
+        "p": 0.09827909877706884,
+        "cell_id": "clean_batch_c00243",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.9488892555236816,
+        "y": -0.3369901180267334,
+        "p": 0.0804695188818355,
+        "cell_id": "clean_batch_c00244",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.14377760887146,
+        "y": -0.3947007656097412,
+        "p": 0.056078751203942345,
+        "cell_id": "clean_batch_c00245",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.573235034942627,
+        "y": 0.26861751079559326,
+        "p": 0.04952299799132358,
+        "cell_id": "clean_batch_c00246",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.3814826011657715,
+        "y": 0.26158231496810913,
+        "p": 0.03437483047502876,
+        "cell_id": "clean_batch_c00247",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.3879845142364502,
+        "y": 0.9998199343681335,
+        "p": 0.07708172521194415,
+        "cell_id": "clean_batch_c00248",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.988772392272949,
+        "y": 1.1797164678573608,
+        "p": 0.042027692914292855,
+        "cell_id": "clean_batch_c00249",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.4323620796203613,
+        "y": -0.053299680352211,
+        "p": 0.027060340654576708,
+        "cell_id": "clean_batch_c00250",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.617985725402832,
+        "y": 0.4197756052017212,
+        "p": 0.03137359705744015,
+        "cell_id": "clean_batch_c00253",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.6223454475402832,
+        "y": 2.8552944660186768,
+        "p": 0.07015716471203422,
+        "cell_id": "clean_batch_c00254",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.969902276992798,
+        "y": 2.062148332595825,
+        "p": 0.37142340891723596,
+        "cell_id": "clean_batch_c00255",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.0139336585998535,
+        "y": -0.21913059055805206,
+        "p": 0.03822372287979607,
+        "cell_id": "clean_batch_c00256",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.5465517044067383,
+        "y": -1.9133427143096924,
+        "p": 0.10291504232734436,
+        "cell_id": "clean_batch_c00257",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.441620349884033,
+        "y": -2.6577489376068115,
+        "p": 0.2737423062979239,
+        "cell_id": "clean_batch_c00258",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.4051828384399414,
+        "y": 0.6129671335220337,
+        "p": 0.028547931286422183,
+        "cell_id": "clean_batch_c00259",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.036116600036621,
+        "y": -0.26848775148391724,
+        "p": 0.035405481290696234,
+        "cell_id": "clean_batch_c00260",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.2282605171203613,
+        "y": -0.24200744926929474,
+        "p": 0.12853437030271525,
+        "cell_id": "clean_batch_c00261",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.2014083862304688,
+        "y": -0.26944535970687866,
+        "p": 0.02739891678870196,
+        "cell_id": "clean_batch_c00262",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.1776421070098877,
+        "y": 0.3482168912887573,
+        "p": 0.11992897959372845,
+        "cell_id": "clean_batch_c00264",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.072467803955078,
+        "y": -0.06271671503782272,
+        "p": 0.03908400565107954,
+        "cell_id": "clean_batch_c00265",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.316133499145508,
+        "y": -0.5880066752433777,
+        "p": 0.03659486860078012,
+        "cell_id": "clean_batch_c00266",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.5901780128479004,
+        "y": -0.4325650930404663,
+        "p": 0.038207740437637625,
+        "cell_id": "clean_batch_c00267",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -5.473641395568848,
+        "y": 0.9510360360145569,
+        "p": 0.8273967730574426,
+        "cell_id": "clean_batch_c00268",
+        "class": "model_only_psc"
+      },
+      {
+        "x": 0.7943606376647949,
+        "y": -2.213763475418091,
+        "p": 0.028697492580999358,
+        "cell_id": "clean_batch_c00269",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.832458972930908,
+        "y": 1.6528432369232178,
+        "p": 0.554556035049226,
+        "cell_id": "clean_batch_c00271",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 1.38069486618042,
+        "y": 0.7761579155921936,
+        "p": 0.029801192075769836,
+        "cell_id": "clean_batch_c00272",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.5586719512939453,
+        "y": 0.05038778483867645,
+        "p": 0.027344555569018797,
+        "cell_id": "clean_batch_c00274",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.2400033473968506,
+        "y": 0.47666752338409424,
+        "p": 0.09794905866336165,
+        "cell_id": "clean_batch_c00275",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.21221399307250977,
+        "y": 0.4744805693626404,
+        "p": 0.03994516062184898,
+        "cell_id": "clean_batch_c00277",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.27301716804504395,
+        "y": -3.573737144470215,
+        "p": 0.053884781432213716,
+        "cell_id": "clean_batch_c00278",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.4084830284118652,
+        "y": -0.7234740257263184,
+        "p": 0.1125968686207161,
+        "cell_id": "clean_batch_c00279",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.5682857036590576,
+        "y": -1.0558847188949585,
+        "p": 0.06563161071395979,
+        "cell_id": "clean_batch_c00280",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.4056806564331055,
+        "y": -0.8394015431404114,
+        "p": 0.03686121947829421,
+        "cell_id": "clean_batch_c00281",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 4.060952186584473,
+        "y": -0.5551730990409851,
+        "p": 0.03374205289769288,
+        "cell_id": "clean_batch_c00282",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.9635887145996094,
+        "y": 0.15510375797748566,
+        "p": 0.04268198627513664,
+        "cell_id": "clean_batch_c00283",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.065114736557007,
+        "y": 0.3152981400489807,
+        "p": 0.11469030296778507,
+        "cell_id": "clean_batch_c00284",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.46279382705688477,
+        "y": 1.7100424766540527,
+        "p": 0.04956101337503731,
+        "cell_id": "clean_batch_c00285",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.859485149383545,
+        "y": 0.6774837970733643,
+        "p": 0.023234259319257315,
+        "cell_id": "clean_batch_c00287",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.300929546356201,
+        "y": -0.9172788262367249,
+        "p": 0.051531772557655155,
+        "cell_id": "clean_batch_c00288",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.7089738845825195,
+        "y": -0.12273623049259186,
+        "p": 0.03416524477209981,
+        "cell_id": "clean_batch_c00289",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.195979595184326,
+        "y": 0.021334990859031677,
+        "p": 0.030130120478250116,
+        "cell_id": "clean_batch_c00290",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.257286787033081,
+        "y": 1.6864831447601318,
+        "p": 0.07867457585706347,
+        "cell_id": "clean_batch_c00291",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -5.309598922729492,
+        "y": 1.999072790145874,
+        "p": 0.20877032736151363,
+        "cell_id": "clean_batch_c00292",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.7230682373046875,
+        "y": 0.20997141301631927,
+        "p": 0.11782806796243193,
+        "cell_id": "clean_batch_c00293",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.3287975788116455,
+        "y": -1.8891795873641968,
+        "p": 0.07593862377831842,
+        "cell_id": "clean_batch_c00294",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.5210914611816406,
+        "y": -0.0820923000574112,
+        "p": 0.05716415558628431,
+        "cell_id": "clean_batch_c00295",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.8495540618896484,
+        "y": 1.1588342189788818,
+        "p": 0.030142560602165865,
+        "cell_id": "clean_batch_c00296",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.5367014408111572,
+        "y": -0.33332329988479614,
+        "p": 0.0399550902595147,
+        "cell_id": "clean_batch_c00297",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -5.234459400177002,
+        "y": 0.7873190641403198,
+        "p": 0.3808465047332362,
+        "cell_id": "clean_batch_c00298",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.8497962951660156,
+        "y": 0.6356238722801208,
+        "p": 0.027202189112290453,
+        "cell_id": "clean_batch_c00299",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.3081498146057129,
+        "y": -0.6259550452232361,
+        "p": 0.061844614805209155,
+        "cell_id": "clean_batch_c00300",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.5444540977478027,
+        "y": 1.580406665802002,
+        "p": 0.09403975618039728,
+        "cell_id": "clean_batch_c00301",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.2747182846069336,
+        "y": 0.2501896619796753,
+        "p": 0.03888927887509405,
+        "cell_id": "clean_batch_c00302",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.7661089897155762,
+        "y": -2.074793577194214,
+        "p": 0.04930345524015574,
+        "cell_id": "clean_batch_c00303",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.269229888916016,
+        "y": -1.06393563747406,
+        "p": 0.28088325729734664,
+        "cell_id": "clean_batch_c00304",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.76139497756958,
+        "y": 0.482791006565094,
+        "p": 0.1911757467735597,
+        "cell_id": "clean_batch_c00305",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.018262386322021484,
+        "y": 0.04191921651363373,
+        "p": 0.04869684115256547,
+        "cell_id": "clean_batch_c00307",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.1463229656219482,
+        "y": 0.8703036904335022,
+        "p": 0.07149073323572823,
+        "cell_id": "clean_batch_c00308",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.50117826461792,
+        "y": 1.9217302799224854,
+        "p": 0.22334050949923506,
+        "cell_id": "clean_batch_c00309",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.0270590782165527,
+        "y": 1.616218090057373,
+        "p": 0.13185498059854978,
+        "cell_id": "clean_batch_c00310",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.652585983276367,
+        "y": -0.20920871198177338,
+        "p": 0.14594983920628585,
+        "cell_id": "clean_batch_c00311",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.9242825508117676,
+        "y": -0.6976828575134277,
+        "p": 0.11786493455455686,
+        "cell_id": "clean_batch_c00312",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.7011942863464355,
+        "y": 1.3603702783584595,
+        "p": 0.030253562056145718,
+        "cell_id": "clean_batch_c00313",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.9792406558990479,
+        "y": -2.0622591972351074,
+        "p": 0.034485119274575565,
+        "cell_id": "clean_batch_c00314",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.089792251586914,
+        "y": -0.43382948637008667,
+        "p": 0.035271441523137895,
+        "cell_id": "clean_batch_c00315",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.7963457107543945,
+        "y": 1.1787593364715576,
+        "p": 0.03640057907903306,
+        "cell_id": "clean_batch_c00316",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.220081329345703,
+        "y": -1.3463304042816162,
+        "p": 0.034243472402088554,
+        "cell_id": "clean_batch_c00317",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.1211748123168945,
+        "y": -1.1289341449737549,
+        "p": 0.03096513802048672,
+        "cell_id": "clean_batch_c00318",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.7927465438842773,
+        "y": 0.7003318667411804,
+        "p": 0.03143967961124272,
+        "cell_id": "clean_batch_c00319",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7409067153930664,
+        "y": -0.15183596312999725,
+        "p": 0.02573285248746803,
+        "cell_id": "clean_batch_c00320",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.4463109970092773,
+        "y": 1.775768518447876,
+        "p": 0.05578304768940644,
+        "cell_id": "clean_batch_c00321",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.8854255676269531,
+        "y": 2.3792757987976074,
+        "p": 0.0454305398355371,
+        "cell_id": "clean_batch_c00322",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.3918328285217285,
+        "y": 0.5582199692726135,
+        "p": 0.02766324251003225,
+        "cell_id": "clean_batch_c00323",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.3381829261779785,
+        "y": -0.838830828666687,
+        "p": 0.5081990835439365,
+        "cell_id": "clean_batch_c00324",
+        "class": "model_only_psc"
+      },
+      {
+        "x": -0.1616506576538086,
+        "y": -1.3346784114837646,
+        "p": 0.049106413262481025,
+        "cell_id": "clean_batch_c00325",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.745419979095459,
+        "y": 0.2172207087278366,
+        "p": 0.05202697828365822,
+        "cell_id": "clean_batch_c00326",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.9080767631530762,
+        "y": 2.5409302711486816,
+        "p": 0.05479142083079461,
+        "cell_id": "clean_batch_c00327",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.5497751235961914,
+        "y": 1.694277048110962,
+        "p": 0.050434478245367495,
+        "cell_id": "clean_batch_c00329",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.776021957397461,
+        "y": -0.09895439445972443,
+        "p": 0.02775663013965382,
+        "cell_id": "clean_batch_c00330",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.77536678314209,
+        "y": -0.47384577989578247,
+        "p": 0.03794100763817901,
+        "cell_id": "clean_batch_c00331",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.1903116703033447,
+        "y": 0.28337597846984863,
+        "p": 0.4390869868418983,
+        "cell_id": "clean_batch_c00332",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.5486373901367188,
+        "y": -0.2996636629104614,
+        "p": 0.032455248744509765,
+        "cell_id": "clean_batch_c00333",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.15858960151672363,
+        "y": -0.13356398046016693,
+        "p": 0.07819021234551793,
+        "cell_id": "clean_batch_c00334",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.38020873069763184,
+        "y": 0.872060239315033,
+        "p": 0.03918591451333008,
+        "cell_id": "clean_batch_c00335",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.6478767395019531,
+        "y": -1.8834376335144043,
+        "p": 0.03332347751901822,
+        "cell_id": "clean_batch_c00336",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.1335749626159668,
+        "y": 0.2383139580488205,
+        "p": 0.057805294368616714,
+        "cell_id": "clean_batch_c00337",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.4261913299560547,
+        "y": 0.07366685569286346,
+        "p": 0.035417098796253106,
+        "cell_id": "clean_batch_c00339",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5614490509033203,
+        "y": 0.6882367134094238,
+        "p": 0.05234834601170607,
+        "cell_id": "clean_batch_c00340",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0351543426513672,
+        "y": -1.0620654821395874,
+        "p": 0.03414991663009237,
+        "cell_id": "clean_batch_c00341",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0429916381835938,
+        "y": 0.8036735653877258,
+        "p": 0.07008937600133852,
+        "cell_id": "clean_batch_c00342",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.0764222145080566,
+        "y": 0.722379744052887,
+        "p": 0.02670559607983374,
+        "cell_id": "clean_batch_c00343",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.063925266265869,
+        "y": -0.6969161629676819,
+        "p": 0.5023548034536439,
+        "cell_id": "clean_batch_c00344",
+        "class": "model_only_psc"
+      },
+      {
+        "x": -1.2559256553649902,
+        "y": -2.0801784992218018,
+        "p": 0.06572498207730068,
+        "cell_id": "clean_batch_c00345",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.864439010620117,
+        "y": 1.2041499614715576,
+        "p": 0.035241141210008195,
+        "cell_id": "clean_batch_c00346",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.7102010250091553,
+        "y": -0.5719850659370422,
+        "p": 0.16111444352654564,
+        "cell_id": "clean_batch_c00348",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.9764728546142578,
+        "y": 1.4295141696929932,
+        "p": 0.039768999223707205,
+        "cell_id": "clean_batch_c00350",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.9924745559692383,
+        "y": 0.6165322661399841,
+        "p": 0.044979113761071866,
+        "cell_id": "clean_batch_c00351",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.8462047576904297,
+        "y": 0.0909118503332138,
+        "p": 0.041698857593035446,
+        "cell_id": "clean_batch_c00352",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.418097972869873,
+        "y": 1.128265142440796,
+        "p": 0.044172305282175875,
+        "cell_id": "clean_batch_c00353",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.593442916870117,
+        "y": -0.7283934354782104,
+        "p": 0.024891009517834455,
+        "cell_id": "clean_batch_c00354",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.30388426780700684,
+        "y": -2.851806402206421,
+        "p": 0.05961867554363139,
+        "cell_id": "clean_batch_c00355",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.499720573425293,
+        "y": -0.12418068945407867,
+        "p": 0.02904230135686961,
+        "cell_id": "clean_batch_c00356",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 4.334391117095947,
+        "y": 0.013710960745811462,
+        "p": 0.025654618824890105,
+        "cell_id": "clean_batch_c00357",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.1690435409545898,
+        "y": -0.44710326194763184,
+        "p": 0.05967304493256123,
+        "cell_id": "clean_batch_c00358",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.9971351623535156,
+        "y": 0.484843909740448,
+        "p": 0.035013095931984296,
+        "cell_id": "clean_batch_c00360",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.09438419342041016,
+        "y": -0.6454197764396667,
+        "p": 0.04745598903583943,
+        "cell_id": "clean_batch_c00361",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.139098644256592,
+        "y": -0.799786388874054,
+        "p": 0.38655160332484356,
+        "cell_id": "clean_batch_c00362",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.107175827026367,
+        "y": 0.4314574599266052,
+        "p": 0.038658608572199236,
+        "cell_id": "clean_batch_c00364",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.153959274291992,
+        "y": -0.25728678703308105,
+        "p": 0.02474180478843511,
+        "cell_id": "clean_batch_c00365",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.5073423385620117,
+        "y": 0.6445381045341492,
+        "p": 0.13172374311709703,
+        "cell_id": "clean_batch_c00366",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.6213078498840332,
+        "y": 0.23942242562770844,
+        "p": 0.07759754187735819,
+        "cell_id": "clean_batch_c00367",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.1669070720672607,
+        "y": 1.3807122707366943,
+        "p": 0.13958120531642482,
+        "cell_id": "clean_batch_c00368",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0242319107055664,
+        "y": 0.7055808901786804,
+        "p": 0.031241062303099622,
+        "cell_id": "clean_batch_c00369",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7862517833709717,
+        "y": -0.14555421471595764,
+        "p": 0.16161584139045235,
+        "cell_id": "clean_batch_c00370",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.5334982872009277,
+        "y": -1.546884536743164,
+        "p": 0.037806495328712046,
+        "cell_id": "clean_batch_c00371",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.479714870452881,
+        "y": -0.43484264612197876,
+        "p": 0.041144796654540364,
+        "cell_id": "clean_batch_c00372",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.1393861770629883,
+        "y": -1.835099697113037,
+        "p": 0.03568578724387933,
+        "cell_id": "clean_batch_c00373",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.010097742080688477,
+        "y": 1.221714973449707,
+        "p": 0.056292733638448875,
+        "cell_id": "clean_batch_c00374",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.8573050498962402,
+        "y": 0.30842286348342896,
+        "p": 0.05640665636330164,
+        "cell_id": "clean_batch_c00375",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.38034534454345703,
+        "y": 0.11434732377529144,
+        "p": 0.0698061862690922,
+        "cell_id": "clean_batch_c00376",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.4442882537841797,
+        "y": 0.39497536420822144,
+        "p": 0.03483138532179837,
+        "cell_id": "clean_batch_c00377",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.1445069313049316,
+        "y": -1.231181263923645,
+        "p": 0.044047972323422155,
+        "cell_id": "clean_batch_c00378",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.575686931610107,
+        "y": -2.6810500621795654,
+        "p": 0.11894491891469353,
+        "cell_id": "clean_batch_c00379",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.8519794940948486,
+        "y": 1.1589646339416504,
+        "p": 0.0682524129690088,
+        "cell_id": "clean_batch_c00380",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.1370482444763184,
+        "y": 0.9365590214729309,
+        "p": 0.03019619148848769,
+        "cell_id": "clean_batch_c00381",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.8627877235412598,
+        "y": 0.6698861718177795,
+        "p": 0.02963322133758923,
+        "cell_id": "clean_batch_c00383",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.5406800508499146,
+        "y": 0.47536027431488037,
+        "p": 0.14002981393116765,
+        "cell_id": "clean_batch_c00384",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.08775115013122559,
+        "y": -0.8652973771095276,
+        "p": 0.05658398949508574,
+        "cell_id": "clean_batch_c00386",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.700434684753418,
+        "y": 0.6520938873291016,
+        "p": 0.03401411848314518,
+        "cell_id": "clean_batch_c00387",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.221435070037842,
+        "y": 0.2688518166542053,
+        "p": 0.1863138452688173,
+        "cell_id": "clean_batch_c00389",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.8757176399230957,
+        "y": 0.5319661498069763,
+        "p": 0.030475997200982045,
+        "cell_id": "clean_batch_c00390",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.194636106491089,
+        "y": 1.0759406089782715,
+        "p": 0.10992104192822422,
+        "cell_id": "clean_batch_c00391",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.3112592697143555,
+        "y": 0.4229368567466736,
+        "p": 0.037813957767637935,
+        "cell_id": "clean_batch_c00393",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.9981565475463867,
+        "y": -1.3143527507781982,
+        "p": 0.03620545599279243,
+        "cell_id": "clean_batch_c00394",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.07340240478515625,
+        "y": -1.4581958055496216,
+        "p": 0.06842546954860992,
+        "cell_id": "clean_batch_c00395",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.421076774597168,
+        "y": -2.6610357761383057,
+        "p": 0.035462610838788655,
+        "cell_id": "clean_batch_c00396",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0612215995788574,
+        "y": 0.004714712500572205,
+        "p": 0.02895887120820416,
+        "cell_id": "clean_batch_c00397",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.304408073425293,
+        "y": 0.397769570350647,
+        "p": 0.6867884415409307,
+        "cell_id": "clean_batch_c00399",
+        "class": "model_only_psc"
+      },
+      {
+        "x": -3.3519680500030518,
+        "y": 1.1772266626358032,
+        "p": 0.17573650169546487,
+        "cell_id": "clean_batch_c00401",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.0542106628417969,
+        "y": 0.014230355620384216,
+        "p": 0.09252737858289728,
+        "cell_id": "clean_batch_c00402",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.4552338123321533,
+        "y": 1.6172815561294556,
+        "p": 0.2256781998818017,
+        "cell_id": "clean_batch_c00404",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.10973072052001953,
+        "y": 0.48874425888061523,
+        "p": 0.06233968270401003,
+        "cell_id": "clean_batch_c00405",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.7823190689086914,
+        "y": -2.017016649246216,
+        "p": 0.027891581646555443,
+        "cell_id": "clean_batch_c00406",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.220315456390381,
+        "y": -0.15097568929195404,
+        "p": 0.035031129395798166,
+        "cell_id": "clean_batch_c00409",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.6365270614624023,
+        "y": 0.7335783839225769,
+        "p": 0.0804651785904234,
+        "cell_id": "clean_batch_c00410",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.716691017150879,
+        "y": -0.11335201561450958,
+        "p": 0.7856229388442406,
+        "cell_id": "clean_batch_c00411",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -0.35485172271728516,
+        "y": -2.0270090103149414,
+        "p": 0.05312869969072008,
+        "cell_id": "clean_batch_c00412",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.3150253295898438,
+        "y": -0.20571918785572052,
+        "p": 0.05279035816366508,
+        "cell_id": "clean_batch_c00413",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.942607879638672,
+        "y": -0.7228026986122131,
+        "p": 0.21626836800280946,
+        "cell_id": "clean_batch_c00415",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.39574527740478516,
+        "y": -0.1784708946943283,
+        "p": 0.06092293046971467,
+        "cell_id": "clean_batch_c00417",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.07126712799072266,
+        "y": 0.8972395062446594,
+        "p": 0.07047461132405473,
+        "cell_id": "clean_batch_c00418",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.069812774658203,
+        "y": 0.06426578760147095,
+        "p": 0.14175812830047896,
+        "cell_id": "clean_batch_c00420",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.626206398010254,
+        "y": -1.6539831161499023,
+        "p": 0.055679086591104404,
+        "cell_id": "clean_batch_c00421",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.9824252128601074,
+        "y": -0.017389699816703796,
+        "p": 0.08209413327421423,
+        "cell_id": "clean_batch_c00422",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.37884521484375,
+        "y": -1.5331337451934814,
+        "p": 0.1681165438773572,
+        "cell_id": "clean_batch_c00423",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -5.2514424324035645,
+        "y": 0.9844284653663635,
+        "p": 0.7058002345438923,
+        "cell_id": "clean_batch_c00424",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 1.7045526504516602,
+        "y": 0.5650374293327332,
+        "p": 0.038713356607163206,
+        "cell_id": "clean_batch_c00425",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.508540630340576,
+        "y": -0.9385088086128235,
+        "p": 0.22997863321033202,
+        "cell_id": "clean_batch_c00426",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.1075160503387451,
+        "y": -0.18302275240421295,
+        "p": 0.07395259806498528,
+        "cell_id": "clean_batch_c00427",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.1682219505310059,
+        "y": -0.48099178075790405,
+        "p": 0.04243863237708079,
+        "cell_id": "clean_batch_c00428",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.0417766571044922,
+        "y": -0.820691704750061,
+        "p": 0.033546125289569725,
+        "cell_id": "clean_batch_c00429",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.3362009525299072,
+        "y": 1.3468601703643799,
+        "p": 0.046157323233224495,
+        "cell_id": "clean_batch_c00431",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.878472089767456,
+        "y": 1.4859497547149658,
+        "p": 0.1334817266776626,
+        "cell_id": "clean_batch_c00432",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.5206780433654785,
+        "y": -1.4329338073730469,
+        "p": 0.024799661926337514,
+        "cell_id": "clean_batch_c00433",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.106557846069336,
+        "y": -2.2127954959869385,
+        "p": 0.08615754603436057,
+        "cell_id": "clean_batch_c00434",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.384014129638672,
+        "y": 0.15647180378437042,
+        "p": 0.21475431121252997,
+        "cell_id": "clean_batch_c00435",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7324042320251465,
+        "y": -0.7161163687705994,
+        "p": 0.024420858065063066,
+        "cell_id": "clean_batch_c00436",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.9243288040161133,
+        "y": -0.1779673844575882,
+        "p": 0.08990418810925697,
+        "cell_id": "clean_batch_c00437",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.4077959060668945,
+        "y": -0.8235823512077332,
+        "p": 0.31676967961155933,
+        "cell_id": "clean_batch_c00438",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.6972699165344238,
+        "y": -0.2284630686044693,
+        "p": 0.07490728232395051,
+        "cell_id": "clean_batch_c00439",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.8718023300170898,
+        "y": 0.7387505769729614,
+        "p": 0.04495078318602104,
+        "cell_id": "clean_batch_c00441",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.917836904525757,
+        "y": 0.4870530962944031,
+        "p": 0.3919268887017218,
+        "cell_id": "clean_batch_c00442",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.93414306640625,
+        "y": 0.27281880378723145,
+        "p": 0.4995730718581583,
+        "cell_id": "clean_batch_c00443",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.3651695251464844,
+        "y": 0.16684897243976593,
+        "p": 0.05618382950339813,
+        "cell_id": "clean_batch_c00444",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.0031795501708984,
+        "y": -0.16699756681919098,
+        "p": 0.036991587128718674,
+        "cell_id": "clean_batch_c00445",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.5162134170532227,
+        "y": -0.25437355041503906,
+        "p": 0.03136323058886258,
+        "cell_id": "clean_batch_c00446",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.19850397109985352,
+        "y": 0.13665394484996796,
+        "p": 0.11555084825337647,
+        "cell_id": "clean_batch_c00448",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.4943466186523438,
+        "y": 0.04691915214061737,
+        "p": 0.0379747863181758,
+        "cell_id": "clean_batch_c00449",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.2760815620422363,
+        "y": 0.7608078718185425,
+        "p": 0.04602882176972641,
+        "cell_id": "clean_batch_c00450",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.8525075912475586,
+        "y": 1.5719796419143677,
+        "p": 0.04571163333030245,
+        "cell_id": "clean_batch_c00451",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.35121726989746094,
+        "y": -0.032496169209480286,
+        "p": 0.07159923244860597,
+        "cell_id": "clean_batch_c00452",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -5.255099296569824,
+        "y": 0.5412971377372742,
+        "p": 0.7048262991340856,
+        "cell_id": "clean_batch_c00453",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -0.2558097839355469,
+        "y": 0.4864811301231384,
+        "p": 0.05406907794235284,
+        "cell_id": "clean_batch_c00454",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.3772597312927246,
+        "y": 0.19386808574199677,
+        "p": 0.085720684427361,
+        "cell_id": "clean_batch_c00456",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.818375587463379,
+        "y": 0.45687323808670044,
+        "p": 0.2229363374124951,
+        "cell_id": "clean_batch_c00457",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.265944480895996,
+        "y": 0.6933231949806213,
+        "p": 0.5048760975599311,
+        "cell_id": "clean_batch_c00458",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -1.3010802268981934,
+        "y": -1.5808324813842773,
+        "p": 0.15647055524834463,
+        "cell_id": "clean_batch_c00459",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.301520347595215,
+        "y": 1.542236089706421,
+        "p": 0.1612676180313487,
+        "cell_id": "clean_batch_c00460",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.556638240814209,
+        "y": 0.11790211498737335,
+        "p": 0.16558989575759955,
+        "cell_id": "clean_batch_c00461",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.4385862350463867,
+        "y": 0.06046627461910248,
+        "p": 0.04692519670227106,
+        "cell_id": "clean_batch_c00463",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.9653801918029785,
+        "y": -0.04095502197742462,
+        "p": 0.05211513615627203,
+        "cell_id": "clean_batch_c00464",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.3988828659057617,
+        "y": 1.06488835811615,
+        "p": 0.027082248330751155,
+        "cell_id": "clean_batch_c00465",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.692602157592773,
+        "y": -0.3625591993331909,
+        "p": 0.4639627030475077,
+        "cell_id": "clean_batch_c00466",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.70974063873291,
+        "y": 0.1895211786031723,
+        "p": 0.03979173773830351,
+        "cell_id": "clean_batch_c00467",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.230203151702881,
+        "y": -0.5705563426017761,
+        "p": 0.028027387766595118,
+        "cell_id": "clean_batch_c00468",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7617278099060059,
+        "y": 0.9342166781425476,
+        "p": 0.0801003154613435,
+        "cell_id": "clean_batch_c00469",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.9584097862243652,
+        "y": 1.2335487604141235,
+        "p": 0.03453222063263285,
+        "cell_id": "clean_batch_c00470",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.376514434814453,
+        "y": 0.5345227718353271,
+        "p": 0.04048699506853844,
+        "cell_id": "clean_batch_c00473",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.5625247955322266,
+        "y": 0.3076303005218506,
+        "p": 0.02745802340567368,
+        "cell_id": "clean_batch_c00474",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.6074435710906982,
+        "y": 0.333893358707428,
+        "p": 0.1028907206057288,
+        "cell_id": "clean_batch_c00475",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.039147377014160156,
+        "y": 0.7713289260864258,
+        "p": 0.07634149475404006,
+        "cell_id": "clean_batch_c00477",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.7732515335083008,
+        "y": -0.08425183594226837,
+        "p": 0.048444106666951835,
+        "cell_id": "clean_batch_c00478",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.2008585929870605,
+        "y": 1.2224948406219482,
+        "p": 0.05405135084778492,
+        "cell_id": "clean_batch_c00479",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.0427064895629883,
+        "y": 0.47702181339263916,
+        "p": 0.02406158804111105,
+        "cell_id": "clean_batch_c00480",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.5144832134246826,
+        "y": -1.5319163799285889,
+        "p": 0.09993546676996701,
+        "cell_id": "clean_batch_c00481",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.3405914306640625,
+        "y": 0.5637471675872803,
+        "p": 0.6450312677558316,
+        "cell_id": "clean_batch_c00482",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 3.1223411560058594,
+        "y": 0.6649699807167053,
+        "p": 0.02793499031820376,
+        "cell_id": "clean_batch_c00483",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.881305694580078,
+        "y": 0.41066431999206543,
+        "p": 0.025651214831622263,
+        "cell_id": "clean_batch_c00485",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.656308650970459,
+        "y": -1.0299348831176758,
+        "p": 0.06747565025257987,
+        "cell_id": "clean_batch_c00487",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.8414732217788696,
+        "y": -1.5995745658874512,
+        "p": 0.12397093137876594,
+        "cell_id": "clean_batch_c00488",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.9375638961791992,
+        "y": 0.6211307048797607,
+        "p": 0.040306368441741194,
+        "cell_id": "clean_batch_c00490",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 4.00963020324707,
+        "y": -0.9086641669273376,
+        "p": 0.03100012884013045,
+        "cell_id": "clean_batch_c00492",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.6479249000549316,
+        "y": -0.6882271766662598,
+        "p": 0.21703331322281544,
+        "cell_id": "clean_batch_c00493",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.4068641662597656,
+        "y": 0.8096626400947571,
+        "p": 0.04207980947216988,
+        "cell_id": "clean_batch_c00494",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.328068733215332,
+        "y": 0.17889206111431122,
+        "p": 0.17508843328690782,
+        "cell_id": "clean_batch_c00495",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.4553494453430176,
+        "y": -0.06732885539531708,
+        "p": 0.029485719114948787,
+        "cell_id": "clean_batch_c00496",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.064603328704834,
+        "y": 0.0861920565366745,
+        "p": 0.23279271892559716,
+        "cell_id": "clean_batch_c00497",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 4.697669982910156,
+        "y": 0.686507523059845,
+        "p": 0.02324446881164917,
+        "cell_id": "clean_batch_c00498",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.7251958847045898,
+        "y": 0.5547271966934204,
+        "p": 0.06757324744516785,
+        "cell_id": "clean_batch_c00499",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.6996803283691406,
+        "y": 1.3620141744613647,
+        "p": 0.03462698903181692,
+        "cell_id": "clean_batch_c00500",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.910480260848999,
+        "y": -1.751621961593628,
+        "p": 0.12713560628388842,
+        "cell_id": "clean_batch_c00501",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.4683780670166016,
+        "y": 0.7493019700050354,
+        "p": 0.3186473879699075,
+        "cell_id": "clean_batch_c00502",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.228818416595459,
+        "y": 0.5318066477775574,
+        "p": 0.14311115056564716,
+        "cell_id": "clean_batch_c00503",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.1860618591308594,
+        "y": 0.4234231114387512,
+        "p": 0.041572961305130905,
+        "cell_id": "clean_batch_c00504",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7672183513641357,
+        "y": -1.4357270002365112,
+        "p": 0.042574359718815576,
+        "cell_id": "clean_batch_c00505",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.19301390647888184,
+        "y": 0.24396438896656036,
+        "p": 0.06497055822946482,
+        "cell_id": "clean_batch_c00507",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.196012496948242,
+        "y": -0.07537181675434113,
+        "p": 0.029452175098238893,
+        "cell_id": "clean_batch_c00508",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.4660282135009766,
+        "y": -0.235260471701622,
+        "p": 0.04159951794881282,
+        "cell_id": "clean_batch_c00509",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -5.133898735046387,
+        "y": 0.2525177597999573,
+        "p": 0.6156810061356016,
+        "cell_id": "clean_batch_c00510",
+        "class": "model_only_psc"
+      },
+      {
+        "x": -0.6487874984741211,
+        "y": 0.03159169852733612,
+        "p": 0.08911631322597288,
+        "cell_id": "clean_batch_c00511",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.5962532758712769,
+        "y": -0.9837159514427185,
+        "p": 0.10257391996822429,
+        "cell_id": "clean_batch_c00512",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7636241912841797,
+        "y": 0.8663445115089417,
+        "p": 0.04649248929588226,
+        "cell_id": "clean_batch_c00513",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.3037424087524414,
+        "y": 0.3507804274559021,
+        "p": 0.04921087231036215,
+        "cell_id": "clean_batch_c00514",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.06621098518371582,
+        "y": -0.833552896976471,
+        "p": 0.0991208472573781,
+        "cell_id": "clean_batch_c00516",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.7569370269775391,
+        "y": 1.526709794998169,
+        "p": 0.04964162569738337,
+        "cell_id": "clean_batch_c00517",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.10433459281921387,
+        "y": 0.5012305974960327,
+        "p": 0.03886809026035833,
+        "cell_id": "clean_batch_c00518",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.014317035675049,
+        "y": 0.9708641171455383,
+        "p": 0.037551982058669324,
+        "cell_id": "clean_batch_c00519",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.6325893402099609,
+        "y": -0.16337080299854279,
+        "p": 0.04119788269138179,
+        "cell_id": "clean_batch_c00520",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.3093013763427734,
+        "y": 0.5151011347770691,
+        "p": 0.06259119563641935,
+        "cell_id": "clean_batch_c00521",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.519491195678711,
+        "y": -1.0239640474319458,
+        "p": 0.03243840929467359,
+        "cell_id": "clean_batch_c00522",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.4460937976837158,
+        "y": 0.8655585646629333,
+        "p": 0.05601125473298143,
+        "cell_id": "clean_batch_c00524",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.522582530975342,
+        "y": 0.853821337223053,
+        "p": 0.42609197421105005,
+        "cell_id": "clean_batch_c00525",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.5534861087799072,
+        "y": -0.9456353187561035,
+        "p": 0.06840190668016177,
+        "cell_id": "clean_batch_c00526",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.168195962905884,
+        "y": -1.216469645500183,
+        "p": 0.4074947436058344,
+        "cell_id": "clean_batch_c00527",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.8339328765869141,
+        "y": 0.22561518847942352,
+        "p": 0.03538047723634376,
+        "cell_id": "clean_batch_c00528",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.8614064455032349,
+        "y": -0.026882335543632507,
+        "p": 0.07348312133770951,
+        "cell_id": "clean_batch_c00529",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.5015549659729004,
+        "y": 1.4475542306900024,
+        "p": 0.03124445289223913,
+        "cell_id": "clean_batch_c00530",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.6048355102539062,
+        "y": 0.8589121699333191,
+        "p": 0.03141314935203901,
+        "cell_id": "clean_batch_c00531",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.8558835983276367,
+        "y": 0.06059430539608002,
+        "p": 0.18009329111622263,
+        "cell_id": "clean_batch_c00532",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.3365707397460938,
+        "y": -1.1809571981430054,
+        "p": 0.03273084554525888,
+        "cell_id": "clean_batch_c00533",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7258329391479492,
+        "y": 0.2135196179151535,
+        "p": 0.08253307430508433,
+        "cell_id": "clean_batch_c00535",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -5.490634918212891,
+        "y": 1.5497157573699951,
+        "p": 0.7830859520363711,
+        "cell_id": "clean_batch_c00536",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 2.3975439071655273,
+        "y": 1.455275058746338,
+        "p": 0.031174179308877982,
+        "cell_id": "clean_batch_c00537",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7543697357177734,
+        "y": 0.9120357632637024,
+        "p": 0.052845442467805405,
+        "cell_id": "clean_batch_c00538",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.0525360107421875,
+        "y": 0.8442426323890686,
+        "p": 0.05492731359591566,
+        "cell_id": "clean_batch_c00539",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.388335227966309,
+        "y": -0.1752769500017166,
+        "p": 0.4701596918272447,
+        "cell_id": "clean_batch_c00540",
+        "class": "ambiguous"
+      },
+      {
+        "x": 0.2257997989654541,
+        "y": 0.7471190094947815,
+        "p": 0.05432955328523967,
+        "cell_id": "clean_batch_c00541",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.975222110748291,
+        "y": 1.3680682182312012,
+        "p": 0.037296393529178656,
+        "cell_id": "clean_batch_c00542",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.3421194553375244,
+        "y": 0.6675040125846863,
+        "p": 0.04225262634550231,
+        "cell_id": "clean_batch_c00543",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 4.311718940734863,
+        "y": 1.3376941680908203,
+        "p": 0.02680050003472147,
+        "cell_id": "clean_batch_c00544",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.4930508136749268,
+        "y": 2.4063615798950195,
+        "p": 0.1054582245707299,
+        "cell_id": "clean_batch_c00547",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.570162296295166,
+        "y": 1.3382948637008667,
+        "p": 0.053992144250340664,
+        "cell_id": "clean_batch_c00548",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.287003517150879,
+        "y": 1.11649489402771,
+        "p": 0.052595304087270076,
+        "cell_id": "clean_batch_c00549",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0685930252075195,
+        "y": 0.45094436407089233,
+        "p": 0.037314277696672546,
+        "cell_id": "clean_batch_c00550",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.015435934066772461,
+        "y": -0.2402026504278183,
+        "p": 0.05662591544208582,
+        "cell_id": "clean_batch_c00551",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.30621814727783203,
+        "y": 0.393706738948822,
+        "p": 0.03619714844351953,
+        "cell_id": "clean_batch_c00552",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.1172218322753906,
+        "y": -0.009198561310768127,
+        "p": 0.031696224821210345,
+        "cell_id": "clean_batch_c00553",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7066221237182617,
+        "y": -0.2859881520271301,
+        "p": 0.109472321806917,
+        "cell_id": "clean_batch_c00554",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.8010207414627075,
+        "y": 1.173842191696167,
+        "p": 0.09429988751859611,
+        "cell_id": "clean_batch_c00555",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.528852939605713,
+        "y": 0.13340787589550018,
+        "p": 0.0324852096165223,
+        "cell_id": "clean_batch_c00556",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 4.68748664855957,
+        "y": -2.112550973892212,
+        "p": 0.02308009696708852,
+        "cell_id": "clean_batch_c00557",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.454223394393921,
+        "y": -1.0589983463287354,
+        "p": 0.1135589875404965,
+        "cell_id": "clean_batch_c00558",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.3223464488983154,
+        "y": 1.6376094818115234,
+        "p": 0.10485049061483889,
+        "cell_id": "clean_batch_c00559",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.063015937805176,
+        "y": -0.06587772071361542,
+        "p": 0.03509857139740191,
+        "cell_id": "clean_batch_c00560",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.195798397064209,
+        "y": 1.4107474088668823,
+        "p": 0.3191192045397006,
+        "cell_id": "clean_batch_c00561",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.1266937255859375,
+        "y": 1.8304970264434814,
+        "p": 0.027277562909090322,
+        "cell_id": "clean_batch_c00562",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.2313103675842285,
+        "y": 1.201237440109253,
+        "p": 0.030273855373944975,
+        "cell_id": "clean_batch_c00563",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.4871029853820801,
+        "y": -1.080719232559204,
+        "p": 0.1240639595112085,
+        "cell_id": "clean_batch_c00565",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.1559410095214844,
+        "y": 0.5379894971847534,
+        "p": 0.034172251379975,
+        "cell_id": "clean_batch_c00566",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.028854846954345703,
+        "y": -1.6443109512329102,
+        "p": 0.07022843414193859,
+        "cell_id": "clean_batch_c00567",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.952366828918457,
+        "y": -2.0322864055633545,
+        "p": 0.032680732812069846,
+        "cell_id": "clean_batch_c00568",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7694661617279053,
+        "y": -0.01006646454334259,
+        "p": 0.04620571806751127,
+        "cell_id": "clean_batch_c00569",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.2011642456054688,
+        "y": -2.384237051010132,
+        "p": 0.03250446556085376,
+        "cell_id": "clean_batch_c00570",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.0820920467376709,
+        "y": -3.385162353515625,
+        "p": 0.11069530279115043,
+        "cell_id": "clean_batch_c00571",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.784806251525879,
+        "y": -0.9441858530044556,
+        "p": 0.42006294347887035,
+        "cell_id": "clean_batch_c00572",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.682350158691406,
+        "y": 0.0652460902929306,
+        "p": 0.30444745130081374,
+        "cell_id": "clean_batch_c00573",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.147688388824463,
+        "y": -0.3525921106338501,
+        "p": 0.03974919003733946,
+        "cell_id": "clean_batch_c00576",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.1598567962646484,
+        "y": 0.9785304665565491,
+        "p": 0.0299971764977049,
+        "cell_id": "clean_batch_c00578",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.07474279403686523,
+        "y": 1.336014747619629,
+        "p": 0.0671370376150909,
+        "cell_id": "clean_batch_c00581",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.304955005645752,
+        "y": -0.6982710361480713,
+        "p": 0.06042607170888081,
+        "cell_id": "clean_batch_c00582",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.3846015930175781,
+        "y": -0.9280712008476257,
+        "p": 0.061452147435118815,
+        "cell_id": "clean_batch_c00584",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0484113693237305,
+        "y": 0.6314525604248047,
+        "p": 0.05559002502210304,
+        "cell_id": "clean_batch_c00585",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.074873447418213,
+        "y": 1.545987844467163,
+        "p": 0.6562000956285846,
+        "cell_id": "clean_batch_c00586",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 2.621227264404297,
+        "y": -1.2845354080200195,
+        "p": 0.030924159113730747,
+        "cell_id": "clean_batch_c00587",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.0294239521026611,
+        "y": 0.8421619534492493,
+        "p": 0.13469223660687307,
+        "cell_id": "clean_batch_c00588",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.200442314147949,
+        "y": -0.5487917065620422,
+        "p": 0.03577592897579951,
+        "cell_id": "clean_batch_c00589",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.3378419876098633,
+        "y": 0.581066370010376,
+        "p": 0.026913921229576032,
+        "cell_id": "clean_batch_c00590",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.4860057830810547,
+        "y": 0.03232894837856293,
+        "p": 0.08721174108044294,
+        "cell_id": "clean_batch_c00591",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.996425151824951,
+        "y": 1.690107822418213,
+        "p": 0.10026866475918028,
+        "cell_id": "clean_batch_c00592",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.4738550186157227,
+        "y": -0.17394228279590607,
+        "p": 0.024466136993489006,
+        "cell_id": "clean_batch_c00593",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.0018377304077148438,
+        "y": 1.294773817062378,
+        "p": 0.049587963349378136,
+        "cell_id": "clean_batch_c00594",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.7763078212738037,
+        "y": 0.962881863117218,
+        "p": 0.2573944514457084,
+        "cell_id": "clean_batch_c00595",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.764826536178589,
+        "y": -0.17868100106716156,
+        "p": 0.12748935159138286,
+        "cell_id": "clean_batch_c00596",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.3384475708007812,
+        "y": -2.149325370788574,
+        "p": 0.057207120610585756,
+        "cell_id": "clean_batch_c00598",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.4898157119750977,
+        "y": 0.4509076476097107,
+        "p": 0.0903854030833666,
+        "cell_id": "clean_batch_c00599",
+        "class": "high_confidence_negative"
+      }
+    ],
+    "method": "pca",
+    "n_cells_total": 500,
+    "n_cells_projected": 500,
+    "x_range": [
+      -5.490634918212891,
+      4.855494499206543
+    ],
+    "y_range": [
+      -3.573737144470215,
+      2.8552944660186768
+    ]
+  },
+  "gene_heatmap": {
+    "genes": [
+      "POU5F1",
+      "NANOG",
+      "SOX2",
+      "LIN28A",
+      "KLF4",
+      "MYC",
+      "ZFP42",
+      "ESRG"
+    ],
+    "top_cells": [
+      {
+        "cell_id": "clean_batch_c00268",
+        "p": 0.8273967730574426,
+        "values": [
+          0.0,
+          0.0,
+          2.784062385559082,
+          4.218220233917236,
+          3.045650005340576,
+          2.269745111465454,
+          3.5126941204071045,
+          4.719672203063965
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00155",
+        "p": 0.7988806916599587,
+        "values": [
+          0.0,
+          2.4833920001983643,
+          5.3204450607299805,
+          3.398026704788208,
+          5.025584697723389,
+          3.1384150981903076,
+          5.258256435394287,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00411",
+        "p": 0.7856229388442406,
+        "values": [
+          0.0,
+          2.6405622959136963,
+          3.890561103820801,
+          2.126455545425415,
+          0.0,
+          4.3189544677734375,
+          3.863729476928711,
+          4.262173652648926
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00536",
+        "p": 0.7830859520363711,
+        "values": [
+          3.427586793899536,
+          0.0,
+          3.0824737548828125,
+          3.946186065673828,
+          3.4782562255859375,
+          0.0,
+          4.0305914878845215,
+          3.5690228939056396
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00148",
+        "p": 0.7513453549095881,
+        "values": [
+          0.0,
+          0.0,
+          2.637342691421509,
+          0.0,
+          3.5359575748443604,
+          3.388298749923706,
+          4.584749698638916,
+          4.438656806945801
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00071",
+        "p": 0.71820458674025,
+        "values": [
+          2.2972350120544434,
+          4.652432918548584,
+          0.0,
+          3.020747423171997,
+          2.637625217437744,
+          3.783580780029297,
+          2.1717145442962646,
+          5.491850852966309
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00114",
+        "p": 0.7170493582251217,
+        "values": [
+          2.0461933612823486,
+          3.049224853515625,
+          2.9690020084381104,
+          4.7823662757873535,
+          0.0,
+          2.1860713958740234,
+          3.355175256729126,
+          5.138766288757324
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00424",
+        "p": 0.7058002345438923,
+        "values": [
+          4.3657073974609375,
+          3.1211249828338623,
+          4.499462127685547,
+          4.290485858917236,
+          3.427476406097412,
+          0.0,
+          0.0,
+          3.860318183898926
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00453",
+        "p": 0.7048262991340856,
+        "values": [
+          6.9021477699279785,
+          3.604665994644165,
+          4.349550247192383,
+          0.0,
+          3.201409339904785,
+          0.0,
+          3.888796329498291,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00216",
+        "p": 0.6879065678675483,
+        "values": [
+          3.271034002304077,
+          0.0,
+          2.853605270385742,
+          4.223677635192871,
+          3.7171735763549805,
+          3.3699772357940674,
+          3.559786558151245,
+          4.221167087554932
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00399",
+        "p": 0.6867884415409307,
+        "values": [
+          2.014875888824463,
+          0.0,
+          0.0,
+          3.45890212059021,
+          3.0022847652435303,
+          2.0627670288085938,
+          3.654541015625,
+          3.648174524307251
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00214",
+        "p": 0.6815812458764737,
+        "values": [
+          0.0,
+          0.0,
+          4.972489356994629,
+          0.0,
+          3.8999342918395996,
+          2.8877384662628174,
+          3.840574026107788,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00042",
+        "p": 0.677539797288832,
+        "values": [
+          3.7890543937683105,
+          0.0,
+          2.4648680686950684,
+          0.0,
+          2.877432107925415,
+          0.0,
+          0.0,
+          3.8963022232055664
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00586",
+        "p": 0.6562000956285846,
+        "values": [
+          1.8870080709457397,
+          3.1184334754943848,
+          2.0902562141418457,
+          2.9081976413726807,
+          0.0,
+          0.0,
+          2.6601920127868652,
+          4.142269611358643
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00482",
+        "p": 0.6450312677558316,
+        "values": [
+          2.787872552871704,
+          1.5710307359695435,
+          3.701638698577881,
+          3.457796573638916,
+          2.7800214290618896,
+          1.6950416564941406,
+          2.7800214290618896,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00510",
+        "p": 0.6156810061356016,
+        "values": [
+          0.0,
+          0.0,
+          2.5266497135162354,
+          3.0103988647460938,
+          3.5295705795288086,
+          2.8715450763702393,
+          3.3033053874969482,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00141",
+        "p": 0.6134699952552305,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          3.9118387699127197,
+          4.205455303192139,
+          2.681168794631958,
+          3.4659948348999023,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00191",
+        "p": 0.595649980012694,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          4.1459550857543945,
+          0.0,
+          2.700413703918457,
+          5.470913887023926
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00169",
+        "p": 0.5939911838185764,
+        "values": [
+          2.1034393310546875,
+          1.62682044506073,
+          2.3880438804626465,
+          1.9759212732315063,
+          2.695729970932007,
+          0.0,
+          2.334073305130005,
+          3.58778715133667
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00020",
+        "p": 0.5861248350299877,
+        "values": [
+          3.6216845512390137,
+          3.7164814472198486,
+          3.6366381645202637,
+          0.0,
+          3.1095995903015137,
+          3.482919454574585,
+          0.8554110527038574,
+          3.2054245471954346
+        ]
+      }
+    ],
+    "bottom_cells": [
+      {
+        "cell_id": "clean_batch_c00124",
+        "p": 0.0262921257826262,
+        "values": [
+          0.0,
+          1.994649052619934,
+          1.5366970300674438,
+          0.5893554091453552,
+          1.308444857597351,
+          0.0,
+          0.0,
+          1.9010272026062012
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00320",
+        "p": 0.02573285248746803,
+        "values": [
+          1.8344871997833252,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.2512946128845215,
+          2.588124990463257
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00357",
+        "p": 0.025654618824890105,
+        "values": [
+          2.1218373775482178,
+          1.4183331727981567,
+          0.0,
+          0.0,
+          0.9786789417266846,
+          1.2684366703033447,
+          1.5885854959487915,
+          1.2130247354507446
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00485",
+        "p": 0.025651214831622263,
+        "values": [
+          0.0,
+          0.9738211631774902,
+          1.713545799255371,
+          0.0,
+          1.5457775592803955,
+          0.0,
+          0.0,
+          0.7517319321632385
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00157",
+        "p": 0.025266940947182487,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          1.471254825592041,
+          0.0,
+          0.0,
+          0.9312065839767456,
+          2.3909904956817627
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00354",
+        "p": 0.024891009517834455,
+        "values": [
+          1.7275876998901367,
+          0.0,
+          1.5973402261734009,
+          0.0,
+          1.4793578386306763,
+          0.40808674693107605,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00433",
+        "p": 0.024799661926337514,
+        "values": [
+          1.469421625137329,
+          1.9121689796447754,
+          0.5377020835876465,
+          0.760482907295227,
+          1.34762442111969,
+          2.1703720092773438,
+          0.0,
+          2.2023634910583496
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00365",
+        "p": 0.02474180478843511,
+        "values": [
+          0.0687539204955101,
+          0.08694440871477127,
+          0.11159150302410126,
+          1.1178951263427734,
+          0.0,
+          0.034665968269109726,
+          0.1239607110619545,
+          0.777245283126831
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00207",
+        "p": 0.024628271970447414,
+        "values": [
+          0.0,
+          1.2598772048950195,
+          1.8000545501708984,
+          0.0,
+          1.8423231840133667,
+          0.0,
+          0.5786433815956116,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00076",
+        "p": 0.0246226851107402,
+        "values": [
+          1.5010384321212769,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.327392578125,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00593",
+        "p": 0.024466136993489006,
+        "values": [
+          1.474947214126587,
+          0.024914570152759552,
+          0.035136014223098755,
+          1.5863384008407593,
+          1.4228614568710327,
+          0.9047767519950867,
+          0.1510380208492279,
+          1.248058795928955
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00436",
+        "p": 0.024420858065063066,
+        "values": [
+          1.3460453748703003,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.2954723834991455,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00160",
+        "p": 0.024248675256317978,
+        "values": [
+          2.2552926540374756,
+          1.745813250541687,
+          0.0,
+          2.855543851852417,
+          1.5938985347747803,
+          0.7936642169952393,
+          1.6727378368377686,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00051",
+        "p": 0.024150559713859657,
+        "values": [
+          1.5632894039154053,
+          1.8265482187271118,
+          1.6870625019073486,
+          0.0,
+          2.2069785594940186,
+          0.0,
+          1.0603046417236328,
+          0.5926755666732788
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00480",
+        "p": 0.02406158804111105,
+        "values": [
+          0.0,
+          2.0402815341949463,
+          0.0,
+          0.0,
+          1.0000489950180054,
+          0.0,
+          0.0,
+          1.5101197957992554
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00498",
+        "p": 0.02324446881164917,
+        "values": [
+          0.044662877917289734,
+          1.5078527927398682,
+          0.07724650949239731,
+          0.6999542117118835,
+          0.059760842472314835,
+          1.0105618238449097,
+          0.0431312657892704,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00287",
+        "p": 0.023234259319257315,
+        "values": [
+          0.0,
+          1.1541634798049927,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00557",
+        "p": 0.02308009696708852,
+        "values": [
+          0.0,
+          0.0,
+          1.0543427467346191,
+          1.4116322994232178,
+          0.0,
+          1.713386058807373,
+          1.2788825035095215,
+          0.8940730690956116
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00009",
+        "p": 0.022192984463524794,
+        "values": [
+          0.46618807315826416,
+          0.03906729817390442,
+          0.0863293707370758,
+          1.1547737121582031,
+          1.3594180345535278,
+          1.7938144207000732,
+          0.994361162185669,
+          0.07976643741130829
+        ]
+      },
+      {
+        "cell_id": "clean_batch_c00140",
+        "p": 0.019779410400888202,
+        "values": [
+          1.6679478883743286,
+          0.8801895976066589,
+          0.0,
+          0.8228331804275513,
+          0.0,
+          0.0,
+          2.2759299278259277,
+          0.0
+        ]
+      }
+    ],
+    "color_scale": "blue(0) -> white(median) -> red(max) on log-normalised expression",
+    "description": "Expression of the 8-gene pluripotency panel in the 20 highest- and 20 lowest-scoring cells."
+  },
+  "batch_history": {
+    "batches": [],
+    "n_previous_batches": 0,
+    "trend": "insufficient history",
+    "current_batch_id": "CLEAN-DIRECT"
+  },
+  "input_file": "/home/z/my-project/data/uploads/direct_1790926902792_clean_batch.h5ad",
+  "input_total_cells": 600,
+  "subsampled": true,
+  "max_cells_cap": 500,
+  "model_fitted": true,
+  "runtime_seconds": 0.94,
+  "status": "ok"
+}

@@ -1,0 +1,161 @@
+{
+  "scheme": "4-fold grouped CV across multi-site publications (leave-site-group-out)",
+  "n_sites": 6,
+  "countries": [
+    "China",
+    "Germany",
+    "Japan",
+    "Spain",
+    "Sweden",
+    "USA"
+  ],
+  "per_fold": [
+    {
+      "fold": 1,
+      "held_out_sites": [
+        "wang2023_cardio",
+        "nlsu2023_muscle"
+      ],
+      "n_test": 1180,
+      "n_test_psc": 201,
+      "classical": {
+        "roc_auc": 0.8473,
+        "pr_auc": 0.5955,
+        "sensitivity": 0.5622,
+        "specificity": 0.9326,
+        "precision": 0.6313
+      },
+      "mlp": {
+        "roc_auc": 0.8006,
+        "pr_auc": 0.512,
+        "sensitivity": 0.5522,
+        "specificity": 0.8887,
+        "precision": 0.5045
+      },
+      "ensemble": {
+        "roc_auc": 0.8494,
+        "pr_auc": 0.5836,
+        "sensitivity": 0.5423,
+        "specificity": 0.9316,
+        "precision": 0.6193
+      }
+    },
+    {
+      "fold": 2,
+      "held_out_sites": [
+        "tanaka2022_da"
+      ],
+      "n_test": 650,
+      "n_test_psc": 143,
+      "classical": {
+        "roc_auc": 0.9057,
+        "pr_auc": 0.5921,
+        "sensitivity": 0.6014,
+        "specificity": 0.9053,
+        "precision": 0.6418
+      },
+      "mlp": {
+        "roc_auc": 0.8863,
+        "pr_auc": 0.5652,
+        "sensitivity": 0.5944,
+        "specificity": 0.8876,
+        "precision": 0.5986
+      },
+      "ensemble": {
+        "roc_auc": 0.9009,
+        "pr_auc": 0.5729,
+        "sensitivity": 0.5944,
+        "specificity": 0.8974,
+        "precision": 0.6204
+      }
+    },
+    {
+      "fold": 3,
+      "held_out_sites": [
+        "muller2021_panc",
+        "garcia2022_hepato"
+      ],
+      "n_test": 1050,
+      "n_test_psc": 207,
+      "classical": {
+        "roc_auc": 0.8707,
+        "pr_auc": 0.5989,
+        "sensitivity": 0.5604,
+        "specificity": 0.9181,
+        "precision": 0.627
+      },
+      "mlp": {
+        "roc_auc": 0.8474,
+        "pr_auc": 0.5734,
+        "sensitivity": 0.5652,
+        "specificity": 0.9075,
+        "precision": 0.6
+      },
+      "ensemble": {
+        "roc_auc": 0.8805,
+        "pr_auc": 0.6161,
+        "sensitivity": 0.5797,
+        "specificity": 0.9241,
+        "precision": 0.6522
+      }
+    },
+    {
+      "fold": 4,
+      "held_out_sites": [
+        "chen2024_organoid"
+      ],
+      "n_test": 700,
+      "n_test_psc": 140,
+      "classical": {
+        "roc_auc": 0.9045,
+        "pr_auc": 0.6767,
+        "sensitivity": 0.4643,
+        "specificity": 0.9411,
+        "precision": 0.6633
+      },
+      "mlp": {
+        "roc_auc": 0.8614,
+        "pr_auc": 0.5866,
+        "sensitivity": 0.4429,
+        "specificity": 0.9339,
+        "precision": 0.6263
+      },
+      "ensemble": {
+        "roc_auc": 0.9012,
+        "pr_auc": 0.6597,
+        "sensitivity": 0.4786,
+        "specificity": 0.9464,
+        "precision": 0.6907
+      }
+    }
+  ],
+  "summary": [
+    {
+      "model": "classical",
+      "roc_auc_mean": 0.8821,
+      "roc_auc_std": 0.0245,
+      "roc_auc_min": 0.8473,
+      "roc_auc_max": 0.9057,
+      "sensitivity_mean": 0.5471,
+      "specificity_mean": 0.9243
+    },
+    {
+      "model": "mlp",
+      "roc_auc_mean": 0.8489,
+      "roc_auc_std": 0.0312,
+      "roc_auc_min": 0.8006,
+      "roc_auc_max": 0.8863,
+      "sensitivity_mean": 0.5387,
+      "specificity_mean": 0.9044
+    },
+    {
+      "model": "ensemble (resipsc)",
+      "roc_auc_mean": 0.883,
+      "roc_auc_std": 0.0211,
+      "roc_auc_min": 0.8494,
+      "roc_auc_max": 0.9012,
+      "sensitivity_mean": 0.5488,
+      "specificity_mean": 0.9249
+    }
+  ]
+}

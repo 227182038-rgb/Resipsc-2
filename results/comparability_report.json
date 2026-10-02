@@ -1,0 +1,50 @@
+{
+  "title": "ICH Q5E Comparability Report \u2014 model promotion",
+  "generated_at_utc": "2026-10-02 07:55:12 UTC",
+  "standard": "ICH Q5E Comparability of Biotechnological/Biological Products",
+  "old_version": "resipsc@1790927658",
+  "new_version": "candidate@1790927712",
+  "n_samples": 3580,
+  "metrics": {
+    "old": {
+      "sensitivity": 0.6989869753979739,
+      "specificity": 0.9650398061613015,
+      "tp": 483,
+      "fn": 208,
+      "tn": 2788,
+      "fp": 101
+    },
+    "new": {
+      "sensitivity": 0.7293777134587555,
+      "specificity": 0.9383869851159571,
+      "tp": 504,
+      "fn": 187,
+      "tn": 2711,
+      "fp": 178
+    },
+    "sensitivity_delta": 0.03039073806078152,
+    "specificity_delta": -0.026652821045344388,
+    "decision_concordance": 0.9513966480446927,
+    "cohens_kappa": 0.8332523133524498,
+    "bland_altman": {
+      "mean_difference": 0.03171261509814354,
+      "std_difference": 0.06113179473433107,
+      "limits_of_agreement": [
+        -0.08810570258114536,
+        0.15153093277743243
+      ],
+      "mean_of_means": 0.2272389329438955
+    }
+  },
+  "acceptance_criteria": {
+    "abs_sensitivity_delta": "<= 0.02",
+    "abs_specificity_delta": "<= 0.02",
+    "cohens_kappa": ">= 0.90"
+  },
+  "verdict": "NOT COMPARABLE \u2014 investigate before promotion",
+  "rollback_plan": "If comparability fails or post-promotion monitoring drifts, revert results/final_model.pkl to the previous registry entry (model card snapshot) and re-run QC reports for affected batches.",
+  "signatures": {
+    "ml_lead": "pending e-signature (21 CFR Part 11)",
+    "qa_officer": "pending e-signature (21 CFR Part 11)"
+  }
+}

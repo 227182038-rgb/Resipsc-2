@@ -1,0 +1,5575 @@
+{
+  "batch_id": "GOLDEN-TEST",
+  "decision": "QUARANTINE",
+  "decision_reason": "Estimated residual PSC fraction 5.7173% exceeds the quarantine threshold of 1.0% \u2014 batch fails release testing; investigate and consider re-processing.",
+  "n_cells": 500,
+  "n_cells_above_threshold": 19,
+  "estimated_psc_fraction": 0.057173485795962126,
+  "raw_measured_fraction": 0.038,
+  "estimated_psc_count": 29,
+  "psc_probability_mean": 0.12024686113871592,
+  "psc_probability_max": 0.8676383880694003,
+  "lineage_breakdown": {
+    "mesoderm": 413,
+    "ectoderm": 31,
+    "endoderm": 37,
+    "pluripotent": 19
+  },
+  "mean_teratoma_risk_score": 0.036463900405802545,
+  "max_teratoma_risk_score": 0.30367343582429007,
+  "thresholds": {
+    "decision_threshold": 0.5,
+    "release_max_pct": 0.001,
+    "hold_min_pct": 1.0
+  },
+  "per_cell_summary": [
+    {
+      "cell_id": "golden_contaminated_c00000",
+      "psc_probability": 0.06280661089845757,
+      "pluripotency_score": 0.8971920013427734,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00001",
+      "psc_probability": 0.43984780760891057,
+      "pluripotency_score": 4.161004543304443,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00002",
+      "psc_probability": 0.12432397397259345,
+      "pluripotency_score": 0.5925020575523376,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00003",
+      "psc_probability": 0.04613865319252018,
+      "pluripotency_score": 1.1442965269088745,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00004",
+      "psc_probability": 0.057965302306019345,
+      "pluripotency_score": 2.3361096382141113,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00005",
+      "psc_probability": 0.04394848040448028,
+      "pluripotency_score": 0.4377058446407318,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00008",
+      "psc_probability": 0.0594815743831662,
+      "pluripotency_score": 0.9147629737854004,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00009",
+      "psc_probability": 0.12753348056351393,
+      "pluripotency_score": 1.1278985738754272,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00011",
+      "psc_probability": 0.02508134301263723,
+      "pluripotency_score": 1.5251573324203491,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00012",
+      "psc_probability": 0.7277847041145664,
+      "pluripotency_score": 1.8756476640701294,
+      "teratoma_lineage": "pluripotent"
+    },
+    {
+      "cell_id": "golden_contaminated_c00013",
+      "psc_probability": 0.039217529626464805,
+      "pluripotency_score": 2.0044596195220947,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00015",
+      "psc_probability": 0.05167568740238795,
+      "pluripotency_score": 1.3372036218643188,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00016",
+      "psc_probability": 0.08118960818677941,
+      "pluripotency_score": 1.26437509059906,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00017",
+      "psc_probability": 0.050850507853828365,
+      "pluripotency_score": 1.3675678968429565,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00019",
+      "psc_probability": 0.04734722255513246,
+      "pluripotency_score": 1.526889443397522,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00020",
+      "psc_probability": 0.09568325998855758,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00022",
+      "psc_probability": 0.10166714605789484,
+      "pluripotency_score": 1.7596226930618286,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00023",
+      "psc_probability": 0.02855021497273067,
+      "pluripotency_score": 1.3633545637130737,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00024",
+      "psc_probability": 0.05107854770474825,
+      "pluripotency_score": 1.0643045902252197,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00025",
+      "psc_probability": 0.031164178664381106,
+      "pluripotency_score": 1.4220314025878906,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00028",
+      "psc_probability": 0.04578219375419647,
+      "pluripotency_score": 0.5618345141410828,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00030",
+      "psc_probability": 0.08060076765646942,
+      "pluripotency_score": 0.6282325387001038,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00031",
+      "psc_probability": 0.07209879301887241,
+      "pluripotency_score": 0.8773189187049866,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00032",
+      "psc_probability": 0.07828185604719871,
+      "pluripotency_score": 1.7792195081710815,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00033",
+      "psc_probability": 0.4418957516873272,
+      "pluripotency_score": 1.5544099807739258,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00034",
+      "psc_probability": 0.04652881798193677,
+      "pluripotency_score": 1.4926522970199585,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00036",
+      "psc_probability": 0.08083003316562976,
+      "pluripotency_score": 2.454211950302124,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00037",
+      "psc_probability": 0.4184593815284535,
+      "pluripotency_score": 1.0921543836593628,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00038",
+      "psc_probability": 0.07730500943039997,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00039",
+      "psc_probability": 0.03252948597441849,
+      "pluripotency_score": 0.5040575861930847,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00040",
+      "psc_probability": 0.04142346221359995,
+      "pluripotency_score": 0.6202585101127625,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00041",
+      "psc_probability": 0.027407690336697335,
+      "pluripotency_score": 1.0229194164276123,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00042",
+      "psc_probability": 0.2243885114568667,
+      "pluripotency_score": 0.7302095293998718,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00043",
+      "psc_probability": 0.037590143309489676,
+      "pluripotency_score": 0.660973072052002,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00044",
+      "psc_probability": 0.10726724782255997,
+      "pluripotency_score": 0.7649521231651306,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00045",
+      "psc_probability": 0.46728466656486833,
+      "pluripotency_score": 1.3411756753921509,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00046",
+      "psc_probability": 0.11929859357409012,
+      "pluripotency_score": 0.8736927509307861,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00048",
+      "psc_probability": 0.03879245681943963,
+      "pluripotency_score": 1.425203800201416,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00049",
+      "psc_probability": 0.036113269426309234,
+      "pluripotency_score": 2.0555620193481445,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00050",
+      "psc_probability": 0.04719816739836752,
+      "pluripotency_score": 0.8412806987762451,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00051",
+      "psc_probability": 0.11403343827173412,
+      "pluripotency_score": 2.211129903793335,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00052",
+      "psc_probability": 0.032380839807266956,
+      "pluripotency_score": 0.18324802815914154,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00053",
+      "psc_probability": 0.03173707812128253,
+      "pluripotency_score": 2.098037004470825,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00056",
+      "psc_probability": 0.035583875683462815,
+      "pluripotency_score": 0.7375271916389465,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00058",
+      "psc_probability": 0.37399563842355465,
+      "pluripotency_score": 1.2751752138137817,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00059",
+      "psc_probability": 0.023638898050110088,
+      "pluripotency_score": 0.5294594168663025,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00061",
+      "psc_probability": 0.038326848100917424,
+      "pluripotency_score": 0.7268189787864685,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00062",
+      "psc_probability": 0.23754179396784408,
+      "pluripotency_score": 1.4510784149169922,
+      "teratoma_lineage": "endoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00063",
+      "psc_probability": 0.029462923611957965,
+      "pluripotency_score": 0.24714036285877228,
+      "teratoma_lineage": "mesoderm"
+    },
+    {
+      "cell_id": "golden_contaminated_c00064",
+      "psc_probability": 0.04076912223571108,
+      "pluripotency_score": 1.6798243522644043,
+      "teratoma_lineage": "mesoderm"
+    }
+  ],
+  "biomarker_model_agreement": 0.68,
+  "biomarker_model_disagreement": 0.31999999999999995,
+  "cross_check_warning": "biomarker-positive cells missed by model \u2014 review borderline probabilities",
+  "clinical_notification": {
+    "title": "Residual PSC Detection \u2014 Clinical Risk Notification",
+    "batch_id": "GOLDEN-TEST",
+    "decision": "QUARANTINE",
+    "risk_summary": "Elevated residual PSC burden (29 cells, 5.717%). Teratoma formation risk is material \u2014 clinical notification and imaging surveillance recommended.",
+    "confidence": "high",
+    "overall_psc_fraction": 0.057173485795962126,
+    "overall_psc_count": 29,
+    "total_cells_analysed": 500,
+    "teratoma_risk_sites": [
+      {
+        "anatomical_site": "Sacrococcygeal",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.35,
+        "site_prior": 0.35,
+        "absolute_risk_probability": 0.23642874688764545,
+        "risk_level": "HIGH",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Pelvic MRI + excisional biopsy; OCT4/SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Gonads",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.25,
+        "site_prior": 0.25,
+        "absolute_risk_probability": 0.16887767634831818,
+        "risk_level": "HIGH",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Pelvic/testicular ultrasound + tumor markers; OCT4 IHC"
+      },
+      {
+        "anatomical_site": "Mediastinum",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.18,
+        "site_prior": 0.18,
+        "absolute_risk_probability": 0.12159192697078909,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Chest CT + mediastinoscopy biopsy"
+      },
+      {
+        "anatomical_site": "Retroperitoneum",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.09457149875505819,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Abdominal CT + core needle biopsy"
+      },
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.08422352975326812,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Pancreas",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.3,
+        "site_prior": 0.3,
+        "absolute_risk_probability": 0.06997063277597601,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT/MRI pancreas protocol + endoscopic biopsy; PDX1 IHC"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.06843161792453034,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Any (disseminated)",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.08,
+        "site_prior": 0.08,
+        "absolute_risk_probability": 0.05404085643146182,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Whole-body PET-CT + site-directed biopsy"
+      },
+      {
+        "anatomical_site": "Liver",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.22,
+        "site_prior": 0.22,
+        "absolute_risk_probability": 0.051311797369049075,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Liver ultrasound + AFP surveillance + biopsy with ALB IHC"
+      },
+      {
+        "anatomical_site": "GI tract",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.2,
+        "site_prior": 0.2,
+        "absolute_risk_probability": 0.046647088517317345,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Endoscopy/colonoscopy + biopsy with CDX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.04211176487663406,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.036847794267054805,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Thyroid",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.03265296196212214,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Neck ultrasound + FNA; TTF1/TG IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.03158382365747554,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      },
+      {
+        "anatomical_site": "Lung",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.1,
+        "site_prior": 0.1,
+        "absolute_risk_probability": 0.023323544258658672,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Chest CT + biopsy with NKX2-1 IHC"
+      },
+      {
+        "anatomical_site": "Skeletal muscle",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.28,
+        "site_prior": 0.28,
+        "absolute_risk_probability": 0.020677872099209647,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with myogenin IHC"
+      },
+      {
+        "anatomical_site": "Bone",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.22,
+        "site_prior": 0.22,
+        "absolute_risk_probability": 0.016246899506521865,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "X-ray/CT + biopsy with osteocalcin IHC"
+      },
+      {
+        "anatomical_site": "Heart",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.18,
+        "site_prior": 0.18,
+        "absolute_risk_probability": 0.013292917778063343,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Echocardiogram + cardiac MRI; troponin surveillance"
+      },
+      {
+        "anatomical_site": "Kidney",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.010338936049604824,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Renal ultrasound + CT with PAX2 IHC"
+      },
+      {
+        "anatomical_site": "Biliary",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.04,
+        "site_prior": 0.04,
+        "absolute_risk_probability": 0.00932941770346347,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRCP + ERCP brushings with CK7/CK19 IHC"
+      },
+      {
+        "anatomical_site": "Blood",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.1,
+        "site_prior": 0.1,
+        "absolute_risk_probability": 0.007384954321146302,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CBC + flow cytometry + bone marrow aspirate"
+      },
+      {
+        "anatomical_site": "Vessels",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.08,
+        "site_prior": 0.08,
+        "absolute_risk_probability": 0.005907963456917041,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Vascular imaging (CTA/MRA) + CD31 IHC"
+      }
+    ],
+    "possible_onset_locations": [
+      "Sacrococcygeal",
+      "Gonads",
+      "Mediastinum",
+      "Retroperitoneum",
+      "Brain",
+      "Pancreas"
+    ],
+    "disclaimer": "Risk probabilities are model-derived estimates from scRNA-seq data only. They do not substitute for in vivo tumorigenicity testing or clinical judgement. Research Use Only \u2014 NOT FDA-cleared."
+  },
+  "model_credentials": {
+    "model_version": "resipsc-ensemble-2.0.0",
+    "benchmark": "multi-site 4-fold CV ROC-AUC 0.883",
+    "sensitivity": "Spike-in detection to 0.010% with quantification-calibrated fraction estimates (n=2000 per replicate)",
+    "training_data": "hybrid (synthetic multi-site + real pbmc3k)"
+  },
+  "executive_summary": {
+    "headline": "Residual PSC burden fails release criteria \u2014 T4 disposition",
+    "detail": "resipsc analysed 500 cells from batch GOLDEN-TEST. 29 cells exceeded the PSC decision threshold (estimated fraction 5.7173%). Biomarker cross-check agreement was 68.0%. The dominant detected lineage is mesoderm.",
+    "caveat": "This is a computational inference from scRNA-seq data. It does not replace orthogonal wet-lab release assays (HEC, ddPCR, flow cytometry) and has not been cleared by FDA or EMA.",
+    "one_line_verdict": "QUARANTINE \u2014 High risk (> 1% residual PSC)"
+  },
+  "risk_tier": {
+    "tier": "T4",
+    "label": "High risk (> 1% residual PSC)",
+    "color": "rose",
+    "fda_rationale": "Fails release testing under 21 CFR 1271; quarantine and investigate.",
+    "ema_rationale": "EMEA/CHMP/410869/2006: purity criterion not met without justification; QP consultation required.",
+    "numerical_threshold": "> 1%"
+  },
+  "methodology": {
+    "model_versions": {
+      "resipsc": "2.0.0",
+      "scikit-learn": "1.5.2",
+      "numpy": "2.1.3",
+      "anndata": "0.13.4",
+      "pandas": "3.0.6",
+      "scipy": "1.14.1",
+      "xgboost": "2.1.3",
+      "matplotlib": "3.9.2"
+    },
+    "pipeline": [
+      "1. Input parsing (h5ad/csv/mtx; counts or log-normalised)",
+      "2. Cell QC filter (>= 10 detected genes)",
+      "3. Gene QC filter (>= 3 expressing cells; markers always retained)",
+      "4. Library-size normalisation to 10,000 counts per cell",
+      "5. log1p transformation",
+      "6. Highly-variable gene selection (top 300 by variance)",
+      "7. Per-gene z-scaling (clip +-10)",
+      "8. Ensemble scoring (XGB+RF+SVM 0.6 / AE+MLP 0.4)",
+      "9. Biomarker cross-check (POU5F1/NANOG/SOX2 panel)",
+      "10. Lineage assignment + teratoma site mapping (22 sites)"
+    ],
+    "input_dimensions": {
+      "cells": 500,
+      "genes": 1464
+    },
+    "decision_threshold": 0.5,
+    "random_seed": 42
+  },
+  "statistical_confidence": {
+    "bootstrap_ci_95": {
+      "lower": 0.02501340003573343,
+      "upper": 0.09201357870287655,
+      "mean": 0.05740128640343041,
+      "std": 0.01696867558947379,
+      "n_iterations": 1000
+    },
+    "binomial_test": {
+      "null_hypothesis": "true PSC fraction = release threshold (0.001%)",
+      "alternative": "true PSC fraction exceeds release threshold",
+      "p_value": 1.1039661391139925e-61,
+      "significant_at_alpha_0_05": true,
+      "observed_count": 19,
+      "expected_under_null": 0.005
+    },
+    "post_hoc_power": {
+      "value": 1.0,
+      "interpretation": "adequate (>= 0.8) to detect the observed deviation at alpha=0.05",
+      "assumed_effect_size": 404.20890547543706,
+      "alpha": 0.05,
+      "sample_size": 500
+    }
+  },
+  "probability_distribution": {
+    "bins": [
+      {
+        "label": "0.00-0.05",
+        "count": 206,
+        "fraction": 0.412
+      },
+      {
+        "label": "0.05-0.10",
+        "count": 140,
+        "fraction": 0.28
+      },
+      {
+        "label": "0.10-0.15",
+        "count": 50,
+        "fraction": 0.1
+      },
+      {
+        "label": "0.15-0.20",
+        "count": 23,
+        "fraction": 0.046
+      },
+      {
+        "label": "0.20-0.25",
+        "count": 16,
+        "fraction": 0.032
+      },
+      {
+        "label": "0.25-0.30",
+        "count": 11,
+        "fraction": 0.022
+      },
+      {
+        "label": "0.30-0.35",
+        "count": 10,
+        "fraction": 0.02
+      },
+      {
+        "label": "0.35-0.40",
+        "count": 9,
+        "fraction": 0.018
+      },
+      {
+        "label": "0.40-0.45",
+        "count": 10,
+        "fraction": 0.02
+      },
+      {
+        "label": "0.45-0.50",
+        "count": 6,
+        "fraction": 0.012
+      },
+      {
+        "label": "0.50-0.55",
+        "count": 1,
+        "fraction": 0.002
+      },
+      {
+        "label": "0.55-0.60",
+        "count": 4,
+        "fraction": 0.008
+      },
+      {
+        "label": "0.60-0.65",
+        "count": 3,
+        "fraction": 0.006
+      },
+      {
+        "label": "0.65-0.70",
+        "count": 5,
+        "fraction": 0.01
+      },
+      {
+        "label": "0.70-0.75",
+        "count": 2,
+        "fraction": 0.004
+      },
+      {
+        "label": "0.75-0.80",
+        "count": 2,
+        "fraction": 0.004
+      },
+      {
+        "label": "0.80-0.85",
+        "count": 1,
+        "fraction": 0.002
+      },
+      {
+        "label": "0.85-0.90",
+        "count": 1,
+        "fraction": 0.002
+      },
+      {
+        "label": "0.90-0.95",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.95-1.00",
+        "count": 0,
+        "fraction": 0.0
+      }
+    ],
+    "n_cells": 500,
+    "p50": 0.060702160993544245,
+    "p95": 0.44252411859619667,
+    "p99": 0.7165049648547543,
+    "mean": 0.12024686113871592,
+    "max": 0.8676383880694003
+  },
+  "calibration_metrics": {
+    "brier_score_vs_biomarker": 0.2433834825098338,
+    "brier_interpretation": "poor (Brier >= 0.15): recalibrate before use",
+    "ece_surrogate_vs_biomarker": 0.22175313886128406,
+    "ece_interpretation": "poor calibration (ECE >= 0.15)",
+    "biomarker_model_agreement": 0.68
+  },
+  "recommendations": [
+    {
+      "priority": 1,
+      "category": "Batch disposition",
+      "action": "Quarantine batch and initiate investigation per SOP-QA-014",
+      "rationale": "Residual PSC fraction 5.717% exceeds the 1% quarantine threshold.",
+      "owner": "QA officer",
+      "effort": "immediate"
+    },
+    {
+      "priority": 2,
+      "category": "Data quality",
+      "action": "Review biomarker cross-check discrepancies at single-cell level",
+      "rationale": "Model/biomarker agreement was 68.0% (< 90%).",
+      "owner": "Bioinformatics",
+      "effort": "2-4 hours"
+    },
+    {
+      "priority": 3,
+      "category": "Regulatory",
+      "action": "Archive report + audit trail export to batch record (21 CFR Part 11)",
+      "rationale": "Electronic records must be retained >= 5 years after batch release.",
+      "owner": "QA",
+      "effort": "routine"
+    },
+    {
+      "priority": 4,
+      "category": "Model governance",
+      "action": "Confirm current model version in registry matches promotion record (ICH Q5E)",
+      "rationale": "Change control requires concordance documentation on every retrain.",
+      "owner": "ML governance",
+      "effort": "routine"
+    }
+  ],
+  "citation_block": {
+    "bibtex": "@software{resipsc2026,\n  title  = {resipsc v2.0.0: residual pluripotent stem cell detection for cell therapy QC},\n  year   = {2026},\n  note   = {Machine-learning ensemble for residual PSC detection in scRNA-seq},\n}",
+    "citation_text": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "doi_placeholder": "10.5281/zenodo.XXXXXXX (to be assigned on release)",
+    "license": "MIT (code); CC-BY-4.0 (data and figures)",
+    "software_heritage_id": "pending archival on first public release"
+  },
+  "regulatory_context": {
+    "disposition_code": "QUARANTINE",
+    "fda": "21 CFR 1271 (HCT/Ps): release testing for residual PSCs is required before administration of PSC-derived cell therapy products. resipsc supports release at observed residual PSC fraction <= 0.001% and recommends quarantine above 1%. 21 CFR 211 (cGMP) applies to more-than-minimally-manipulated PSC derivatives. 21 CFR Part 11: audit trail implemented as an append-only, SHA-256 hash-chained event log with UTC timestamps.",
+    "ema": "EMEA/CHMP/410869/2006 (Guideline on human cell-based medicinal products): requires identity, potency, purity, microbiological safety, viability and tumorigenicity testing. Purity criterion: residual undifferentiated cells below a sponsor-justified threshold; QP release is defensible at <= 0.001% with orthogonal confirmation.",
+    "ich": "ICH Q5E Comparability of Biotechnological/Biological Products: pre/post retrain concordance analysis (sensitivity/specificity/kappa). ICH Q9(R1) Quality Risk Management: formal FMEA covering input data quality, model failure modes and infrastructure. ICH Q10 Pharmaceutical Quality System: change control, CAPA, management review and knowledge management implemented around the model lifecycle.",
+    "observed_psc_fraction_pct": 5.717348579596212,
+    "audit_trail": "db/audit.db \u2014 append-only SHA-256 hash-chained event log (21 CFR Part 11)"
+  },
+  "report_metadata": {
+    "report_id": "38d0b68376c390c68407023deae1771d3751967714f4867b45d236013ff57f1a",
+    "generated_at_utc": "2026-10-02 07:41:21 UTC",
+    "batch_id": "GOLDEN-TEST",
+    "software_version": "2.0.0",
+    "report_version": "2.1",
+    "input_file_format": "h5ad",
+    "input_cells": 500,
+    "input_genes": 1464,
+    "input_hash_short": "d5031c04c1f5a2f8",
+    "signature_line": "Electronic signature: resipsc automated QC pipeline (RUO) \u2014 unsigned",
+    "intended_use": "Research Use Only \u2014 NOT FDA-cleared"
+  },
+  "threshold_sensitivity": {
+    "thresholds": {
+      "0.3": {
+        "n_above": 54,
+        "fraction_pct": 10.8
+      },
+      "0.5": {
+        "n_above": 19,
+        "fraction_pct": 3.8
+      },
+      "0.7": {
+        "n_above": 6,
+        "fraction_pct": 1.2
+      }
+    },
+    "all_thresholds_agree": false,
+    "decision_stability": "SENSITIVE \u2014 counts vary (54/19/6); inspect borderline cells in [0.3, 0.7]"
+  },
+  "per_cell_classification": {
+    "counts": {
+      "high_confidence_psc": 15,
+      "model_only_psc": 4,
+      "biomarker_only_psc": 156,
+      "ambiguous": 9,
+      "high_confidence_negative": 319
+    },
+    "fractions": {
+      "high_confidence_psc": 0.02982107355864811,
+      "model_only_psc": 0.007952286282306162,
+      "biomarker_only_psc": 0.3101391650099404,
+      "ambiguous": 0.017892644135188866,
+      "high_confidence_negative": 0.6341948310139165
+    },
+    "total": 503,
+    "interpretation": {
+      "high_confidence_psc": "PSC called by both the ML ensemble and the OCT4/NANOG/SOX2 biomarker panel \u2014 treat as confirmed residual PSCs.",
+      "model_only_psc": "PSC called by the model without biomarker support \u2014 possible batch-effect false positive; verify with orthogonal assay.",
+      "biomarker_only_psc": "Biomarker-positive without model support \u2014 possible differentiated-cell marker expression; review manually.",
+      "ambiguous": "Borderline model probabilities (0.35-0.65) without biomarker support \u2014 indeterminate calls.",
+      "high_confidence_negative": "Concordant negative \u2014 differentiated cells with quiet pluripotency programme."
+    }
+  },
+  "disease_site_probabilities": {
+    "sites": [
+      {
+        "anatomical_site": "Sacrococcygeal",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.35,
+        "site_prior": 0.35,
+        "absolute_risk_probability": 0.23642874688764545,
+        "risk_level": "HIGH",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Pelvic MRI + excisional biopsy; OCT4/SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Gonads",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.25,
+        "site_prior": 0.25,
+        "absolute_risk_probability": 0.16887767634831818,
+        "risk_level": "HIGH",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Pelvic/testicular ultrasound + tumor markers; OCT4 IHC"
+      },
+      {
+        "anatomical_site": "Mediastinum",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.18,
+        "site_prior": 0.18,
+        "absolute_risk_probability": 0.12159192697078909,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Chest CT + mediastinoscopy biopsy"
+      },
+      {
+        "anatomical_site": "Retroperitoneum",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.09457149875505819,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Abdominal CT + core needle biopsy"
+      },
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.08422352975326812,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Pancreas",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.3,
+        "site_prior": 0.3,
+        "absolute_risk_probability": 0.06997063277597601,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT/MRI pancreas protocol + endoscopic biopsy; PDX1 IHC"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.06843161792453034,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Any (disseminated)",
+        "germ_layer": "pluripotent",
+        "predicted_cells_in_lineage": 19,
+        "lineage_probability": 0.038,
+        "site_probability": 0.08,
+        "site_prior": 0.08,
+        "absolute_risk_probability": 0.05404085643146182,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "POU5F1",
+          "NANOG",
+          "SOX2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Whole-body PET-CT + site-directed biopsy"
+      },
+      {
+        "anatomical_site": "Liver",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.22,
+        "site_prior": 0.22,
+        "absolute_risk_probability": 0.051311797369049075,
+        "risk_level": "MODERATE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Liver ultrasound + AFP surveillance + biopsy with ALB IHC"
+      },
+      {
+        "anatomical_site": "GI tract",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.2,
+        "site_prior": 0.2,
+        "absolute_risk_probability": 0.046647088517317345,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Endoscopy/colonoscopy + biopsy with CDX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.04211176487663406,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.036847794267054805,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Thyroid",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.03265296196212214,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Neck ultrasound + FNA; TTF1/TG IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 31,
+        "lineage_probability": 0.062,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.03158382365747554,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      },
+      {
+        "anatomical_site": "Lung",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.1,
+        "site_prior": 0.1,
+        "absolute_risk_probability": 0.023323544258658672,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Chest CT + biopsy with NKX2-1 IHC"
+      },
+      {
+        "anatomical_site": "Skeletal muscle",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.28,
+        "site_prior": 0.28,
+        "absolute_risk_probability": 0.020677872099209647,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with myogenin IHC"
+      },
+      {
+        "anatomical_site": "Bone",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.22,
+        "site_prior": 0.22,
+        "absolute_risk_probability": 0.016246899506521865,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "X-ray/CT + biopsy with osteocalcin IHC"
+      },
+      {
+        "anatomical_site": "Heart",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.18,
+        "site_prior": 0.18,
+        "absolute_risk_probability": 0.013292917778063343,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Echocardiogram + cardiac MRI; troponin surveillance"
+      },
+      {
+        "anatomical_site": "Kidney",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.010338936049604824,
+        "risk_level": "LOW",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Renal ultrasound + CT with PAX2 IHC"
+      },
+      {
+        "anatomical_site": "Biliary",
+        "germ_layer": "endoderm",
+        "predicted_cells_in_lineage": 37,
+        "lineage_probability": 0.074,
+        "site_probability": 0.04,
+        "site_prior": 0.04,
+        "absolute_risk_probability": 0.00932941770346347,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "SOX17",
+          "FOXA2",
+          "GATA4",
+          "HNF4A"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRCP + ERCP brushings with CK7/CK19 IHC"
+      },
+      {
+        "anatomical_site": "Blood",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.1,
+        "site_prior": 0.1,
+        "absolute_risk_probability": 0.007384954321146302,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CBC + flow cytometry + bone marrow aspirate"
+      },
+      {
+        "anatomical_site": "Vessels",
+        "germ_layer": "mesoderm",
+        "predicted_cells_in_lineage": 413,
+        "lineage_probability": 0.826,
+        "site_probability": 0.08,
+        "site_prior": 0.08,
+        "absolute_risk_probability": 0.005907963456917041,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "TBXT",
+          "MESP1",
+          "TNNT2",
+          "MYOD1"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Vascular imaging (CTA/MRA) + CD31 IHC"
+      }
+    ],
+    "total_sites_evaluated": 22,
+    "high_risk_sites": 2,
+    "moderate_risk_sites": 7,
+    "low_risk_sites": 10,
+    "negligible_risk_sites": 3,
+    "formula": "absolute_risk = mean(model probability of lineage cells) x literature site prior",
+    "priors_source": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008"
+  },
+  "qc_flags": [
+    {
+      "severity": "warning",
+      "category": "subsample",
+      "message": "Input had 600 cells; analysis subsampled to 500 for memory safety (RESIPSC_MAX_CELLS).",
+      "action": "Set RESIPSC_MAX_CELLS higher on machines with more RAM."
+    },
+    {
+      "severity": "info",
+      "category": "ambiguity",
+      "message": "Notable model/biomarker disagreement",
+      "action": "Manual review of discordant cells"
+    }
+  ],
+  "disclaimer": {
+    "primary": "Research Use Only \u2014 NOT FDA-cleared. This report is a computational inference from single-cell RNA-seq data and does not constitute a clinical release test.",
+    "limitations": [
+      "Model trained on a hybrid corpus (simulated multi-site data + real PBMC reference); clinical performance on therapeutic manufacturing batches is not yet established.",
+      "Detection limits below 0.001% PSC depend on sequenced cell count and depth; bootstrap CIs quantify this uncertainty.",
+      "Lineage assignment and teratoma site priors are literature-derived estimates, not patient-level predictions.",
+      "Batch effects, ambient RNA and doublets can inflate apparent PSC fractions; the biomarker cross-check mitigates but does not eliminate this.",
+      "No wet-lab orthogonal validation (HEC, ddPCR, lncRNA flow) has been performed for this build."
+    ],
+    "wet_lab_confirmation": "Confirm any non-RELEASE disposition with an orthogonal assay: ddPCR for LIN28A/ESRG, immunostaining for OCT4/TRA-1-60, or the histological embryoid-body assay, per EMEA/CHMP/410869/2006.",
+    "decision_authority": "The disposition code is a recommendation. Release authority rests with the Qualified Person under EMA rules or the responsible QA officer under FDA rules.",
+    "audit_trail": "All model inputs, outputs and decisions are recorded in the append-only audit trail (db/audit.db).",
+    "citation": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "license": "MIT (code); CC-BY-4.0 (figures)",
+    "version": "resipsc 2.0.0 / report v2.1"
+  },
+  "cell_projection": {
+    "points": [
+      {
+        "x": -0.0853879451751709,
+        "y": -0.22041445970535278,
+        "p": 0.06280661089845757,
+        "cell_id": "golden_contaminated_c00000",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.8399181365966797,
+        "y": -1.8870201110839844,
+        "p": 0.43984780760891057,
+        "cell_id": "golden_contaminated_c00001",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.48209285736084,
+        "y": 1.4579267501831055,
+        "p": 0.12432397397259345,
+        "cell_id": "golden_contaminated_c00002",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.5844472646713257,
+        "y": 1.1319665908813477,
+        "p": 0.04613865319252018,
+        "cell_id": "golden_contaminated_c00003",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.9768408536911011,
+        "y": -1.1015712022781372,
+        "p": 0.057965302306019345,
+        "cell_id": "golden_contaminated_c00004",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.09770536422729492,
+        "y": 1.2689357995986938,
+        "p": 0.04394848040448028,
+        "cell_id": "golden_contaminated_c00005",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.28505945205688477,
+        "y": 0.24863234162330627,
+        "p": 0.0594815743831662,
+        "cell_id": "golden_contaminated_c00008",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.7003748416900635,
+        "y": 0.6565256118774414,
+        "p": 0.12753348056351393,
+        "cell_id": "golden_contaminated_c00009",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0498576164245605,
+        "y": 1.4860769510269165,
+        "p": 0.02508134301263723,
+        "cell_id": "golden_contaminated_c00011",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.576195240020752,
+        "y": -0.28634053468704224,
+        "p": 0.7277847041145664,
+        "cell_id": "golden_contaminated_c00012",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 1.130777359008789,
+        "y": -1.291452169418335,
+        "p": 0.039217529626464805,
+        "cell_id": "golden_contaminated_c00013",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.2172379493713379,
+        "y": -1.6989092826843262,
+        "p": 0.05167568740238795,
+        "cell_id": "golden_contaminated_c00015",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5379354953765869,
+        "y": -0.5015475749969482,
+        "p": 0.08118960818677941,
+        "cell_id": "golden_contaminated_c00016",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0982520580291748,
+        "y": -0.04953892529010773,
+        "p": 0.050850507853828365,
+        "cell_id": "golden_contaminated_c00017",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.5831527709960938,
+        "y": -1.3890843391418457,
+        "p": 0.04734722255513246,
+        "cell_id": "golden_contaminated_c00019",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.5089085102081299,
+        "y": 0.9011845588684082,
+        "p": 0.09568325998855758,
+        "cell_id": "golden_contaminated_c00020",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.3679955005645752,
+        "y": -2.659162998199463,
+        "p": 0.10166714605789484,
+        "cell_id": "golden_contaminated_c00022",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.134643077850342,
+        "y": 1.3192988634109497,
+        "p": 0.02855021497273067,
+        "cell_id": "golden_contaminated_c00023",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.435206413269043,
+        "y": -0.010896533727645874,
+        "p": 0.05107854770474825,
+        "cell_id": "golden_contaminated_c00024",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.5482678413391113,
+        "y": -0.7084901332855225,
+        "p": 0.031164178664381106,
+        "cell_id": "golden_contaminated_c00025",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.4161994457244873,
+        "y": -0.7756671905517578,
+        "p": 0.04578219375419647,
+        "cell_id": "golden_contaminated_c00028",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.08138370513916016,
+        "y": 1.1469461917877197,
+        "p": 0.08060076765646942,
+        "cell_id": "golden_contaminated_c00030",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.43383336067199707,
+        "y": 0.3875783681869507,
+        "p": 0.07209879301887241,
+        "cell_id": "golden_contaminated_c00031",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.11967921257019043,
+        "y": -1.4128822088241577,
+        "p": 0.07828185604719871,
+        "cell_id": "golden_contaminated_c00032",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.979374885559082,
+        "y": 0.3722267150878906,
+        "p": 0.4418957516873272,
+        "cell_id": "golden_contaminated_c00033",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.0812139511108398,
+        "y": -1.9762961864471436,
+        "p": 0.04652881798193677,
+        "cell_id": "golden_contaminated_c00034",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.9433045387268066,
+        "y": -1.049019455909729,
+        "p": 0.08083003316562976,
+        "cell_id": "golden_contaminated_c00036",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.352426052093506,
+        "y": -0.23794277012348175,
+        "p": 0.4184593815284535,
+        "cell_id": "golden_contaminated_c00037",
+        "class": "ambiguous"
+      },
+      {
+        "x": -0.08193778991699219,
+        "y": -0.7292608022689819,
+        "p": 0.07730500943039997,
+        "cell_id": "golden_contaminated_c00038",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.4874415397644043,
+        "y": -1.2726542949676514,
+        "p": 0.03252948597441849,
+        "cell_id": "golden_contaminated_c00039",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.5953819751739502,
+        "y": -0.254891037940979,
+        "p": 0.04142346221359995,
+        "cell_id": "golden_contaminated_c00040",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.748173713684082,
+        "y": -0.09750935435295105,
+        "p": 0.027407690336697335,
+        "cell_id": "golden_contaminated_c00041",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.687544822692871,
+        "y": 1.4165630340576172,
+        "p": 0.2243885114568667,
+        "cell_id": "golden_contaminated_c00042",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.506516456604004,
+        "y": -0.36748939752578735,
+        "p": 0.037590143309489676,
+        "cell_id": "golden_contaminated_c00043",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.081011414527893,
+        "y": 0.11272960901260376,
+        "p": 0.10726724782255997,
+        "cell_id": "golden_contaminated_c00044",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.071594715118408,
+        "y": 0.17666399478912354,
+        "p": 0.46728466656486833,
+        "cell_id": "golden_contaminated_c00045",
+        "class": "ambiguous"
+      },
+      {
+        "x": -0.297713041305542,
+        "y": -0.547928512096405,
+        "p": 0.11929859357409012,
+        "cell_id": "golden_contaminated_c00046",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0708045959472656,
+        "y": 0.6915775537490845,
+        "p": 0.03879245681943963,
+        "cell_id": "golden_contaminated_c00048",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.8089056015014648,
+        "y": 0.6941431164741516,
+        "p": 0.036113269426309234,
+        "cell_id": "golden_contaminated_c00049",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.7016730308532715,
+        "y": -0.29460829496383667,
+        "p": 0.04719816739836752,
+        "cell_id": "golden_contaminated_c00050",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.3550333976745605,
+        "y": 0.10639837384223938,
+        "p": 0.11403343827173412,
+        "cell_id": "golden_contaminated_c00051",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.636354923248291,
+        "y": 1.5094740390777588,
+        "p": 0.032380839807266956,
+        "cell_id": "golden_contaminated_c00052",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.1658940315246582,
+        "y": 1.4946482181549072,
+        "p": 0.03173707812128253,
+        "cell_id": "golden_contaminated_c00053",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.532918930053711,
+        "y": 0.9543490409851074,
+        "p": 0.035583875683462815,
+        "cell_id": "golden_contaminated_c00056",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.991535186767578,
+        "y": 0.48269712924957275,
+        "p": 0.37399563842355465,
+        "cell_id": "golden_contaminated_c00058",
+        "class": "ambiguous"
+      },
+      {
+        "x": 3.4708762168884277,
+        "y": 0.786705732345581,
+        "p": 0.023638898050110088,
+        "cell_id": "golden_contaminated_c00059",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.476806879043579,
+        "y": 0.3149571418762207,
+        "p": 0.038326848100917424,
+        "cell_id": "golden_contaminated_c00061",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.9661202430725098,
+        "y": -0.7880746126174927,
+        "p": 0.23754179396784408,
+        "cell_id": "golden_contaminated_c00062",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.493533134460449,
+        "y": 0.15992161631584167,
+        "p": 0.029462923611957965,
+        "cell_id": "golden_contaminated_c00063",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.1527683734893799,
+        "y": -0.7646892070770264,
+        "p": 0.04076912223571108,
+        "cell_id": "golden_contaminated_c00064",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.0291781425476074,
+        "y": 0.055651962757110596,
+        "p": 0.02349466469102375,
+        "cell_id": "golden_contaminated_c00065",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.286782741546631,
+        "y": 0.1882958710193634,
+        "p": 0.3406364760399916,
+        "cell_id": "golden_contaminated_c00066",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.402729034423828,
+        "y": -1.6556048393249512,
+        "p": 0.5501654345676954,
+        "cell_id": "golden_contaminated_c00068",
+        "class": "model_only_psc"
+      },
+      {
+        "x": 1.3779401779174805,
+        "y": 0.2909715175628662,
+        "p": 0.034828483317101505,
+        "cell_id": "golden_contaminated_c00069",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0126948356628418,
+        "y": -0.36806994676589966,
+        "p": 0.05794668942712303,
+        "cell_id": "golden_contaminated_c00070",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.4431967735290527,
+        "y": 0.6893895864486694,
+        "p": 0.03270653577619237,
+        "cell_id": "golden_contaminated_c00071",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.876346230506897,
+        "y": -2.3045125007629395,
+        "p": 0.08696121255945903,
+        "cell_id": "golden_contaminated_c00072",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.971630573272705,
+        "y": -0.2395341396331787,
+        "p": 0.03407216759839137,
+        "cell_id": "golden_contaminated_c00073",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.980909824371338,
+        "y": 1.2370004653930664,
+        "p": 0.03696456291666918,
+        "cell_id": "golden_contaminated_c00074",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.114908218383789,
+        "y": 0.022977858781814575,
+        "p": 0.4160048315972329,
+        "cell_id": "golden_contaminated_c00075",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.7111616134643555,
+        "y": -3.9205117225646973,
+        "p": 0.42081421418042264,
+        "cell_id": "golden_contaminated_c00076",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.992784023284912,
+        "y": 0.6330203413963318,
+        "p": 0.023671166319752752,
+        "cell_id": "golden_contaminated_c00077",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.5465508699417114,
+        "y": -0.9257315397262573,
+        "p": 0.08900186526308389,
+        "cell_id": "golden_contaminated_c00078",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.6377758979797363,
+        "y": -0.5443925857543945,
+        "p": 0.039015268503143255,
+        "cell_id": "golden_contaminated_c00080",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.8315262794494629,
+        "y": 1.5356082916259766,
+        "p": 0.05408652885090026,
+        "cell_id": "golden_contaminated_c00081",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.972240686416626,
+        "y": -0.09934788942337036,
+        "p": 0.04795830394793502,
+        "cell_id": "golden_contaminated_c00082",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 4.813024520874023,
+        "y": -1.1341875791549683,
+        "p": 0.023563822329950572,
+        "cell_id": "golden_contaminated_c00084",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.118671417236328,
+        "y": 1.048516035079956,
+        "p": 0.05694955533990044,
+        "cell_id": "golden_contaminated_c00085",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.243976593017578,
+        "y": -0.09645858407020569,
+        "p": 0.35439670902651,
+        "cell_id": "golden_contaminated_c00086",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.3396191596984863,
+        "y": -0.7508769035339355,
+        "p": 0.680760995974556,
+        "cell_id": "golden_contaminated_c00088",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -1.7910912036895752,
+        "y": 2.13246488571167,
+        "p": 0.13505595235265205,
+        "cell_id": "golden_contaminated_c00089",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.4324188232421875,
+        "y": 2.055135488510132,
+        "p": 0.02904018428780269,
+        "cell_id": "golden_contaminated_c00090",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.04832267761230469,
+        "y": 0.810824990272522,
+        "p": 0.10302970994593826,
+        "cell_id": "golden_contaminated_c00092",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.6908690929412842,
+        "y": -1.607771396636963,
+        "p": 0.08413144214163168,
+        "cell_id": "golden_contaminated_c00093",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.721646785736084,
+        "y": -1.6482583284378052,
+        "p": 0.0669620962765436,
+        "cell_id": "golden_contaminated_c00094",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.48360514640808105,
+        "y": -0.6554588675498962,
+        "p": 0.04638907413617528,
+        "cell_id": "golden_contaminated_c00095",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.123354434967041,
+        "y": 0.7563988566398621,
+        "p": 0.03864098285786509,
+        "cell_id": "golden_contaminated_c00096",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.2320406436920166,
+        "y": 0.2799697518348694,
+        "p": 0.27311843832329885,
+        "cell_id": "golden_contaminated_c00097",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.946972131729126,
+        "y": 0.2658810615539551,
+        "p": 0.2354267189726302,
+        "cell_id": "golden_contaminated_c00098",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.249943733215332,
+        "y": 0.6019415855407715,
+        "p": 0.2557439575587365,
+        "cell_id": "golden_contaminated_c00099",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.6133155822753906,
+        "y": 0.5363246202468872,
+        "p": 0.0736644780628072,
+        "cell_id": "golden_contaminated_c00100",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.2165019512176514,
+        "y": 0.15673887729644775,
+        "p": 0.03974328208686631,
+        "cell_id": "golden_contaminated_c00101",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.3928098678588867,
+        "y": -0.1507485806941986,
+        "p": 0.15198055272393188,
+        "cell_id": "golden_contaminated_c00102",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.22574973106384277,
+        "y": 1.4347491264343262,
+        "p": 0.06537741176505249,
+        "cell_id": "golden_contaminated_c00103",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.4564695358276367,
+        "y": -0.743971586227417,
+        "p": 0.023078197306898612,
+        "cell_id": "golden_contaminated_c00104",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.4025578498840332,
+        "y": -1.4378360509872437,
+        "p": 0.05906718715047968,
+        "cell_id": "golden_contaminated_c00105",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.9057998657226562,
+        "y": 0.16600561141967773,
+        "p": 0.03364962756281128,
+        "cell_id": "golden_contaminated_c00106",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.523139238357544,
+        "y": -0.7761200070381165,
+        "p": 0.09828327061486163,
+        "cell_id": "golden_contaminated_c00107",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.7389683723449707,
+        "y": 0.2632995843887329,
+        "p": 0.04275008957562437,
+        "cell_id": "golden_contaminated_c00108",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.5834667682647705,
+        "y": 0.9975290298461914,
+        "p": 0.2953407633621495,
+        "cell_id": "golden_contaminated_c00109",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.8304526805877686,
+        "y": -0.07706159353256226,
+        "p": 0.06830645832479251,
+        "cell_id": "golden_contaminated_c00110",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.350947380065918,
+        "y": -0.7088409662246704,
+        "p": 0.03577930900334186,
+        "cell_id": "golden_contaminated_c00111",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.4215283393859863,
+        "y": 0.10381549596786499,
+        "p": 0.20033984655353637,
+        "cell_id": "golden_contaminated_c00112",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.980776309967041,
+        "y": 0.9640486240386963,
+        "p": 0.03397128333565261,
+        "cell_id": "golden_contaminated_c00113",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.6893606185913086,
+        "y": -0.473677396774292,
+        "p": 0.02988341128890831,
+        "cell_id": "golden_contaminated_c00114",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.37178969383239746,
+        "y": 0.6304503679275513,
+        "p": 0.04320873457416384,
+        "cell_id": "golden_contaminated_c00115",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.9961051940917969,
+        "y": -0.4469214081764221,
+        "p": 0.03519970350283061,
+        "cell_id": "golden_contaminated_c00117",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7874577045440674,
+        "y": -1.7153136730194092,
+        "p": 0.06705452115594415,
+        "cell_id": "golden_contaminated_c00119",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.030616283416748047,
+        "y": -0.21061831712722778,
+        "p": 0.15534667882545306,
+        "cell_id": "golden_contaminated_c00121",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.9285471439361572,
+        "y": 1.1628587245941162,
+        "p": 0.037718310399099786,
+        "cell_id": "golden_contaminated_c00122",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.8311195373535156,
+        "y": -0.1263856291770935,
+        "p": 0.0244256460145394,
+        "cell_id": "golden_contaminated_c00123",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.2576889991760254,
+        "y": 1.3684484958648682,
+        "p": 0.05182634792159357,
+        "cell_id": "golden_contaminated_c00124",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.5879284143447876,
+        "y": -0.8174713850021362,
+        "p": 0.11257461852365569,
+        "cell_id": "golden_contaminated_c00125",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.505952835083008,
+        "y": 0.8097310066223145,
+        "p": 0.3055289018404857,
+        "cell_id": "golden_contaminated_c00127",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.5580475330352783,
+        "y": 0.8117556571960449,
+        "p": 0.41250086241425515,
+        "cell_id": "golden_contaminated_c00131",
+        "class": "ambiguous"
+      },
+      {
+        "x": 0.9544632434844971,
+        "y": -0.9404797554016113,
+        "p": 0.05020677241534566,
+        "cell_id": "golden_contaminated_c00132",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.3542150259017944,
+        "y": 1.035776972770691,
+        "p": 0.049197411164666326,
+        "cell_id": "golden_contaminated_c00133",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.5736360549926758,
+        "y": -0.992815375328064,
+        "p": 0.14511578440837106,
+        "cell_id": "golden_contaminated_c00135",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.49727511405944824,
+        "y": 0.5493986010551453,
+        "p": 0.06700874757248981,
+        "cell_id": "golden_contaminated_c00136",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.4668984413146973,
+        "y": 0.8077775239944458,
+        "p": 0.022607679871095757,
+        "cell_id": "golden_contaminated_c00138",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.429367780685425,
+        "y": -0.6935486793518066,
+        "p": 0.270156936811104,
+        "cell_id": "golden_contaminated_c00139",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.7738742828369141,
+        "y": -2.043429136276245,
+        "p": 0.05328395369358435,
+        "cell_id": "golden_contaminated_c00140",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.8513648509979248,
+        "y": -0.1930878758430481,
+        "p": 0.31905112780369493,
+        "cell_id": "golden_contaminated_c00141",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.609243869781494,
+        "y": -2.609564781188965,
+        "p": 0.25754097373009555,
+        "cell_id": "golden_contaminated_c00142",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.854729175567627,
+        "y": 1.1944503784179688,
+        "p": 0.025398021699012525,
+        "cell_id": "golden_contaminated_c00143",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.4084149599075317,
+        "y": -0.7463362216949463,
+        "p": 0.16005229188788483,
+        "cell_id": "golden_contaminated_c00144",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.6511943340301514,
+        "y": -3.0971412658691406,
+        "p": 0.8676383880694003,
+        "cell_id": "golden_contaminated_c00147",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -2.8138296604156494,
+        "y": 0.2712336778640747,
+        "p": 0.6254549608222766,
+        "cell_id": "golden_contaminated_c00148",
+        "class": "model_only_psc"
+      },
+      {
+        "x": 0.9179360866546631,
+        "y": 1.4512999057769775,
+        "p": 0.04402963137509554,
+        "cell_id": "golden_contaminated_c00149",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.677081108093262,
+        "y": 0.20830321311950684,
+        "p": 0.7870581516434431,
+        "cell_id": "golden_contaminated_c00150",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -2.902366876602173,
+        "y": -0.34747517108917236,
+        "p": 0.2948208218317626,
+        "cell_id": "golden_contaminated_c00151",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.4703192710876465,
+        "y": -2.1624932289123535,
+        "p": 0.0741497702423359,
+        "cell_id": "golden_contaminated_c00152",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.7148003578186035,
+        "y": 0.5224430561065674,
+        "p": 0.3769062102801176,
+        "cell_id": "golden_contaminated_c00153",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.7389278411865234,
+        "y": -2.886594295501709,
+        "p": 0.02747598362529228,
+        "cell_id": "golden_contaminated_c00155",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.25316548347473145,
+        "y": -0.034733593463897705,
+        "p": 0.12142991781986126,
+        "cell_id": "golden_contaminated_c00156",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.49013710021972656,
+        "y": -1.0702455043792725,
+        "p": 0.05675365445525691,
+        "cell_id": "golden_contaminated_c00157",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.9060908555984497,
+        "y": -0.31194591522216797,
+        "p": 0.16567565043820326,
+        "cell_id": "golden_contaminated_c00158",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.4764516353607178,
+        "y": 0.27429836988449097,
+        "p": 0.106522380563559,
+        "cell_id": "golden_contaminated_c00160",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7741780281066895,
+        "y": 1.953730821609497,
+        "p": 0.02693943572356372,
+        "cell_id": "golden_contaminated_c00161",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.9919241666793823,
+        "y": 2.2714827060699463,
+        "p": 0.0955219247426735,
+        "cell_id": "golden_contaminated_c00162",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.7848384380340576,
+        "y": -0.5097351670265198,
+        "p": 0.045972439355377585,
+        "cell_id": "golden_contaminated_c00164",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.07277250289916992,
+        "y": -0.3136419355869293,
+        "p": 0.0778267065591025,
+        "cell_id": "golden_contaminated_c00165",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.38105106353759766,
+        "y": 1.7598949670791626,
+        "p": 0.10794412594546232,
+        "cell_id": "golden_contaminated_c00166",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.9712696075439453,
+        "y": 0.6679245829582214,
+        "p": 0.024725691380303234,
+        "cell_id": "golden_contaminated_c00167",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.30118560791015625,
+        "y": 1.60758376121521,
+        "p": 0.0748148151289034,
+        "cell_id": "golden_contaminated_c00168",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.8976006507873535,
+        "y": 1.5012954473495483,
+        "p": 0.0977089544148405,
+        "cell_id": "golden_contaminated_c00169",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.556943893432617,
+        "y": -1.1037225723266602,
+        "p": 0.1096998257653014,
+        "cell_id": "golden_contaminated_c00170",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.509258508682251,
+        "y": 0.9951736927032471,
+        "p": 0.05114839195375527,
+        "cell_id": "golden_contaminated_c00172",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.30062007904052734,
+        "y": 1.5449318885803223,
+        "p": 0.0475236881227584,
+        "cell_id": "golden_contaminated_c00173",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.257599115371704,
+        "y": 0.6356757879257202,
+        "p": 0.08599472643870096,
+        "cell_id": "golden_contaminated_c00175",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.571563959121704,
+        "y": 0.8045108318328857,
+        "p": 0.032421994507890184,
+        "cell_id": "golden_contaminated_c00178",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.07983732223510742,
+        "y": -1.5769250392913818,
+        "p": 0.06534697182613361,
+        "cell_id": "golden_contaminated_c00179",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.9104833602905273,
+        "y": 0.15020659565925598,
+        "p": 0.045838477730448156,
+        "cell_id": "golden_contaminated_c00180",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.2507801055908203,
+        "y": 1.5673134326934814,
+        "p": 0.0700045817598709,
+        "cell_id": "golden_contaminated_c00181",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.5348477363586426,
+        "y": -0.8898788690567017,
+        "p": 0.03488922007684705,
+        "cell_id": "golden_contaminated_c00182",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.8814964294433594,
+        "y": -0.3898027539253235,
+        "p": 0.026408280177419106,
+        "cell_id": "golden_contaminated_c00183",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.7314386367797852,
+        "y": 1.87646484375,
+        "p": 0.043123737096852396,
+        "cell_id": "golden_contaminated_c00185",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.4191921949386597,
+        "y": -1.3721815347671509,
+        "p": 0.17215216614353152,
+        "cell_id": "golden_contaminated_c00186",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.3716697692871094,
+        "y": 0.4509793519973755,
+        "p": 0.025026172155668727,
+        "cell_id": "golden_contaminated_c00187",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.18645620346069336,
+        "y": 0.6501202583312988,
+        "p": 0.06608133338377836,
+        "cell_id": "golden_contaminated_c00189",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0132205486297607,
+        "y": -0.6384834051132202,
+        "p": 0.047099153048422104,
+        "cell_id": "golden_contaminated_c00191",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.481956958770752,
+        "y": -0.19949966669082642,
+        "p": 0.02404924969334325,
+        "cell_id": "golden_contaminated_c00192",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.5260095596313477,
+        "y": -0.26447179913520813,
+        "p": 0.02977428468156048,
+        "cell_id": "golden_contaminated_c00194",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.6441073417663574,
+        "y": 0.7120786905288696,
+        "p": 0.03270933623712972,
+        "cell_id": "golden_contaminated_c00195",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.9904849529266357,
+        "y": 2.713430881500244,
+        "p": 0.3071619317434242,
+        "cell_id": "golden_contaminated_c00197",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.15177059173584,
+        "y": -0.49870985746383667,
+        "p": 0.03025184007078916,
+        "cell_id": "golden_contaminated_c00198",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.44443678855895996,
+        "y": 0.36938899755477905,
+        "p": 0.07124412476764994,
+        "cell_id": "golden_contaminated_c00199",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.27078771591186523,
+        "y": 0.9992070198059082,
+        "p": 0.07235058592258772,
+        "cell_id": "golden_contaminated_c00200",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.7760365009307861,
+        "y": 0.5439240336418152,
+        "p": 0.0842978075435922,
+        "cell_id": "golden_contaminated_c00201",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.3524739742279053,
+        "y": -0.5469721555709839,
+        "p": 0.03667659336219563,
+        "cell_id": "golden_contaminated_c00202",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.9660162925720215,
+        "y": -1.2972941398620605,
+        "p": 0.03887490409075846,
+        "cell_id": "golden_contaminated_c00203",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.4372529983520508,
+        "y": 0.43975830078125,
+        "p": 0.03383856556999991,
+        "cell_id": "golden_contaminated_c00204",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.4929089546203613,
+        "y": -1.4395174980163574,
+        "p": 0.033400710629949835,
+        "cell_id": "golden_contaminated_c00205",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.3543338775634766,
+        "y": -0.07805943489074707,
+        "p": 0.06283008080679833,
+        "cell_id": "golden_contaminated_c00206",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5692868232727051,
+        "y": 0.8988021612167358,
+        "p": 0.04449245799063645,
+        "cell_id": "golden_contaminated_c00207",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.520338773727417,
+        "y": 1.7518748044967651,
+        "p": 0.029224093321818148,
+        "cell_id": "golden_contaminated_c00208",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.9529943466186523,
+        "y": -0.1738755702972412,
+        "p": 0.030860159466775776,
+        "cell_id": "golden_contaminated_c00209",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.27074146270751953,
+        "y": 1.303780436515808,
+        "p": 0.04401320596223928,
+        "cell_id": "golden_contaminated_c00210",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.7497048377990723,
+        "y": -0.26415738463401794,
+        "p": 0.03111515767971749,
+        "cell_id": "golden_contaminated_c00211",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.842973709106445,
+        "y": -0.9497280716896057,
+        "p": 0.6931540487941814,
+        "cell_id": "golden_contaminated_c00212",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -4.27894401550293,
+        "y": 0.31302952766418457,
+        "p": 0.32375196719123445,
+        "cell_id": "golden_contaminated_c00213",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.1992568969726562,
+        "y": 1.3071541786193848,
+        "p": 0.026926943771826868,
+        "cell_id": "golden_contaminated_c00214",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.8867573738098145,
+        "y": -1.0244375467300415,
+        "p": 0.045120245293976624,
+        "cell_id": "golden_contaminated_c00215",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.227477550506592,
+        "y": -0.09041523933410645,
+        "p": 0.036175178959217215,
+        "cell_id": "golden_contaminated_c00216",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.8358886241912842,
+        "y": 0.5502733588218689,
+        "p": 0.11269127172850561,
+        "cell_id": "golden_contaminated_c00217",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.6350791454315186,
+        "y": 3.8748245239257812,
+        "p": 0.034429356597838946,
+        "cell_id": "golden_contaminated_c00219",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.13418865203857422,
+        "y": -0.5252074003219604,
+        "p": 0.07569947339409672,
+        "cell_id": "golden_contaminated_c00220",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.6250410079956055,
+        "y": 0.30839359760284424,
+        "p": 0.5549371166398867,
+        "cell_id": "golden_contaminated_c00221",
+        "class": "model_only_psc"
+      },
+      {
+        "x": 1.4867424964904785,
+        "y": 2.068356513977051,
+        "p": 0.03610792548740314,
+        "cell_id": "golden_contaminated_c00222",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.901660680770874,
+        "y": -0.4463563561439514,
+        "p": 0.03660765160063766,
+        "cell_id": "golden_contaminated_c00223",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.703237533569336,
+        "y": -1.0356695652008057,
+        "p": 0.3149014235894875,
+        "cell_id": "golden_contaminated_c00224",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.8855297565460205,
+        "y": 3.3635268211364746,
+        "p": 0.39815615740120736,
+        "cell_id": "golden_contaminated_c00226",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.1413192749023438,
+        "y": 1.6342353820800781,
+        "p": 0.03102564900254043,
+        "cell_id": "golden_contaminated_c00228",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.613552451133728,
+        "y": 0.8820712566375732,
+        "p": 0.08064946250486289,
+        "cell_id": "golden_contaminated_c00230",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.6087254285812378,
+        "y": 0.82704758644104,
+        "p": 0.09110287337384312,
+        "cell_id": "golden_contaminated_c00231",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.4613914489746094,
+        "y": 0.47774553298950195,
+        "p": 0.03696988861051374,
+        "cell_id": "golden_contaminated_c00232",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.7201976776123047,
+        "y": -2.6444146633148193,
+        "p": 0.39068899800561385,
+        "cell_id": "golden_contaminated_c00233",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.794313907623291,
+        "y": -0.0884893536567688,
+        "p": 0.042806082810000576,
+        "cell_id": "golden_contaminated_c00234",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0080976486206055,
+        "y": 0.09120610356330872,
+        "p": 0.029671868293621947,
+        "cell_id": "golden_contaminated_c00235",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.4803217649459839,
+        "y": -1.2276949882507324,
+        "p": 0.095958758866978,
+        "cell_id": "golden_contaminated_c00236",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.5078816413879395,
+        "y": 0.5871334075927734,
+        "p": 0.039578640339033175,
+        "cell_id": "golden_contaminated_c00238",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.3845021724700928,
+        "y": 0.6271939277648926,
+        "p": 0.13500198406579106,
+        "cell_id": "golden_contaminated_c00239",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.7455341815948486,
+        "y": -0.7554486393928528,
+        "p": 0.18822521841571432,
+        "cell_id": "golden_contaminated_c00240",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.045119285583496094,
+        "y": -0.42363613843917847,
+        "p": 0.04310022164470749,
+        "cell_id": "golden_contaminated_c00241",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.6252834796905518,
+        "y": -2.0073156356811523,
+        "p": 0.22560736346135218,
+        "cell_id": "golden_contaminated_c00242",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.7634682655334473,
+        "y": -0.7390714883804321,
+        "p": 0.04293599161326985,
+        "cell_id": "golden_contaminated_c00243",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.5074409246444702,
+        "y": -0.0024423599243164062,
+        "p": 0.1402255542854423,
+        "cell_id": "golden_contaminated_c00244",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.23257875442504883,
+        "y": 0.9437110424041748,
+        "p": 0.12892616002780802,
+        "cell_id": "golden_contaminated_c00245",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.922003984451294,
+        "y": 0.14944544434547424,
+        "p": 0.04302942950455628,
+        "cell_id": "golden_contaminated_c00246",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.3436996936798096,
+        "y": 0.8554434776306152,
+        "p": 0.5446967445578006,
+        "cell_id": "golden_contaminated_c00247",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 1.3533155918121338,
+        "y": -0.020726501941680908,
+        "p": 0.02678141309924475,
+        "cell_id": "golden_contaminated_c00248",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.5588226318359375,
+        "y": 0.7526655197143555,
+        "p": 0.2140216620793098,
+        "cell_id": "golden_contaminated_c00249",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.6953182220458984,
+        "y": 0.5851730108261108,
+        "p": 0.0334913509236957,
+        "cell_id": "golden_contaminated_c00250",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.6331987380981445,
+        "y": 0.5483046174049377,
+        "p": 0.03287869917520298,
+        "cell_id": "golden_contaminated_c00253",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.8192200660705566,
+        "y": -0.926093578338623,
+        "p": 0.07605774462259918,
+        "cell_id": "golden_contaminated_c00254",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.9709980487823486,
+        "y": 0.9345643520355225,
+        "p": 0.04666567294783641,
+        "cell_id": "golden_contaminated_c00255",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7035613059997559,
+        "y": 0.1615275740623474,
+        "p": 0.0248435801009091,
+        "cell_id": "golden_contaminated_c00256",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.9615182876586914,
+        "y": -0.429962694644928,
+        "p": 0.18926712515057037,
+        "cell_id": "golden_contaminated_c00257",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.04497766494751,
+        "y": -1.505052089691162,
+        "p": 0.2375052193557276,
+        "cell_id": "golden_contaminated_c00258",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.0487698316574097,
+        "y": -0.547635555267334,
+        "p": 0.07952246725669952,
+        "cell_id": "golden_contaminated_c00259",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.628134250640869,
+        "y": -0.22249910235404968,
+        "p": 0.14727538451621988,
+        "cell_id": "golden_contaminated_c00260",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.424776315689087,
+        "y": -0.048898786306381226,
+        "p": 0.026523859946769493,
+        "cell_id": "golden_contaminated_c00261",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.16121459007263184,
+        "y": -0.650676965713501,
+        "p": 0.06312955830321428,
+        "cell_id": "golden_contaminated_c00262",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.6711695194244385,
+        "y": -0.7622253894805908,
+        "p": 0.10318134556273824,
+        "cell_id": "golden_contaminated_c00264",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.6960043907165527,
+        "y": 0.8912069797515869,
+        "p": 0.09467443098275394,
+        "cell_id": "golden_contaminated_c00265",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.7452667951583862,
+        "y": -0.15938006341457367,
+        "p": 0.12101852792649197,
+        "cell_id": "golden_contaminated_c00266",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.012038230895996,
+        "y": -1.7914133071899414,
+        "p": 0.02472265146964628,
+        "cell_id": "golden_contaminated_c00267",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.3165273666381836,
+        "y": 0.27034974098205566,
+        "p": 0.0699390549502102,
+        "cell_id": "golden_contaminated_c00268",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.5466456413269043,
+        "y": 0.13308140635490417,
+        "p": 0.2877005789465319,
+        "cell_id": "golden_contaminated_c00269",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.7735817432403564,
+        "y": 1.174160122871399,
+        "p": 0.18245243924849736,
+        "cell_id": "golden_contaminated_c00271",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.2551600933074951,
+        "y": 0.12103721499443054,
+        "p": 0.062779257625005,
+        "cell_id": "golden_contaminated_c00272",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.7450408935546875,
+        "y": 0.9139512777328491,
+        "p": 0.02815334437092725,
+        "cell_id": "golden_contaminated_c00274",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.38553309440612793,
+        "y": -0.04176875948905945,
+        "p": 0.06059742460398464,
+        "cell_id": "golden_contaminated_c00275",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.0369633436203003,
+        "y": 3.7399308681488037,
+        "p": 0.07076057767341562,
+        "cell_id": "golden_contaminated_c00277",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.8322453498840332,
+        "y": -0.6987189650535583,
+        "p": 0.043009349536680286,
+        "cell_id": "golden_contaminated_c00278",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.9480071067810059,
+        "y": -2.022099256515503,
+        "p": 0.030609024154063386,
+        "cell_id": "golden_contaminated_c00279",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.21301555633544922,
+        "y": -0.4690024256706238,
+        "p": 0.0533460763119274,
+        "cell_id": "golden_contaminated_c00280",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.07981395721435547,
+        "y": 1.1722772121429443,
+        "p": 0.06080689738310385,
+        "cell_id": "golden_contaminated_c00281",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.8535795211791992,
+        "y": -0.658454179763794,
+        "p": 0.04143084149061937,
+        "cell_id": "golden_contaminated_c00282",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.2978515625,
+        "y": 0.9730099439620972,
+        "p": 0.0656410261286681,
+        "cell_id": "golden_contaminated_c00283",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.0919036865234375,
+        "y": -0.4846717119216919,
+        "p": 0.4544630898647275,
+        "cell_id": "golden_contaminated_c00284",
+        "class": "ambiguous"
+      },
+      {
+        "x": 0.5452704429626465,
+        "y": -1.6452500820159912,
+        "p": 0.04507764967796021,
+        "cell_id": "golden_contaminated_c00285",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.5389180183410645,
+        "y": 1.4224954843521118,
+        "p": 0.3896720159898567,
+        "cell_id": "golden_contaminated_c00287",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.3266491889953613,
+        "y": -2.0397555828094482,
+        "p": 0.029966564111939743,
+        "cell_id": "golden_contaminated_c00288",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.6848855018615723,
+        "y": 1.2843236923217773,
+        "p": 0.3180991956802728,
+        "cell_id": "golden_contaminated_c00289",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.3812313079833984,
+        "y": -2.6506338119506836,
+        "p": 0.06214485047304898,
+        "cell_id": "golden_contaminated_c00290",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.070523738861084,
+        "y": -0.906655490398407,
+        "p": 0.029335715998142636,
+        "cell_id": "golden_contaminated_c00291",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.2415142059326172,
+        "y": 0.9165973663330078,
+        "p": 0.1356286082922554,
+        "cell_id": "golden_contaminated_c00292",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.3732056617736816,
+        "y": 0.4591543674468994,
+        "p": 0.17361393730017874,
+        "cell_id": "golden_contaminated_c00293",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.9941802024841309,
+        "y": -0.02933943271636963,
+        "p": 0.05421236662851438,
+        "cell_id": "golden_contaminated_c00294",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.8769638538360596,
+        "y": 0.9544254541397095,
+        "p": 0.2875590497112736,
+        "cell_id": "golden_contaminated_c00295",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.878213882446289,
+        "y": -1.0646560192108154,
+        "p": 0.024643019746526062,
+        "cell_id": "golden_contaminated_c00296",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.18712401390075684,
+        "y": 0.8736735582351685,
+        "p": 0.06543178540070486,
+        "cell_id": "golden_contaminated_c00297",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.1559934616088867,
+        "y": -1.8976136445999146,
+        "p": 0.025836693075643482,
+        "cell_id": "golden_contaminated_c00298",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.021946430206299,
+        "y": -0.0012354254722595215,
+        "p": 0.022420391295363638,
+        "cell_id": "golden_contaminated_c00299",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.6426069736480713,
+        "y": -0.6876301169395447,
+        "p": 0.7898621335092608,
+        "cell_id": "golden_contaminated_c00300",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 1.8533377647399902,
+        "y": -0.08929955959320068,
+        "p": 0.03656557295497453,
+        "cell_id": "golden_contaminated_c00301",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.183143138885498,
+        "y": 0.22138679027557373,
+        "p": 0.05252409163599294,
+        "cell_id": "golden_contaminated_c00302",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.9902268648147583,
+        "y": -3.3435819149017334,
+        "p": 0.10510119622938854,
+        "cell_id": "golden_contaminated_c00303",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.8316402435302734,
+        "y": 0.03794637322425842,
+        "p": 0.42652012148694446,
+        "cell_id": "golden_contaminated_c00304",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.799839973449707,
+        "y": 0.1698666214942932,
+        "p": 0.11604365397840785,
+        "cell_id": "golden_contaminated_c00305",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.914787769317627,
+        "y": -0.3923878073692322,
+        "p": 0.027760771668968887,
+        "cell_id": "golden_contaminated_c00307",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.40378999710083,
+        "y": 0.14254820346832275,
+        "p": 0.12281745726321772,
+        "cell_id": "golden_contaminated_c00308",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.3646891117095947,
+        "y": 0.49781084060668945,
+        "p": 0.039065084020033086,
+        "cell_id": "golden_contaminated_c00309",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.4437665939331055,
+        "y": -1.381054401397705,
+        "p": 0.035139528161729904,
+        "cell_id": "golden_contaminated_c00310",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.6902923583984375,
+        "y": 0.3896740674972534,
+        "p": 0.0561830961508739,
+        "cell_id": "golden_contaminated_c00311",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.751756191253662,
+        "y": -1.5897173881530762,
+        "p": 0.5975695241690797,
+        "cell_id": "golden_contaminated_c00312",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 2.4724268913269043,
+        "y": 0.3638116717338562,
+        "p": 0.030995081734237186,
+        "cell_id": "golden_contaminated_c00313",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.616483449935913,
+        "y": 0.6713086366653442,
+        "p": 0.06924672188211921,
+        "cell_id": "golden_contaminated_c00314",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.2385873794555664,
+        "y": -1.484797477722168,
+        "p": 0.04845253594957756,
+        "cell_id": "golden_contaminated_c00315",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.328458786010742,
+        "y": 0.36862117052078247,
+        "p": 0.04750671578401411,
+        "cell_id": "golden_contaminated_c00316",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.718430995941162,
+        "y": 0.42540818452835083,
+        "p": 0.14238954854599117,
+        "cell_id": "golden_contaminated_c00317",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7250471115112305,
+        "y": 0.14573240280151367,
+        "p": 0.09919943411282352,
+        "cell_id": "golden_contaminated_c00318",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.6889185905456543,
+        "y": -0.874783992767334,
+        "p": 0.04494862521806591,
+        "cell_id": "golden_contaminated_c00319",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.426882266998291,
+        "y": 0.23423632979393005,
+        "p": 0.0684995054304911,
+        "cell_id": "golden_contaminated_c00320",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.565748929977417,
+        "y": 2.5911848545074463,
+        "p": 0.08859753181602249,
+        "cell_id": "golden_contaminated_c00321",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.5300776958465576,
+        "y": 1.0270625352859497,
+        "p": 0.03030027515656003,
+        "cell_id": "golden_contaminated_c00322",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.580632209777832,
+        "y": 0.4965481162071228,
+        "p": 0.03467151856919774,
+        "cell_id": "golden_contaminated_c00323",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.426814079284668,
+        "y": -1.0999829769134521,
+        "p": 0.3297852814828576,
+        "cell_id": "golden_contaminated_c00324",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.308892011642456,
+        "y": -0.9136979579925537,
+        "p": 0.10195795201750063,
+        "cell_id": "golden_contaminated_c00325",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.062232017517089844,
+        "y": 0.5315619111061096,
+        "p": 0.04173295095691207,
+        "cell_id": "golden_contaminated_c00326",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.1594648361206055,
+        "y": -0.4822264313697815,
+        "p": 0.03059982861911653,
+        "cell_id": "golden_contaminated_c00327",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.7143168449401855,
+        "y": 1.2196096181869507,
+        "p": 0.04975661619271966,
+        "cell_id": "golden_contaminated_c00329",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.4330992698669434,
+        "y": -0.13057534396648407,
+        "p": 0.058145504149125934,
+        "cell_id": "golden_contaminated_c00330",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.554039478302002,
+        "y": -2.5260097980499268,
+        "p": 0.023074160955760738,
+        "cell_id": "golden_contaminated_c00331",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.2240028381347656,
+        "y": -0.04548795521259308,
+        "p": 0.03257759947493932,
+        "cell_id": "golden_contaminated_c00332",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.11367416381835938,
+        "y": -0.42835938930511475,
+        "p": 0.03998900865172825,
+        "cell_id": "golden_contaminated_c00333",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.3157939910888672,
+        "y": 0.4462050199508667,
+        "p": 0.042284391199280645,
+        "cell_id": "golden_contaminated_c00334",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.796128273010254,
+        "y": -2.6123034954071045,
+        "p": 0.023844405610073865,
+        "cell_id": "golden_contaminated_c00335",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0413918495178223,
+        "y": 1.8642160892486572,
+        "p": 0.03375715673098578,
+        "cell_id": "golden_contaminated_c00336",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5056231021881104,
+        "y": -0.38271355628967285,
+        "p": 0.047799260733383794,
+        "cell_id": "golden_contaminated_c00337",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.8684705495834351,
+        "y": 1.1336625814437866,
+        "p": 0.15242918401169708,
+        "cell_id": "golden_contaminated_c00339",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.23225688934326172,
+        "y": 0.08944320678710938,
+        "p": 0.05444241726967314,
+        "cell_id": "golden_contaminated_c00340",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.2180453538894653,
+        "y": 1.2449266910552979,
+        "p": 0.09300840141828466,
+        "cell_id": "golden_contaminated_c00341",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.3733246326446533,
+        "y": 0.4810035228729248,
+        "p": 0.046982137492121594,
+        "cell_id": "golden_contaminated_c00342",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.9460546970367432,
+        "y": 0.2595182955265045,
+        "p": 0.052546525401577324,
+        "cell_id": "golden_contaminated_c00343",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.6960549354553223,
+        "y": -1.1473881006240845,
+        "p": 0.034718300391860774,
+        "cell_id": "golden_contaminated_c00344",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0224180221557617,
+        "y": -1.3156023025512695,
+        "p": 0.030394979826404288,
+        "cell_id": "golden_contaminated_c00345",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.621433258056641,
+        "y": -1.9585829973220825,
+        "p": 0.8319779356822683,
+        "cell_id": "golden_contaminated_c00346",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -3.2961244583129883,
+        "y": -0.32594388723373413,
+        "p": 0.3804013723534627,
+        "cell_id": "golden_contaminated_c00348",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.5113528966903687,
+        "y": 0.18495520949363708,
+        "p": 0.11708778603970968,
+        "cell_id": "golden_contaminated_c00350",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.220932960510254,
+        "y": -0.3935062885284424,
+        "p": 0.030183426128835955,
+        "cell_id": "golden_contaminated_c00351",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.11999368667602539,
+        "y": 1.04281485080719,
+        "p": 0.05338611734576614,
+        "cell_id": "golden_contaminated_c00352",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.2672553062438965,
+        "y": 1.4251070022583008,
+        "p": 0.05114194166493237,
+        "cell_id": "golden_contaminated_c00353",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.365579605102539,
+        "y": 1.4833440780639648,
+        "p": 0.028116465355584354,
+        "cell_id": "golden_contaminated_c00354",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.6494927406311035,
+        "y": 0.17899870872497559,
+        "p": 0.04390805051547646,
+        "cell_id": "golden_contaminated_c00355",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.9327466487884521,
+        "y": 1.0598689317703247,
+        "p": 0.24117111008248765,
+        "cell_id": "golden_contaminated_c00356",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.7112152576446533,
+        "y": -1.4647647142410278,
+        "p": 0.15266863752787418,
+        "cell_id": "golden_contaminated_c00357",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.7523798942565918,
+        "y": -2.0906052589416504,
+        "p": 0.15333499631372283,
+        "cell_id": "golden_contaminated_c00358",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.07752132415771484,
+        "y": 0.31869786977767944,
+        "p": 0.05197030174797086,
+        "cell_id": "golden_contaminated_c00360",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.1291184425354004,
+        "y": 2.1005356311798096,
+        "p": 0.04319506444314669,
+        "cell_id": "golden_contaminated_c00361",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5272719860076904,
+        "y": -0.1427704095840454,
+        "p": 0.0611106653386633,
+        "cell_id": "golden_contaminated_c00362",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.036086082458496,
+        "y": -1.663388729095459,
+        "p": 0.02488657465759762,
+        "cell_id": "golden_contaminated_c00364",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.1062214374542236,
+        "y": 0.6494386792182922,
+        "p": 0.03295799447406747,
+        "cell_id": "golden_contaminated_c00365",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.5175623893737793,
+        "y": 0.5872910022735596,
+        "p": 0.03548290268296736,
+        "cell_id": "golden_contaminated_c00366",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.9310088157653809,
+        "y": 0.7683888673782349,
+        "p": 0.03468283837814735,
+        "cell_id": "golden_contaminated_c00367",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.5173542499542236,
+        "y": -1.7936758995056152,
+        "p": 0.06981312144447223,
+        "cell_id": "golden_contaminated_c00368",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.8199539184570312,
+        "y": 0.8644837141036987,
+        "p": 0.22231259792328828,
+        "cell_id": "golden_contaminated_c00369",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.8937094211578369,
+        "y": -1.5064728260040283,
+        "p": 0.05470101938001731,
+        "cell_id": "golden_contaminated_c00370",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5998997688293457,
+        "y": 0.24041295051574707,
+        "p": 0.06275188519922889,
+        "cell_id": "golden_contaminated_c00371",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.07011580467224121,
+        "y": -0.5214016437530518,
+        "p": 0.058332861504200986,
+        "cell_id": "golden_contaminated_c00372",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.2152236700057983,
+        "y": -0.6916902661323547,
+        "p": 0.1392658805569319,
+        "cell_id": "golden_contaminated_c00373",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.333178997039795,
+        "y": 0.3060978055000305,
+        "p": 0.08428607050986688,
+        "cell_id": "golden_contaminated_c00374",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.4222235679626465,
+        "y": -2.1698157787323,
+        "p": 0.08038817030193482,
+        "cell_id": "golden_contaminated_c00375",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.4446725845336914,
+        "y": 0.15139704942703247,
+        "p": 0.13649423810359573,
+        "cell_id": "golden_contaminated_c00376",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.7564470767974854,
+        "y": 0.571040689945221,
+        "p": 0.06152981034198575,
+        "cell_id": "golden_contaminated_c00377",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.4395592212677002,
+        "y": 0.8818488121032715,
+        "p": 0.0369879944456605,
+        "cell_id": "golden_contaminated_c00378",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.0602917671203613,
+        "y": -1.5644792318344116,
+        "p": 0.27528192263424855,
+        "cell_id": "golden_contaminated_c00379",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.5654261112213135,
+        "y": -2.3402321338653564,
+        "p": 0.4726204713039704,
+        "cell_id": "golden_contaminated_c00380",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.5312168598175049,
+        "y": 1.0152772665023804,
+        "p": 0.05140361857466523,
+        "cell_id": "golden_contaminated_c00381",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.6431479454040527,
+        "y": 0.05608820915222168,
+        "p": 0.03857956119011742,
+        "cell_id": "golden_contaminated_c00383",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.3649928569793701,
+        "y": 0.8630020618438721,
+        "p": 0.4214859506170274,
+        "cell_id": "golden_contaminated_c00384",
+        "class": "ambiguous"
+      },
+      {
+        "x": 3.3336892127990723,
+        "y": -1.9420887231826782,
+        "p": 0.024259292090676128,
+        "cell_id": "golden_contaminated_c00386",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.37909388542175293,
+        "y": -0.34132450819015503,
+        "p": 0.06959590558151713,
+        "cell_id": "golden_contaminated_c00387",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.3875045776367188,
+        "y": -0.5305995941162109,
+        "p": 0.037252620158256075,
+        "cell_id": "golden_contaminated_c00389",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.9680607318878174,
+        "y": -1.0149885416030884,
+        "p": 0.036559739556546005,
+        "cell_id": "golden_contaminated_c00390",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.642937660217285,
+        "y": 1.2866562604904175,
+        "p": 0.4027778033949766,
+        "cell_id": "golden_contaminated_c00391",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.7111716270446777,
+        "y": 1.2420563697814941,
+        "p": 0.06151401843104658,
+        "cell_id": "golden_contaminated_c00393",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.7261505126953125,
+        "y": -2.247706174850464,
+        "p": 0.33530800497880275,
+        "cell_id": "golden_contaminated_c00394",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.3027420043945312,
+        "y": 0.08554127812385559,
+        "p": 0.09131762805869563,
+        "cell_id": "golden_contaminated_c00395",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.04321122169494629,
+        "y": 1.7255779504776,
+        "p": 0.047825245299742324,
+        "cell_id": "golden_contaminated_c00396",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.5527327060699463,
+        "y": 0.9365315437316895,
+        "p": 0.08360859161163323,
+        "cell_id": "golden_contaminated_c00397",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0194413661956787,
+        "y": 0.3607439398765564,
+        "p": 0.033338188494532704,
+        "cell_id": "golden_contaminated_c00399",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.3302755355834961,
+        "y": 1.8183369636535645,
+        "p": 0.08218354079429961,
+        "cell_id": "golden_contaminated_c00401",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0830793380737305,
+        "y": 0.6874946355819702,
+        "p": 0.04166232858510387,
+        "cell_id": "golden_contaminated_c00402",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.6258087158203125,
+        "y": -1.3358359336853027,
+        "p": 0.6533602280752157,
+        "cell_id": "golden_contaminated_c00404",
+        "class": "model_only_psc"
+      },
+      {
+        "x": 0.6695060729980469,
+        "y": 0.8040788173675537,
+        "p": 0.06002756685228049,
+        "cell_id": "golden_contaminated_c00405",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.6547236442565918,
+        "y": 0.5168150067329407,
+        "p": 0.07712829317658979,
+        "cell_id": "golden_contaminated_c00406",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.3019366264343262,
+        "y": 2.518723487854004,
+        "p": 0.10389998527647945,
+        "cell_id": "golden_contaminated_c00409",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.4859535694122314,
+        "y": -1.1940664052963257,
+        "p": 0.041538298753616046,
+        "cell_id": "golden_contaminated_c00410",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.5629262924194336,
+        "y": -0.6818920373916626,
+        "p": 0.05874923570128217,
+        "cell_id": "golden_contaminated_c00411",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.6068949699401855,
+        "y": 0.8605694770812988,
+        "p": 0.08404377290124179,
+        "cell_id": "golden_contaminated_c00412",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.4703221321105957,
+        "y": 0.7792038917541504,
+        "p": 0.15051139324408766,
+        "cell_id": "golden_contaminated_c00413",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7860063314437866,
+        "y": -0.7012744545936584,
+        "p": 0.08844481823184736,
+        "cell_id": "golden_contaminated_c00415",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.7734413146972656,
+        "y": -1.0196855068206787,
+        "p": 0.03712309275520531,
+        "cell_id": "golden_contaminated_c00417",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.786846160888672,
+        "y": -0.6021015644073486,
+        "p": 0.6873403762623485,
+        "cell_id": "golden_contaminated_c00418",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -0.15219354629516602,
+        "y": -1.7984895706176758,
+        "p": 0.060594830337830634,
+        "cell_id": "golden_contaminated_c00420",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7312135696411133,
+        "y": -0.8951469659805298,
+        "p": 0.04660793015489664,
+        "cell_id": "golden_contaminated_c00421",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.5672595500946045,
+        "y": -1.638542652130127,
+        "p": 0.20818314521043713,
+        "cell_id": "golden_contaminated_c00422",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.05927920341491699,
+        "y": 1.0392062664031982,
+        "p": 0.0590462450277942,
+        "cell_id": "golden_contaminated_c00423",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.886784553527832,
+        "y": 0.15665960311889648,
+        "p": 0.038234576001422646,
+        "cell_id": "golden_contaminated_c00424",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.467219829559326,
+        "y": -0.7911230325698853,
+        "p": 0.029290873016342672,
+        "cell_id": "golden_contaminated_c00425",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.1017820835113525,
+        "y": -1.6819251775741577,
+        "p": 0.2016579537166528,
+        "cell_id": "golden_contaminated_c00426",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.4654812812805176,
+        "y": -0.6206541657447815,
+        "p": 0.03010783111309122,
+        "cell_id": "golden_contaminated_c00427",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.4275928735733032,
+        "y": 0.030784547328948975,
+        "p": 0.07435125361528788,
+        "cell_id": "golden_contaminated_c00428",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.0506901741027832,
+        "y": -0.9614240527153015,
+        "p": 0.06701533488238737,
+        "cell_id": "golden_contaminated_c00429",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.3039870262145996,
+        "y": -1.7784373760223389,
+        "p": 0.06918198902540235,
+        "cell_id": "golden_contaminated_c00431",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.5559496879577637,
+        "y": -3.919066905975342,
+        "p": 0.6834490408799553,
+        "cell_id": "golden_contaminated_c00432",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 2.1245970726013184,
+        "y": 0.37376904487609863,
+        "p": 0.03287096684987415,
+        "cell_id": "golden_contaminated_c00433",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.0366363525390625,
+        "y": -0.13677096366882324,
+        "p": 0.09011047397837187,
+        "cell_id": "golden_contaminated_c00434",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.593193292617798,
+        "y": -0.09491416811943054,
+        "p": 0.09041547578094486,
+        "cell_id": "golden_contaminated_c00435",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7095990180969238,
+        "y": 2.058506488800049,
+        "p": 0.03365867864370668,
+        "cell_id": "golden_contaminated_c00436",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.8736915588378906,
+        "y": 0.6875977516174316,
+        "p": 0.1803580640578716,
+        "cell_id": "golden_contaminated_c00437",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.382021427154541,
+        "y": 1.0811444520950317,
+        "p": 0.045388127881934026,
+        "cell_id": "golden_contaminated_c00438",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.026113510131836,
+        "y": 0.5441751480102539,
+        "p": 0.031357676296399406,
+        "cell_id": "golden_contaminated_c00439",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.1806566715240479,
+        "y": 0.8519997596740723,
+        "p": 0.027573059036744132,
+        "cell_id": "golden_contaminated_c00441",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.3491518497467041,
+        "y": 1.3222112655639648,
+        "p": 0.058124249599199186,
+        "cell_id": "golden_contaminated_c00442",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.761800765991211,
+        "y": -2.1950738430023193,
+        "p": 0.03636781359490227,
+        "cell_id": "golden_contaminated_c00443",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.7995150089263916,
+        "y": 0.3202817440032959,
+        "p": 0.03259461055536808,
+        "cell_id": "golden_contaminated_c00444",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.4769555330276489,
+        "y": 0.15478485822677612,
+        "p": 0.07805025165221954,
+        "cell_id": "golden_contaminated_c00445",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.39055585861206055,
+        "y": 0.31313520669937134,
+        "p": 0.08208467818892695,
+        "cell_id": "golden_contaminated_c00446",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.721179485321045,
+        "y": -1.7862510681152344,
+        "p": 0.17251643079268292,
+        "cell_id": "golden_contaminated_c00448",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.9362339973449707,
+        "y": -0.47407418489456177,
+        "p": 0.03157908667109441,
+        "cell_id": "golden_contaminated_c00449",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 3.5270161628723145,
+        "y": 0.6746337413787842,
+        "p": 0.023706173645586845,
+        "cell_id": "golden_contaminated_c00450",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5554084777832031,
+        "y": 0.0020752251148223877,
+        "p": 0.06559761965985507,
+        "cell_id": "golden_contaminated_c00451",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7483521699905396,
+        "y": 1.1381779909133911,
+        "p": 0.06551422963843204,
+        "cell_id": "golden_contaminated_c00452",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.796412467956543,
+        "y": 1.169250726699829,
+        "p": 0.03464348487928667,
+        "cell_id": "golden_contaminated_c00453",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.532555103302002,
+        "y": -0.12032529711723328,
+        "p": 0.263835007434722,
+        "cell_id": "golden_contaminated_c00454",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.5159285068511963,
+        "y": 0.689050555229187,
+        "p": 0.10780028064937436,
+        "cell_id": "golden_contaminated_c00456",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0193665027618408,
+        "y": -0.33552974462509155,
+        "p": 0.07172605249187818,
+        "cell_id": "golden_contaminated_c00457",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.20111489295959473,
+        "y": -0.8329353332519531,
+        "p": 0.11219149716316172,
+        "cell_id": "golden_contaminated_c00458",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5275580883026123,
+        "y": -0.4984358549118042,
+        "p": 0.10642237450283012,
+        "cell_id": "golden_contaminated_c00459",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.3070943355560303,
+        "y": 0.3751389980316162,
+        "p": 0.16701474672139185,
+        "cell_id": "golden_contaminated_c00460",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.46521520614624023,
+        "y": -1.8257088661193848,
+        "p": 0.05710928283329125,
+        "cell_id": "golden_contaminated_c00461",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.4971921443939209,
+        "y": 0.16893047094345093,
+        "p": 0.0818893536076705,
+        "cell_id": "golden_contaminated_c00463",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.3608620166778564,
+        "y": 0.5459432005882263,
+        "p": 0.22654434444989835,
+        "cell_id": "golden_contaminated_c00464",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.997536301612854,
+        "y": 0.8114415407180786,
+        "p": 0.0966964660304073,
+        "cell_id": "golden_contaminated_c00465",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.8249759674072266,
+        "y": 0.7782686948776245,
+        "p": 0.026680611502603056,
+        "cell_id": "golden_contaminated_c00466",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.036344051361084,
+        "y": -0.5960410833358765,
+        "p": 0.03972178951954529,
+        "cell_id": "golden_contaminated_c00467",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.569136381149292,
+        "y": -1.2006654739379883,
+        "p": 0.06634532957536511,
+        "cell_id": "golden_contaminated_c00468",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.877868175506592,
+        "y": 0.38566362857818604,
+        "p": 0.2947968698203228,
+        "cell_id": "golden_contaminated_c00469",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 4.638633728027344,
+        "y": -4.251285552978516,
+        "p": 0.01998547718831131,
+        "cell_id": "golden_contaminated_c00470",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.4386059045791626,
+        "y": 1.4608582258224487,
+        "p": 0.06023833732542848,
+        "cell_id": "golden_contaminated_c00473",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0180091857910156,
+        "y": -0.42689961194992065,
+        "p": 0.03385728549059483,
+        "cell_id": "golden_contaminated_c00474",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.9354569911956787,
+        "y": -0.5811031460762024,
+        "p": 0.2098694136315174,
+        "cell_id": "golden_contaminated_c00475",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.161086082458496,
+        "y": -0.342789888381958,
+        "p": 0.05848102659413592,
+        "cell_id": "golden_contaminated_c00477",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.40862083435058594,
+        "y": -1.1473379135131836,
+        "p": 0.05304849556689936,
+        "cell_id": "golden_contaminated_c00478",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.6563588380813599,
+        "y": 0.9978728294372559,
+        "p": 0.10867727037017455,
+        "cell_id": "golden_contaminated_c00479",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.085350751876831,
+        "y": 0.6578932404518127,
+        "p": 0.04908641823749453,
+        "cell_id": "golden_contaminated_c00480",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -3.079296112060547,
+        "y": -0.41256168484687805,
+        "p": 0.21723480761141903,
+        "cell_id": "golden_contaminated_c00481",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.973120093345642,
+        "y": 1.0193994045257568,
+        "p": 0.16496533653155704,
+        "cell_id": "golden_contaminated_c00482",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.3916778564453125,
+        "y": 0.8208144903182983,
+        "p": 0.3633552929113214,
+        "cell_id": "golden_contaminated_c00483",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.343144178390503,
+        "y": 0.18563780188560486,
+        "p": 0.03311090797448102,
+        "cell_id": "golden_contaminated_c00485",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.5418567657470703,
+        "y": -0.292117178440094,
+        "p": 0.03648064978356242,
+        "cell_id": "golden_contaminated_c00487",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.21686196327209473,
+        "y": 0.6192933320999146,
+        "p": 0.11390626296133374,
+        "cell_id": "golden_contaminated_c00488",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.3264968395233154,
+        "y": 0.9212856292724609,
+        "p": 0.04132932425505352,
+        "cell_id": "golden_contaminated_c00490",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.7651309967041016,
+        "y": -0.09854009747505188,
+        "p": 0.03879048140062946,
+        "cell_id": "golden_contaminated_c00492",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.2535154819488525,
+        "y": 1.615333914756775,
+        "p": 0.14414754142318975,
+        "cell_id": "golden_contaminated_c00493",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.2763810157775879,
+        "y": 1.1356306076049805,
+        "p": 0.07417534682759822,
+        "cell_id": "golden_contaminated_c00494",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.310710906982422,
+        "y": 0.26222848892211914,
+        "p": 0.46777595733517063,
+        "cell_id": "golden_contaminated_c00495",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.7420496940612793,
+        "y": 1.1485850811004639,
+        "p": 0.0495568192524454,
+        "cell_id": "golden_contaminated_c00496",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.4385640621185303,
+        "y": -1.24403977394104,
+        "p": 0.06310912578597674,
+        "cell_id": "golden_contaminated_c00497",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.7179341316223145,
+        "y": -0.03990429639816284,
+        "p": 0.12614472754705788,
+        "cell_id": "golden_contaminated_c00498",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.9823968410491943,
+        "y": 0.032615602016448975,
+        "p": 0.052206597729449945,
+        "cell_id": "golden_contaminated_c00499",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.2884676456451416,
+        "y": 0.3648263216018677,
+        "p": 0.031201278621474378,
+        "cell_id": "golden_contaminated_c00500",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.4606003761291504,
+        "y": 1.6818187236785889,
+        "p": 0.024658219497453993,
+        "cell_id": "golden_contaminated_c00501",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.2022078037261963,
+        "y": 0.7226203680038452,
+        "p": 0.30749153593649947,
+        "cell_id": "golden_contaminated_c00502",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.6215393543243408,
+        "y": -1.3357110023498535,
+        "p": 0.1934101181314244,
+        "cell_id": "golden_contaminated_c00503",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.372830867767334,
+        "y": 0.8253530263900757,
+        "p": 0.0330071886862063,
+        "cell_id": "golden_contaminated_c00504",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.9942383766174316,
+        "y": -2.2495737075805664,
+        "p": 0.05828337194322667,
+        "cell_id": "golden_contaminated_c00505",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.066044569015503,
+        "y": -0.24207758903503418,
+        "p": 0.04396121601402519,
+        "cell_id": "golden_contaminated_c00507",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.5062518119812012,
+        "y": 1.0423192977905273,
+        "p": 0.05980039741275083,
+        "cell_id": "golden_contaminated_c00508",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.1493542194366455,
+        "y": -0.7916381359100342,
+        "p": 0.06908263568002983,
+        "cell_id": "golden_contaminated_c00509",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.8397843837738037,
+        "y": 0.717658281326294,
+        "p": 0.13035463660861815,
+        "cell_id": "golden_contaminated_c00510",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.6435768604278564,
+        "y": -0.14314857125282288,
+        "p": 0.038788877966480735,
+        "cell_id": "golden_contaminated_c00511",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.05419778823852539,
+        "y": -0.6329251527786255,
+        "p": 0.11586194037702928,
+        "cell_id": "golden_contaminated_c00512",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.0690513849258423,
+        "y": 0.6158484220504761,
+        "p": 0.08786733884805506,
+        "cell_id": "golden_contaminated_c00513",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.76159930229187,
+        "y": -0.9949618577957153,
+        "p": 0.17317732492563034,
+        "cell_id": "golden_contaminated_c00514",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.8305912017822266,
+        "y": 0.7076356410980225,
+        "p": 0.11833803238222032,
+        "cell_id": "golden_contaminated_c00516",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.18812203407287598,
+        "y": 0.7223532795906067,
+        "p": 0.06123115422549634,
+        "cell_id": "golden_contaminated_c00517",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -4.160615921020508,
+        "y": 0.26609933376312256,
+        "p": 0.6211741622258604,
+        "cell_id": "golden_contaminated_c00518",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 1.9752116203308105,
+        "y": -0.6441162824630737,
+        "p": 0.039358945422071606,
+        "cell_id": "golden_contaminated_c00519",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.5562937259674072,
+        "y": -1.2096303701400757,
+        "p": 0.032614708087877545,
+        "cell_id": "golden_contaminated_c00520",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.5136780738830566,
+        "y": -1.4360921382904053,
+        "p": 0.1194869803174422,
+        "cell_id": "golden_contaminated_c00521",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.5950615406036377,
+        "y": -0.31852811574935913,
+        "p": 0.48373910425817007,
+        "cell_id": "golden_contaminated_c00522",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.7699904441833496,
+        "y": -0.4972687065601349,
+        "p": 0.1878668521791727,
+        "cell_id": "golden_contaminated_c00524",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.22127914428710938,
+        "y": 1.57938551902771,
+        "p": 0.05810682472320979,
+        "cell_id": "golden_contaminated_c00525",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.5946235656738281,
+        "y": 3.2973036766052246,
+        "p": 0.04737453155367763,
+        "cell_id": "golden_contaminated_c00526",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.655766487121582,
+        "y": -2.631589889526367,
+        "p": 0.03956381327063474,
+        "cell_id": "golden_contaminated_c00527",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.1428868770599365,
+        "y": 0.5800964832305908,
+        "p": 0.11961081905242935,
+        "cell_id": "golden_contaminated_c00528",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.0587092638015747,
+        "y": -0.04096817970275879,
+        "p": 0.15527405607834466,
+        "cell_id": "golden_contaminated_c00529",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.8542290925979614,
+        "y": 1.0031538009643555,
+        "p": 0.069969598490583,
+        "cell_id": "golden_contaminated_c00530",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.3044211864471436,
+        "y": 0.3444359302520752,
+        "p": 0.21917227238138087,
+        "cell_id": "golden_contaminated_c00531",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.525623321533203,
+        "y": -0.200272798538208,
+        "p": 0.024791124079839882,
+        "cell_id": "golden_contaminated_c00532",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.478424072265625,
+        "y": 2.3184750080108643,
+        "p": 0.045035872502021096,
+        "cell_id": "golden_contaminated_c00533",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.6308159828186035,
+        "y": 0.944031834602356,
+        "p": 0.04891122185951868,
+        "cell_id": "golden_contaminated_c00535",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.8161358833312988,
+        "y": -0.5233101844787598,
+        "p": 0.03118233856643897,
+        "cell_id": "golden_contaminated_c00536",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.6363511085510254,
+        "y": 0.5927890539169312,
+        "p": 0.14923743007253443,
+        "cell_id": "golden_contaminated_c00537",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.9290757179260254,
+        "y": -0.20356330275535583,
+        "p": 0.15871973318318738,
+        "cell_id": "golden_contaminated_c00538",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.27399230003356934,
+        "y": -4.397022247314453,
+        "p": 0.08521641659354133,
+        "cell_id": "golden_contaminated_c00539",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -1.8253214359283447,
+        "y": 2.4814071655273438,
+        "p": 0.17854933171483517,
+        "cell_id": "golden_contaminated_c00540",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.563493251800537,
+        "y": 0.5487864017486572,
+        "p": 0.03679239952194435,
+        "cell_id": "golden_contaminated_c00541",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.6221463680267334,
+        "y": -0.10607382655143738,
+        "p": 0.0438895693853414,
+        "cell_id": "golden_contaminated_c00542",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.7719542980194092,
+        "y": 1.146751880645752,
+        "p": 0.05852776520257583,
+        "cell_id": "golden_contaminated_c00543",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.991288185119629,
+        "y": 0.026326239109039307,
+        "p": 0.7163910280945543,
+        "cell_id": "golden_contaminated_c00544",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": 0.5632662773132324,
+        "y": 0.04629838466644287,
+        "p": 0.04681624352438574,
+        "cell_id": "golden_contaminated_c00547",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.766911506652832,
+        "y": -0.7530010938644409,
+        "p": 0.03178287431900844,
+        "cell_id": "golden_contaminated_c00548",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.060427188873291016,
+        "y": 2.7326719760894775,
+        "p": 0.07103554885903621,
+        "cell_id": "golden_contaminated_c00549",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.0717101097106934,
+        "y": 1.317345142364502,
+        "p": 0.03014459879957418,
+        "cell_id": "golden_contaminated_c00550",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7226251363754272,
+        "y": -2.846867322921753,
+        "p": 0.13763375906599795,
+        "cell_id": "golden_contaminated_c00551",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -2.4760448932647705,
+        "y": 1.072881817817688,
+        "p": 0.13643656145293437,
+        "cell_id": "golden_contaminated_c00552",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.5021591186523438,
+        "y": 0.4927947521209717,
+        "p": 0.028840631016566344,
+        "cell_id": "golden_contaminated_c00553",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.3038337230682373,
+        "y": -1.0256110429763794,
+        "p": 0.03214708644310818,
+        "cell_id": "golden_contaminated_c00554",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.11980438232421875,
+        "y": 2.8723320960998535,
+        "p": 0.06122488392526624,
+        "cell_id": "golden_contaminated_c00555",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.2427208423614502,
+        "y": 0.876903772354126,
+        "p": 0.0880507896135898,
+        "cell_id": "golden_contaminated_c00556",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.4533467292785645,
+        "y": 1.3445789813995361,
+        "p": 0.026809026315643608,
+        "cell_id": "golden_contaminated_c00557",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.12994122505187988,
+        "y": 0.1558382511138916,
+        "p": 0.06126967213247426,
+        "cell_id": "golden_contaminated_c00558",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.6271929740905762,
+        "y": -0.1956501603126526,
+        "p": 0.06531111152815812,
+        "cell_id": "golden_contaminated_c00559",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.312512159347534,
+        "y": -0.9644869565963745,
+        "p": 0.622910728526745,
+        "cell_id": "golden_contaminated_c00560",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -1.7735520601272583,
+        "y": -0.5251704454421997,
+        "p": 0.12065637135960283,
+        "cell_id": "golden_contaminated_c00561",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.8590555191040039,
+        "y": 1.0597834587097168,
+        "p": 0.22443991700072935,
+        "cell_id": "golden_contaminated_c00562",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.7948966026306152,
+        "y": -0.5997662544250488,
+        "p": 0.05254890184911179,
+        "cell_id": "golden_contaminated_c00563",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.9373544454574585,
+        "y": -2.1152849197387695,
+        "p": 0.14732795896727408,
+        "cell_id": "golden_contaminated_c00565",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 0.6061184406280518,
+        "y": 1.4691996574401855,
+        "p": 0.05540672037608862,
+        "cell_id": "golden_contaminated_c00566",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.2648684978485107,
+        "y": 1.1871365308761597,
+        "p": 0.043853458602703274,
+        "cell_id": "golden_contaminated_c00567",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.9847469329833984,
+        "y": -2.0672459602355957,
+        "p": 0.02781613252332755,
+        "cell_id": "golden_contaminated_c00568",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.8349595069885254,
+        "y": -1.2171046733856201,
+        "p": 0.03300194503596909,
+        "cell_id": "golden_contaminated_c00569",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.2771990299224854,
+        "y": -0.01691022515296936,
+        "p": 0.5990176998630896,
+        "cell_id": "golden_contaminated_c00570",
+        "class": "high_confidence_psc"
+      },
+      {
+        "x": -3.058384656906128,
+        "y": -1.1021027565002441,
+        "p": 0.11796973362979335,
+        "cell_id": "golden_contaminated_c00571",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.9150266647338867,
+        "y": 2.064756393432617,
+        "p": 0.40579389970544305,
+        "cell_id": "golden_contaminated_c00572",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.5758752822875977,
+        "y": 0.1307775378227234,
+        "p": 0.033200631430982126,
+        "cell_id": "golden_contaminated_c00573",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -4.226527214050293,
+        "y": -0.9172702431678772,
+        "p": 0.48562227663287605,
+        "cell_id": "golden_contaminated_c00576",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 1.711172103881836,
+        "y": 0.6782540678977966,
+        "p": 0.04353616805460009,
+        "cell_id": "golden_contaminated_c00578",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 2.803142547607422,
+        "y": 0.37786656618118286,
+        "p": 0.026888178736981672,
+        "cell_id": "golden_contaminated_c00581",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.0807769298553467,
+        "y": -0.5755475759506226,
+        "p": 0.06674873644169098,
+        "cell_id": "golden_contaminated_c00582",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.08535146713256836,
+        "y": 0.7018120288848877,
+        "p": 0.07288058458724478,
+        "cell_id": "golden_contaminated_c00584",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.8151640892028809,
+        "y": -1.3957616090774536,
+        "p": 0.036941993173883636,
+        "cell_id": "golden_contaminated_c00585",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -3.4993834495544434,
+        "y": 0.6609793305397034,
+        "p": 0.35248906727049917,
+        "cell_id": "golden_contaminated_c00586",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": -0.3606834411621094,
+        "y": 0.37135928869247437,
+        "p": 0.09592961963525673,
+        "cell_id": "golden_contaminated_c00587",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.8341150283813477,
+        "y": 1.7864727973937988,
+        "p": 0.04034431691677609,
+        "cell_id": "golden_contaminated_c00588",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -1.089455485343933,
+        "y": 1.1683740615844727,
+        "p": 0.0993075246567029,
+        "cell_id": "golden_contaminated_c00589",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.8013834953308105,
+        "y": -0.04851102828979492,
+        "p": 0.0462104490037146,
+        "cell_id": "golden_contaminated_c00590",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 3.9786787033081055,
+        "y": 0.6841875910758972,
+        "p": 0.022633608073388663,
+        "cell_id": "golden_contaminated_c00591",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.12236833572387695,
+        "y": 0.047649502754211426,
+        "p": 0.06651292687879808,
+        "cell_id": "golden_contaminated_c00592",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -0.7099699974060059,
+        "y": 0.4962525963783264,
+        "p": 0.09577277768933151,
+        "cell_id": "golden_contaminated_c00593",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 2.2165613174438477,
+        "y": -1.9940003156661987,
+        "p": 0.02554933131584823,
+        "cell_id": "golden_contaminated_c00594",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.890878677368164,
+        "y": 0.005379870533943176,
+        "p": 0.03975440681207007,
+        "cell_id": "golden_contaminated_c00595",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.108839750289917,
+        "y": -1.1617002487182617,
+        "p": 0.046742493737488525,
+        "cell_id": "golden_contaminated_c00596",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": -2.0130324363708496,
+        "y": 0.6604338884353638,
+        "p": 0.11161291626909522,
+        "cell_id": "golden_contaminated_c00598",
+        "class": "biomarker_only_psc"
+      },
+      {
+        "x": 0.8272724151611328,
+        "y": 1.753679633140564,
+        "p": 0.043155544059257846,
+        "cell_id": "golden_contaminated_c00599",
+        "class": "high_confidence_negative"
+      }
+    ],
+    "method": "pca",
+    "n_cells_total": 500,
+    "n_cells_projected": 500,
+    "x_range": [
+      -4.991288185119629,
+      4.813024520874023
+    ],
+    "y_range": [
+      -4.397022247314453,
+      3.8748245239257812
+    ]
+  },
+  "gene_heatmap": {
+    "genes": [
+      "POU5F1",
+      "NANOG",
+      "SOX2",
+      "LIN28A",
+      "KLF4",
+      "MYC",
+      "ZFP42",
+      "ESRG"
+    ],
+    "top_cells": [
+      {
+        "cell_id": "golden_contaminated_c00147",
+        "p": 0.8676383880694003,
+        "values": [
+          0.0,
+          5.256210803985596,
+          0.0,
+          6.74008846282959,
+          6.235978126525879,
+          0.0,
+          3.388936996459961,
+          7.403861999511719
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00346",
+        "p": 0.8319779356822683,
+        "values": [
+          7.5600080490112305,
+          4.395044326782227,
+          1.3898800611495972,
+          0.0,
+          3.593442440032959,
+          0.0,
+          4.094269752502441,
+          7.377252101898193
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00300",
+        "p": 0.7898621335092608,
+        "values": [
+          4.534403324127197,
+          3.2328743934631348,
+          3.868037223815918,
+          2.9624969959259033,
+          2.6918981075286865,
+          3.469573736190796,
+          3.0120511054992676,
+          4.684332847595215
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00150",
+        "p": 0.7870581516434431,
+        "values": [
+          0.0,
+          5.129460334777832,
+          2.792938232421875,
+          0.0,
+          3.989140033721924,
+          3.0339555740356445,
+          4.754583835601807,
+          2.7621877193450928
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00012",
+        "p": 0.7277847041145664,
+        "values": [
+          2.6738529205322266,
+          2.8325796127319336,
+          0.12051047384738922,
+          2.735010862350464,
+          2.619974374771118,
+          0.11027843505144119,
+          2.9440133571624756,
+          3.428208112716675
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00544",
+        "p": 0.7163910280945543,
+        "values": [
+          0.0,
+          4.441037654876709,
+          6.227989196777344,
+          0.0,
+          5.143773555755615,
+          6.7607269287109375,
+          6.726292610168457,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00212",
+        "p": 0.6931540487941814,
+        "values": [
+          2.9283945560455322,
+          3.745504140853882,
+          2.7171082496643066,
+          0.0,
+          0.0,
+          4.782308101654053,
+          4.767739772796631,
+          3.665942907333374
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00418",
+        "p": 0.6873403762623485,
+        "values": [
+          4.4789862632751465,
+          0.0,
+          0.0,
+          2.608018398284912,
+          2.974996566772461,
+          2.0775041580200195,
+          2.669431447982788,
+          5.560131072998047
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00432",
+        "p": 0.6834490408799553,
+        "values": [
+          0.0,
+          4.16287899017334,
+          2.383875846862793,
+          0.0,
+          2.568984270095825,
+          2.226930618286133,
+          4.075833320617676,
+          3.247864246368408
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00088",
+        "p": 0.680760995974556,
+        "values": [
+          4.8511247634887695,
+          2.8138983249664307,
+          2.5328192710876465,
+          3.566581964492798,
+          2.9393439292907715,
+          2.840278148651123,
+          3.827430248260498,
+          2.453003406524658
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00404",
+        "p": 0.6533602280752157,
+        "values": [
+          0.0,
+          2.616286039352417,
+          0.0,
+          2.9934449195861816,
+          2.2153844833374023,
+          3.391923427581787,
+          0.0,
+          4.752660751342773
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00148",
+        "p": 0.6254549608222766,
+        "values": [
+          0.0,
+          3.4329280853271484,
+          0.0,
+          4.3249592781066895,
+          2.1179440021514893,
+          0.0,
+          4.26826286315918,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00560",
+        "p": 0.622910728526745,
+        "values": [
+          0.0,
+          3.370856285095215,
+          3.6353402137756348,
+          3.158633232116699,
+          0.0,
+          4.216273784637451,
+          2.49568772315979,
+          4.357679843902588
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00518",
+        "p": 0.6211741622258604,
+        "values": [
+          2.3791141510009766,
+          3.687650203704834,
+          0.0,
+          0.0,
+          2.764169692993164,
+          2.820651054382324,
+          2.3791141510009766,
+          2.996455669403076
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00570",
+        "p": 0.5990176998630896,
+        "values": [
+          2.3013999462127686,
+          0.0,
+          3.26631498336792,
+          2.8039987087249756,
+          0.0,
+          3.3252298831939697,
+          2.6478967666625977,
+          4.73574686050415
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00312",
+        "p": 0.5975695241690797,
+        "values": [
+          5.717920303344727,
+          3.441819906234741,
+          2.9740355014801025,
+          3.124753713607788,
+          3.5075416564941406,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00221",
+        "p": 0.5549371166398867,
+        "values": [
+          0.0,
+          0.0,
+          3.6654937267303467,
+          2.8065028190612793,
+          1.0379170179367065,
+          2.19018292427063,
+          0.0,
+          3.0318167209625244
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00068",
+        "p": 0.5501654345676954,
+        "values": [
+          0.0,
+          2.6949377059936523,
+          0.0,
+          2.7486441135406494,
+          2.6894049644470215,
+          2.160825252532959,
+          2.112619400024414,
+          3.0795094966888428
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00247",
+        "p": 0.5446967445578006,
+        "values": [
+          0.0,
+          2.350414514541626,
+          3.6221399307250977,
+          3.9259936809539795,
+          0.0,
+          2.304126024246216,
+          2.4776642322540283,
+          3.7443411350250244
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00576",
+        "p": 0.48562227663287605,
+        "values": [
+          0.0650506541132927,
+          3.3493666648864746,
+          2.8261585235595703,
+          0.12032811343669891,
+          4.623462200164795,
+          4.239856719970703,
+          0.10066591948270798,
+          0.01944832317531109
+        ]
+      }
+    ],
+    "bottom_cells": [
+      {
+        "cell_id": "golden_contaminated_c00532",
+        "p": 0.024791124079839882,
+        "values": [
+          1.3752018213272095,
+          1.551275372505188,
+          1.8856570720672607,
+          0.0045430539175868034,
+          2.4309589862823486,
+          0.05750849470496178,
+          2.1107091903686523,
+          0.10037251561880112
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00167",
+        "p": 0.024725691380303234,
+        "values": [
+          1.99733304977417,
+          1.1380928754806519,
+          0.09737112373113632,
+          0.16911786794662476,
+          0.14830605685710907,
+          1.9557522535324097,
+          0.16534560918807983,
+          0.16136345267295837
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00267",
+        "p": 0.02472265146964628,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.2300302982330322,
+          0.0,
+          1.8514491319656372,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00501",
+        "p": 0.024658219497453993,
+        "values": [
+          1.628507375717163,
+          1.423342227935791,
+          1.164924144744873,
+          1.9988707304000854,
+          0.0,
+          0.0,
+          2.440343141555786,
+          1.8618178367614746
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00296",
+        "p": 0.024643019746526062,
+        "values": [
+          2.9574215412139893,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.9447457790374756,
+          0.9226746559143066,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00123",
+        "p": 0.0244256460145394,
+        "values": [
+          0.8649227023124695,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.3010810613632202,
+          1.993265151977539
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00386",
+        "p": 0.024259292090676128,
+        "values": [
+          0.7891933917999268,
+          0.0,
+          0.0,
+          2.4278008937835693,
+          0.0,
+          0.6736053824424744,
+          1.416874885559082,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00192",
+        "p": 0.02404924969334325,
+        "values": [
+          1.5184963941574097,
+          1.3197755813598633,
+          1.4404351711273193,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00335",
+        "p": 0.023844405610073865,
+        "values": [
+          1.2825312614440918,
+          0.0,
+          0.0,
+          0.0,
+          0.05753440037369728,
+          0.0,
+          2.2354042530059814,
+          1.8729736804962158
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00450",
+        "p": 0.023706173645586845,
+        "values": [
+          2.452677011489868,
+          0.0,
+          0.0,
+          0.0,
+          0.8937340974807739,
+          1.8881369829177856,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00077",
+        "p": 0.023671166319752752,
+        "values": [
+          1.3054710626602173,
+          0.0,
+          0.6259965300559998,
+          1.0910905599594116,
+          0.0,
+          0.3883899450302124,
+          1.3054710626602173,
+          0.3883899450302124
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00059",
+        "p": 0.023638898050110088,
+        "values": [
+          0.0,
+          1.5883781909942627,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.7174086570739746,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00084",
+        "p": 0.023563822329950572,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          2.1218156814575195,
+          1.46940279006958,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00065",
+        "p": 0.02349466469102375,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0691564083099365,
+          0.0,
+          1.9032213687896729
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00104",
+        "p": 0.023078197306898612,
+        "values": [
+          0.05420088395476341,
+          1.1718213558197021,
+          1.1367019414901733,
+          0.0,
+          0.0,
+          1.4682888984680176,
+          0.9824153780937195,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00331",
+        "p": 0.023074160955760738,
+        "values": [
+          0.0,
+          1.6590944528579712,
+          0.0,
+          0.0,
+          1.3939248323440552,
+          0.8503537774085999,
+          1.2709920406341553,
+          1.072709560394287
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00591",
+        "p": 0.022633608073388663,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          1.358632206916809,
+          0.0,
+          0.5730184316635132,
+          2.1342978477478027,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00138",
+        "p": 0.022607679871095757,
+        "values": [
+          1.5321571826934814,
+          1.114534616470337,
+          0.0,
+          0.0,
+          0.0,
+          1.9985733032226562,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00299",
+        "p": 0.022420391295363638,
+        "values": [
+          1.2132469415664673,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.42781004309654236,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "golden_contaminated_c00470",
+        "p": 0.01998547718831131,
+        "values": [
+          0.0,
+          0.5600952506065369,
+          1.9314419031143188,
+          0.0,
+          0.0,
+          2.1659538745880127,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "color_scale": "blue(0) -> white(median) -> red(max) on log-normalised expression",
+    "description": "Expression of the 8-gene pluripotency panel in the 20 highest- and 20 lowest-scoring cells."
+  },
+  "batch_history": {
+    "batches": [],
+    "n_previous_batches": 0,
+    "trend": "insufficient history",
+    "current_batch_id": "GOLDEN-TEST"
+  },
+  "input_file": "/home/z/my-project/results/golden_batch.h5ad",
+  "input_total_cells": 600,
+  "subsampled": true,
+  "max_cells_cap": 500,
+  "model_fitted": true,
+  "runtime_seconds": 0.93,
+  "status": "ok"
+}

@@ -1,0 +1,56 @@
+{
+  "sbomVersion": "1.0",
+  "systemName": "resipsc",
+  "systemVersion": "2.0.0",
+  "license": "MIT (code); CC-BY-4.0 (figures and data)",
+  "generatedAtUtc": "2026-10-02T07:30:00Z",
+  "intendedUse": "Research Use Only — NOT FDA-cleared",
+  "pythonRuntime": {
+    "version": "3.12",
+    "components": [
+      { "name": "numpy", "version": "2.1.3", "license": "BSD-3-Clause" },
+      { "name": "scipy", "version": "1.14.1", "license": "BSD-3-Clause" },
+      { "name": "pandas", "version": "2.2.3", "license": "BSD-3-Clause" },
+      { "name": "scikit-learn", "version": "1.5.2", "license": "BSD-3-Clause" },
+      { "name": "xgboost", "version": "2.1.3", "license": "Apache-2.0" },
+      { "name": "anndata", "version": "0.13.4", "license": "BSD-3-Clause" },
+      { "name": "h5py", "version": "3.12.1", "license": "BSD-3-Clause" },
+      { "name": "matplotlib", "version": "3.9.2", "license": "Matplotlib (PSF-style)" },
+      { "name": "harmonypy", "version": "0.0.25", "license": "MIT" },
+      { "name": "reportlab", "version": "4.2.5", "license": "BSD-3-Clause" }
+    ]
+  },
+  "nodeRuntime": {
+    "packageManager": "bun",
+    "components": [
+      { "name": "next", "version": "16.1.1", "license": "MIT" },
+      { "name": "react", "version": "19.0.0", "license": "MIT" },
+      { "name": "react-dom", "version": "19.0.0", "license": "MIT" },
+      { "name": "recharts", "version": "2.15.4", "license": "MIT" },
+      { "name": "typescript", "version": "5.x", "license": "Apache-2.0" },
+      { "name": "tailwindcss", "version": "4.x", "license": "MIT" },
+      { "name": "prisma", "version": "6.11.1", "license": "Apache-2.0" },
+      { "name": "zod", "version": "4.0.2", "license": "MIT" }
+    ],
+    "lockfile": "bun.lock (full transitive closure pinned)"
+  },
+  "internalComponents": [
+    { "name": "resipsc", "version": "2.0.0", "path": "resipsc/", "license": "MIT" },
+    { "name": "resipsc-dashboard", "version": "2.0.0", "path": "src/", "license": "MIT" }
+  ],
+  "dataComponents": [
+    { "name": "pbmc3k", "version": "2016-05-26", "source": "10x Genomics (cf.10xgenomics.com pbmc3k)", "license": "CC-BY-4.0 (10x public data policy)" },
+    { "name": "synthetic-benchmark-corpus", "version": "2.0.0", "source": "resipsc.data.synthetic (in-silico)", "license": "MIT" }
+  ],
+  "securityNotes": [
+    "RBAC-ready API surface; session timeout 15 min (design parameter)",
+    "Audit trail append-only with SHA-256 hash chain (21 CFR Part 11)",
+    "No PHI persisted by the software itself; uploaded data handled as PHI per HIPAA guidance"
+  ],
+  "buildReproducibility": {
+    "deterministic": true,
+    "seeds": [42, 123, 456, 789, 1024],
+    "pythonHashSeed": "42",
+    "configHash": "see results/model_card.json"
+  }
+}

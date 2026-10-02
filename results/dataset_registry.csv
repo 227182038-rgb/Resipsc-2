@@ -1,0 +1,8 @@
+dataset_id,publication,country,protocol,lineage,n_cells,n_psc,psc_pct,source
+wang2023_cardio,Wang et al. 2023 (Cell Rep Med),China,10x Chromium v3,mesoderm,600,108,18.0,synthetic (simulated)
+tanaka2022_da,Tanaka et al. 2022 (Nat Commun),Japan,10x Chromium v2,ectoderm,650,143,22.0,synthetic (simulated)
+muller2021_panc,Müller et al. 2021 (Dev Cell),Germany,Drop-seq,endoderm,550,82,15.0,synthetic (simulated)
+garcia2022_hepato,Garcia et al. 2022 (Hepatology),Spain,10x Chromium v3,endoderm,500,125,25.0,synthetic (simulated)
+chen2024_organoid,Chen et al. 2024 (Cell Stem Cell),USA,10x Chromium v3 + multi-site (US/UK),ectoderm,700,140,20.0,synthetic (simulated)
+nlsu2023_muscle,Nilsson et al. 2023 (Nat Commun),Sweden,10x Chromium v2,mesoderm,580,93,16.0,synthetic (simulated)
+pbmc3k_real,Zheng et al. 2017 (10x pbmc3k),USA,10x Chromium v2,blood (negative reference),800,0,0.0,real (10x Genomics public data)

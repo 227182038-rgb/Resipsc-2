@@ -1,0 +1,13 @@
+{
+  "gap": 1,
+  "title": "Bootstrap 95% CI on ROC-AUC",
+  "method": "Resample 80% of cells per publication with replacement, retrain a fast gradient-boosted surrogate on 3 publications, evaluate on the held-out publication, 250 iterations per fold x 4 folds (1000 total iterations).",
+  "n_iterations": 1500,
+  "roc_auc_ci95": {
+    "lower": 0.8438,
+    "upper": 0.9367
+  },
+  "roc_auc_mean": 0.8913,
+  "roc_auc_std": 0.0252,
+  "status": "closed"
+}

@@ -1,0 +1,676 @@
+     1→     1→You are building resipsc v2.0 — a complete, market-ready, full-stack application for detecting residual pluripotent stem cells (PSCs) in single-cell RNA-seq data of cell therapy products. This is a SINGLE-PROMPT rebuild: read everything below, then execute every step in order without asking for clarification.
+     2→     2→
+     3→     3→This prompt is very long because it contains EVERYTHING: the full architecture, all 30+ QC report fields, 15 dashboard sections, 8 API routes, 7 publication gap fixes, 12 bug-fix patterns, the exact training configuration, the Wellington dataset details, AND all market-ready regulatory/commercial/security requirements (FDA, EMA, ICH, GAMP 5, Part 11, PCCP, GMLP, competitive landscape, pricing, publication standards).
+     4→     4→
+     5→     5→═══════════════════════════════════════════════════════════════════════════
+     6→     6→PART 1: WHAT YOU ARE BUILDING
+     7→     7→═══════════════════════════════════════════════════════════════════════════
+     8→     8→
+     9→     9→A full-stack application with:
+    10→    10→
+    11→    11→1. PYTHON PACKAGE (resipsc/) — ML ensemble for PSC detection
+    12→    12→   - ClassicalEnsemble: XGBoost + RandomForest + SVM (weighted 0.6/0.4)
+    13→    13→   - MLPClassifier: Autoencoder (TruncatedSVD + MLP) + classifier
+    14→    14→   - MiniSCTransformer: lightweight attention model (optional, skippable for RAM)
+    15→    15→   - Biomarker cross-check: compares model predictions with OCT4/NANOG/SOX2 expression
+    16→    16→   - Lineage assignment: ectoderm/mesoderm/endoderm/pluripotent via marker scores
+    17→    17→   - Teratoma site mapping: 22 anatomical sites with literature-derived priors
+    18→    18→   - Calibration monitor: KL/JS/Wasserstein/KS drift detection with SQLite persistence
+    19→    19→   - Comparability engine: ICH Q5E-style pre/post concordance analysis on model retrain
+    20→    20→   - Model card generator: auto-emits PCCP-delta documents on every model promotion
+    21→    21→   - FMEA module: formal Failure Mode and Effects Analysis for ML failure modes
+    22→    22→
+    23→    23→2. NEXT.JS 16 DASHBOARD (src/) — 5-tab web interface + GMP compliance layer
+    24→    24→   - Tab 1: Benchmark (multi-site CV results, cross-lineage table, per-fold detail)
+    25→    25→   - Tab 2: Sensitivity (spike-in sweep, wet-lab reference lines)
+    26→    26→   - Tab 3: QC Report (run QC on uploaded files, elevated report with 15+ sections)
+    27→    27→   - Tab 4: Datasets (training data provenance, "Where was the model trained?" panel)
+    28→    28→   - Tab 5: Calibration (drift monitoring dashboard with KL/JS/Wasserstein/KS gauges)
+    29→    29→   - GMP layer: 21 CFR Part 11 audit trail, RBAC, e-signatures, change control, CAPA workflow
+    30→    30→
+    31→    31→3. API ROUTES — 10 endpoints (8 existing + 2 new GMP endpoints)
+    32→    32→   - GET  /api/resipsc → benchmark results + model status
+    33→    33→   - POST /api/resipsc → file-path QC (JSON body with filePath) + direct upload (multipart)
+    34→    34→   - POST /api/resipsc/chunk → receive one 1MB chunk of a file (sequential, NOT parallel)
+    35→    35→   - POST /api/resipsc/assemble → stitch chunks + run QC + return report
+    36→    36→   - GET  /api/resipsc/report-pdf?path=<json> → 14-page PDF report
+    37→    37→   - GET  /api/resipsc/batches → list of all previous QC reports
+    38→    38→   - GET  /api/calibration → drift monitoring status
+    39→    39→   - POST /api/calibration → run calibration check on a file
+    40→    40→   - GET  /api/audit → Part 11 audit trail (immutable, append-only, cryptographically chained)
+    41→    41→   - POST /api/comparability → run ICH Q5E comparability study between two model versions
+    42→    42→
+    43→    43→4. PUBLICATION PIPELINE — 7 gap fixes
+    44→    44→   - Gap 1: Bootstrap 95% CIs on ROC-AUC (1000+ iterations)
+    45→    45→   - Gap 2: Kuroda 3-gene threshold head-to-head + DeLong test
+    46→    46→   - Gap 3: Ablation study (6 configurations)
+    47→    47→   - Gap 4: Harmony batch correction (FP rate before vs after)
+    48→    48→   - Gap 5: Multi-seed reproducibility (5 seeds: 42, 123, 456, 789, 1024)
+    49→    49→   - Gap 6: Wet-lab limitation statement (honest framing)
+    50→    50→   - Gap 7: 300 DPI publication-quality 6-panel figure (PDF + PNG)
+    51→    51→
+    52→    52→5. REGULATORY & COMMERCIAL DELIVERABLES
+    53→    53→   - Trained model (results/final_model.pkl) with model card
+    54→    54→   - Benchmark JSONs (results/*.json — 14 files)
+    55→    55→   - Publication figures (paper/figures/figure_main.pdf + .png at 300 DPI)
+    56→    56→   - Gap-fix report PDF (download/resipsc_gap_fix_report.pdf — 9 pages)
+    57→    57→   - Regulatory package PDF (download/resipsc_regulatory_package.pdf — FDA/EMA/ICH)
+    58→    58→   - FMEA worksheet (paper/fMEA_worksheet.md)
+    59→    59→   - PCCP template (paper/pccp_template.md)
+    60→    60→   - Wet-lab limitation statement (paper/wet_lab_limitation.md)
+    61→    61→   - Competitive landscape analysis (paper/competitive_landscape.md)
+    62→    62→   - Manuscript draft (paper/manuscript_draft.md — 3000-5000 words)
+    63→    63→   - Dockerfile + SBOM (Dockerfile + sbom.json)
+    64→    64→   - Audit trail database (db/audit.db — SQLite, immutable)
+    65→    65→   - Dashboard running at http://localhost:3000/
+    66→    66→
+    67→    67→═══════════════════════════════════════════════════════════════════════════
+    68→    68→PART 2: EXACT FILE STRUCTURE TO CREATE
+    69→    69→═══════════════════════════════════════════════════════════════════════════
+    70→    70→
+    71→    71→resipsc/                          # project root
+    72→    72→├── resipsc/                      # Python package
+    73→    73→│   ├── __init__.py               # version=2.0.0, env shim (pop DATABASE_URL)
+    74→    74→│   ├── config.py                 # Config dataclass (n_hvg, epochs, estimators, thresholds)
+    75→    75→│   ├── pipeline.py               # run_pipeline() orchestrator
+    76→    76→│   ├── cli.py                    # CLI entry point
+    77→    77→│   ├── data/
+    78→    78→│   │   ├── synthetic.py          # PSC/differentiated cell simulator (6 datasets, 7 countries)
+    79→    79→│   │   │                         # Includes: doublets, ambient RNA, low-quality cells,
+    80→    80→│   │   │                         # dose-response curves, dropout, edge cases
+    81→    81→│   │   ├── preprocessing.py      # filter, normalize, HVG selection, per-gene scaling
+    82→    82→│   │   └── acquisition.py        # cellxgene Census downloader
+    83→    83→│   ├── features/
+    84→    84→│   │   ├── markers.py            # biomarker_summary() — OCT4/NANOG/SOX2 scores
+    85→    85→│   │   └── embedding.py          # AutoencoderEmbedder (TruncatedSVD + MLP autoencoder)
+    86→    86→│   ├── models/
+    87→    87→│   │   ├── classical.py          # ClassicalEnsemble (XGBoost + RF + SVM + CalibratedClassifierCV)
+    88→    88→│   │   │                         # Includes: LR schedulers (cosine/step/reduce_on_plateau) + early stopping
+    89→    89→│   │   ├── deep.py               # MLPClassifierModel (AE + MLP + calibration)
+    90→    90→│   │   │                         # Includes: LR schedulers + early stopping
+    91→    91→│   │   ├── transformer.py       # MiniSCTransformer (numpy-only, optional)
+    92→    92→│   │   └── ensemble.py           # ResipscEnsemble (combines classical + deep + transformer)
+    93→    93→│   │                             # qc_report_dict() returns 30+ fields (see PART 4)
+    94→    94→│   ├── training/
+    95→    95→│   │   ├── benchmark.py          # multi-site CV, cross-lineage CV, spike-in eval
+    96→    96→│   │   └── spikein.py            # spike-in sensitivity sweep
+    97→    97→│   ├── validation/
+    98→    98→│   │   ├── calibration.py        # CalibrationMonitor (KL/JS/Wasserstein/KS + SQLite)
+    99→    99→│   │   ├── comparability.py      # ICH Q5E comparability: pre/post concordance, kappa, Bland-Altman
+   100→   100→│   │   └── spikein_eval.py       # evaluate_spikein_sensitivity()
+   101→   101→│   ├── compliance/               # NEW — GMP/regulatory modules
+   102→   102→│   │   ├── audit.py              # Part 11 audit trail (SHA-256 hash chain, append-only)
+   103→   103→│   │   ├── fmea.py               # FMEA worksheet generator (ICH Q9 risk management)
+   104→   104→│   │   ├── pccp.py               # Predetermined Change Control Plan template generator
+   105→   105→│   │   ├── model_card.py         # Auto-generate model card on every training run
+   106→   106→│   │   └── comparability_report.py # Auto-generate Q5E comparability PDF on model retrain
+   107→   107→│   ├── visualization/
+   108→   108→│   │   └── plots.py              # matplotlib figures (300 DPI, 7pt fonts, 180mm width)
+   109→   109→│   └── utils/
+   110→   110→│       ├── logging.py            # get_logger()
+   111→   111→│       ├── seed.py               # seed_everything()
+   112→   112→│       └── io.py                 # save_json(), save_pickle()
+   113→   113→├── src/
+   114→   114→│   ├── app/
+   115→   115→│   │   ├── page.tsx              # Dashboard (5 tabs, ~2000 lines)
+   116→   116→│   │   ├── elevated-qc-report.tsx # 15-section QC report component (~1500 lines)
+   117→   117→│   │   ├── globals.css           # Tailwind + print styles
+   118→   118→│   │   ├── layout.tsx            # Root layout
+   119→   119→│   │   ├── instrumentation.ts    # uncaughtException + unhandledRejection handlers (NEVER exit)
+   120→   120→│   │   └── api/
+   121→   121→│   │       ├── resipsc/
+   122→   122→│   │       │   ├── route.ts       # GET (benchmark) + POST (path/upload QC)
+   123→   123→│   │       │   │                  # Includes: memory guard (507 if RAM < 400MB), PROJECT_ROOT fix
+   124→   124→│   │       │   ├── chunk/route.ts # POST (receive 1MB chunk, sequential NOT parallel)
+   125→   125→│   │       │   │                  # Includes: stale session cleanup (2h), part_N storage
+   126→   126→│   │       │   ├── assemble/route.ts # POST (stitch + QC, session-based)
+   127→   127→│   │       │   │                  # Includes: size validation, graceful JSON parse error handling
+   128→   128→│   │       │   ├── report-pdf/route.ts # GET (14-page PDF)
+   129→   129→│   │       │   │                  # Includes: PROJECT_ROOT fix, safe mkdir
+   130→   130→│   │       │   └── batches/route.ts # GET (list previous reports)
+   131→   131→│   │       ├── calibration/
+   132→   132→│   │       │   └── route.ts       # GET (status) + POST (check drift)
+   133→   133→│   │       ├── audit/             # NEW — Part 11 audit trail endpoint
+   134→   134→│   │       │   └── route.ts       # GET (query audit log with filters)
+   135→   135→│   │       └── comparability/     # NEW — ICH Q5E comparability endpoint
+   136→   136→│   │           └── route.ts       # POST (run comparability between two model versions)
+   137→   137→│   ├── components/ui/             # shadcn/ui components (50+ files)
+   138→   138→│   ├── hooks/use-toast.ts
+   139→   139→│   └── lib/utils.ts
+   140→   140→├── scripts/                      # 20+ Python scripts
+   141→   141→│   ├── bootstrap_model.py        # Fast synthetic-data model (6s)
+   142→   142→│   ├── train_hybrid.py           # Hybrid training (synthetic + real pbmc3k, 22s)
+   143→   143→│   ├── train_and_save.py         # Real-data training (needs Wellington + 8GB RAM)
+   144→   144→│   ├── close_all_gaps.py         # All 7 publication gap fixes
+   145→   145→│   ├── qc_fast.py                # Universal QC (any file, any size)
+   146→   146→│   │                             # Includes: memory guard (exit 2 if RAM < 300MB),
+   147→   147→│   │                             # MAX_CELLS=500, backed mode at 50MB, forced GC
+   148→   148→│   ├── render_qc_pdf.py          # 14-page PDF report generator
+   149→   149→│   │                             # Includes: (qr.get(...) or "")[:80] fix for None values
+   150→   150→│   ├── generate_benchmark_data.py # Dashboard benchmark JSONs
+   151→   151→│   ├── build_regulatory.py       # FDA/EMA/ICH regulatory PDF
+   152→   152→│   ├── build_gap_fix_report.py   # 9-page gap-fix summary PDF
+   153→   153→│   ├── build_fmea.py             # FMEA worksheet generator (ICH Q9)
+   154→   154→│   ├── build_pccp.py             # PCCP template generator (FDA Dec 2024 guidance)
+   155→   155→│   ├── build_competitive_analysis.py # Competitive landscape analysis document
+   156→   156→│   ├── supervisor.py             # Server auto-restart daemon
+   157→   157→│   └── make_large_test.py        # Generate 557MB test file
+   158→   158→├── paper/
+   159→   159→│   ├── figures/
+   160→   160→│   │   ├── figure_main.pdf       # 300 DPI 6-panel figure
+   161→   161→│   │   └── figure_main.png
+   162→   162→│   ├── wet_lab_limitation.md     # Honest limitation statement
+   163→   163→│   ├── fmea_worksheet.md         # FMEA worksheet (ICH Q9)
+   164→   164→│   ├── pccp_template.md           # PCCP template (FDA Dec 2024)
+   165→   165→│   ├── competitive_landscape.md  # Competitive analysis
+   166→   166→│   └── manuscript_draft.md       # 3000-5000 word manuscript draft
+   167→   167→├── results/                      # All benchmark outputs
+   168→   168→│   ├── final_model.pkl           # Trained model
+   169→   169→│   ├── model_card.json           # Auto-generated model card
+   170→   170→│   ├── multisite_results.json    # 4-fold CV per model
+   171→   171→│   ├── multisite_summary.csv     # Averaged per model
+   172→   172→│   ├── lineage_results.json      # 3 lineages × 3 models
+   173→   173→│   ├── spikein_results.json      # 3 ratios × replicates
+   174→   174→│   ├── dataset_registry.csv      # 6 datasets
+   175→   175→│   ├── bootstrap_ci_results.json # Gap 1
+   176→   176→│   ├── kuroda_comparison.json    # Gap 2
+   177→   177→│   ├── ablation_results.json     # Gap 3
+   178→   178→│   ├── harmony_batch_correction.json # Gap 4
+   179→   179→│   ├── multi_seed_results.json   # Gap 5
+   180→   180→│   └── gap_fix_summary.json      # All 7 gaps
+   181→   181→├── data/
+   182→   182→│   └── pbmc3k_raw.h5ad           # Test dataset (5.9 MB, 2700 cells)
+   183→   183→├── download/
+   184→   184→│   ├── resipsc_gap_fix_report.pdf
+   185→   185→│   ├── resipsc_regulatory_package.pdf
+   186→   186→│   ├── resipsc_fmea_worksheet.pdf
+   187→   187→│   └── resipsc_competitive_analysis.pdf
+   188→   188→├── db/
+   189→   189→│   └── audit.db                  # Part 11 audit trail (SQLite, immutable, hash-chained)
+   190→   190→├── Dockerfile                    # Deterministic build with pinned deps + SBOM
+   191→   191→├── package.json
+   192→   192→├── next.config.ts                # output: standalone, bodySizeLimit: 10gb
+   193→   193→├── tsconfig.json
+   194→   194→├── pyproject.toml
+   195→   195→├── requirements.txt
+   196→   196→└── .env                          # DATABASE_URL=file:./db/custom.db
+   197→   197→
+   198→   198→═══════════════════════════════════════════════════════════════════════════
+   199→   199→PART 3: CRITICAL CODE PATTERNS (from bugs found and fixed across sessions)
+   200→   200→═══════════════════════════════════════════════════════════════════════════
+   201→   201→
+   202→   202→3.1 — DATABASE_URL CONFLICT FIX (sitecustomize.py):
+   203→   203→   The .env file sets DATABASE_URL for Prisma, but anndata's pydantic-settings
+   204→   204→   reads it as a SQLite path and crashes. Fix: create sitecustomize.py in
+   205→   205→   Python site-packages that does:
+   206→   206→     os.environ.pop("DATABASE_URL", None)
+   207→   207→     os.environ.pop("DATABASE_URL_FILE", None)
+   208→   208→   Also patches scverse_misc.Settings.settings_customise_sources to accept **kwargs
+   209→   209→   (pydantic-settings 2.13+ passes keyword args that scverse_misc doesn't expect).
+   210→   210→   Suppress all FutureWarning, DeprecationWarning, UserWarning, RuntimeWarning.
+   211→   211→   Set PYTHONWARNINGS=ignore.
+   212→   212→
+   213→   213→3.2 — PROJECT_ROOT RESOLUTION (critical on Windows):
+   214→   214→   NEVER use hardcoded paths like "/home/z/my-project". Instead:
+   215→   215→     const PROJECT_ROOT = process.cwd();
+   216→   216→   Or for Next.js standalone (where cwd is .next/standalone/):
+   217→   217→     const PROJECT_ROOT = path.resolve(__dirname, '..', '..', '..');
+   218→   218→   This must be consistent across ALL route files. Apply to:
+   219→   219→   route.ts, chunk/route.ts, assemble/route.ts, report-pdf/route.ts,
+   220→   220→   batches/route.ts, calibration/route.ts.
+   221→   221→
+   222→   222→3.3 — CHUNKED UPLOAD RACE CONDITION (critical):
+   223→   223→   When uploading in parallel (MAX_PARALLEL > 1), chunk 0's cleanup code
+   224→   224→   (unlink the .bin file) can delete chunks already written by a parallel worker.
+   225→   225→   FIX: Set MAX_PARALLEL = 1 (sequential), and NEVER unlink on chunk 0.
+   226→   226→   Each uploadId is unique, so stale cleanup is unnecessary.
+   227→   227→   Add stale session cleanup (delete .bin files older than 2 hours).
+   228→   228→
+   229→   229→3.4 — PDF RENDER None TYPE CRASH:
+   230→   230→   qr.get("cross_check_warning", "") returns None when the key exists with null value.
+   231→   231→   None[:80] throws TypeError. FIX: use (qr.get(...) or "")[:80] everywhere.
+   232→   232→   Apply to ALL string slicing in render_qc_pdf.py and any PDF generation code.
+   233→   233→
+   234→   234→3.5 — SERVER CRASH PROTECTION:
+   235→   235→   Add src/instrumentation.ts with:
+   236→   236→     process.on('uncaughtException', (err) => console.error('UNCAUGHT:', err));
+   237→   237→     process.on('unhandledRejection', (err) => console.error('UNHANDLED:', err));
+   238→   238→   This prevents the server from dying on stray async errors.
+   239→   239→   The handler must NEVER call process.exit().
+   240→   240→
+   241→   241→3.6 — MEMORY GUARDS (for low-RAM machines):
+   242→   242→   In API routes, check free RAM before spawning Python:
+   243→   243→     import { freemem } from 'os';
+   244→   244→     const freeMB = freemem() / 1e6;
+   245→   245→     if (freeMB < 400) return NextResponse.json({status:'error', message:'Insufficient RAM'}, {status:507});
+   246→   246→   In qc_fast.py, set MAX_CELLS = 500 (not 10000) and use backed mode for files > 50MB.
+   247→   247→   Use gc.collect() after preprocessing to free memory.
+   248→   248→   Set Node heap: NODE_OPTIONS="--max-old-space-size=256" to leave RAM for Python.
+   249→   249→
+   250→   250→3.7 — SVM PROBABILITY DEPRECATION:
+   251→   251→   sklearn 1.9+ deprecated SVC(probability=True). Instead, remove probability=True
+   252→   252→   and use CalibratedClassifierCV(SVC(), method="sigmoid", cv=StratifiedKFold) to
+   253→   253→   get predict_proba. If calibration fails, fall back to decision_function + Platt sigmoid:
+   254→   254→     d = est.decision_function(X)
+   255→   255→     p = 1 / (1 + np.exp(-d))
+   256→   256→   Wrap in try/except — silent fallback, no warning logged.
+   257→   257→
+   258→   258→3.8 — MLP CONVERGENCE WARNING:
+   259→   259→   sklearn's MLPClassifier prints "Maximum iterations reached" warning when max_iter
+   260→   260→   is too low. FIX: set max_iter = max(2000, mlp_epochs * 20) and rely on
+   261→   261→   early_stopping=True + n_iter_no_change=10 to do the actual stopping.
+   262→   262→
+   263→   263→3.9 — TURBOPACK PATH.JOIN WARNING:
+   264→   264→   Next.js 16's Turbopack flags dynamic path.join() calls as "tracing the whole project".
+   265→   265→   FIX: add /*turbopackIgnore: true*/ comment inside path.join():
+   266→   266→     path.join(/*turbopackIgnore: true*/ PROJECT_ROOT, 'results')
+   267→   267→
+   268→   268→3.10 — DEFENSIVE .toFixed() IN REACT:
+   269→   269→   Backend may return undefined for fields like psc_probability. Calling
+   270→   270→   undefined.toFixed(4) crashes the page ("This page couldn't load").
+   271→   271→   FIX: always use (value ?? 0).toFixed(4) or typeof checks:
+   272→   272→     const pscProb = typeof c?.psc_probability === 'number' ? c.psc_probability : 0;
+   273→   273→
+   274→   274→3.11 — BACKTICK BALANCE IN JSX TEMPLATE LITERALS:
+   275→   275→   className={`text-sm font-bold ${condition ? 'a' : 'b'}} must close with }`}>
+   276→   276→   NOT }}>. A missing backtick causes "Expected '</', got 'ident'" build error.
+   277→   277→   Verify backtick count is even in every .tsx file.
+   278→   278→
+   279→   279→3.12 — WINDOWS PATH COMPATIBILITY:
+   280→   280→   Use path.join() (not string concatenation with /).
+   281→   281→   Use existsSync() (not fs.accessSync).
+   282→   282→   Use forward slashes in JSON file paths.
+   283→   283→   Use path.resolve() for absolute paths, not hardcoded /home/...
+   284→   284→
+   285→   285→═══════════════════════════════════════════════════════════════════════════
+   286→   286→PART 4: ENSEMBLE.PY — QC REPORT DICT (the heart of the system)
+   287→   287→═══════════════════════════════════════════════════════════════════════════
+   288→   288→
+   289→   289→The qc_report_dict() method in resipsc/models/ensemble.py returns a dict with
+   290→   290→30+ top-level keys. Here is the COMPLETE list of keys that must be present:
+   291→   291→
+   292→   292→CORE FIELDS (from qc_report()):
+   293→   293→  - batch_id, decision (RELEASE/HOLD/QUARANTINE), decision_reason
+   294→   294→  - n_cells, n_cells_above_threshold, estimated_psc_fraction, estimated_psc_count
+   295→   295→  - psc_probability_mean, psc_probability_max
+   296→   296→  - lineage_breakdown (dict of layer → count)
+   297→   297→  - mean_teratoma_risk_score, max_teratoma_risk_score
+   298→   298→  - thresholds ({decision_threshold, release_max_pct, hold_min_pct})
+   299→   299→  - per_cell_summary (top 50 cells with cell_id, psc_probability, pluripotency_score, teratoma_lineage)
+   300→   300→
+   301→   301→BIOMARKER CROSS-CHECK:
+   302→   302→  - biomarker_model_agreement (0-1, higher = better)
+   303→   303→  - biomarker_model_disagreement (1 - agreement)
+   304→   304→  - cross_check_warning (string — "batch-effect false positive likely" or "consistent")
+   305→   305→
+   306→   306→CLINICAL NOTIFICATION (_build_clinical_notification):
+   307→   307→  - clinical_notification: {
+   308→   308→      title, batch_id, decision, risk_summary, confidence,
+   309→   309→      overall_psc_fraction, overall_psc_count, total_cells_analysed,
+   310→   310→      teratoma_risk_sites: [{
+   311→   311→        anatomical_site, germ_layer, predicted_cells_in_lineage,
+   312→   312→        lineage_probability, site_probability, site_prior,
+   313→   313→        absolute_risk_probability, risk_level (HIGH/MODERATE/LOW/NEGLIGIBLE),
+   314→   314→        marker_genes, evidence_citation, confirmatory_assay
+   315→   315→      }],
+   316→   316→      possible_onset_locations, disclaimer
+   317→   317→    }
+   318→   318→
+   319→   319→  SITE_MAP with literature-derived priors (NOT uniform):
+   320→   320→    ectoderm: Brain 32%, Skin 26%, Adrenal 16%, Retina 14%, Pituitary 12%
+   321→   321→    mesoderm: Skeletal muscle 28%, Bone 22%, Heart 18%, Kidney 14%, Blood 10%, Vessels 8%
+   322→   322→    endoderm: Pancreas 30%, Liver 22%, GI 20%, Thyroid 14%, Lung 10%, Biliary 4%
+   323→   323→    pluripotent: Sacrococcygeal 35%, Gonads 25%, Mediastinum 18%, Retroperitoneum 14%, Any 8%
+   324→   324→
+   325→   325→  Literature sources: Lee et al. Nat Rev Mol Cell Biol 2013; Ben-David et al.
+   326→   326→  Cell Stem Cell 2013; Brederlau et al. Stem Cells 2004; Hentze et al. Stem Cell
+   327→   327→  Res 2009; Kroon et al. Nat Biotechnol 2008.
+   328→   328→
+   329→   329→  Each site gets a confirmatory_assay recommendation (e.g. "MRI + biopsy with
+   330→   330→  GFAP IHC" for brain, "Echocardiogram + cardiac MRI; troponin surveillance" for heart)
+   331→   331→
+   332→   332→MODEL CREDENTIALS (_get_model_credentials):
+   333→   333→  - model_credentials: {model_version, benchmark, sensitivity, training_data}
+   334→   334→
+   335→   335→ELEVATED REPORT FIELDS (v2.0):
+   336→   336→  - executive_summary: {headline, detail, caveat, one_line_verdict}
+   337→   337→  - risk_tier: {tier (T1-T4), label, color, fda_rationale, ema_rationale, numerical_threshold}
+   338→   338→    T1: ≤0.001% (Negligible), T2: 0.001-0.1% (Low), T3: 0.1-1% (Moderate), T4: >1% (High)
+   339→   339→  - methodology: {model_versions (8 packages), pipeline (10 steps), input_dimensions, decision_threshold, random_seed}
+   340→   340→  - statistical_confidence: {
+   341→   341→      bootstrap_ci_95: {lower, upper, mean, std, n_iterations},
+   342→   342→      binomial_test: {null_hypothesis, alternative, p_value, significant_at_alpha_0_05, observed_count, expected_under_null},
+   343→   343→      post_hoc_power: {value, interpretation, assumed_effect_size, alpha, sample_size}
+   344→   344→    }
+   345→   345→  - probability_distribution: {bins (20 bins with label/count/fraction), n_cells, p50, p95, p99, mean, max}
+   346→   346→  - calibration_metrics: {brier_score_vs_biomarker, brier_interpretation, ece_surrogate_vs_biomarker, ece_interpretation, biomarker_model_agreement}
+   347→   347→  - recommendations: [{priority, category, action, rationale, owner, effort}] (priority-ranked)
+   348→   348→  - citation_block: {bibtext, citation_text, doi_placeholder, license, software_heritage_id}
+   349→   349→  - regulatory_context: {disposition_code, fda, ema, ich, observed_psc_fraction_pct, audit_trail}
+   350→   350→    FDA: 21 CFR 1271 (HCT/Ps), release ≤0.001%, quarantine >1%
+   351→   351→    EMA: EMEA/CHMP/410869/2006, QP release possible if ≤0.001%
+   352→   352→    ICH: Q5E (Comparability), Q9 (Risk Management), Q10 (PQS)
+   353→   353→  - report_metadata: {report_id (sha256 hash), generated_at_utc, batch_id, software_version, report_version, input_file_format, input_cells, input_genes, input_hash_short, signature_line, intended_use}
+   354→   354→
+   355→   355→ACCURACY FIELDS (v2.0):
+   356→   356→  - threshold_sensitivity: {thresholds (0.3/0.5/0.7), all_thresholds_agree, decision_stability}
+   357→   357→  - per_cell_classification: {
+   358→   358→      counts: {high_confidence_psc, model_only_psc, biomarker_only_psc, ambiguous, high_confidence_negative},
+   359→   359→      fractions, total, interpretation (dict of 5 descriptions)
+   360→   360→    }
+   361→   361→  - disease_site_probabilities: {sites (with confirmatory_assay), total_sites_evaluated, high/moderate/low/negligible_risk_sites, formula, priors_source}
+   362→   362→  - qc_flags: [{severity (critical/warning/info), category, message, action}] (sorted by severity)
+   363→   363→    Checks: sample_size, batch_effect, outlier, model_uncertainty, ambiguity, subsample
+   364→   364→  - disclaimer: {primary, limitations (5 items), wet_lab_confirmation, decision_authority, audit_trail, citation, license, version}
+   365→   365→
+   366→   366→QUALITATIVE VISUALIZATION FIELDS (v2.1):
+   367→   367→  - cell_projection: {points (500 cells with x, y, p, cell_id, class), method (umap/pca/random), n_cells_total, n_cells_projected, x_range, y_range}
+   368→   368→  - gene_heatmap: {genes (8 markers: POU5F1, NANOG, SOX2, LIN28A, KLF4, MYC, ZFP42, ESRG), top_cells (20), bottom_cells (20), color_scale, description}
+   369→   369→  - batch_history: {batches (up to 20 previous reports), n_previous_batches, trend, current_batch_id}
+   370→   370→
+   371→   371→═══════════════════════════════════════════════════════════════════════════
+   372→   372→PART 5: DASHBOARD FEATURES (page.tsx + elevated-qc-report.tsx)
+   373→   373→═══════════════════════════════════════════════════════════════════════════
+   374→   374→
+   375→   375→5.1 — UPLOAD SYSTEM (3 methods, all must work):
+   376→   376→  Method 1 (file path): JSON POST to /api/resipsc with {filePath, batchId}
+   377→   377→    - Quick-select buttons for pre-loaded datasets
+   378→   378→  Method 2 (direct upload): multipart POST to /api/resipsc with file + batchId
+   379→   379→    - Only for files < 5 MB (single request)
+   380→   380→    - Falls back to Method 3 if it fails
+   381→   381→  Method 3 (chunked upload): 1 MB chunks to /api/resipsc/chunk → /api/resipsc/assemble
+   382→   382→    - MAX_PARALLEL = 1 (sequential — NOT parallel, to avoid race conditions)
+   383→   383→    - 3 retries per chunk with exponential backoff (1s, 2s, 3s)
+   384→   384→    - Progress bar showing uploadedBytes/totalBytes + chunk count + phase
+   385→   385→
+   386→   386→5.2 — ELEVATED QC REPORT (15+ sections, rendered after QC completes):
+   387→   387→  1. Cover banner (gradient header: report_id, timestamp, batch_id, audit hash)
+   388→   388→  2. Hero decision card (large verdict icon, risk tier badge T1-T4, executive summary)
+   389→   389→  3. Key metrics row (5 tiles: cells, PSCs, fraction, biomarker agreement, max P)
+   390→   390→  4. Probability distribution histogram (Recharts BarChart, 20 bins, p50/p95/p99/max)
+   391→   391→  5. Statistical confidence (bootstrap CI, binomial p-value, post-hoc power)
+   392→   392→  6. Calibration gauges (3 color-coded: Brier, ECE, biomarker agreement)
+   393→   393→  7. Regulatory context (FDA 21 CFR 1271, EMA EMEA/CHMP/410869/2006, ICH Q5E/Q9/Q10 panels)
+   394→   394→  8. Recommendations table (priority badges, category, action, owner, effort)
+   395→   395→  9. Methodology panel (software version pills, 10-step pipeline trace)
+   396→   396→  10. Threshold sensitivity (3-tile grid: 0.3/0.5/0.7, stability verdict)
+   397→   397→  11. Per-cell classification (5-tile color-coded grid with counts + interpretations)
+   398→   398→  12. QC flags (color-coded list: critical=rose, warning=amber, info=slate)
+   399→   399→  13. Clinical notification (teratoma sites with probabilities + confirmatory assays)
+   400→   400→  14. Disease site probabilities table (7 columns + 4-tile risk-level summary)
+   401→   401→  15. UMAP cell projection (Recharts ScatterChart, 500 points, 5 color-coded classes, legend)
+   402→   402→  + Gene expression heatmap (8 markers × 40 cells, blue→white→red gradient)
+   403→   403→  + Batch history comparison (table of up to 10 previous reports)
+   404→   404→  + Model credentials (benchmark table, sensitivity tiles, training data provenance)
+   405→   405→  + Disclaimer card (amber: primary statement, limitations, wet-lab confirmation, audit trail)
+   406→   406→  + Citation + report metadata footer
+   407→   407→  + "Download QC Report PDF" button (teal, calls /api/resipsc/report-pdf, 14-page PDF)
+   408→   408→  + "Print / Save PDF" button (browser print dialog)
+   409→   409→
+   410→   410→5.3 — CALIBRATION TAB:
+   411→   411→  - Status banner (model ready, baseline established, batches monitored)
+   412→   412→  - 4 drift metric tiles (KL/JS/Wasserstein/KS with STABLE/DRIFTED badges)
+   413→   413→  - Drift timeline LineChart (KL/JS/Wasserstein over batches)
+   414→   414→  - Calibration history table (per-batch drift metrics)
+   415→   415→
+   416→   416→5.4 — DATASETS TAB:
+   417→   417→  - "Where was the model trained?" panel (teal card with source, dataset ID, subsample info)
+   418→   418→  - 10-step training protocol
+   419→   419→  - Production note (honest about synthetic vs real data)
+   420→   420→  - Dataset registry table (6 datasets with name/country/protocol/n_cells/n_psc/psc_pct/lineages)
+   421→   421→
+   422→   422→5.5 — HONEST LABELING BANNER:
+   423→   423→  Amber banner at top of dashboard stating the model's training status:
+   424→   424→  - If synthetic: "Demonstration build — model bootstrapped on synthetic data"
+   425→   425→  - If hybrid: "Hybrid-trained model — synthetic + real pbmc3k with cross-batch noise"
+   426→   426→  - If real Wellington: banner disappears (model trained on real data)
+   427→   427→
+   428→   428→═══════════════════════════════════════════════════════════════════════════
+   429→   429→PART 6: MARKET-READY REQUIREMENTS (from deep research)
+   430→   430→═══════════════════════════════════════════════════════════════════════════
+   431→   431→
+   432→   432→6.1 — REGULATORY COMPLIANCE (FDA + EMA + ICH):
+   433→   433→
+   434→   434→FDA:
+   435→   435→  - 21 CFR 1271: HCT/Ps — release testing for residual PSCs required before patient transplantation
+   436→   436→  - 21 CFR 211: cGMP for drugs — applies to PSC-derived therapies (more than minimally manipulated)
+   437→   437→  - 21 CFR Part 11: Electronic records/e-signatures — audit trail must be:
+   438→   438→    * Tamper-evident (SHA-256 hash chain or Merkle tree)
+   439→   439→    * Append-only (cannot be modified or deleted by any user, including admins)
+   440→   440→    * Time-stamped (UTC)
+   441→   441→    * Captures: user ID, timestamp, old→new values, reason for change, computer IP
+   442→   442→    * Retention: ≥ 5 years after batch release (recommended 10 years for cell therapy)
+   443→   443→    * Exportable in CSV/JSON/PDF for inspectors
+   444→   444→  - GMLP (Good Machine Learning Practice): 10 guiding principles (FDA/Health Canada/MHRA Oct 2021)
+   445→   445→  - PCCP (Predetermined Change Control Plan): FDA Dec 2024 guidance for AI-enabled devices
+   446→   446→    * Must describe planned model modifications, validation methodology, impact assessment
+   447→   447→    * Generate PCCP-delta document on every model retrain
+   448→   448→
+   449→   449→EMA:
+   450→   450→  - EMEA/CHMP/410869/2006: Guideline on human cell-based medicinal products
+   451→   451→    * Requires identity, potency, purity, microbiological safety, viability, tumorigenicity testing
+   452→   452→    * Purity: residual undifferentiated cells below defined threshold; sponsor justifies analytical choice
+   453→   453→
+   454→   454→ICH:
+   455→   455→  - Q5E (Comparability): pre/post concordance analysis on every model retrain
+   456→   456→    * Report sensitivity, specificity, decision-concordance (κ) before/after
+   457→   457→  - Q9(R1) (Quality Risk Management): formal FMEA on:
+   458→   458→    * Input data quality (low-cell-count, batch effects, sequencing depth)
+   459→   459→    * Model failure modes (false-negative release of tumorigenic lot)
+   460→   460→    * Infrastructure failures, model drift
+   461→   461→  - Q10 (Pharmaceutical Quality System):
+   462→   462→    * Change management (CAPA, change control records)
+   463→   463→    * Management review (PQS metrics)
+   464→   464→    * Continual improvement (post-market surveillance)
+   465→   465→    * Knowledge management (validation data, training corpus, decision rationale)
+   466→   466→
+   467→   467→6.2 — GMP SOFTWARE VALIDATION (GAMP 5 Category 5 — Custom Software):
+   468→   468→  - IQ (Installation Qualification): version manifests, environment configs captured in
+   469→   469→    immutable build artifact (Dockerfile + SBOM)
+   470→   470→  - OQ (Operational Qualification): functional tests under stressed conditions — input range,
+   471→   471→    boundary tests, fault injection, security tests
+   472→   472→  - PQ (Performance Qualification): end-to-end runs on representative samples against
+   473→   473→    acceptance criteria (sensitivity ≥ 99%, specificity ≥ 95%, turnaround ≤ 1 hr)
+   474→   474→
+   475→   475→6.3 — AUDIT TRAIL IMPLEMENTATION (Part 11):
+   476→   476→  Create resipsc/compliance/audit.py with:
+   477→   477→  - SQLite database (db/audit.db) with append-only event log
+   478→   478→  - SHA-256 hash chain: each event's hash = SHA256(prev_hash + event_data + timestamp)
+   479→   479→  - Event schema: {event_id, timestamp_utc, user_id, action, entity_type, entity_id,
+   480→   480→    old_value, new_value, reason_for_change, ip_address, hash, prev_hash}
+   481→   481→  - Cannot be disabled by users (including admins)
+   482→   482→  - One-click export to CSV/JSON/PDF for inspectors
+   483→   483→  - API endpoint: GET /api/audit?entity_type=qc_report&entity_id=<id>&from=<date>&to=<date>
+   484→   484→
+   485→   485→6.4 — MODEL REGISTRY & LIFECYCLE:
+   486→   486→  - Every model version gets a model_card.json with:
+   487→   487→    * Intended use, training data summary, performance metrics, limitations, ethical considerations
+   488→   488→    * Training timestamp, training config, training data hash
+   489→   489→    * Performance benchmarks (ROC-AUC, PR-AUC, sensitivity, specificity)
+   490→   490→  - PCCP-delta document on every retrain:
+   491→   491→    * What changed, why, validation methodology, results vs acceptance criteria, rollback plan
+   492→   492→  - ICH Q5E comparability study on every model promotion:
+   493→   493→    * Pre/post concordance on held-out golden dataset (≥100 representative samples)
+   494→   494→    * Report: sensitivity delta, specificity delta, κ (Cohen's kappa), Bland-Altman plot
+   495→   495→
+   496→   496→6.5 — CYBERSECURITY & DATA PRIVACY:
+   497→   497→  - HIPAA Security Rule: administrative, physical, technical safeguards
+   498→   498→  - scRNA-seq data is identifiable (even after de-identification) — treat as PHI
+   499→   499→  - Role-Based Access Control (RBAC): admin, QC officer, QA, viewer
+   500→   500→  - Session timeout: 15 minutes idle
+   501→   501→  - All API endpoints require authentication (except GET /api/resipsc for public benchmark)
+   502→   502→  - Target certifications: HIPAA + SOC 2 Type II (Year 1), ISO 27001 (Year 2), HITRUST r2 (Year 3)
+   503→   503→
+   504→   504→6.6 — COMPETITIVE LANDSCAPE (include in paper/competitive_landscape.md):
+   505→   505→  | Method | Sensitivity (LOD) | Cost/sample | Turnaround | Limitations |
+   506→   506→  |--------|-------------------|-------------|------------|-------------|
+   507→   507→  | HEC assay | 0.001% | $50-200 | 7 days | Labor-intensive, requires viable cells |
+   508→   508→  | ddPCR (LIN28A/ESRG) | 0.0003% | $150-500 | 1 day | Bulk only, $80-150K equipment, some false positives |
+   509→   509→  | Kuroda qPCR (3-gene) | 0.01% | $50-150 | 1-2 days | Not generalizable, markers fail on some iPSC lines |
+   510→   510→  | In vivo teratoma | 0.1-1% | $5K-15K | 6-12 weeks | Ethical concerns, being deprecated |
+   511→   511→  | resipsc (computational) | 0.0001%* | $0 marginal** | <1 min*** | Requires existing scRNA-seq data |
+   512→   512→  * Match lncRNA floor (computational spike-in); **if scRNA-seq already generated; ***after model loaded
+   513→   513→
+   514→   514→  Market gap: No FDA-cleared computational tool exists for residual PSC detection from scRNA-seq.
+   515→   515→  resipsc is the first to address this gap.
+   516→   516→
+   517→   517→6.7 — MARKET SIZING & PRICING:
+   518→   518→  - Cell therapy market: $4.74B (2023) → $20.07B (2030), CAGR 22.66%
+   519→   519→  - QC testing segment: $3.11B (2025) → $12.35B (2034)
+   520→   520→  - Key buyers: iPSC therapy companies (BlueRock, Fujifilm, Sana, Fate), CDMOs (Lonza, Catalent, WuXi ATU)
+   521→   521→  - Pricing model: B2B SaaS — $200-500 per QC test or $50K-250K/year subscription
+   522→   522→  - No CPT code exists — this is a B2B sale, not reimbursable
+   523→   523→
+   524→   524→6.8 — PUBLICATION STANDARDS:
+   525→   525→  - Target journals: Stem Cells Translational Medicine (IF ~6), Bioinformatics (IF ~6), Cell Reports Methods (IF ~14)
+   526→   526→  - Statistical rigor: bootstrap CIs (≥1000 resamples), multi-seed (5-10 seeds), ablation, held-out test set
+   527→   527→  - Figure quality: 300 DPI minimum, vector PDF preferred, 7pt font minimum, 180mm width
+   528→   528→  - Color: color-blind friendly (viridis, cividis), never red/green alone
+   529→   529→  - Data sharing: GEO (scRNA-seq), GitHub (code), PyPI (pip install), Docker (reproduce)
+   530→   530→  - Code license: MIT; Data license: CC-BY-4.0
+   531→   531→
+   532→   532→═══════════════════════════════════════════════════════════════════════════
+   533→   533→PART 7: TRAINING CONFIGURATION
+   534→   534→═══════════════════════════════════════════════════════════════════════════
+   535→   535→
+   536→   536→For machines with < 8 GB RAM (aggressive subsampling):
+   537→   537→  Config(n_hvg=300, max_cells_per_dataset=800, ae_epochs=10, transformer_epochs=2,
+   538→   538→         xgb_n_estimators=80, rf_n_estimators=80, svm_kernel="linear",
+   539→   539→         skip_transformer=True, spikein_replicates=2)
+   540→   540→
+   541→   541→For machines with ≥ 8 GB RAM (real Wellington training):
+   542→   542→  Config(n_hvg=500, max_cells_per_dataset=2000, ae_epochs=15, transformer_epochs=3,
+   543→   543→         xgb_n_estimators=100, rf_n_estimators=100, svm_kernel="linear",
+   544→   544→         skip_transformer=True, spikein_replicates=3)
+   545→   545→
+   546→   546→Wellington dataset details:
+   547→   547→  - cellxGene Census dataset ID: 5b0e8244-cc05-47ab-819f-87747854c04c
+   548→   548→  - URL: https://datasets.cellxgene.cziscience.com/5b0e8244-cc05-47ab-819f-87747854c04c.h5ad
+   549→   549→  - Size: ~599 MB
+   550→   550→  - Shape: (41670, 23290) — 41,670 cells × 23,290 genes
+   551→   551→  - var_names: Ensembl IDs (ENSG...) — map to gene symbols via var['feature_name']
+   552→   552→  - obs['Publication']: "Human Embryo (Zeng et al)", "45-iPS Day 8",
+   553→   553→    "Human Embryo (Crosse et al)", "Human Embryo (Calvanese et al)"
+   554→   554→  - Contains 40,562 PSCs + 1,108 differentiated cells
+   555→   555→
+   556→   556→Gene symbol mapping:
+   557→   557→  def _use_raw_and_set_symbols(a):
+   558→   558→      if 'feature_name' in a.var.columns:
+   559→   559→          a.var['gene_symbol'] = a.var['feature_name']
+   560→   560→      a.var['feature_id'] = a.var_names
+   561→   561→      a.var_names = a.var['gene_symbol'].astype(str).values
+   562→   562→      a = a[:, ~a.var.index.duplicated(keep="first")].copy()
+   563→   563→      return a
+   564→   564→
+   565→   565→═══════════════════════════════════════════════════════════════════════════
+   566→   566→PART 8: PUBLICATION GAP FIXES (close_all_gaps.py)
+   567→   567→═══════════════════════════════════════════════════════════════════════════
+   568→   568→
+   569→   569→Gap 1 — Bootstrap CIs (1000+ iterations):
+   570→   570→  For each iteration: sample 80% of cells per publication with replacement,
+   571→   571→  train on 3 pubs, test on 4th, compute ROC-AUC. Report [2.5th, 97.5th] percentile.
+   572→   572→
+   573→   573→Gap 2 — Kuroda head-to-head:
+   574→   574→  Implement Kuroda's method: sum of ESRG + CNMD + SFRP2 expression,
+   575→   575→  threshold = 25th percentile of positive-class training scores.
+   576→   576→  Run both on same 4-fold CV splits. DeLong z-test for ROC-AUC comparison.
+   577→   577→
+   578→   578→Gap 3 — Ablation (6 configs):
+   579→   579→  classical_only, mlp_only, classical+mlp, classical+transformer, mlp+transformer, full_ensemble
+   580→   580→
+   581→   581→Gap 4 — Harmony:
+   582→   582→  pip install harmonypy. Combine train + cross-protocol test, run Harmony on PCA,
+   583→   583→  re-train logistic on corrected embeddings. Compare FP rate before vs after.
+   584→   584→
+   585→   585→Gap 5 — Multi-seed (5 seeds):
+   586→   586→  Seeds [42, 123, 456, 789, 1024]. Report per-seed ROC-AUC + mean ± std.
+   587→   587→
+   588→   588→Gap 6 — Wet-lab limitation:
+   589→   589→  Write paper/wet_lab_limitation.md. State HEC/ddPCR/lncRNA validation not done.
+   590→   590→  Frame as future direction requiring clinical collaborator.
+   591→   591→
+   592→   592→Gap 7 — 300 DPI figures:
+   593→   593→  6-panel figure (A-F) at 300 DPI in PDF + PNG:
+   594→   594→    A: Multi-site CV ROC with bootstrap CI bars
+   595→   595→    B: Kuroda head-to-head bar chart with DeLong p-value + significance asterisks
+   596→   596→    C: Ablation horizontal bar chart with full-ensemble reference line
+   597→   597→    D: Harmony FP rate before vs after
+   598→   598→    E: Multi-seed error bar plot with mean line
+   599→   599→    F: Spike-in sensitivity sweep with wet-lab reference lines (HEC 0.001%, lncRNA 0.0001%)
+   600→   600→  Font: Helvetica, 7pt body, 8pt titles. Width: 180mm. matplotlib rcParams: dpi=300.
+   601→   601→
+   602→   602→═══════════════════════════════════════════════════════════════════════════
+   603→   603→PART 9: EXECUTION STEPS (do these in order)
+   604→   604→═══════════════════════════════════════════════════════════════════════════
+   605→   605→
+   606→   606→Step 1:  Create the full file structure (all directories + files from PART 2)
+   607→   607→Step 2:  Write the Python package (resipsc/) — all modules with the exact methods from PART 4
+   608→   608→         Include compliance/ module (audit.py, fmea.py, pccp.py, model_card.py, comparability_report.py)
+   609→   609→Step 3:  Write the Next.js dashboard (src/) — page.tsx (5 tabs), elevated-qc-report.tsx (15+ sections),
+   610→   610→         all 10 API routes, instrumentation.ts (crash protection)
+   611→   611→Step 4:  Write all scripts (scripts/) — training, QC, gap fixes, PDF generation, figures, FMEA, PCCP
+   612→   612→Step 5:  Write config files (package.json, next.config.ts, tsconfig.json, pyproject.toml, Dockerfile, etc.)
+   613→   613→Step 6:  Install Python deps + resipsc package + sitecustomize.py fix (see PART 3.1)
+   614→   614→Step 7:  Install Node deps (bun install or npm install)
+   615→   615→Step 8:  If Wellington dataset exists at data/real/iPSC_integration_41k.h5ad, train on real data
+   616→   616→         (use train_and_save.py with RAM-appropriate Config from PART 7).
+   617→   617→         If not, run train_hybrid.py (synthetic + real pbmc3k).
+   618→   618→         If training OOMs, apply fallbacks: reduce cells → reduce HVGs → skip MLP → backed mode → hybrid.
+   619→   619→Step 9:  Run close_all_gaps.py (all 7 gap fixes from PART 8)
+   620→   620→Step 10: Run generate_benchmark_data.py (dashboard JSONs with real numbers)
+   621→   621→Step 11: Run build_gap_fix_report.py + build_regulatory.py + build_fmea.py + build_pccp.py + build_competitive_analysis.py
+   622→   622→Step 12: Write paper/manuscript_draft.md (3000-5000 words, see PART 6.8 for journal standards)
+   623→   623→Step 13: Build Next.js: NODE_OPTIONS="--max-old-space-size=2048" ./node_modules/.bin/next build
+   624→   624→Step 14: Copy .next/static to .next/standalone/.next/static (CRITICAL — missing CSS bug, see PART 3)
+   625→   625→Step 15: Start server: cd .next/standalone && node server.js
+   626→   626→Step 16: Verify http://localhost:3000/ loads with all 5 tabs
+   627→   627→Step 17: Test all 3 upload methods on data/pbmc3k_raw.h5ad (file path, direct, chunked)
+   628→   628→Step 18: Verify the elevated QC report renders with all 15+ sections
+   629→   629→Step 19: Test PDF download (14-page report via /api/resipsc/report-pdf)
+   630→   630→Step 20: Test /api/resipsc/batches, /api/calibration, /api/audit endpoints
+   631→   631→Step 21: Verify audit trail logs every QC run (check db/audit.db)
+   632→   632→Step 22: Verify model_card.json was generated after training
+   633→   633→Step 23: Report final status with all success criteria below
+   634→   634→
+   635→   635→═══════════════════════════════════════════════════════════════════════════
+   636→   636→PART 10: SUCCESS CRITERIA
+   637→   637→═══════════════════════════════════════════════════════════════════════════
+   638→   638→
+   639→   639→The project is complete when ALL of these are true:
+   640→   640→
+   641→   641→TECHNICAL:
+   642→   642→✓ Python package imports without errors (import resipsc works)
+   643→   643→✓ Model trained (results/final_model.pkl exists, 5-15 MB)
+   644→   644→✓ Model card generated (results/model_card.json exists)
+   645→   645→✓ All 7 gap fixes closed (results/gap_fix_summary.json shows all "closed")
+   646→   646→✓ ROC-AUC is 0.80-0.97 (NOT 1.000)
+   647→   647→✓ Dashboard loads at http://localhost:3000/ with 5 tabs
+   648→   648→✓ All 3 upload methods work (file path, direct, chunked)
+   649→   649→✓ QC report has 15+ sections (including UMAP, gene heatmap, batch comparison, disclaimer)
+   650→   650→✓ PDF download produces 14-page report
+   651→   651→✓ Calibration tab shows drift monitoring
+   652→   652→✓ Datasets tab shows "Where was the model trained?" panel
+   653→   653→✓ Server survives full QC pipeline (doesn't crash on large files)
+   654→   654→✓ Server has crash protection (instrumentation.ts with uncaughtException handler)
+   655→   655→✓ No hardcoded Linux paths (use process.cwd() or __dirname)
+   656→   656→✓ No race conditions in chunked upload (MAX_PARALLEL=1)
+   657→   657→✓ No None type crashes in PDF rendering ((value or "")[:80])
+   658→   658→
+   659→   659→REGULATORY (GMP):
+   660→   660→✓ Audit trail database exists (db/audit.db, SQLite, hash-chained)
+   661→   661→✓ Every QC run is logged in the audit trail
+   662→   662→✓ FMEA worksheet generated (paper/fmea_worksheet.md)
+   663→   663→✓ PCCP template generated (paper/pccp_template.md)
+   664→   664→✓ Competitive landscape analysis generated (paper/competitive_landscape.md)
+   665→   665→✓ Regulatory PDF includes FDA (21 CFR 1271/211/Part 11), EMA, ICH Q5E/Q9/Q10
+   666→   666→✓ Disclaimer includes "Research Use Only — NOT FDA-cleared"
+   667→   667→✓ Wet-lab limitation statement exists (paper/wet_lab_limitation.md)
+   668→   668→
+   669→   669→PUBLICATION:
+   670→   670→✓ 300 DPI 6-panel figure exists (paper/figures/figure_main.pdf + .png)
+   671→   671→✓ Manuscript draft written (paper/manuscript_draft.md, 3000-5000 words)
+   672→   672→✓ Gap-fix report PDF exists (download/resipsc_gap_fix_report.pdf, 9 pages)
+   673→   673→✓ All benchmark JSONs have real numbers (not 1.000)
+   674→   674→
+   675→   675→Execute every step. Fix any errors that arise using the patterns in PART 3.
+   676→   676→Do not skip steps. Report progress after each step.
