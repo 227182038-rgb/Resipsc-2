@@ -159,14 +159,25 @@ def subsample(a, max_cells: int, seed: int = 0):
     return sub
 
 
-def run_qc(input_path: str, model, batch_id: str = "BATCH-000") -> dict:
-    """Run the full QC pipeline on one file with an existing trained model."""
+def run_qc(input_path: str, model, batch_id: str = "BATCH-000") -> tuple[dict, "np.ndarray"]:
+    """Run the full QC pipeline on one file with an existing trained model.
+
+    Returns (report, subsample_probabilities) — the probabilities feed the
+    calibration drift check without re-loading the file (critical for very
+    large inputs: memory stays bounded by MAX_CELLS regardless of file size).
+    """
     from resipsc.models.ensemble import ResipscEnsemble  # noqa: F401
 
     a, backed = load_input(input_path)
     original_cells = int(a.n_obs)
     a_sub = subsample(a, MAX_CELLS)
     del a
+    gc.collect()
+
+    # probabilities on the analysis subsample (for the drift check)
+    Xs, _ = model.featurize(a_sub)
+    p_sub = model.predict_proba(Xs)[:, 1]
+    del Xs
     gc.collect()
 
     report = model.qc_report_dict(a_sub, batch_id=batch_id, input_file=input_path)
@@ -194,7 +205,7 @@ def run_qc(input_path: str, model, batch_id: str = "BATCH-000") -> dict:
         order = {"critical": 0, "warning": 1, "info": 2}
         report["qc_flags"].sort(key=lambda f: order.get(f["severity"], 3))
     report["model_fitted"] = bool(getattr(model, "fitted", True))
-    return report
+    return report, p_sub
 
 
 def main() -> int:
@@ -224,7 +235,7 @@ def main() -> int:
     trail.log("qc_run_started", "qc_report", batch_id,
               new_value={"input": args.input}, user_id="api")
     try:
-        report = run_qc(args.input, model, batch_id=batch_id)
+        report, p_sub = run_qc(args.input, model, batch_id=batch_id)
     except SystemExit:
         raise
     except Exception as exc:  # noqa: BLE001
@@ -245,14 +256,14 @@ def main() -> int:
         save_json(report, out_path)
         report["saved_report_path"] = out_path
 
-    # calibration check (drift monitoring) + audit completion
+    # calibration check (drift monitoring) on the subsample probabilities —
+    # bounded memory even for huge files (no re-load of the input)
     try:
         from resipsc.validation.calibration import CalibrationMonitor
 
         cm = CalibrationMonitor()
-        Xs, _ = model.featurize(load_input(args.input)[0])
-        p = model.predict_proba(Xs)[:, 1]
-        cm.check(p, batch_id=batch_id)
+        cm.check(p_sub, batch_id=batch_id)
+        del p_sub
     except Exception as exc:  # noqa: BLE001 - non-fatal
         LOGGER.warning("calibration check skipped: %s", exc)
 

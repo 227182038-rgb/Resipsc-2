@@ -1,6 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { spawn } from "child_process";
-import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "fs";
+import {
+  existsSync,
+  mkdirSync,
+  readdirSync,
+  rmSync,
+  statSync,
+} from "fs";
 import path from "path";
 import { freemem } from "os";
 
@@ -83,19 +89,48 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ status: "error", message: "assembled file is empty" }, { status: 400 });
     }
 
+    // memory guard: the sequential stitch below needs ~1 chunk of RAM, but the
+    // QC subprocess needs headroom — require 400 MB + 0.8x file size free
+    const freeMbForQc = freemem() / 1e6;
+    const neededMb = Math.max(400, (totalBytes / 1e6) * 0.8);
+    if (freeMbForQc < neededMb) {
+      return NextResponse.json(
+        {
+          status: "error",
+          message: `Insufficient RAM for QC of a ${(totalBytes / 1e6).toFixed(0)} MB file: ${Math.round(freeMbForQc)} MB free (need ${Math.round(neededMb)})`,
+        },
+        { status: 507 },
+      );
+    }
+
     const safeName = (body.fileName ?? "upload.h5ad").replace(/[^\w.-]/g, "_").slice(-80) || "upload.h5ad";
     const outDir = path.join(/*turbopackIgnore: true*/ PROJECT_ROOT, "data", "uploads", "assembled");
     mkdirSync(outDir, { recursive: true });
     const finalPath = path.join(outDir, `${uploadId}_${safeName}`);
 
-    const assembled = Buffer.concat(parts.map((f) => readFileSync(path.join(sessionDir, f))));
-    if (assembled.length !== totalBytes) {
+    // ---- append parts sequentially (RAM bounded by ONE chunk, ~1 MB) ----
+    // Each part is at most 2 MB, so per-iteration memory is trivially small
+    // regardless of total file size — this is the fix for the 557 MB OOM.
+    const fsp = await import("fs/promises");
+    let written = 0;
+    try {
+      for (const part of parts) {
+        const buf = await fsp.readFile(path.join(sessionDir, part));
+        await fsp.appendFile(finalPath, buf);
+        written += buf.length;
+      }
+    } catch (e) {
       return NextResponse.json(
-        { status: "error", message: "size validation failed during stitch" },
+        { status: "error", message: `stitch failed: ${e instanceof Error ? e.message : String(e)}` },
         { status: 500 },
       );
     }
-    writeFileSync(finalPath, assembled);
+    if (written !== totalBytes) {
+      return NextResponse.json(
+        { status: "error", message: `size validation failed during stitch (${written} vs ${totalBytes} bytes)` },
+        { status: 500 },
+      );
+    }
 
     // ---- run QC on the assembly -------------------------------------------
     const args = [

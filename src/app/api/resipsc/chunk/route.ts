@@ -60,9 +60,9 @@ export async function POST(req: NextRequest) {
     if (buf.length === 0) {
       return NextResponse.json({ status: "error", message: "empty chunk" }, { status: 400 });
     }
-    if (buf.length > 2 * 1024 * 1024) {
+    if (buf.length > 16 * 1024 * 1024) {
       return NextResponse.json(
-        { status: "error", message: `chunk too large (${buf.length} bytes > 2 MB)` },
+        { status: "error", message: `chunk too large (${buf.length} bytes > 16 MB)` },
         { status: 413 },
       );
     }

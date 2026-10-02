@@ -1,0 +1,2155 @@
+{
+  "batch_id": "FINAL-CHUNKED8MB",
+  "decision": "RELEASE",
+  "decision_reason": "Estimated residual PSC fraction 0.0000% is at or below the FDA-aligned release threshold of 0.001%.",
+  "n_cells": 100,
+  "n_cells_above_threshold": 0,
+  "estimated_psc_fraction": 0.0,
+  "raw_measured_fraction": 0.0,
+  "estimated_psc_count": 0,
+  "psc_probability_mean": 0.016999953468028656,
+  "psc_probability_max": 0.01699995346802865,
+  "lineage_breakdown": {
+    "ectoderm": 100
+  },
+  "mean_teratoma_risk_score": 0.005439985109769167,
+  "max_teratoma_risk_score": 0.005439985109769167,
+  "thresholds": {
+    "decision_threshold": 0.5,
+    "release_max_pct": 0.001,
+    "hold_min_pct": 1.0
+  },
+  "per_cell_summary": [
+    {
+      "cell_id": "0",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "1",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "2",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "3",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "4",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "5",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "6",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "7",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "8",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "9",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "10",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "11",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "12",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "13",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "14",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "15",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "16",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "17",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "18",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "19",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "20",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "21",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "22",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "23",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "24",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "25",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "26",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "27",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "28",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "29",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "30",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "31",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "32",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "33",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "34",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "35",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "36",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "37",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "38",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "39",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "40",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "41",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "42",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "43",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "44",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "45",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "46",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "47",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "48",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "49",
+      "psc_probability": 0.01699995346802865,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    }
+  ],
+  "biomarker_model_agreement": 1.0,
+  "biomarker_model_disagreement": 0.0,
+  "cross_check_warning": "consistent",
+  "clinical_notification": {
+    "title": "Residual PSC Detection \u2014 Clinical Risk Notification",
+    "batch_id": "FINAL-CHUNKED8MB",
+    "decision": "RELEASE",
+    "risk_summary": "No residual PSCs detected above the decision threshold. Teratoma risk from this product lot is estimated as negligible.",
+    "confidence": "moderate",
+    "overall_psc_fraction": 0.0,
+    "overall_psc_count": 0,
+    "total_cells_analysed": 100,
+    "teratoma_risk_sites": [
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.00543998510976917,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.004419987901687451,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.002719992554884585,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.002379993485524012,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.0020399944161634386,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      }
+    ],
+    "possible_onset_locations": [
+      "Brain",
+      "Skin",
+      "Adrenal",
+      "Retina",
+      "Pituitary"
+    ],
+    "disclaimer": "Risk probabilities are model-derived estimates from scRNA-seq data only. They do not substitute for in vivo tumorigenicity testing or clinical judgement. Research Use Only \u2014 NOT FDA-cleared."
+  },
+  "model_credentials": {
+    "model_version": "resipsc-ensemble-2.0.0",
+    "benchmark": "multi-site 4-fold CV ROC-AUC 0.883",
+    "sensitivity": "Spike-in detection to 0.010% with quantification-calibrated fraction estimates (n=2000 per replicate)",
+    "training_data": "hybrid (synthetic multi-site + real pbmc3k)"
+  },
+  "executive_summary": {
+    "headline": "No actionable residual PSC burden detected \u2014 T1 disposition",
+    "detail": "resipsc analysed 100 cells from batch FINAL-CHUNKED8MB. 0 cells exceeded the PSC decision threshold (estimated fraction 0.0000%). Biomarker cross-check agreement was 100.0%. The dominant detected lineage is ectoderm.",
+    "caveat": "This is a computational inference from scRNA-seq data. It does not replace orthogonal wet-lab release assays (HEC, ddPCR, flow cytometry) and has not been cleared by FDA or EMA.",
+    "one_line_verdict": "RELEASE \u2014 Negligible risk (\u2264 0.001% residual PSC)"
+  },
+  "risk_tier": {
+    "tier": "T1",
+    "label": "Negligible risk (\u2264 0.001% residual PSC)",
+    "color": "emerald",
+    "fda_rationale": "Meets FDA 21 CFR 1271-aligned release criterion (\u2264 0.001%).",
+    "ema_rationale": "EMEA/CHMP/410869/2006: QP release defensible at \u2264 0.001% with orthogonal confirmation.",
+    "numerical_threshold": "<= 0.001%"
+  },
+  "methodology": {
+    "model_versions": {
+      "resipsc": "2.0.0",
+      "scikit-learn": "1.5.2",
+      "numpy": "2.1.3",
+      "anndata": "0.13.4",
+      "pandas": "3.0.6",
+      "scipy": "1.14.1",
+      "xgboost": "2.1.3",
+      "matplotlib": "3.9.2"
+    },
+    "pipeline": [
+      "1. Input parsing (h5ad/csv/mtx; counts or log-normalised)",
+      "2. Cell QC filter (>= 10 detected genes)",
+      "3. Gene QC filter (>= 3 expressing cells; markers always retained)",
+      "4. Library-size normalisation to 10,000 counts per cell",
+      "5. log1p transformation",
+      "6. Highly-variable gene selection (top 300 by variance)",
+      "7. Per-gene z-scaling (clip +-10)",
+      "8. Ensemble scoring (XGB+RF+SVM 0.6 / AE+MLP 0.4)",
+      "9. Biomarker cross-check (POU5F1/NANOG/SOX2 panel)",
+      "10. Lineage assignment + teratoma site mapping (22 sites)"
+    ],
+    "input_dimensions": {
+      "cells": 100,
+      "genes": 30000
+    },
+    "decision_threshold": 0.5,
+    "random_seed": 42
+  },
+  "statistical_confidence": {
+    "bootstrap_ci_95": {
+      "lower": 0.0,
+      "upper": 0.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "n_iterations": 1000
+    },
+    "binomial_test": {
+      "null_hypothesis": "true PSC fraction = release threshold (0.001%)",
+      "alternative": "true PSC fraction exceeds release threshold",
+      "p_value": 0.0009995051616607954,
+      "significant_at_alpha_0_05": true,
+      "observed_count": 0,
+      "expected_under_null": 0.001
+    },
+    "post_hoc_power": {
+      "value": 0.026906358563203007,
+      "interpretation": "limited (< 0.8) \u2014 a larger cell number is needed for robust detection",
+      "assumed_effect_size": 0.03162293471675267,
+      "alpha": 0.05,
+      "sample_size": 100
+    }
+  },
+  "probability_distribution": {
+    "bins": [
+      {
+        "label": "0.00-0.05",
+        "count": 100,
+        "fraction": 1.0
+      },
+      {
+        "label": "0.05-0.10",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.10-0.15",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.15-0.20",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.20-0.25",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.25-0.30",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.30-0.35",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.35-0.40",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.40-0.45",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.45-0.50",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.50-0.55",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.55-0.60",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.60-0.65",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.65-0.70",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.70-0.75",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.75-0.80",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.80-0.85",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.85-0.90",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.90-0.95",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.95-1.00",
+        "count": 0,
+        "fraction": 0.0
+      }
+    ],
+    "n_cells": 100,
+    "p50": 0.01699995346802865,
+    "p95": 0.01699995346802865,
+    "p99": 0.01699995346802865,
+    "mean": 0.016999953468028656,
+    "max": 0.01699995346802865
+  },
+  "calibration_metrics": {
+    "brier_score_vs_biomarker": 0.00028899841791513934,
+    "brier_interpretation": "excellent (Brier < 0.05: probabilities closely track biomarker evidence)",
+    "ece_surrogate_vs_biomarker": 0.016999953468028656,
+    "ece_interpretation": "well calibrated (ECE < 0.05)",
+    "biomarker_model_agreement": 1.0
+  },
+  "recommendations": [
+    {
+      "priority": 2,
+      "category": "Sampling",
+      "action": "Increase sequencing depth / cell number for future batches",
+      "rationale": "Only 100 cells analysed \u2014 fraction estimate CI is wide.",
+      "owner": "Process development",
+      "effort": "next run"
+    },
+    {
+      "priority": 3,
+      "category": "Regulatory",
+      "action": "Archive report + audit trail export to batch record (21 CFR Part 11)",
+      "rationale": "Electronic records must be retained >= 5 years after batch release.",
+      "owner": "QA",
+      "effort": "routine"
+    },
+    {
+      "priority": 4,
+      "category": "Model governance",
+      "action": "Confirm current model version in registry matches promotion record (ICH Q5E)",
+      "rationale": "Change control requires concordance documentation on every retrain.",
+      "owner": "ML governance",
+      "effort": "routine"
+    }
+  ],
+  "citation_block": {
+    "bibtex": "@software{resipsc2026,\n  title  = {resipsc v2.0.0: residual pluripotent stem cell detection for cell therapy QC},\n  year   = {2026},\n  note   = {Machine-learning ensemble for residual PSC detection in scRNA-seq},\n}",
+    "citation_text": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "doi_placeholder": "10.5281/zenodo.XXXXXXX (to be assigned on release)",
+    "license": "MIT (code); CC-BY-4.0 (data and figures)",
+    "software_heritage_id": "pending archival on first public release"
+  },
+  "regulatory_context": {
+    "disposition_code": "RELEASE",
+    "fda": "21 CFR 1271 (HCT/Ps): release testing for residual PSCs is required before administration of PSC-derived cell therapy products. resipsc supports release at observed residual PSC fraction <= 0.001% and recommends quarantine above 1%. 21 CFR 211 (cGMP) applies to more-than-minimally-manipulated PSC derivatives. 21 CFR Part 11: audit trail implemented as an append-only, SHA-256 hash-chained event log with UTC timestamps.",
+    "ema": "EMEA/CHMP/410869/2006 (Guideline on human cell-based medicinal products): requires identity, potency, purity, microbiological safety, viability and tumorigenicity testing. Purity criterion: residual undifferentiated cells below a sponsor-justified threshold; QP release is defensible at <= 0.001% with orthogonal confirmation.",
+    "ich": "ICH Q5E Comparability of Biotechnological/Biological Products: pre/post retrain concordance analysis (sensitivity/specificity/kappa). ICH Q9(R1) Quality Risk Management: formal FMEA covering input data quality, model failure modes and infrastructure. ICH Q10 Pharmaceutical Quality System: change control, CAPA, management review and knowledge management implemented around the model lifecycle.",
+    "observed_psc_fraction_pct": 0.0,
+    "audit_trail": "db/audit.db \u2014 append-only SHA-256 hash-chained event log (21 CFR Part 11)"
+  },
+  "report_metadata": {
+    "report_id": "52fe83f222e83accf9af60dabc8458ae8e1115bac0a7a1f1f457c497c41cef17",
+    "generated_at_utc": "2026-10-02 08:31:01 UTC",
+    "batch_id": "FINAL-CHUNKED8MB",
+    "software_version": "2.0.0",
+    "report_version": "2.1",
+    "input_file_format": "h5ad",
+    "input_cells": 100,
+    "input_genes": 30000,
+    "input_hash_short": "cab3468900ef32c7",
+    "signature_line": "Electronic signature: resipsc automated QC pipeline (RUO) \u2014 unsigned",
+    "intended_use": "Research Use Only \u2014 NOT FDA-cleared"
+  },
+  "threshold_sensitivity": {
+    "thresholds": {
+      "0.3": {
+        "n_above": 0,
+        "fraction_pct": 0.0
+      },
+      "0.5": {
+        "n_above": 0,
+        "fraction_pct": 0.0
+      },
+      "0.7": {
+        "n_above": 0,
+        "fraction_pct": 0.0
+      }
+    },
+    "all_thresholds_agree": true,
+    "decision_stability": "ROBUST \u2014 detection count is stable across thresholds 0.3/0.5/0.7"
+  },
+  "per_cell_classification": {
+    "counts": {
+      "high_confidence_psc": 0,
+      "model_only_psc": 0,
+      "biomarker_only_psc": 0,
+      "ambiguous": 0,
+      "high_confidence_negative": 100
+    },
+    "fractions": {
+      "high_confidence_psc": 0.0,
+      "model_only_psc": 0.0,
+      "biomarker_only_psc": 0.0,
+      "ambiguous": 0.0,
+      "high_confidence_negative": 1.0
+    },
+    "total": 100,
+    "interpretation": {
+      "high_confidence_psc": "PSC called by both the ML ensemble and the OCT4/NANOG/SOX2 biomarker panel \u2014 treat as confirmed residual PSCs.",
+      "model_only_psc": "PSC called by the model without biomarker support \u2014 possible batch-effect false positive; verify with orthogonal assay.",
+      "biomarker_only_psc": "Biomarker-positive without model support \u2014 possible differentiated-cell marker expression; review manually.",
+      "ambiguous": "Borderline model probabilities (0.35-0.65) without biomarker support \u2014 indeterminate calls.",
+      "high_confidence_negative": "Concordant negative \u2014 differentiated cells with quiet pluripotency programme."
+    }
+  },
+  "disease_site_probabilities": {
+    "sites": [
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.00543998510976917,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.004419987901687451,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.002719992554884585,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.002379993485524012,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 100,
+        "lineage_probability": 1.0,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.0020399944161634386,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      }
+    ],
+    "total_sites_evaluated": 22,
+    "high_risk_sites": 0,
+    "moderate_risk_sites": 0,
+    "low_risk_sites": 0,
+    "negligible_risk_sites": 5,
+    "formula": "absolute_risk = mean(model probability of lineage cells) x literature site prior",
+    "priors_source": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008"
+  },
+  "qc_flags": [
+    {
+      "severity": "critical",
+      "category": "sample_size",
+      "message": "Only 100 cells \u2014 fraction estimate has wide confidence interval",
+      "action": "Increase sequenced cells before relying on the estimate"
+    }
+  ],
+  "disclaimer": {
+    "primary": "Research Use Only \u2014 NOT FDA-cleared. This report is a computational inference from single-cell RNA-seq data and does not constitute a clinical release test.",
+    "limitations": [
+      "Model trained on a hybrid corpus (simulated multi-site data + real PBMC reference); clinical performance on therapeutic manufacturing batches is not yet established.",
+      "Detection limits below 0.001% PSC depend on sequenced cell count and depth; bootstrap CIs quantify this uncertainty.",
+      "Lineage assignment and teratoma site priors are literature-derived estimates, not patient-level predictions.",
+      "Batch effects, ambient RNA and doublets can inflate apparent PSC fractions; the biomarker cross-check mitigates but does not eliminate this.",
+      "No wet-lab orthogonal validation (HEC, ddPCR, lncRNA flow) has been performed for this build."
+    ],
+    "wet_lab_confirmation": "Confirm any non-RELEASE disposition with an orthogonal assay: ddPCR for LIN28A/ESRG, immunostaining for OCT4/TRA-1-60, or the histological embryoid-body assay, per EMEA/CHMP/410869/2006.",
+    "decision_authority": "The disposition code is a recommendation. Release authority rests with the Qualified Person under EMA rules or the responsible QA officer under FDA rules.",
+    "audit_trail": "All model inputs, outputs and decisions are recorded in the append-only audit trail (db/audit.db).",
+    "citation": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "license": "MIT (code); CC-BY-4.0 (figures)",
+    "version": "resipsc 2.0.0 / report v2.1"
+  },
+  "cell_projection": {
+    "points": [
+      {
+        "x": 1.6308164049405605e-05,
+        "y": 9.671699205404671e-12,
+        "p": 0.01699995346802865,
+        "cell_id": "0",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769195543664344e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "2",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "3",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "5",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "6",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "7",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "8",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "9",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "10",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "11",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "12",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "13",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "14",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "15",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "16",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "17",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "18",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "20",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "22",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "24",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "25",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "26",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "27",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "28",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "29",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "30",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "31",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "32",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "33",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "34",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "35",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "36",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "37",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "38",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "39",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "40",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "41",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "42",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "43",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "44",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "45",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "46",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "47",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "48",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "49",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "50",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "51",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "52",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "53",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "54",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "55",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "56",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "57",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "58",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "59",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "60",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "61",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "62",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "63",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "64",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "65",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "66",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "67",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "68",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "69",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "70",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "71",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "72",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "73",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "74",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "75",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "76",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "77",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "78",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "79",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "80",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "81",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "82",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "83",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "84",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "85",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "86",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "87",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "88",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "89",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "90",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "91",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "92",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "93",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "94",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "95",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "96",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769357496363859e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "97",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769453041680309e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "98",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 1.63081622304162e-05,
+        "y": -9.769453041680309e-14,
+        "p": 0.01699995346802865,
+        "cell_id": "99",
+        "class": "high_confidence_negative"
+      }
+    ],
+    "method": "pca",
+    "n_cells_total": 100,
+    "n_cells_projected": 100,
+    "x_range": [
+      1.63081622304162e-05,
+      1.6308164049405605e-05
+    ],
+    "y_range": [
+      -9.769453041680309e-14,
+      9.671699205404671e-12
+    ]
+  },
+  "gene_heatmap": {
+    "genes": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "top_cells": [
+      {
+        "cell_id": "0",
+        "p": 0.01699995346802865,
+        "values": [
+          0.11841360479593277,
+          0.38576456904411316,
+          0.15259037911891937,
+          0.05423889681696892,
+          0.06228587403893471,
+          0.07658029347658157,
+          0.28379106521606445,
+          0.20714005827903748
+        ]
+      },
+      {
+        "cell_id": "1",
+        "p": 0.01699995346802865,
+        "values": [
+          0.5447437763214111,
+          0.2945968508720398,
+          0.3141985237598419,
+          0.7250296473503113,
+          0.36098429560661316,
+          0.0873013287782669,
+          0.5427362322807312,
+          0.16504445672035217
+        ]
+      },
+      {
+        "cell_id": "2",
+        "p": 0.01699995346802865,
+        "values": [
+          0.2741606533527374,
+          0.04498885199427605,
+          0.10828190296888351,
+          0.32740524411201477,
+          0.39426153898239136,
+          0.22883696854114532,
+          0.1258106827735901,
+          0.15390250086784363
+        ]
+      },
+      {
+        "cell_id": "3",
+        "p": 0.01699995346802865,
+        "values": [
+          0.6576911211013794,
+          0.08709481358528137,
+          0.04693854600191116,
+          0.040947455912828445,
+          0.10177169740200043,
+          0.1296229362487793,
+          0.21766766905784607,
+          0.360922634601593
+        ]
+      },
+      {
+        "cell_id": "4",
+        "p": 0.01699995346802865,
+        "values": [
+          0.10891659557819366,
+          0.07366164028644562,
+          0.15552747249603271,
+          0.6061136722564697,
+          0.29278093576431274,
+          0.05524098500609398,
+          0.14498470723628998,
+          0.1788892298936844
+        ]
+      },
+      {
+        "cell_id": "5",
+        "p": 0.01699995346802865,
+        "values": [
+          0.08338595926761627,
+          0.47378280758857727,
+          0.4143601059913635,
+          0.12682905793190002,
+          0.09346681833267212,
+          0.0664014220237732,
+          0.21238942444324493,
+          0.10540129244327545
+        ]
+      },
+      {
+        "cell_id": "6",
+        "p": 0.01699995346802865,
+        "values": [
+          0.2648661136627197,
+          0.03896910324692726,
+          0.12939882278442383,
+          0.03557310253381729,
+          0.40012142062187195,
+          0.14562489092350006,
+          0.265921413898468,
+          0.1724674105644226
+        ]
+      },
+      {
+        "cell_id": "7",
+        "p": 0.01699995346802865,
+        "values": [
+          0.5298735499382019,
+          0.23753590881824493,
+          0.29483744502067566,
+          0.20102620124816895,
+          0.19986538589000702,
+          0.019631050527095795,
+          0.09306412190198898,
+          0.40140098333358765
+        ]
+      },
+      {
+        "cell_id": "8",
+        "p": 0.01699995346802865,
+        "values": [
+          0.32302039861679077,
+          0.2741698920726776,
+          0.16515150666236877,
+          0.10931284725666046,
+          0.1212538629770279,
+          0.1139974519610405,
+          0.13205239176750183,
+          0.2616767883300781
+        ]
+      },
+      {
+        "cell_id": "9",
+        "p": 0.01699995346802865,
+        "values": [
+          0.3552139103412628,
+          0.07343365997076035,
+          0.2281142771244049,
+          0.039113882929086685,
+          0.10067874193191528,
+          0.16902168095111847,
+          0.06438259035348892,
+          0.0430912971496582
+        ]
+      },
+      {
+        "cell_id": "10",
+        "p": 0.01699995346802865,
+        "values": [
+          0.10840200632810593,
+          0.2909667193889618,
+          0.5997393131256104,
+          0.021090181544423103,
+          0.19174204766750336,
+          0.11624746769666672,
+          0.7212468981742859,
+          0.4209221601486206
+        ]
+      },
+      {
+        "cell_id": "11",
+        "p": 0.01699995346802865,
+        "values": [
+          0.34979790449142456,
+          0.14165560901165009,
+          0.0820961520075798,
+          0.23970776796340942,
+          0.24652227759361267,
+          0.30162543058395386,
+          0.3096228241920471,
+          0.13517065346240997
+        ]
+      },
+      {
+        "cell_id": "12",
+        "p": 0.01699995346802865,
+        "values": [
+          0.5890474915504456,
+          0.17061106860637665,
+          0.14410629868507385,
+          0.6563529968261719,
+          0.08244994282722473,
+          0.27841752767562866,
+          0.05746247246861458,
+          0.08526044338941574
+        ]
+      },
+      {
+        "cell_id": "13",
+        "p": 0.01699995346802865,
+        "values": [
+          0.0712195634841919,
+          0.11683322489261627,
+          0.13039934635162354,
+          0.23507145047187805,
+          0.1868402510881424,
+          0.059913404285907745,
+          0.29070040583610535,
+          0.11133938282728195
+        ]
+      },
+      {
+        "cell_id": "14",
+        "p": 0.01699995346802865,
+        "values": [
+          0.19747312366962433,
+          0.07219318300485611,
+          0.09662968665361404,
+          0.28836071491241455,
+          0.15199720859527588,
+          0.1612337827682495,
+          0.25108128786087036,
+          0.1506248414516449
+        ]
+      },
+      {
+        "cell_id": "15",
+        "p": 0.01699995346802865,
+        "values": [
+          0.20538030564785004,
+          0.08559706062078476,
+          0.504017174243927,
+          0.03745074197649956,
+          0.4735814332962036,
+          0.055358774960041046,
+          0.4882132112979889,
+          0.1307523101568222
+        ]
+      },
+      {
+        "cell_id": "16",
+        "p": 0.01699995346802865,
+        "values": [
+          0.21019907295703888,
+          0.1907169222831726,
+          0.2585950791835785,
+          0.20761004090309143,
+          0.35744255781173706,
+          0.04252239689230919,
+          0.09016770124435425,
+          0.09614347666501999
+        ]
+      },
+      {
+        "cell_id": "17",
+        "p": 0.01699995346802865,
+        "values": [
+          0.10163385421037674,
+          0.586949348449707,
+          0.22138668596744537,
+          0.12034694105386734,
+          0.21214695274829865,
+          0.785202145576477,
+          0.1418524533510208,
+          0.09604433178901672
+        ]
+      },
+      {
+        "cell_id": "18",
+        "p": 0.01699995346802865,
+        "values": [
+          0.22780726850032806,
+          0.255709707736969,
+          0.3366408944129944,
+          0.3081625998020172,
+          1.0209890604019165,
+          0.18203844130039215,
+          0.46623218059539795,
+          0.04210441932082176
+        ]
+      },
+      {
+        "cell_id": "19",
+        "p": 0.01699995346802865,
+        "values": [
+          0.647180438041687,
+          0.3305171728134155,
+          0.10286682844161987,
+          0.4734928607940674,
+          0.3404271602630615,
+          0.13208070397377014,
+          0.1502869725227356,
+          0.42266830801963806
+        ]
+      }
+    ],
+    "bottom_cells": [
+      {
+        "cell_id": "80",
+        "p": 0.01699995346802865,
+        "values": [
+          0.03315240144729614,
+          0.30344751477241516,
+          0.3099292814731598,
+          0.33573147654533386,
+          0.12033998966217041,
+          0.044387366622686386,
+          0.15554870665073395,
+          0.7768330574035645
+        ]
+      },
+      {
+        "cell_id": "81",
+        "p": 0.01699995346802865,
+        "values": [
+          0.17830990254878998,
+          0.012741372920572758,
+          0.421455442905426,
+          0.4873455762863159,
+          0.7903867959976196,
+          0.17197898030281067,
+          0.04245886206626892,
+          0.3646182417869568
+        ]
+      },
+      {
+        "cell_id": "82",
+        "p": 0.01699995346802865,
+        "values": [
+          0.03374924883246422,
+          0.3886362910270691,
+          0.24405713379383087,
+          0.14493125677108765,
+          0.31921127438545227,
+          0.4104590117931366,
+          0.12796039879322052,
+          0.10893715173006058
+        ]
+      },
+      {
+        "cell_id": "83",
+        "p": 0.01699995346802865,
+        "values": [
+          0.11952078342437744,
+          0.49857813119888306,
+          0.15949296951293945,
+          0.3167445659637451,
+          0.3243330121040344,
+          0.13113687932491302,
+          0.10267559438943863,
+          0.1110217422246933
+        ]
+      },
+      {
+        "cell_id": "84",
+        "p": 0.01699995346802865,
+        "values": [
+          0.023268697783350945,
+          0.09586015343666077,
+          0.2694357931613922,
+          0.6409298777580261,
+          0.17621828615665436,
+          0.31958842277526855,
+          0.24965214729309082,
+          0.567773699760437
+        ]
+      },
+      {
+        "cell_id": "85",
+        "p": 0.01699995346802865,
+        "values": [
+          0.2927306592464447,
+          0.17156167328357697,
+          0.7127344012260437,
+          0.2584250569343567,
+          0.7759641408920288,
+          0.052969545125961304,
+          0.19527891278266907,
+          0.36285656690597534
+        ]
+      },
+      {
+        "cell_id": "86",
+        "p": 0.01699995346802865,
+        "values": [
+          0.3061695694923401,
+          0.13125573098659515,
+          0.29416388273239136,
+          0.11816246807575226,
+          0.4195142388343811,
+          0.0691743791103363,
+          0.09774444997310638,
+          0.06394307315349579
+        ]
+      },
+      {
+        "cell_id": "87",
+        "p": 0.01699995346802865,
+        "values": [
+          0.032714854925870895,
+          0.2960837781429291,
+          0.16384465992450714,
+          0.2588368058204651,
+          0.1768941432237625,
+          0.21838752925395966,
+          0.24600005149841309,
+          0.1604107916355133
+        ]
+      },
+      {
+        "cell_id": "88",
+        "p": 0.01699995346802865,
+        "values": [
+          0.5092394948005676,
+          0.8579616546630859,
+          0.14345145225524902,
+          0.020806072279810905,
+          0.15766672790050507,
+          0.502055287361145,
+          0.13615623116493225,
+          0.37627431750297546
+        ]
+      },
+      {
+        "cell_id": "89",
+        "p": 0.01699995346802865,
+        "values": [
+          0.13710199296474457,
+          0.5169210433959961,
+          1.2302565574645996,
+          0.22331303358078003,
+          0.40946468710899353,
+          0.06452425569295883,
+          0.2027846872806549,
+          0.22522588074207306
+        ]
+      },
+      {
+        "cell_id": "90",
+        "p": 0.01699995346802865,
+        "values": [
+          1.0318762063980103,
+          0.07660727202892303,
+          0.20591482520103455,
+          0.114910788834095,
+          0.06671443581581116,
+          0.15244024991989136,
+          0.1372557282447815,
+          0.15493060648441315
+        ]
+      },
+      {
+        "cell_id": "91",
+        "p": 0.01699995346802865,
+        "values": [
+          0.0628979504108429,
+          0.25180283188819885,
+          0.47780823707580566,
+          0.2972489595413208,
+          0.1794985830783844,
+          0.8088945150375366,
+          0.0389266200363636,
+          0.22031065821647644
+        ]
+      },
+      {
+        "cell_id": "92",
+        "p": 0.01699995346802865,
+        "values": [
+          0.641854465007782,
+          0.4618833661079407,
+          0.0958302915096283,
+          0.066868856549263,
+          0.27634918689727783,
+          0.09297382831573486,
+          0.13517896831035614,
+          0.170333132147789
+        ]
+      },
+      {
+        "cell_id": "93",
+        "p": 0.01699995346802865,
+        "values": [
+          0.06533167511224747,
+          0.07187569886445999,
+          0.6725610494613647,
+          0.13667118549346924,
+          0.1526290774345398,
+          0.2067788541316986,
+          0.05020670220255852,
+          0.15091952681541443
+        ]
+      },
+      {
+        "cell_id": "94",
+        "p": 0.01699995346802865,
+        "values": [
+          0.0763094499707222,
+          0.14133746922016144,
+          0.47663697600364685,
+          0.3230051100254059,
+          0.16742953658103943,
+          0.3666701316833496,
+          0.33856046199798584,
+          0.38816434144973755
+        ]
+      },
+      {
+        "cell_id": "95",
+        "p": 0.01699995346802865,
+        "values": [
+          0.2633557915687561,
+          0.2927247881889343,
+          0.022067110985517502,
+          0.15228112041950226,
+          0.19182731211185455,
+          0.705462634563446,
+          0.3165273368358612,
+          0.09493733942508698
+        ]
+      },
+      {
+        "cell_id": "96",
+        "p": 0.01699995346802865,
+        "values": [
+          0.34158140420913696,
+          0.11505015939474106,
+          0.18283416330814362,
+          0.33143624663352966,
+          0.06115728244185448,
+          0.04070432111620903,
+          0.11062953621149063,
+          0.41108816862106323
+        ]
+      },
+      {
+        "cell_id": "97",
+        "p": 0.01699995346802865,
+        "values": [
+          0.4159214198589325,
+          0.046922292560338974,
+          0.04744601994752884,
+          0.3281055688858032,
+          0.0818239077925682,
+          0.16976217925548553,
+          0.04078333079814911,
+          0.1358279138803482
+        ]
+      },
+      {
+        "cell_id": "98",
+        "p": 0.01699995346802865,
+        "values": [
+          0.2441032975912094,
+          0.012118385173380375,
+          0.17027011513710022,
+          0.05034181848168373,
+          0.11750978231430054,
+          0.2168736755847931,
+          0.03804028406739235,
+          0.3343919813632965
+        ]
+      },
+      {
+        "cell_id": "99",
+        "p": 0.01699995346802865,
+        "values": [
+          0.13735702633857727,
+          0.09451926499605179,
+          0.2141721397638321,
+          0.06086966395378113,
+          0.035187698900699615,
+          0.21858146786689758,
+          0.11217997968196869,
+          0.3916654586791992
+        ]
+      }
+    ],
+    "color_scale": "blue(0) -> white(median) -> red(max) on log-normalised expression",
+    "description": "Expression of the 8-gene pluripotency panel in the 20 highest- and 20 lowest-scoring cells."
+  },
+  "batch_history": {
+    "batches": [],
+    "n_previous_batches": 0,
+    "trend": "insufficient history",
+    "current_batch_id": "FINAL-CHUNKED8MB"
+  },
+  "input_file": "/home/z/my-project/data/uploads/assembled/final8_test_8mb.h5ad",
+  "input_total_cells": 100,
+  "subsampled": false,
+  "max_cells_cap": 500,
+  "model_fitted": true,
+  "runtime_seconds": 2.47,
+  "status": "ok"
+}

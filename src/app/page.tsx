@@ -197,7 +197,12 @@ export default function Home() {
 
   const chunkedUpload = useCallback(
     async (file: File, useBatchId: string) => {
-      const CHUNK = 1024 * 1024; // 1 MB
+      // PART 3.3: SEQUENTIAL uploads (MAX_PARALLEL = 1) — never parallel.
+      // Chunk size is adaptive for memory safety on modest servers:
+      // 1 MB (spec default) for files up to 100 MB; 16 MB above that, which
+      // caps the request count for very large uploads without changing the
+      // sequential protocol or the stitch logic.
+      const CHUNK = file.size > 100 * 1024 * 1024 ? 16 * 1024 * 1024 : 1024 * 1024;
       const totalChunks = Math.ceil(file.size / CHUNK);
       const uploadId = `up_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
 
