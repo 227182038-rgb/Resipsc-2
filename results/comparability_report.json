@@ -1,9 +1,9 @@
 {
   "title": "ICH Q5E Comparability Report \u2014 model promotion",
-  "generated_at_utc": "2026-10-02 07:55:12 UTC",
+  "generated_at_utc": "2026-10-02 14:39:23 UTC",
   "standard": "ICH Q5E Comparability of Biotechnological/Biological Products",
   "old_version": "resipsc@1790927658",
-  "new_version": "candidate@1790927712",
+  "new_version": "candidate@1790951963",
   "n_samples": 3580,
   "metrics": {
     "old": {

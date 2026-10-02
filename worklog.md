@@ -28,3 +28,20 @@ Stage Summary:
 - Key metrics: ensemble ROC-AUC 0.883 ± 0.021 multi-site CV; bootstrap CI [0.844, 0.937]; Kuroda head-to-head significant (p<0.001); multi-seed 0.891 ± 0.003; spike-in quantification near-exact 1-25% band; 0 false positives on real pbmc3k.
 - Environment notes: 4 GB RAM box — dev-mode Turbopack caps sustained HTTP upload volume (~40 MB); file-path method verified to 576 MB; NODE heap cap does not constrain Turbopack native allocations; production deployment path is the Dockerfile standalone build.
 - Model credentials: hybrid corpus (synthetic 6 sites/7 countries + real pbmc3k), config hash in model_card.json, quantification calibration frozen from spike-in validation (sens 0.6947 / fpr 0.0), bio-threshold 2.434 frozen from training negatives.
+
+---
+Task ID: 2
+Agent: Super Z (main agent)
+Task: User request "RUN THE PREVIEW" — restart the ReSiPSC web app and deliver a live preview.
+
+Work Log:
+- Inspected workspace: full ReSiPSC project intact (Next.js 16 dashboard, 8 API routes, resipsc/ Python package, results/, paper/, download/).
+- Diagnosed preview outage: no process on port 3000; environment Caddy (port 81, root-owned) reverse-proxies preview traffic to localhost:3000.
+- Confirmed sandbox behavior: all user-owned processes are killed when a tool session ends (verified with setsid+nohup sleep test; shell state does not persist between calls).
+- Started Next.js dev server directly (node_modules/.bin/next dev -p 3000); "bun run dev" npm-script pipe form dies under nohup.
+- Full in-call health check: homepage HTTP 200 (title "resipsc v2.0 — Residual PSC Detection for Cell Therapy QC"); /api/resipsc 200 (model ready, 6.3 MB); /api/resipsc/batches 200 (QC batch history); /api/calibration 200 (baseline established 2026-10-02); /api/audit 200 (66 events, hash chain intact); /api/comparability 405 = POST-only by design. instrumentation.ts Edge-runtime warnings are non-fatal (Node runtime guards).
+- Called Complete(project_type="web_dev") to finalize delivery and hand off preview hosting to the platform.
+
+Stage Summary:
+- App verified fully healthy; all routes green. Root cause of dead preview: prior session ended without calling Complete and its dev server was reaped by session cleanup.
+- Action for user: use the preview link; app runs via platform hosting after Complete.
