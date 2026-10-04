@@ -45,3 +45,22 @@ Work Log:
 Stage Summary:
 - App verified fully healthy; all routes green. Root cause of dead preview: prior session ended without calling Complete and its dev server was reaped by session cleanup.
 - Action for user: use the preview link; app runs via platform hosting after Complete.
+
+---
+Task ID: 3
+Agent: Super Z (main agent)
+Task: User report "anndata issue" — diagnose and fix.
+
+Work Log:
+- Diagnosed: platform reset /home/z/.venv to base image — ML stack (anndata, h5py, pandas, xgboost, matplotlib, harmonypy, reportlab) AND the sitecustomize.py pydantic fix were wiped; only template packages (numpy 2.1.3, scipy, sklearn) remained. Any QC run via the API crashed with ModuleNotFoundError: anndata.
+- Fixed requirements.txt resolver conflicts: pandas 2.2.3 → 2.3.3 (anndata 0.13.4 requires pandas >= 2.3); harmonypy 0.0.25 (never existed on PyPI) → 2.0.2 (run_harmony API unchanged; only usage is close_all_gaps.py with try/except fallback).
+- uv pip install -r requirements.txt into /home/z/.venv — all pinned versions resolved.
+- Recreated sitecustomize.py per original spec PART 3.1: DATABASE_URL/DATABASE_URL_FILE env pop, scverse_misc.Settings.settings_customise_sources patched to accept **kwargs (pydantic-settings 2.13+ compat) and DROP the dotenv source, warnings suppressed. Canonical copy persisted at scripts/sitecustomize.py so future venv resets are recoverable with one cp.
+- Verified hostile-env import: anndata imports cleanly with DATABASE_URL set in env AND .env in cwd (both crash vectors closed).
+- Verified production stack: final_model.pkl unpickles (sklearn 1.5.2/xgboost 2.1.3 exact train-time pins); golden_batch.h5ad reads (600 cells x 1464 genes); full 39-key QC report → QUARANTINE, 6.72% fraction (matches recorded golden result).
+- Verified live API: POST /api/resipsc file-path QC run → full report (QUARANTINE, 500-cell sample, 6.91%); GET /api/resipsc model ready; GET /api/audit 128 hash-chained events, chain intact.
+
+Stage Summary:
+- anndata issue root cause: sandbox venv reset, not a code bug. Python ML stack fully restored via pinned requirements.txt + recreated sitecustomize.py.
+- Resilience improvement: canonical sitecustomize.py now lives in scripts/ (re-copy to venv site-packages after any environment reset: cp scripts/sitecustomize.py /home/z/.venv/lib/python3.12/site-packages/).
+- App fully functional again: server boots, all API routes green, QC inference path verified live.
