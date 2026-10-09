@@ -64,3 +64,28 @@ Stage Summary:
 - anndata issue root cause: sandbox venv reset, not a code bug. Python ML stack fully restored via pinned requirements.txt + recreated sitecustomize.py.
 - Resilience improvement: canonical sitecustomize.py now lives in scripts/ (re-copy to venv site-packages after any environment reset: cp scripts/sitecustomize.py /home/z/.venv/lib/python3.12/site-packages/).
 - App fully functional again: server boots, all API routes green, QC inference path verified live.
+
+---
+Task ID: 4
+Agent: Super Z (main agent)
+Task: User request "diagnose all issues and rerun" — full-system diagnostic + end-to-end rerun.
+
+Work Log:
+- Diagnosed environment: sandbox container was REBUILT again (new container id) → /home/z/.venv reset to platform template a second time (anndata/xgboost/matplotlib/harmonypy/reportlab + sitecustomize.py wiped; h5py replaced by template 3.15.1; geopandas/numpy_financial reappeared). Platform-hosted server (pid 1077, started 13:06) was alive but every QC run failed: "No module named 'anndata'".
+- Fixed: reinstalled pinned ML stack via uv + restored sitecustomize.py from canonical scripts/ copy; created scripts/restore_env.sh — one-command recovery (install + sitecustomize + hostile-env verification) and tested it end-to-end.
+- Reran everything through the LIVE running server:
+  * Homepage 200, title + RUO banner render.
+  * GET /api/resipsc: model ready (6.3 MB). GET batches: 35→38. GET calibration: baseline 2026-10-02. GET audit: 158→167 events, chain intact at every step.
+  * POST /api/resipsc file-path QC → QUARANTINE 6.91% (500-cell sample, lineage breakdown present).
+  * Chunked upload 6×256 KB + assemble → QUARANTINE 6.91% (identical result = byte-perfect stitch).
+  * Direct multipart upload → QUARANTINE 6.91%.
+  * PDF report → 14 pages, valid PDF 1.4, extractable text.
+  * POST /api/comparability (model pickles) → full ICH Q5E report (3580 samples, sens Δ +0.0304, spec Δ −0.0267).
+  * POST /api/comparability {trainCandidate:true} — the exact dashboard path → fresh candidate trained in 21.6 s, report OK.
+- Log audit: dev.log "errors" classified → 46× the known non-fatal instrumentation.ts Edge-runtime warning block + one 500 that was MY OWN first comparability test (invalid input: .h5ad instead of model pickle); retried correctly → 200. Dashboard only ever sends {trainCandidate:true}, so that path is unreachable for users.
+
+Stage Summary:
+- Issue count: 1 real issue (sandbox venv reset, recurring) — fixed + now recoverable in one command (scripts/restore_env.sh).
+- All 8 API routes + all 3 upload methods + PDF + comparability rerun green through the live server; golden-batch result reproduced exactly (QUARANTINE 6.91% on 500-cell subsample / 6.72% full).
+- Audit trail: 167 hash-chained events, chain intact. 38 QC batches on record.
+- System fully operational; preview live.
