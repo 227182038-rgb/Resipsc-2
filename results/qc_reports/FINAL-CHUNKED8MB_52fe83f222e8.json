@@ -2145,7 +2145,7 @@
     "trend": "insufficient history",
     "current_batch_id": "FINAL-CHUNKED8MB"
   },
-  "input_file": "/home/z/my-project/data/uploads/assembled/final8_test_8mb.h5ad",
+  "input_file": "E:/resipsc v2 final 1/data/uploads/assembled/final8_test_8mb.h5ad",
   "input_total_cells": 100,
   "subsampled": false,
   "max_cells_cap": 500,

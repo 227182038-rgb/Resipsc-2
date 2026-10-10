@@ -5565,7 +5565,7 @@
     "trend": "insufficient history",
     "current_batch_id": "CLEAN-DIRECT"
   },
-  "input_file": "/home/z/my-project/data/uploads/direct_1790926902792_clean_batch.h5ad",
+  "input_file": "E:/resipsc v2 final 1/data/uploads/direct_1790926902792_clean_batch.h5ad",
   "input_total_cells": 600,
   "subsampled": true,
   "max_cells_cap": 500,

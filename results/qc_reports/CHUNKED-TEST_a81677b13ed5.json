@@ -4943,7 +4943,7 @@
     "trend": "insufficient history",
     "current_batch_id": "CHUNKED-TEST"
   },
-  "input_file": "/home/z/my-project/data/uploads/assembled/testcurl123_test_8mb.h5ad",
+  "input_file": "E:/resipsc v2 final 1/data/uploads/assembled/testcurl123_test_8mb.h5ad",
   "input_total_cells": 3651,
   "subsampled": true,
   "max_cells_cap": 500,

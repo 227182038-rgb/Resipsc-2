@@ -5120,7 +5120,7 @@
     "trend": "insufficient history",
     "current_batch_id": "V3-PBMC3KRAW"
   },
-  "input_file": "/home/z/my-project/data/pbmc3k_raw.h5ad",
+  "input_file": "E:/resipsc v2 final 1/data/pbmc3k_raw.h5ad",
   "input_total_cells": 2700,
   "subsampled": true,
   "max_cells_cap": 500,

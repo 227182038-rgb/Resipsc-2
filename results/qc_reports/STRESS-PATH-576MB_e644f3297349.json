@@ -4943,7 +4943,7 @@
     "trend": "insufficient history",
     "current_batch_id": "STRESS-PATH-576MB"
   },
-  "input_file": "/home/z/my-project/data/large_test.h5ad",
+  "input_file": "E:/resipsc v2 final 1/data/large_test.h5ad",
   "input_total_cells": 4641,
   "subsampled": true,
   "max_cells_cap": 500,

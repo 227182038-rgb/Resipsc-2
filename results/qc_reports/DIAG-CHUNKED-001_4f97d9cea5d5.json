@@ -5557,7 +5557,7 @@
     "trend": "insufficient history",
     "current_batch_id": "DIAG-CHUNKED-001"
   },
-  "input_file": "/home/z/my-project/data/uploads/assembled/up_diag_1791551323_golden_batch.h5ad",
+  "input_file": "E:/resipsc v2 final 1/data/uploads/assembled/up_diag_1791551323_golden_batch.h5ad",
   "input_total_cells": 600,
   "subsampled": true,
   "max_cells_cap": 500,

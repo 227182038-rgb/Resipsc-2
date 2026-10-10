@@ -5337,7 +5337,7 @@
     "trend": "insufficient history",
     "current_batch_id": "BATCH-001"
   },
-  "input_file": "/home/z/my-project/data/uploads/assembled/up_mur1x0ju_r9fys1_AdamsonWeissman2016_GSM2406675_10X001.h5ad",
+  "input_file": "E:/resipsc v2 final 1/data/uploads/assembled/up_mur1x0ju_r9fys1_AdamsonWeissman2016_GSM2406675_10X001.h5ad",
   "input_total_cells": 5768,
   "subsampled": true,
   "max_cells_cap": 500,

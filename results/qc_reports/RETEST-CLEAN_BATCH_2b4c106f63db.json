@@ -5378,7 +5378,7 @@
     "trend": "insufficient history",
     "current_batch_id": "RETEST-CLEAN_BATCH"
   },
-  "input_file": "/home/z/my-project/results/clean_batch.h5ad",
+  "input_file": "E:/resipsc v2 final 1/results/clean_batch.h5ad",
   "input_total_cells": 600,
   "subsampled": true,
   "max_cells_cap": 500,
