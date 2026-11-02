@@ -1,0 +1,4953 @@
+{
+  "batch_id": "BATCH-001",
+  "decision": "RELEASE",
+  "decision_reason": "Estimated residual PSC fraction 0.0000% is at or below the FDA-aligned release threshold of 0.001%.",
+  "n_cells": 500,
+  "n_cells_above_threshold": 0,
+  "estimated_psc_fraction": 0.0,
+  "raw_measured_fraction": 0.0,
+  "estimated_psc_count": 0,
+  "psc_probability_mean": 0.01699995346774523,
+  "psc_probability_max": 0.016999953473556557,
+  "lineage_breakdown": {
+    "ectoderm": 500
+  },
+  "mean_teratoma_risk_score": 0.005439985109678475,
+  "max_teratoma_risk_score": 0.005439985111538099,
+  "thresholds": {
+    "decision_threshold": 0.5,
+    "release_max_pct": 0.001,
+    "hold_min_pct": 1.0
+  },
+  "per_cell_summary": [
+    {
+      "cell_id": "bcc_CATGACACACGAGAGT-1_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CGGAGCTAGCTACCTA-1_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_GATCGATCATTAGGCT-1_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_GGGAATGTCCCTAACC-1_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TACAGTGCAGACAAGC-1_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_AAGGAGCGTTGAGGTG-2_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CACCAGGAGGACCACA-2_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CAGCGACAGTCGAGTG-2_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CAGCGACTCACCATAG-2_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TGCTGCTCATCGGGTC-2_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ACGATGTTCCTTAATC-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ACGGGCTTCCGCGTTT-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_AGCTTGATCGGTGTTA-3_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_AGGGATGGTGTTGAGG-3_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CACCTTGAGGAGCGAG-3_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CCACGGATCATGCTCC-3_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CCATGTCAGAGTAAGG-3_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CGAGAAGTCGAGAGCA-3_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CGAGCCAGTCCATGAT-3_1",
+      "psc_probability": 0.016999953467524215,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CGATTGATCTTTAGGG-3_1",
+      "psc_probability": 0.016999953467524215,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CGCTGGAGTAGCTCCG-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CGTGTAATCCCGGATG-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CTAGAGTGTTTGTTTC-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_GAATAAGTCCTACAGA-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_GAATGAATCTGGTTCC-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_GACACGCCACAGGTTT-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_GATCGTAGTGTTCGAT-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_GCTGCTTGTGCGATAG-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TACAGTGTCCCACTTG-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TACCTATGTTAGGGTG-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TCCCGATCATGCAATC-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TCTGAGATCCGCATAA-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TTAGTTCGTCTTCAAG-3_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TTCGAAGGTATCAGTC-3_1",
+      "psc_probability": 0.016999953467524215,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TTGGCAACAGCCAGAA-3_1",
+      "psc_probability": 0.016999953467524215,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_TTTGGTTGTGGGTCAA-3_1",
+      "psc_probability": 0.016999953467524215,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_AAAGATGCATGTTGAC-4_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ACATGGTGTAGAAAGG-4_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ACATGGTTCCCGACTT-4_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ACGCCGAAGCTCCTTC-4_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ACGCCGATCCAAACTG-4_1",
+      "psc_probability": 0.016999953462498704,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ACTGATGGTAAATGTG-4_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_AGATTGCAGCTAACAA-4_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_AGCTCCTAGTGGGCTA-4_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_AGCTCTCTCAAGATCC-4_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_AGGGAGTGTAACGCGA-4_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ATAGACCAGTCTCCTC-4_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ATCATCTTCGGTCCGA-4_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_ATCTACTTCCAAATGC-4_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "bcc_CACATTTTCTTAGAGC-4_1",
+      "psc_probability": 0.016999953468027164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    }
+  ],
+  "biomarker_model_agreement": 1.0,
+  "biomarker_model_disagreement": 0.0,
+  "cross_check_warning": "consistent",
+  "clinical_notification": {
+    "title": "Residual PSC Detection \u2014 Clinical Risk Notification",
+    "batch_id": "BATCH-001",
+    "decision": "RELEASE",
+    "risk_summary": "No residual PSCs detected above the decision threshold. Teratoma risk from this product lot is estimated as negligible.",
+    "confidence": "moderate",
+    "overall_psc_fraction": 0.0,
+    "overall_psc_count": 0,
+    "total_cells_analysed": 500,
+    "teratoma_risk_sites": [
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.005439985109678473,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.00441998790161376,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.0027199925548392367,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.0023799934854843324,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.0020399944161294276,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      }
+    ],
+    "possible_onset_locations": [
+      "Brain",
+      "Skin",
+      "Adrenal",
+      "Retina",
+      "Pituitary"
+    ],
+    "disclaimer": "Risk probabilities are model-derived estimates from scRNA-seq data only. They do not substitute for in vivo tumorigenicity testing or clinical judgement. Research Use Only \u2014 NOT FDA-cleared."
+  },
+  "model_credentials": {
+    "model_version": "resipsc-ensemble-2.0.0",
+    "benchmark": "multi-site 4-fold CV ROC-AUC 0.883",
+    "sensitivity": "Spike-in detection to 0.010% with quantification-calibrated fraction estimates (n=2000 per replicate)",
+    "training_data": "hybrid (synthetic multi-site + real pbmc3k)"
+  },
+  "executive_summary": {
+    "headline": "No actionable residual PSC burden detected \u2014 T1 disposition",
+    "detail": "resipsc analysed 500 cells from batch BATCH-001. 0 cells exceeded the PSC decision threshold (estimated fraction 0.0000%). Biomarker cross-check agreement was 100.0%. The dominant detected lineage is ectoderm.",
+    "caveat": "This is a computational inference from scRNA-seq data. It does not replace orthogonal wet-lab release assays (HEC, ddPCR, flow cytometry) and has not been cleared by FDA or EMA.",
+    "one_line_verdict": "RELEASE \u2014 Negligible risk (\u2264 0.001% residual PSC)"
+  },
+  "risk_tier": {
+    "tier": "T1",
+    "label": "Negligible risk (\u2264 0.001% residual PSC)",
+    "color": "emerald",
+    "fda_rationale": "Meets FDA 21 CFR 1271-aligned release criterion (\u2264 0.001%).",
+    "ema_rationale": "EMEA/CHMP/410869/2006: QP release defensible at \u2264 0.001% with orthogonal confirmation.",
+    "numerical_threshold": "<= 0.001%"
+  },
+  "methodology": {
+    "model_versions": {
+      "resipsc": "2.0.0",
+      "scikit-learn": "1.5.2",
+      "numpy": "2.1.3",
+      "anndata": "0.13.4",
+      "pandas": "2.3.3",
+      "scipy": "1.14.1",
+      "xgboost": "2.1.3",
+      "matplotlib": "3.9.2"
+    },
+    "pipeline": [
+      "1. Input parsing (h5ad/csv/mtx; counts or log-normalised)",
+      "2. Cell QC filter (>= 10 detected genes)",
+      "3. Gene QC filter (>= 3 expressing cells; markers always retained)",
+      "4. Library-size normalisation to 10,000 counts per cell",
+      "5. log1p transformation",
+      "6. Highly-variable gene selection (top 300 by variance)",
+      "7. Per-gene z-scaling (clip +-10)",
+      "8. Ensemble scoring (XGB+RF+SVM 0.6 / AE+MLP 0.4)",
+      "9. Biomarker cross-check (POU5F1/NANOG/SOX2 panel)",
+      "10. Lineage assignment + teratoma site mapping (22 sites)"
+    ],
+    "input_dimensions": {
+      "cells": 500,
+      "genes": 14643
+    },
+    "decision_threshold": 0.5,
+    "random_seed": 42
+  },
+  "statistical_confidence": {
+    "bootstrap_ci_95": {
+      "lower": 0.0,
+      "upper": 0.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "n_iterations": 1000
+    },
+    "binomial_test": {
+      "null_hypothesis": "true PSC fraction = release threshold (0.001%)",
+      "alternative": "true PSC fraction exceeds release threshold",
+      "p_value": 0.004987545682795192,
+      "significant_at_alpha_0_05": true,
+      "observed_count": 0,
+      "expected_under_null": 0.005
+    },
+    "post_hoc_power": {
+      "value": 0.02942897014054415,
+      "interpretation": "limited (< 0.8) \u2014 a larger cell number is needed for robust detection",
+      "assumed_effect_size": 0.07071103167469703,
+      "alpha": 0.05,
+      "sample_size": 500
+    }
+  },
+  "probability_distribution": {
+    "bins": [
+      {
+        "label": "0.00-0.05",
+        "count": 500,
+        "fraction": 1.0
+      },
+      {
+        "label": "0.05-0.10",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.10-0.15",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.15-0.20",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.20-0.25",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.25-0.30",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.30-0.35",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.35-0.40",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.40-0.45",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.45-0.50",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.50-0.55",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.55-0.60",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.60-0.65",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.65-0.70",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.70-0.75",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.75-0.80",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.80-0.85",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.85-0.90",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.90-0.95",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.95-1.00",
+        "count": 0,
+        "fraction": 0.0
+      }
+    ],
+    "n_cells": 500,
+    "p50": 0.016999953468027164,
+    "p95": 0.01699995347342723,
+    "p99": 0.01699995347342723,
+    "mean": 0.01699995346774523,
+    "max": 0.016999953473556557
+  },
+  "calibration_metrics": {
+    "brier_score_vs_biomarker": 0.00028899841790550317,
+    "brier_interpretation": "excellent (Brier < 0.05: probabilities closely track biomarker evidence)",
+    "ece_surrogate_vs_biomarker": 0.01699995346774523,
+    "ece_interpretation": "well calibrated (ECE < 0.05)",
+    "biomarker_model_agreement": 1.0
+  },
+  "recommendations": [
+    {
+      "priority": 3,
+      "category": "Regulatory",
+      "action": "Archive report + audit trail export to batch record (21 CFR Part 11)",
+      "rationale": "Electronic records must be retained >= 5 years after batch release.",
+      "owner": "QA",
+      "effort": "routine"
+    },
+    {
+      "priority": 4,
+      "category": "Model governance",
+      "action": "Confirm current model version in registry matches promotion record (ICH Q5E)",
+      "rationale": "Change control requires concordance documentation on every retrain.",
+      "owner": "ML governance",
+      "effort": "routine"
+    }
+  ],
+  "citation_block": {
+    "bibtex": "@software{resipsc2026,\n  title  = {resipsc v2.0.0: residual pluripotent stem cell detection for cell therapy QC},\n  year   = {2026},\n  note   = {Machine-learning ensemble for residual PSC detection in scRNA-seq},\n}",
+    "citation_text": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "doi_placeholder": "10.5281/zenodo.XXXXXXX (to be assigned on release)",
+    "license": "MIT (code); CC-BY-4.0 (data and figures)",
+    "software_heritage_id": "pending archival on first public release"
+  },
+  "regulatory_context": {
+    "disposition_code": "RELEASE",
+    "fda": "21 CFR 1271 (HCT/Ps): release testing for residual PSCs is required before administration of PSC-derived cell therapy products. resipsc supports release at observed residual PSC fraction <= 0.001% and recommends quarantine above 1%. 21 CFR 211 (cGMP) applies to more-than-minimally-manipulated PSC derivatives. 21 CFR Part 11: audit trail implemented as an append-only, SHA-256 hash-chained event log with UTC timestamps.",
+    "ema": "EMEA/CHMP/410869/2006 (Guideline on human cell-based medicinal products): requires identity, potency, purity, microbiological safety, viability and tumorigenicity testing. Purity criterion: residual undifferentiated cells below a sponsor-justified threshold; QP release is defensible at <= 0.001% with orthogonal confirmation.",
+    "ich": "ICH Q5E Comparability of Biotechnological/Biological Products: pre/post retrain concordance analysis (sensitivity/specificity/kappa). ICH Q9(R1) Quality Risk Management: formal FMEA covering input data quality, model failure modes and infrastructure. ICH Q10 Pharmaceutical Quality System: change control, CAPA, management review and knowledge management implemented around the model lifecycle.",
+    "observed_psc_fraction_pct": 0.0,
+    "audit_trail": "db/audit.db \u2014 append-only SHA-256 hash-chained event log (21 CFR Part 11)"
+  },
+  "report_metadata": {
+    "report_id": "06415166a36eccf26ac38da9d1d4f696b2c7eb48efc644769e9514ca49cd3bca",
+    "generated_at_utc": "2026-10-16 10:54:18 UTC",
+    "batch_id": "BATCH-001",
+    "software_version": "2.0.0",
+    "report_version": "2.1",
+    "input_file_format": "h5ad",
+    "input_cells": 500,
+    "input_genes": 14643,
+    "input_hash_short": "399e5b01e405dd5e",
+    "signature_line": "Electronic signature: resipsc automated QC pipeline (RUO) \u2014 unsigned",
+    "intended_use": "Research Use Only \u2014 NOT FDA-cleared"
+  },
+  "threshold_sensitivity": {
+    "thresholds": {
+      "0.3": {
+        "n_above": 0,
+        "fraction_pct": 0.0
+      },
+      "0.5": {
+        "n_above": 0,
+        "fraction_pct": 0.0
+      },
+      "0.7": {
+        "n_above": 0,
+        "fraction_pct": 0.0
+      }
+    },
+    "all_thresholds_agree": true,
+    "decision_stability": "ROBUST \u2014 detection count is stable across thresholds 0.3/0.5/0.7"
+  },
+  "per_cell_classification": {
+    "counts": {
+      "high_confidence_psc": 0,
+      "model_only_psc": 0,
+      "biomarker_only_psc": 0,
+      "ambiguous": 0,
+      "high_confidence_negative": 500
+    },
+    "fractions": {
+      "high_confidence_psc": 0.0,
+      "model_only_psc": 0.0,
+      "biomarker_only_psc": 0.0,
+      "ambiguous": 0.0,
+      "high_confidence_negative": 1.0
+    },
+    "total": 500,
+    "interpretation": {
+      "high_confidence_psc": "PSC called by both the ML ensemble and the OCT4/NANOG/SOX2 biomarker panel \u2014 treat as confirmed residual PSCs.",
+      "model_only_psc": "PSC called by the model without biomarker support \u2014 possible batch-effect false positive; verify with orthogonal assay.",
+      "biomarker_only_psc": "Biomarker-positive without model support \u2014 possible differentiated-cell marker expression; review manually.",
+      "ambiguous": "Borderline model probabilities (0.35-0.65) without biomarker support \u2014 indeterminate calls.",
+      "high_confidence_negative": "Concordant negative \u2014 differentiated cells with quiet pluripotency programme."
+    }
+  },
+  "disease_site_probabilities": {
+    "sites": [
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.005439985109678473,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.00441998790161376,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.0027199925548392367,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.0023799934854843324,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 500,
+        "lineage_probability": 1.0,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.0020399944161294276,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      }
+    ],
+    "total_sites_evaluated": 22,
+    "high_risk_sites": 0,
+    "moderate_risk_sites": 0,
+    "low_risk_sites": 0,
+    "negligible_risk_sites": 5,
+    "formula": "absolute_risk = mean(model probability of lineage cells) x literature site prior",
+    "priors_source": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008"
+  },
+  "qc_flags": [
+    {
+      "severity": "warning",
+      "category": "subsample",
+      "message": "Input had 9841 cells; analysis subsampled to 500 for memory safety (RESIPSC_MAX_CELLS).",
+      "action": "Set RESIPSC_MAX_CELLS higher on machines with more RAM."
+    },
+    {
+      "severity": "info",
+      "category": "subsample",
+      "message": "No QC anomalies detected",
+      "action": "Proceed with standard review"
+    }
+  ],
+  "disclaimer": {
+    "primary": "Research Use Only \u2014 NOT FDA-cleared. This report is a computational inference from single-cell RNA-seq data and does not constitute a clinical release test.",
+    "limitations": [
+      "Model trained on a hybrid corpus (simulated multi-site data + real PBMC reference); clinical performance on therapeutic manufacturing batches is not yet established.",
+      "Detection limits below 0.001% PSC depend on sequenced cell count and depth; bootstrap CIs quantify this uncertainty.",
+      "Lineage assignment and teratoma site priors are literature-derived estimates, not patient-level predictions.",
+      "Batch effects, ambient RNA and doublets can inflate apparent PSC fractions; the biomarker cross-check mitigates but does not eliminate this.",
+      "No wet-lab orthogonal validation (HEC, ddPCR, lncRNA flow) has been performed for this build."
+    ],
+    "wet_lab_confirmation": "Confirm any non-RELEASE disposition with an orthogonal assay: ddPCR for LIN28A/ESRG, immunostaining for OCT4/TRA-1-60, or the histological embryoid-body assay, per EMEA/CHMP/410869/2006.",
+    "decision_authority": "The disposition code is a recommendation. Release authority rests with the Qualified Person under EMA rules or the responsible QA officer under FDA rules.",
+    "audit_trail": "All model inputs, outputs and decisions are recorded in the append-only audit trail (db/audit.db).",
+    "citation": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "license": "MIT (code); CC-BY-4.0 (figures)",
+    "version": "resipsc 2.0.0 / report v2.1"
+  },
+  "cell_projection": {
+    "points": [
+      {
+        "x": 7.374437700491399e-05,
+        "y": -3.6754516097303735e-10,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CATGACACACGAGAGT-1_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 1.2472182175926605e-09,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CGGAGCTAGCTACCTA-1_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": -2.441923108165156e-09,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GATCGATCATTAGGCT-1_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 1.5145639187252868e-09,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGGAATGTCCCTAACC-1_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": -3.2513924885790857e-10,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TACAGTGCAGACAAGC-1_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 2.7892828671771674e-11,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AAGGAGCGTTGAGGTG-2_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": -1.0884101779573552e-12,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CACCAGGAGGACCACA-2_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 5.62085100686005e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAGCGACAGTCGAGTG-2_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.769855300665315e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAGCGACTCACCATAG-2_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.786060870537456e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TGCTGCTCATCGGGTC-2_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.785129540871291e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACGATGTTCCTTAATC-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.78513550398324e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACGGGCTTCCGCGTTT-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.78513550398324e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_AGCTTGATCGGTGTTA-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.78513550398324e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_AGGGATGGTGTTGAGG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.78513550398324e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_CACCTTGAGGAGCGAG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.78513550398324e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_CCACGGATCATGCTCC-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.78513550398324e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_CCATGTCAGAGTAAGG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.785088341188737e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_CGAGAAGTCGAGAGCA-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.795431629914249e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_CGAGCCAGTCCATGAT-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798010946882592e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_CGATTGATCTTTAGGG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CGCTGGAGTAGCTCCG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CGTGTAATCCCGGATG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTAGAGTGTTTGTTTC-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GAATAAGTCCTACAGA-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GAATGAATCTGGTTCC-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GACACGCCACAGGTTT-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GATCGTAGTGTTCGAT-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GCTGCTTGTGCGATAG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TACAGTGTCCCACTTG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TACCTATGTTAGGGTG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCCCGATCATGCAATC-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCTGAGATCCGCATAA-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TTAGTTCGTCTTCAAG-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_TTCGAAGGTATCAGTC-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_TTGGCAACAGCCAGAA-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_TTTGGTTGTGGGTCAA-3_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_AAAGATGCATGTTGAC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_ACATGGTGTAGAAAGG-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_ACATGGTTCCCGACTT-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_ACGCCGAAGCTCCTTC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_ACGCCGATCCAAACTG-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACTGATGGTAAATGTG-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AGATTGCAGCTAACAA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AGCTCCTAGTGGGCTA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AGCTCTCTCAAGATCC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AGGGAGTGTAACGCGA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ATAGACCAGTCTCCTC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ATCATCTTCGGTCCGA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ATCTACTTCCAAATGC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CACATTTTCTTAGAGC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAGCATAGTTACTGAC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAGCGACAGAATTCCC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAGCTAATCACAGGCC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAGGTGCTCAACTCTT-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_CATATTCTCTAGAGTC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_CCCATACTCGTGGACC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_CGTGTAAAGTCTTGCA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_CTAATGGTCCCATTTA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_CTCGAAACAAGGTGTG-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_GAAACTCTCAAGCCTA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_GACTGCGAGTAGGTGC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_GACTGCGCATTGAGCT-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GATCGATGTAGAGTGC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GCGACCAGTTGTACAC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGAACTTTCGGCGGTT-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGGAATGCATCTCCCA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGGTCTGCAGACAGGT-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTAGTCATCCGCAAGC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTCGTAAGTTCCATGA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTGCATAGTCCAGTGC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTTAAGCTCGTCCGTT-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTTCATTAGTACTTGC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TATTACCGTACCGTAT-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCAGCAAAGCATGGCA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCGTACCCACCAGTTA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_TCTGGAATCCTATTCA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_TGCCAAAGTCAACATC-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_TGGCTGGCAAGCCGCT-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_TGGGAAGGTAAGTAGT-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_TGGGCGTAGCGAGAAA-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_TGTCCCACAGCTTCGG-4_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_ATAGACCCAAGGTGTG-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_ATCTACTAGGAATTAC-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAAGTTGCAAATTGCC-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAGCGACAGAAGGGTA-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CATGACACAGGTCGTC-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTACGTCTCGTCTGCT-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTGCCTACATGCATGT-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTGCTGTCACTCGACG-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GAACCTAGTTACGCGC-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GATTCAGCAGACACTT-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GCTGCTTCACAGAGGT-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGTATTGTCAATAAGG-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTAGTCATCTACTTAC-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTCCTCAAGTATCTCG-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTCGTAAGTCACCCAG-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_GTTAAGCCAGTGGAGT-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_TAGTTGGAGCTAACTC-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_TGTTCCGCACCTTGTC-5_1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_SC1control_ACTAAAACAGCTCA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_SC1control_ATGCGCCTTCGACA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_SC1control_CTAACACTTGTTTC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_SC1control_GAGAAATGTTTCTG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_SC1control_GAGCGAGACTGAGT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC1control_GCACAAACGATAGA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC1control_GGACAACTCTAAGC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC1control_GGACAACTCTCGCT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC1control_GTCATACTTGCCTC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC1control_TACTTTCTCTAAGC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC1control_TCAGGATGCGGAGA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC4control_AAAGATCTTTCTCA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC4control_AAAGATCTTTGGCA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC4control_ATCACTACATGACC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC4control_GGAGTTTGCATTTC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC4control_GGAGTTTGGTTTGG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC4control_GTGCCACTTGTCCC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_AAGAATCTAAGAGT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_SC18control_AAGCGTACTCACGA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_SC18control_AATCCTTGCTTGGA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_SC18control_ACACAGACTACTGG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_SC18control_ACCAGCCTTGGAGG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_SC18control_ACTAGGTGCCTATT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_SC18control_AGACACTGGAGAGC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_SC18control_AGCAACACTAGACC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_SC18control_AGTCAGACCGGTAT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_ATAAACACGTTTCT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_ATCCAGGACTGGAT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_ATCTACTGTATCGG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_ATGCGATGACGGAG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_ATTAGTGAATGTGC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_ATTTCGTGACTTTC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_CAACGTGACAGCTA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_CAAGGACTGTTGAC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_CAGCATGAGACAAA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_CCCAACACTTTGCT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_CTTCACCTCTAGTG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_CTTGAGGAGGTTAC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_GATATTGAACTACG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_SC18control_GCACCTACTAGCGT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_SC18control_GGCGACTGTATCGG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_SC18control_GTTACTACCTCCAC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_SC18control_TCAAGGTGGGAAGC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_SC18control_TCGATTTGAGCCAT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_SC18control_TCGGCACTTCTCCG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_SC18control_TCTAACACCTCGCT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_SC18control_TTACTCGAGGACGA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC18control_TTAGTCACAGCAAA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC32control_AACCTTACAACCGT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC32control_ATCTTGACATCGGT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC32control_GACTCCTGGAACCT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC32control_GTTACTACAGCGTT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC32control_TGAATAACAAGGGC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC32control_TGCCCAACAAGGCG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC32control_TTTAGGCTGCAGAG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC33control_GTTAAAACGCAGTT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC33control_TCATTCGATCGCAA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953473556557,
+        "cell_id": "bcc_SC34control_ATGCGATGAAACAG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953473556557,
+        "cell_id": "bcc_SC34control_CACAGATGCACTGA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953473556557,
+        "cell_id": "bcc_SC34control_CAGGTAACCACAAC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953473032174,
+        "cell_id": "bcc_SC34control_CGGACTCTTGGTTG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953473032174,
+        "cell_id": "bcc_SC34control_GCTCACTGGAGATA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953473032174,
+        "cell_id": "bcc_SC34control_GGTACATGGCGTTA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953473032174,
+        "cell_id": "bcc_SC34control_TAGCCGCTAGCCAT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953473032174,
+        "cell_id": "bcc_SC34control_TAGTAATGACTACG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_SC34control_TGAAGCTGCGAGAG.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_SC34control_TGAGCTGAATCTTC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_SC34control_TGCAACGAGACGGA.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC34control_TTAGAATGGTCAAC.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC34control_TTGAATGACGAGTT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_SC34control_TTTCGAACTTTCGT.1_4",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AGCGTCGAGGGCCTCT-1_2",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTCAAGATCTACTTCA-1_2",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTGAGGCGTTGCCGAC-1_2",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GATTTCTCATGACGTT-1_2",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGATGTTAGTAAACTG-1_2",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGGCCATCATGACGTT-1_2",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AGTTCGAGTTCCTACC-1_10",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ATCTCTAGTCCAGCAC-1_10",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAGTTCCTCTAAGCGT-1_10",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCAGCCTAGAAGCGGG-1_11",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_CAACGATCAGACAAAT-1_12",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_TTGCTGCGTCCATAGT-1_12",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_ACTTATCGTCCTCATC-1_13",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_GGCTGTGGTGGCGCTT-1_13",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_AAGTCGTGTTTCCCAC-1_14",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_GCCATTCCATTCACAG-1_14",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_GGGACAAGTTGTTGAC-1_14",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_GCATGATTCACTCTTA-1_15",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AGGTTGTAGGGAGTGG-1_16",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACCCAAAGTCTAGGTT-1_17",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ATCCCTGAGTCTGCAT-1_17",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CATGCAACACCGGCTA-1_17",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTATTTCCACAGTACT-1_17",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AAACGAACAAGAAATC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AAGCCATGTCGCAGTC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AATGGAACAAGAAATC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACACGCGAGACATAAC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACATGCATCTCGACGG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACTTTCACAGATTTCG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AGACTCAAGCTAAGTA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AGTCTCCGTGGATGAC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_AGTGTTGGTCCTATAG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_ATCCATTCAGCTATAC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_ATCCTATGTGGTCTGC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_ATCTCTAGTACGATGG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_ATGAAAGCAGCACGAA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_CATGGATCAGAGATGC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_CATTGTTAGGCGAACT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_CCAATGAAGATACAGT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CCTATCGCACTACAGT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CCTCCTCAGGCACAAC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CGAGGAAGTGGTATGG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CGCATGGCAAGAGAGA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTCCACACATCGCTAA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTGAGGCGTATTCCGA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTGATCCTCTGTAACG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTGCAGGCAGCGTTTA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTGCTCATCGGCGATC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTGTACCGTCGTGGAA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTTACCGAGCGTCTGC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTTAGGAGTACTGCGC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GAACGTTTCATCACCC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_GAACTGTCATTCACCC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_GACCGTGAGGCGACAT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_GACCGTGGTAATGCTC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_GAGTGAGGTCATTGCA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_GCACATACACGTGAGA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_GCATCTCTCCATTTCA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_GCGTGCAGTTCCGGTG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_GCTACCTAGTGGTGAC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGACGTCGTGTTATCG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGATCTAAGCATGATA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGGAGATAGGAACGTC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGGAGTATCACACGAT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGTAATCAGTTCCGTA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTAGCTAGTTCAGGTT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTCCCATCACTGTCCT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTGCTGGCATTAGGCT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTTCATTTCCGGTAAT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTTGCTCTCGACCTAA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTTGTCCTCGCGAAGA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TAAGCGTCAGAGTGAC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TAAGTCGGTCGACTTA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_TAATTCCGTGATAGTA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "bcc_TACGGGCTCAGCTTCC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_TAGGGTTTCTTGTTAC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_TAGGTTGTCTTCGCTG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_TCACTATCAAAGACTA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_TCCGAAAAGTCACGCC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_TCTAACTGTTCAAGGG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "bcc_TCTGTCGTCCTCTAGC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TGAATCGTCCATTGTT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TGGATGTGTCTAATCG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TGGGAGAGTTGCTCAA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TGGGCTGGTTCAATCG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TGGTACAGTACAGGTG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TGTTGGAGTTGATGTC-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TTACGCCGTTAGCGGA-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TTCGCTGTCCCTTTGG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TTGACCCAGCTCCACG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TTGACCCGTCATGACT-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TTTCACATCTGCTCTG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TTTCCTCCAATTCGTG-1_19",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AACACACCATGTGACT-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_AACCACATCACGGGAA-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_ATGGATCTCTTTCTAG-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_CACGTTCCACGGGTAA-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_CATCGTCGTCATACCA-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_CCTAACCGTGAACGGT-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_CCTTGTGGTCTACTGA-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_CTCAGTCGTGCGGCTT-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_GATGACTCATCGCTCT-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GCACGTGCAAGACGGT-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TAACCAGTCCATTTGT-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TAAGCCAGTCGCACAC-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCACGCTTCGCGTGCA-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCGCTCAAGCTCTATG-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TTCCTAAAGTGCAGGT-1_21",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GGGTTTATCACTCGAA-1_22",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_AATGACCCATTCTGTT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACAAAGATCGTGCTCT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACACAGTAGTATTCCG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACATCCCGTCACAGTT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACCAAACTCTATGTGG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_ACGGTTACAAACACCT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_ACTTAGGAGAAGCCTG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "bcc_AGACACTCAGAATCGG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_AGCTACATCATCTATC-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_AGGGCCTCACCCTCTA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_AGTCATGAGGGCTAAC-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_ATGCCTCTCAGTGGGA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_ATTCACTTCGACTCCT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "bcc_CAGATCAAGCCTTTGA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CAGGCCACAATACGAA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CATGAGTAGGACGCAT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CCAAGCGCAAATTAGG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CCCAACTCATCCGGTG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CCCGAAGTCTTGGTGA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CCTCTCCCAACTACGT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CGTAGTAGTAAGTTGA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTATCTAAGTGGATAT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_CTCCGATGTCTGTCAA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GAACTGTGTACACTCA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GAAGGACAGCTCGCAC-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GACCCAGAGGCTGGAT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GACCGTGCAGGTTTAC-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_GATGCTAAGTAACGAT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_GATTTCTAGGTCTACT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_GCCCGAATCCGTTGAA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_GCGAGAAAGAGAGCAA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "bcc_GCGAGAACAGGTGAGT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_GTACAGTGTCGATGCC-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_GTCATGAGTACGTGTT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "bcc_GTGGAAGAGAAATTCG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_GTGGAGAGTACCTTCC-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TACCTGCCACAGCTGC-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCATATCCAACCAGAG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCCTCTTTCCAGCAAT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCGTGGGAGGACTTCT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCTATACGTCCACTTC-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCTCACGTCAGCTCTC-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TCTGTCGAGGCGCTCT-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "bcc_TGAGGAGGTAGGTCAG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953465052838,
+        "cell_id": "bcc_TGGATGTAGGAAAGTG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953465052838,
+        "cell_id": "bcc_TGTTGGATCCTAACAG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953465052838,
+        "cell_id": "bcc_TTGGGCGCACACCGCA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953465052838,
+        "cell_id": "bcc_TTTGGTTGTCTGGTTA-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953473416977,
+        "cell_id": "bcc_TTTGTTGAGATGCTGG-1_23",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953473416977,
+        "cell_id": "bcc_AGAACCTGTACACGTT-1_26",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953473416977,
+        "cell_id": "bcc_CCGGTAGTCGAATGCT-1_26",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953473416977,
+        "cell_id": "psu_AAAGGTAGTGGTCTTA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "psu_AAATGGATCGCAATGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "psu_AACACACAGCACGTCC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "psu_AAGTCGTTCCTTCAGC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "psu_ACAACCACATCATTTC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ACCAACATCTTAATCC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ACGATCAGTCGTAATC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ACGATCAGTTGGAGGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ACTGATGCAAGATTGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_AGAACCTGTCGAAACG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_AGACAGGTCGACATAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_AGTACTGTCCTCAGAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ATCACGATCGCAAGAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ATCCATTCACATAACC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ATGAGTCAGTGGACGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ATGCATGAGGCGAACT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ATGCCTCGTGAGCGAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_ATGGGAGTCCACCTGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_ATTATCCAGCTCAGAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_ATTCTTGGTGAGATCG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_ATTTCACGTTCAGCTA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_CAAGGGAGTTTACCTT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "psu_CAATGACCAACACGAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "psu_CAATTTCTCAACGAGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "psu_CACACAAGTTGTGCAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "psu_CACAGGCAGCGCGTTC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CACATGATCTGTGCGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CAGATCAGTCCATAGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CAGATTGAGGAAAGAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CAGCCAGAGTTCTACG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CATCGCTAGCTATCCA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CCTAACCCAAATGGTA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CGAATTGCAACAGCCC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CGAATTGCATTGCCGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CGAGGAAGTCTGTAGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CGATGCGCATTACGGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CGCCAGAGTTGCATTG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CGGACACTCGAACGCC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_CGGGTCAGTCACTCAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "psu_CGTAATGCAGAGTCAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_CTACAGAGTCCCTCAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_CTCAATTGTGTCTAAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_CTCCGATAGTTCCGGC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_CTCCGATCATCGGAGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_CTCGAGGGTAAGATCA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "psu_CTGTACCCATGCCGAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "psu_CTTCCGAAGTACTCGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GACTCTCAGTCAGCGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GAGTTTGAGTACGTCT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GATTTCTAGTGGCAGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GCAACATAGAGATTCA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GCAACATTCCTCGATC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GCTGAATTCGTTCCTG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GGAATCTTCAGACAAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GGAGAACTCCTAAACG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GGAGGTACACAAGGTG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GGATCTACATCTATCT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GGCTTGGCATGCAGCC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GGCTTGGTCATGAGAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "psu_GGGAGATTCCGTATAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "psu_GGTCACGGTTCTTCAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "psu_GGTGATTAGCCATGCC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "psu_GGTGATTTCATCGCCT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "psu_GGTGGCTAGTATGTAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "psu_GGTTCTCTCAACGAGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "psu_GTACAACAGAAGATCT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "psu_GTATTTCGTGCAGTGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GTCGAATGTATCTCTT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GTCGCGATCGTCGGGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GTGCTGGGTTCCAGGC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_GTTCGCTAGACCAGAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TAACTTCCACTACCGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TACGCTCCATGAGTAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TATCTGTAGGAATGTT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TCACAAGCAGAGACTG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TCATATCGTCACCCTT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953470801448,
+        "cell_id": "psu_TCATGTTTCCTTTGAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953470801448,
+        "cell_id": "psu_TCATTACCACCTAAAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953470801448,
+        "cell_id": "psu_TCCATCGGTTTCCAAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953470801448,
+        "cell_id": "psu_TCGATTTCAGTTAGAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467627994,
+        "cell_id": "psu_TCGCTCATCGGCATAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467627994,
+        "cell_id": "psu_TCGGTCTTCACTTTGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467627994,
+        "cell_id": "psu_TGAATGCTCCATTGGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467627994,
+        "cell_id": "psu_TGACCCTGTAAGTCAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "psu_TGATCTTAGACCATAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "psu_TGATGGTCAGCTGGTC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953467524215,
+        "cell_id": "psu_TGCGATAGTGGGATTG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462498704,
+        "cell_id": "psu_TGGGCTGAGGAGTATT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TGTGATGTCTTACGTT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTACCGCGTTCTAACG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTATTGCAGTCTTGGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTCAGGAGTTCAATCG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTCCAATGTGGCATCC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTCCTAATCAAGAATG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTCCTAATCCCATAGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTCGATTTCCGAGTGC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTCGCTGTCAAGCGTT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTCTAACTCATCTATC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "psu_TTTGGTTAGGCACCAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_AACAGGGGTCGAGTTT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_ACACTGAGTCGTTGCG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_ACAGGGATCACAGAGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_AGATCGTGTTGGATCT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_AGCGATTAGCGACTGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_AGGGCCTTCAATCAGC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "ife_AGGGTGAAGAGTGACC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "ife_AGTAGTCGTCACTCAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "ife_ATAGGCTTCCAACACA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_ATCGTCCCATTCATCT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_ATTCATCCAGTGTGCC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_ATTCATCTCCAGCAAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CAAGACTCACGATTCA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CAAGACTTCGTGAGAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CACTTCGCATCGAAGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CAGATACTCTGGGCAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CAGCAATTCAACGAGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CATCCGTGTCCTGTTC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CATCGTCAGTAAGACT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CATTCCGTCCTACCAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CATTGAGAGTTATGGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CATTGAGTCAGCAGAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "ife_CCAATTTTCCACCTGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953462775615,
+        "cell_id": "ife_CCGGTAGGTCGAGATG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_CGACAGCTCGTGGGAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_CGATGGCGTGTAACGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_CGCCAGAAGGCACGAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_CGGTCAGGTCCAGAAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_CGTAAGTGTAGGTACG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346559027,
+        "cell_id": "ife_CTACAGAGTTGTAAAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CTCATTAGTGTCCAAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CTCCGATAGTTGGGAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_CTTCTAAGTACGCTAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GAGATGGGTATGGTAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GAGCCTGGTAGTTCCA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GAGGCCTCACGGATCC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GAGTTGTCAGGCAATG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GATGTTGTCCATCTGC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GCACGGTGTACCTATG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GCACTAATCGCTCATC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GCCCAGAAGGGATCAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GGATCTATCCCTATTA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "ife_GGGAGTAGTGGACTGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "ife_GGGTCACCATTAAAGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "ife_GGGTGAAGTAGAGGAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "ife_GGTTCTCGTAGTCGGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "ife_GTAGGAGCAACGTATC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995346828357,
+        "cell_id": "ife_GTCCTCAGTGTCATTG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "ife_GTCTAGATCGGTCGAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "ife_GTGCGTGGTGGCTGAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_GTGTGGCGTTGTTGTG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_TAGACCACAGCTGAAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_TAGACCAGTGCAAGAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_TAGGTACCACTTTATC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_TCACAAGCACGTCATA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_TCAGCAACATCAGCTA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_TCATGAGCAGTTCCAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_TCCACGTCATGAAGGC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_TCCATGCGTGTGATGG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953468027164,
+        "cell_id": "ife_TCGACGGGTCCGAAGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953470801448,
+        "cell_id": "ife_TCGGGTGAGCGATGAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953470801448,
+        "cell_id": "ife_TCGGGTGCAACTTGGT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.016999953470801448,
+        "cell_id": "ife_TCTATCAAGACCGCCT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.798980223624794e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "ife_TCTCACGCAATTCTCT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "ife_TCTCCGAAGGGACCAT-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "ife_TCTCCGATCCTGTAAG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "ife_TCTGCCATCAATGTCG-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374417327810079e-05,
+        "y": 4.799146106557184e-13,
+        "p": 0.01699995347342723,
+        "cell_id": "ife_TGATGGTGTTTACGAC-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374422420980409e-05,
+        "y": 2.178140307007581e-11,
+        "p": 0.01699995346828357,
+        "cell_id": "ife_TTGCCTGGTCAGGCAA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374422420980409e-05,
+        "y": 5.1432431230624687e-11,
+        "p": 0.01699995346828357,
+        "cell_id": "ife_TTGTTGTCAGTCGAGA-1",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 7.374422420980409e-05,
+        "y": 3.742829310371398e-11,
+        "p": 0.01699995346828357,
+        "cell_id": "ife_TTTGGAGCAGAGGCAT-1",
+        "class": "high_confidence_negative"
+      }
+    ],
+    "method": "pca",
+    "n_cells_total": 500,
+    "n_cells_projected": 500,
+    "x_range": [
+      7.374417327810079e-05,
+      7.374437700491399e-05
+    ],
+    "y_range": [
+      -2.441923108165156e-09,
+      1.5145639187252868e-09
+    ]
+  },
+  "gene_heatmap": {
+    "genes": [
+      "ENSG00000167614",
+      "ENSG00000111906",
+      "ENSG00000166922",
+      "ENSG00000138674",
+      "ENSG00000177106",
+      "ENSG00000239900",
+      "ENSG00000164520",
+      "ENSG00000184599"
+    ],
+    "top_cells": [
+      {
+        "cell_id": "bcc_SC34control_ATGCGATGAAACAG.1_4",
+        "p": 0.016999953473556557,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_SC34control_CACAGATGCACTGA.1_4",
+        "p": 0.016999953473556557,
+        "values": [
+          0.0,
+          1.0934561491012573,
+          0.0,
+          0.0,
+          1.0934561491012573,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_SC34control_CAGGTAACCACAAC.1_4",
+        "p": 0.016999953473556557,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "ife_TCTGCCATCAATGTCG-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "ife_TGATGGTGTTTACGAC-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          1.2806267738342285,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "ife_GTGCGTGGTGGCTGAA-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          1.0172709226608276,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "ife_GTCTAGATCGGTCGAC-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          1.7401931285858154,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_CTGTACCCATGCCGAC-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_CTCCGATAGTTCCGGC-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          1.3256547451019287,
+          0.0,
+          0.0,
+          0.9668135643005371,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_CTCCGATCATCGGAGA-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          1.1023998260498047,
+          0.0,
+          0.0,
+          1.1023998260498047,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_CTCGAGGGTAAGATCA-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          1.5964511632919312,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_CTCAATTGTGTCTAAC-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          1.0988590717315674,
+          1.4644602537155151,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_ATTTCACGTTCAGCTA-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          1.1821168661117554,
+          0.0,
+          0.8410962224006653,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_CAAGGGAGTTTACCTT-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          1.1142640113830566,
+          1.1142640113830566,
+          1.1142640113830566,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_CTACAGAGTCCCTCAT-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          0.0,
+          1.772032380104065,
+          2.1085283756256104,
+          1.772032380104065,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_GCATCTCTCCATTTCA-1_19",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          1.8086209297180176,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_TAATTCCGTGATAGTA-1_19",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_ATTATCCAGCTCAGAG-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.2510957717895508,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_ATTCTTGGTGAGATCG-1",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          1.6041685342788696,
+          0.0,
+          1.9434064626693726,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_SC18control_AGTCAGACCGGTAT.1_4",
+        "p": 0.01699995347342723,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "bottom_cells": [
+      {
+        "cell_id": "bcc_CCTAACCGTGAACGGT-1_21",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_ATGCCTCTCAGTGGGA-1_23",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          2.1774091720581055,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_ATTCACTTCGACTCCT-1_23",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_CAGATCAAGCCTTTGA-1_23",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          1.683048129081726,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_CCATGTCAGAGTAAGG-3_1",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_CGAGAAGTCGAGAGCA-3_1",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          1.3689173460006714,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_SC18control_TTACTCGAGGACGA.1_4",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          1.224699854850769,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.224699854850769,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_SC18control_TCTAACACCTCGCT.1_4",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_CATCGTCGTCATACCA-1_21",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          1.4540005922317505,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_GGTTCTCTCAACGAGG-1",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          1.5985636711120605,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "psu_GTACAACAGAAGATCT-1",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          1.5166290998458862,
+          0.0,
+          1.3118587732315063,
+          0.9583462476730347,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_CACGTTCCACGGGTAA-1_21",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.8540352582931519,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_AGCTTGATCGGTGTTA-3_1",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_AGGGCCTCACCCTCTA-1_23",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          1.6818749904632568,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_AGTCATGAGGGCTAAC-1_23",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_ATGGATCTCTTTCTAG-1_21",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_CCACGGATCATGCTCC-3_1",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_AACCACATCACGGGAA-1_21",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_AGGGATGGTGTTGAGG-3_1",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell_id": "bcc_CACCTTGAGGAGCGAG-3_1",
+        "p": 0.016999953462498704,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "color_scale": "blue(0) -> white(median) -> red(max) on log-normalised expression",
+    "description": "Expression of the 8-gene pluripotency panel in the 20 highest- and 20 lowest-scoring cells."
+  },
+  "batch_history": {
+    "batches": [],
+    "n_previous_batches": 0,
+    "trend": "insufficient history",
+    "current_batch_id": "BATCH-001"
+  },
+  "input_file": "E:\\resipsc v2 final 1\\data\\uploads\\assembled\\up_mvaunvp9_n5qcjy_056_Epithelial_bcc_and_normal_scRNAseq_14363b6e-3428-45b0-8704-10fd5d6316df.h5ad",
+  "input_total_cells": 9841,
+  "subsampled": true,
+  "max_cells_cap": 500,
+  "model_fitted": true,
+  "runtime_seconds": 8.12,
+  "status": "ok"
+}
