@@ -1,0 +1,102 @@
+Trial Datasets Validation
+Positive:
+ real single-cell RNA-
+seq
+ containing pluripotent or undifferentiated cells.
+Negative:
+ real human tissue where no pluripotent cells are expected.
+“Authentication”:
+ I took this to mean published, peer-reviewed data with a traceable public accession.
+Positive datasets (pluripotent or undifferentiated cells present)
+P1. GSE75748: 
+hESC
+ to definitive endoderm
+ (Chu et al., 
+Genome Biology
+ 2016)
+The paper reconstructs a trajectory from the pluripotent state through 
+mesendoderm
+ to definitive endoderm, covering 1,776 cells.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4989499
+https://doi.org/10.1186/s13059-016-1033-x
+https://omicsdi.org/dataset/biostudies-arrayexpress/E-GEOD-75748
+P2. GSE248497: 
+hPSC
+ to limbal stem cells
+ (
+Vattulainen
+ et al., 
+Stem Cell Reports
+ 2024)
+This is the strongest “residual cells” case. Three 
+hPSC
+ lines were differentiated, and the paper reports mesodermal-like and undifferentiated subpopulations whose prevalence depends on the line.
+The accession comes from the paper’s data-availability statement.
+https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(24)00153-X
+https://www.biorxiv.org/content/10.1101/2023.11.24.568553.full.pdf
+P3. CNP0001218: H9 
+hESC
+ to limbal stem cells, time course
+ (Sun et al., 
+Cell & Bioscience
+ 2021)
+Day 0 has 4,687 cells; the paper reports POU5F1 in 99.98% of them, so this is a clean pluripotent reference.
+The data are on 
+CNGBdb
+ (China National 
+GeneBank
+), not GEO. Access terms may differ, so check them.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7824938/
+https://doi.org/10.1186/s13578-021-00541-4
+P4. E-MTAB-6268: 
+hPSC
+ cardiac differentiation
+ (Friedman et al., 
+Cell Stem Cell
+ 2018)
+ArrayExpress
+ accession, confirmed on the publication record.
+https://cmdga.org/publications/01d693b8-7142-435c-b58f-9c8d31abb001/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6220122
+P5. GSE129096: iPSC to cardiomyocyte time course
+ (Drop-
+seq
+ vs 
+DroNc-seq
+ comparison)
+https://www.omicsdi.org/dataset/geo/GSE129096
+Negative datasets (adult human tissue, no pluripotent cells expected)
+N1. Tabula Sapiens
+ (
+Science
+ 2022; v2 covers over 1.1M cells from 28 organs of 24 donors)
+https://tabula-sapiens.sf.czbiohub.org/
+https://figshare.com/articles/dataset/Tabula_Sapiens_v2/27921984
+https://escholarship.org/uc/item/0285358r
+N2. GSE84133: human pancreas
+ (Baron et al., 
+Cell Systems
+ 2016; over 12,000 cells, four human donors plus mouse)
+https://cmdga.org/publications/b3ec6cf1-8fb4-4f17-9587-392be4150e73/
+https://ngdc.cncb.ac.cn/gen/project/accession/PRJNA328774
+N3. Cells of the adult human heart
+ (
+Litviňuková
+ et al., 
+Nature
+ 2020)
+https://explore.data.humancellatlas.org/projects/ad98d3cd-26fb-4ee3-99c9-8a2ab085e737
+https://doi.org/10.1038/s41586-020-2797-4
+N4. Human Lung Cell Atlas, core (healthy) subset
+ (Sikkema et al., 
+Nature Medicine
+ 2023)
+The core subset is healthy lung from 107 individuals, 584,944 cells. Use the core, not the full atlas, which includes disease samples.
+https://openproblems.bio/datasets/cellxgene_census/hlca
+https://github.com/LungCellAtlas/HLCA
+N5. Cross-tissue immune cell atlas
+ (Domínguez Conde et al., 
+Science
+ 2022)
+https://explore.data.humancellatlas.org/projects/04e4292c-f62f-4098-ae9b-fd69ae002a90
+https://openproblems.bio/datasets/cellxgene_census-immune_cell_atlas

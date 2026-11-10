@@ -68,3 +68,6 @@ __pycache__/
 *.fastq.gz
 data/raw/
 datasets/
+
+# Archives
+*.zip

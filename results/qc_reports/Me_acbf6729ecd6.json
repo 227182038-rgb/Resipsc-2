@@ -1,0 +1,3767 @@
+{
+  "batch_id": "Me",
+  "decision": "RELEASE",
+  "decision_reason": "Estimated residual PSC fraction 0.0000% is at or below the FDA-aligned release threshold of 0.001%.",
+  "n_cells": 383,
+  "n_cells_above_threshold": 0,
+  "estimated_psc_fraction": 0.0,
+  "raw_measured_fraction": 0.0,
+  "estimated_psc_count": 0,
+  "psc_probability_mean": 0.016999953408969,
+  "psc_probability_max": 0.016999953413290525,
+  "lineage_breakdown": {
+    "ectoderm": 383
+  },
+  "mean_teratoma_risk_score": 0.005439985090870081,
+  "max_teratoma_risk_score": 0.005439985092252968,
+  "thresholds": {
+    "decision_threshold": 0.5,
+    "release_max_pct": 0.001,
+    "hold_min_pct": 1.0
+  },
+  "per_cell_summary": [
+    {
+      "cell_id": "AAAGCGGA",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AAAGGCTG",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AACACGCA",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AACATGGG",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AACCCAAC",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AACCGCTT",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AACCGGAA",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AACCTGCT",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AACGAGGT",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AACTCTGG",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AAGACAGC",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AAGCACAT",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AAGCGAGT",
+      "psc_probability": 0.016999953413290525,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AAGCTGCA",
+      "psc_probability": 0.016999953413290525,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AAGGAGCA",
+      "psc_probability": 0.016999953413290525,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AAGGTCAG",
+      "psc_probability": 0.016999953413290525,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AAGTCTCG",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AAGTGGCT",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AATAGGGC",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AATCATGC",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AATCGGCA",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AATGGTGG",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACAAACCG",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACAAGGCA",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACACCGTG",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACAGAAGC",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACAGAGCT",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACAGGCAT",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACATGTGC",
+      "psc_probability": 0.016999953413290525,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACCAAGGA",
+      "psc_probability": 0.016999953413290525,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACCACGAT",
+      "psc_probability": 0.016999953407552164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACCAGTTC",
+      "psc_probability": 0.016999953407552164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACCCATCT",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACCCCATT",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACCCTACA",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACCGCTAA",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACCTCAGC",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACCTGGAG",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACGAACAC",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACGATAGG",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACGATCCT",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACGCGTAA",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACGCTCTT",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACGGATGT",
+      "psc_probability": 0.01699995341077078,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACGTACTG",
+      "psc_probability": 0.016999953407552164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACGTATCC",
+      "psc_probability": 0.016999953407552164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACGTTGTA",
+      "psc_probability": 0.016999953407552164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACTAGCGA",
+      "psc_probability": 0.016999953407552164,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "ACTGTTTG",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    },
+    {
+      "cell_id": "AGAACAGG",
+      "psc_probability": 0.01699995340577789,
+      "pluripotency_score": 0.0,
+      "teratoma_lineage": "ectoderm"
+    }
+  ],
+  "biomarker_model_agreement": 1.0,
+  "biomarker_model_disagreement": 0.0,
+  "cross_check_warning": "consistent",
+  "clinical_notification": {
+    "title": "Residual PSC Detection \u2014 Clinical Risk Notification",
+    "batch_id": "Me",
+    "decision": "RELEASE",
+    "risk_summary": "No residual PSCs detected above the decision threshold. Teratoma risk from this product lot is estimated as negligible.",
+    "confidence": "moderate",
+    "overall_psc_fraction": 0.0,
+    "overall_psc_count": 0,
+    "total_cells_analysed": 383,
+    "teratoma_risk_sites": [
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.00543998509087008,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.00441998788633194,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.00271999254543504,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.0023799934772556603,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.0020399944090762796,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      }
+    ],
+    "possible_onset_locations": [
+      "Brain",
+      "Skin",
+      "Adrenal",
+      "Retina",
+      "Pituitary"
+    ],
+    "disclaimer": "Risk probabilities are model-derived estimates from scRNA-seq data only. They do not substitute for in vivo tumorigenicity testing or clinical judgement. Research Use Only \u2014 NOT FDA-cleared."
+  },
+  "model_credentials": {
+    "model_version": "resipsc-ensemble-2.0.0",
+    "benchmark": "multi-site 4-fold CV ROC-AUC 0.883",
+    "sensitivity": "Spike-in detection to 0.010% with quantification-calibrated fraction estimates (n=2000 per replicate)",
+    "training_data": "hybrid (synthetic multi-site + real pbmc3k)"
+  },
+  "executive_summary": {
+    "headline": "No actionable residual PSC burden detected \u2014 T1 disposition",
+    "detail": "resipsc analysed 383 cells from batch Me. 0 cells exceeded the PSC decision threshold (estimated fraction 0.0000%). Biomarker cross-check agreement was 100.0%. The dominant detected lineage is ectoderm.",
+    "caveat": "This is a computational inference from scRNA-seq data. It does not replace orthogonal wet-lab release assays (HEC, ddPCR, flow cytometry) and has not been cleared by FDA or EMA.",
+    "one_line_verdict": "RELEASE \u2014 Negligible risk (\u2264 0.001% residual PSC)"
+  },
+  "risk_tier": {
+    "tier": "T1",
+    "label": "Negligible risk (\u2264 0.001% residual PSC)",
+    "color": "emerald",
+    "fda_rationale": "Meets FDA 21 CFR 1271-aligned release criterion (\u2264 0.001%).",
+    "ema_rationale": "EMEA/CHMP/410869/2006: QP release defensible at \u2264 0.001% with orthogonal confirmation.",
+    "numerical_threshold": "<= 0.001%"
+  },
+  "methodology": {
+    "model_versions": {
+      "resipsc": "2.0.0",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.1.3",
+      "anndata": "0.13.4",
+      "pandas": "2.3.3",
+      "scipy": "1.14.1",
+      "xgboost": "2.1.3",
+      "matplotlib": "3.11.2"
+    },
+    "pipeline": [
+      "1. Input parsing (h5ad/csv/mtx; counts or log-normalised)",
+      "2. Cell QC filter (>= 10 detected genes)",
+      "3. Gene QC filter (>= 3 expressing cells; markers always retained)",
+      "4. Library-size normalisation to 10,000 counts per cell",
+      "5. log1p transformation",
+      "6. Highly-variable gene selection (top 300 by variance)",
+      "7. Per-gene z-scaling (clip +-10)",
+      "8. Ensemble scoring (XGB+RF+SVM 0.6 / AE+MLP 0.4)",
+      "9. Biomarker cross-check (POU5F1/NANOG/SOX2 panel)",
+      "10. Lineage assignment + teratoma site mapping (22 sites)"
+    ],
+    "input_dimensions": {
+      "cells": 383,
+      "genes": 0
+    },
+    "decision_threshold": 0.5,
+    "random_seed": 42
+  },
+  "statistical_confidence": {
+    "bootstrap_ci_95": {
+      "lower": 0.0,
+      "upper": 0.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "n_iterations": 1000
+    },
+    "binomial_test": {
+      "null_hypothesis": "true PSC fraction = release threshold (0.001%)",
+      "alternative": "true PSC fraction exceeds release threshold",
+      "p_value": 0.003822693981611777,
+      "significant_at_alpha_0_05": true,
+      "observed_count": 0,
+      "expected_under_null": 0.0038300000000000005
+    },
+    "post_hoc_power": {
+      "value": 0.028842989710431532,
+      "interpretation": "limited (< 0.8) \u2014 a larger cell number is needed for robust detection",
+      "assumed_effect_size": 0.061887303224352916,
+      "alpha": 0.05,
+      "sample_size": 383
+    }
+  },
+  "probability_distribution": {
+    "bins": [
+      {
+        "label": "0.00-0.05",
+        "count": 383,
+        "fraction": 1.0
+      },
+      {
+        "label": "0.05-0.10",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.10-0.15",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.15-0.20",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.20-0.25",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.25-0.30",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.30-0.35",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.35-0.40",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.40-0.45",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.45-0.50",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.50-0.55",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.55-0.60",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.60-0.65",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.65-0.70",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.70-0.75",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.75-0.80",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.80-0.85",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.85-0.90",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.90-0.95",
+        "count": 0,
+        "fraction": 0.0
+      },
+      {
+        "label": "0.95-1.00",
+        "count": 0,
+        "fraction": 0.0
+      }
+    ],
+    "n_cells": 383,
+    "p50": 0.01699995341077078,
+    "p95": 0.016999953413290525,
+    "p99": 0.016999953413290525,
+    "mean": 0.016999953408969,
+    "max": 0.016999953413290525
+  },
+  "calibration_metrics": {
+    "brier_score_vs_biomarker": 0.00028899841590711674,
+    "brier_interpretation": "excellent (Brier < 0.05: probabilities closely track biomarker evidence)",
+    "ece_surrogate_vs_biomarker": 0.016999953408969,
+    "ece_interpretation": "well calibrated (ECE < 0.05)",
+    "biomarker_model_agreement": 1.0
+  },
+  "recommendations": [
+    {
+      "priority": 2,
+      "category": "Sampling",
+      "action": "Increase sequencing depth / cell number for future batches",
+      "rationale": "Only 383 cells analysed \u2014 fraction estimate CI is wide.",
+      "owner": "Process development",
+      "effort": "next run"
+    },
+    {
+      "priority": 3,
+      "category": "Regulatory",
+      "action": "Archive report + audit trail export to batch record (21 CFR Part 11)",
+      "rationale": "Electronic records must be retained >= 5 years after batch release.",
+      "owner": "QA",
+      "effort": "routine"
+    },
+    {
+      "priority": 4,
+      "category": "Model governance",
+      "action": "Confirm current model version in registry matches promotion record (ICH Q5E)",
+      "rationale": "Change control requires concordance documentation on every retrain.",
+      "owner": "ML governance",
+      "effort": "routine"
+    }
+  ],
+  "citation_block": {
+    "bibtex": "@software{resipsc2026,\n  title  = {resipsc v2.0.0: residual pluripotent stem cell detection for cell therapy QC},\n  year   = {2026},\n  note   = {Machine-learning ensemble for residual PSC detection in scRNA-seq},\n}",
+    "citation_text": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "doi_placeholder": "10.5281/zenodo.XXXXXXX (to be assigned on release)",
+    "license": "MIT (code); CC-BY-4.0 (data and figures)",
+    "software_heritage_id": "pending archival on first public release"
+  },
+  "regulatory_context": {
+    "disposition_code": "RELEASE",
+    "fda": "21 CFR 1271 (HCT/Ps): release testing for residual PSCs is required before administration of PSC-derived cell therapy products. resipsc supports release at observed residual PSC fraction <= 0.001% and recommends quarantine above 1%. 21 CFR 211 (cGMP) applies to more-than-minimally-manipulated PSC derivatives. 21 CFR Part 11: audit trail implemented as an append-only, SHA-256 hash-chained event log with UTC timestamps.",
+    "ema": "EMEA/CHMP/410869/2006 (Guideline on human cell-based medicinal products): requires identity, potency, purity, microbiological safety, viability and tumorigenicity testing. Purity criterion: residual undifferentiated cells below a sponsor-justified threshold; QP release is defensible at <= 0.001% with orthogonal confirmation.",
+    "ich": "ICH Q5E Comparability of Biotechnological/Biological Products: pre/post retrain concordance analysis (sensitivity/specificity/kappa). ICH Q9(R1) Quality Risk Management: formal FMEA covering input data quality, model failure modes and infrastructure. ICH Q10 Pharmaceutical Quality System: change control, CAPA, management review and knowledge management implemented around the model lifecycle.",
+    "observed_psc_fraction_pct": 0.0,
+    "audit_trail": "db/audit.db \u2014 append-only SHA-256 hash-chained event log (21 CFR Part 11)"
+  },
+  "report_metadata": {
+    "report_id": "acbf6729ecd69669de0deff35096121cbbdbd7a396a0339481ae77ed2082d2f0",
+    "generated_at_utc": "2026-11-03 06:22:15 UTC",
+    "batch_id": "Me",
+    "software_version": "2.0.0",
+    "report_version": "2.1",
+    "input_file_format": "txt",
+    "input_cells": 383,
+    "input_genes": 0,
+    "input_hash_short": "49be416263066556",
+    "signature_line": "Electronic signature: resipsc automated QC pipeline (RUO) \u2014 unsigned",
+    "intended_use": "Research Use Only \u2014 NOT FDA-cleared"
+  },
+  "threshold_sensitivity": {
+    "thresholds": {
+      "0.3": {
+        "n_above": 0,
+        "fraction_pct": 0.0
+      },
+      "0.5": {
+        "n_above": 0,
+        "fraction_pct": 0.0
+      },
+      "0.7": {
+        "n_above": 0,
+        "fraction_pct": 0.0
+      }
+    },
+    "all_thresholds_agree": true,
+    "decision_stability": "ROBUST \u2014 detection count is stable across thresholds 0.3/0.5/0.7"
+  },
+  "per_cell_classification": {
+    "counts": {
+      "high_confidence_psc": 0,
+      "model_only_psc": 0,
+      "biomarker_only_psc": 0,
+      "ambiguous": 0,
+      "high_confidence_negative": 383
+    },
+    "fractions": {
+      "high_confidence_psc": 0.0,
+      "model_only_psc": 0.0,
+      "biomarker_only_psc": 0.0,
+      "ambiguous": 0.0,
+      "high_confidence_negative": 1.0
+    },
+    "total": 383,
+    "interpretation": {
+      "high_confidence_psc": "PSC called by both the ML ensemble and the OCT4/NANOG/SOX2 biomarker panel \u2014 treat as confirmed residual PSCs.",
+      "model_only_psc": "PSC called by the model without biomarker support \u2014 possible batch-effect false positive; verify with orthogonal assay.",
+      "biomarker_only_psc": "Biomarker-positive without model support \u2014 possible differentiated-cell marker expression; review manually.",
+      "ambiguous": "Borderline model probabilities (0.35-0.65) without biomarker support \u2014 indeterminate calls.",
+      "high_confidence_negative": "Concordant negative \u2014 differentiated cells with quiet pluripotency programme."
+    }
+  },
+  "disease_site_probabilities": {
+    "sites": [
+      {
+        "anatomical_site": "Brain",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.32,
+        "site_prior": 0.32,
+        "absolute_risk_probability": 0.00543998509087008,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "MRI + biopsy with GFAP IHC"
+      },
+      {
+        "anatomical_site": "Skin",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.26,
+        "site_prior": 0.26,
+        "absolute_risk_probability": 0.00441998788633194,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Dermatology consult + excisional biopsy with SOX2 IHC"
+      },
+      {
+        "anatomical_site": "Adrenal",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.16,
+        "site_prior": 0.16,
+        "absolute_risk_probability": 0.00271999254543504,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "CT abdomen + adrenal protocol biopsy"
+      },
+      {
+        "anatomical_site": "Retina",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.14,
+        "site_prior": 0.14,
+        "absolute_risk_probability": 0.0023799934772556603,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Ophthalmologic exam + OCT + CRX IHC"
+      },
+      {
+        "anatomical_site": "Pituitary",
+        "germ_layer": "ectoderm",
+        "predicted_cells_in_lineage": 383,
+        "lineage_probability": 1.0,
+        "site_probability": 0.12,
+        "site_prior": 0.12,
+        "absolute_risk_probability": 0.0020399944090762796,
+        "risk_level": "NEGLIGIBLE",
+        "marker_genes": [
+          "PAX6",
+          "SOX1",
+          "TUBB3",
+          "MAP2"
+        ],
+        "evidence_citation": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008",
+        "confirmatory_assay": "Sella MRI + pituitary hormone panel"
+      }
+    ],
+    "total_sites_evaluated": 22,
+    "high_risk_sites": 0,
+    "moderate_risk_sites": 0,
+    "low_risk_sites": 0,
+    "negligible_risk_sites": 5,
+    "formula": "absolute_risk = mean(model probability of lineage cells) x literature site prior",
+    "priors_source": "Lee et al., Nat Rev Mol Cell Biol 2013; Ben-David et al., Cell Stem Cell 2013; Brederlau et al., Stem Cells 2004; Hentze et al., Stem Cell Res 2009; Kroon et al., Nat Biotechnol 2008"
+  },
+  "qc_flags": [
+    {
+      "severity": "warning",
+      "category": "sample_size",
+      "message": "Modest sample size (383 cells)",
+      "action": "Interpret fraction with caution"
+    }
+  ],
+  "disclaimer": {
+    "primary": "Research Use Only \u2014 NOT FDA-cleared. This report is a computational inference from single-cell RNA-seq data and does not constitute a clinical release test.",
+    "limitations": [
+      "Model trained on a hybrid corpus (simulated multi-site data + real PBMC reference); clinical performance on therapeutic manufacturing batches is not yet established.",
+      "Detection limits below 0.001% PSC depend on sequenced cell count and depth; bootstrap CIs quantify this uncertainty.",
+      "Lineage assignment and teratoma site priors are literature-derived estimates, not patient-level predictions.",
+      "Batch effects, ambient RNA and doublets can inflate apparent PSC fractions; the biomarker cross-check mitigates but does not eliminate this.",
+      "No wet-lab orthogonal validation (HEC, ddPCR, lncRNA flow) has been performed for this build."
+    ],
+    "wet_lab_confirmation": "Confirm any non-RELEASE disposition with an orthogonal assay: ddPCR for LIN28A/ESRG, immunostaining for OCT4/TRA-1-60, or the histological embryoid-body assay, per EMEA/CHMP/410869/2006.",
+    "decision_authority": "The disposition code is a recommendation. Release authority rests with the Qualified Person under EMA rules or the responsible QA officer under FDA rules.",
+    "audit_trail": "All model inputs, outputs and decisions are recorded in the append-only audit trail (db/audit.db).",
+    "citation": "resipsc v2.0.0 (2026). Residual pluripotent stem cell detection for cell therapy quality control via machine-learning ensemble on single-cell RNA-seq. Software available from the project repository.",
+    "license": "MIT (code); CC-BY-4.0 (figures)",
+    "version": "resipsc 2.0.0 / report v2.1"
+  },
+  "cell_projection": {
+    "points": [
+      {
+        "x": 6.708164437441155e-05,
+        "y": -1.9646516358218236e-10,
+        "p": 0.01699995340577789,
+        "cell_id": "AAAGCGGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.4870578102232912e-09,
+        "p": 0.01699995340577789,
+        "cell_id": "AAAGGCTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": -1.6527840207558597e-09,
+        "p": 0.01699995340577789,
+        "cell_id": "AACACGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 2.0191227856347638e-10,
+        "p": 0.01699995340577789,
+        "cell_id": "AACATGGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": -4.1618757051775646e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AACCCAAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.622076930239691e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AACCGCTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5255407614239713e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AACCGGAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.529810241159002e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AACCTGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297524531832085e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AACGAGGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297528868640775e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AACTCTGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297528868640775e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AAGACAGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297528868640775e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AAGCACAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297536458055983e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "AAGCGAGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297536458055983e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "AAGCTGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297536458055983e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "AAGGAGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "AAGGTCAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AAGTCTCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AAGTGGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AATAGGGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AATCATGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AATCGGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AATGGTGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ACAAACCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ACAAGGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACACCGTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACAGAAGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACAGAGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACAGGCAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "ACATGTGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "ACCAAGGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ACCACGAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ACCAGTTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ACCCATCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ACCCCATT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ACCCTACA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ACCGCTAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACCTCAGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACCTGGAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACGAACAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACGATAGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACGATCCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACGCGTAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ACGCTCTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ACGGATGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ACGTACTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ACGTATCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ACGTTGTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ACTAGCGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ACTGTTTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGAACAGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGAACCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGACAACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGACTCGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGAGGTGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGCACTCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGCAGAAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGCCACCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGCGAACT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGCTCCTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGCTTCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "AGGACTTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "AGGAGACT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "AGGATGGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "AGGCATCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGGCTAAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGGGACAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGGTAAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGTACGTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGTCAGGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGTCTGCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGTGCAGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "AGTGGGAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGTTCTCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGTTGGAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGTTGTGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "AGTTTCGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "ATACACGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "ATACAGAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ATAGCTGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ATAGGAGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ATATTCCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ATCGACGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ATCGGTTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ATCGTGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ATGAGCAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ATGCCTCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ATGCGACG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ATGCTCTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ATGGCACT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "ATGGGCTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ATGTGCGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "ATTCCTAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ATTGGACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "ATTTAGCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CAAACGAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CAAAGTGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CAACCATG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CAACTAGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CAAGAGAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CAAGGTGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CAATACGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CAATGGTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CACACTGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CACAGCAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CACCATGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CACCTCTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CACTATCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CACTCACT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CACTTATC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CAGAGAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CAGATACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CAGATAGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CAGATCGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CAGCGATT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CAGCTTTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CAGTCAGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CAGTCCAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CAGTGACA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CAGTGTCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CATAGCTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CATAGTCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CATCTCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CATGCACA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CATGGGTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CATGTCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CCAACGTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CCACAACT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CCAGAAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CCAGATGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CCAGTCCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CCATGGGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CCATTTCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CCCCTATT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CCCTAGTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CCGAGATT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CCGAGTAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CCGATTCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CCGCATTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CCGTCTAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CCTACACA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CCTCTCAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CCTGACAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CCTGCTAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CCTGTAGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CCTTCAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CCTTCGTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CCTTTGAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CGAAAGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CGAACTGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CGAAGCAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGAATGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGACTTAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGAGAATG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGATCCTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGCAAAGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGCATAAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CGCTATAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CGCTTGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CGGAAGTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CGGGTGAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CGGTAATC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CGGTACTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGGTGTTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGTAATCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGTAGAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGTATCAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGTCGTTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CGTCTAAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CGTGATTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CTACCGTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CTACGCTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CTAGCAAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CTAGTTCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "CTATAGGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CTCATGTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CTCGTACT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CTCTGCTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CTCTGTCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CTCTTTGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CTGAAGGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CTGACTGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CTGATCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CTGCGAAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CTGCTTCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CTGGCTAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "CTGTACAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CTGTCATT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "CTTACGAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CTTAGCCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CTTCGTAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CTTGTGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "CTTTGACA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GAAACTGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GAAAGGTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GAACAGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GAAGACTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GACAAACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GACGCAAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GACTTGAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GAGAACGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GAGAAGAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GAGAGAGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GAGCAAAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GAGGGTAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GAGTCCTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GAGTCTGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GAGTTGGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GATCACCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GATCCTGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GATCGAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GATGCTCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GATGTACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GATGTCGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GATTGCTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GATTGTCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GCAAGAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GCAATCGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GCACGTCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GCAGAGAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GCATAATC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GCATCAGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GCATTTGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "GCCACAAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "GCCATCTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GCGATATC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GCGTATAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GCTAATGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GCTGTAAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GCTTCCCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GCTTCTTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GCTTTGGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GGACCTTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GGACGAAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GGACTACT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GGAGCTAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GGAGTACA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "GGATGATG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "GGATTGAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "GGCAACAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "GGCGATTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GGCTCTAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GGGAAGAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GGGACAAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GGGATTGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GGGGATTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GGGTAAGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GGGTTATG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GGTAATCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GGTGACTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GGTGGACT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GGTGTTAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GGTTAGTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GGTTCTGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GTAACTCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GTAATCCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GTAGAACG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTAGTGAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTATCGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTATCGTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTATGCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTCATTAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTCCAAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTCCGTAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTCCTATA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTCGATCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTCTACCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTCTCACA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTCTTACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GTGAACTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "GTGATGTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "GTGCATGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "GTGCGTAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTGCTAGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTGGTGTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTGTAACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTGTTCAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTTACAGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTTATGCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTTCAGTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTTCCGAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTTCGCTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "GTTCTGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTTCTTGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "GTTGCCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "GTTGGTGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TAACTCCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TAAGCCGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TAAGGTCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TACAAGGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TACCACGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TACCAGAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TACCTGTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TACGCCTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TACGGTGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TACTGCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TACTGCTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TACTGGTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TAGACGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TAGAGGGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TAGCTACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TAGGAACG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TAGGGGAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TAGGTCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TAGTGTGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TAGTTGCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TATCCACG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TATCCTGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TATCTCGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TATGACCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TATGGAGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TATTCGGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TCAACGAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCACCCGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCAGCACT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCAGCTTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCATGAGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TCCAATCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TCCAGCTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TCCCTAGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TCCGAACA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TCCTAGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TCGACAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TCGACTCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TCGCCATT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCGCGATA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCGGAATC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCGGTTGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCGTCCTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCTAGAGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCTATGGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TCTCACAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TCTCGTCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TCTGCCTA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TCTGGGCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TCTGGTTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TCTGTGAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TCTTGCTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TGAAAGCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TGAAAGGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TGAATACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TGACCAAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TGAGAGAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGAGCATA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGATCCTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGATCGGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGATCTCC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGATGCCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGATGTAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TGATTCGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TGCGGTAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TGCGTAGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TGCGTGAT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TGGAGCTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TGGCACAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGGCTTCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGGGTTTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGGTAGCT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGGTGAGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGGTTGTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TGTACCAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TGTGGCTT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5296971588724118e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TGTTAAGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TTACGGGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995340577789,
+        "cell_id": "TTAGACGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TTAGGACG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413290525,
+        "cell_id": "TTAGGCAG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TTATCCGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953407552164,
+        "cell_id": "TTCACGTG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TTCAGACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TTCAGCGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TTCCCTCA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.01699995341077078,
+        "cell_id": "TTCCGTTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413267228,
+        "cell_id": "TTCCTACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413267228,
+        "cell_id": "TTCGCTGT",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413267228,
+        "cell_id": "TTCGGAAA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413267228,
+        "cell_id": "TTCTCGGA",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413267228,
+        "cell_id": "TTGATGGC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413267228,
+        "cell_id": "TTGCAACC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413267228,
+        "cell_id": "TTGTCCAC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5297139640060853e-12,
+        "p": 0.016999953413267228,
+        "cell_id": "TTGTTCCG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708178261760622e-05,
+        "y": 1.5617321671990148e-11,
+        "p": 0.01699995341065357,
+        "cell_id": "TTTGAGGG",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708179716952145e-05,
+        "y": -1.908990188148607e-10,
+        "p": 0.01699995341065357,
+        "cell_id": "TTTGTGTC",
+        "class": "high_confidence_negative"
+      },
+      {
+        "x": 6.708179716952145e-05,
+        "y": -2.339283211583165e-10,
+        "p": 0.01699995341064145,
+        "cell_id": "TTTTCGCC",
+        "class": "high_confidence_negative"
+      }
+    ],
+    "method": "pca",
+    "n_cells_total": 383,
+    "n_cells_projected": 383,
+    "x_range": [
+      6.708164437441155e-05,
+      6.708179716952145e-05
+    ],
+    "y_range": [
+      -1.6527840207558597e-09,
+      1.4870578102232912e-09
+    ]
+  },
+  "gene_heatmap": {
+    "genes": [],
+    "top_cells": [
+      {
+        "cell_id": "ACCAAGGA",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "ACATGTGC",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "TGATTCGC",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "TGCGGTAT",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "TGCGTAGG",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "TGCGTGAT",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "TCCAGCTA",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "TCCAATCG",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "AGGAGACT",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "AGGATGGA",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "AGGCATCT",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "ATACACGG",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "ATACAGAC",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "AGGACTTA",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "TAGGAACG",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "TAGGGGAA",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "CAGAGAAG",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "CAGATACC",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "CAGATAGC",
+        "p": 0.016999953413290525,
+        "values": []
+      },
+      {
+        "cell_id": "CATGTCAC",
+        "p": 0.016999953413290525,
+        "values": []
+      }
+    ],
+    "bottom_cells": [
+      {
+        "cell_id": "AGACAACC",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "AGAACCAC",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "TGGCACAA",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "TGGAGCTC",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "ACGCGTAA",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "TGTGGCTT",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "ACGATAGG",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "ACGATCCT",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "ACCTGGAG",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "ACGAACAC",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "ACCTCAGC",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "ACAGGCAT",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "ACAGAGCT",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "ACAGAAGC",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "AACCGCTT",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "AACCCAAC",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "AACATGGG",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "AACACGCA",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "AAAGGCTG",
+        "p": 0.01699995340577789,
+        "values": []
+      },
+      {
+        "cell_id": "AAAGCGGA",
+        "p": 0.01699995340577789,
+        "values": []
+      }
+    ],
+    "color_scale": "blue(0) -> white(median) -> red(max) on log-normalised expression",
+    "description": "Expression of the 8-gene pluripotency panel in the 20 highest- and 20 lowest-scoring cells."
+  },
+  "batch_history": {
+    "batches": [],
+    "n_previous_batches": 0,
+    "trend": "insufficient history",
+    "current_batch_id": "Me"
+  },
+  "input_file": "E:\\resipsc v2 final 1\\data\\uploads\\direct_1793686927368_GSM7915977_hESC_d0_replica3_plate1.spliced.barcodes.txt",
+  "input_total_cells": 383,
+  "subsampled": false,
+  "max_cells_cap": 500,
+  "model_fitted": true,
+  "runtime_seconds": 2.53,
+  "status": "ok"
+}

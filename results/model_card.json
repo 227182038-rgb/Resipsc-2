@@ -1,7 +1,7 @@
 {
   "model_version": "resipsc-ensemble-2.0.0",
   "model_type": "Weighted ML ensemble (XGBoost+RF+SVM 0.6 / AE+MLP 0.4)",
-  "generated_at_utc": "2026-10-02 07:52:49 UTC",
+  "generated_at_utc": "2026-11-09 12:06:09 UTC",
   "intended_use": "Computational detection of residual pluripotent stem cells in single-cell RNA-seq of PSC-derived cell therapy products. Research Use Only \u2014 NOT FDA-cleared and not a clinical release test.",
   "out_of_scope_uses": [
     "Clinical diagnosis or patient management",
@@ -96,27 +96,27 @@
   },
   "performance": {
     "roc_auc": 0.9303,
-    "pr_auc": 0.62,
+    "pr_auc": 0.6233,
     "sensitivity": 0.5109,
-    "specificity": 0.948
+    "specificity": 0.9488
   },
   "training_config": {
     "n_hvg": 300,
-    "max_cells_per_dataset": 800,
+    "max_cells_per_dataset": 2000,
     "random_state": 42,
-    "xgb_n_estimators": 80,
+    "xgb_n_estimators": 100,
     "xgb_max_depth": 4,
     "xgb_learning_rate": 0.1,
-    "rf_n_estimators": 80,
+    "rf_n_estimators": 100,
     "svm_kernel": "linear",
     "mlp_hidden": [
       64,
       32
     ],
     "mlp_epochs": 60,
-    "ae_epochs": 10,
+    "ae_epochs": 15,
     "ae_latent": 32,
-    "transformer_epochs": 2,
+    "transformer_epochs": 3,
     "transformer_dim": 32,
     "skip_transformer": true,
     "classical_weight": 0.6,
@@ -132,13 +132,13 @@
       0.01,
       0.1
     ],
-    "spikein_replicates": 2,
+    "spikein_replicates": 3,
     "n_jobs": 1,
     "results_dir": "results",
     "db_dir": "db",
     "seed": 42
   },
-  "config_hash": "15850530e1aea67e",
+  "config_hash": "027fb5d29adad89a",
   "random_seed": 42,
   "limitations": [
     "Hybrid training corpus: simulated multi-site differentiation data plus a real PBMC reference; clinical manufacturing data not yet included.",

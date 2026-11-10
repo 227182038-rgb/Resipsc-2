@@ -1,39 +1,39 @@
 {
   "title": "ICH Q5E Comparability Report \u2014 model promotion",
-  "generated_at_utc": "2026-10-09 13:10:30 UTC",
+  "generated_at_utc": "2026-11-09 12:25:29 UTC",
   "standard": "ICH Q5E Comparability of Biotechnological/Biological Products",
-  "old_version": "resipsc@1790927658",
-  "new_version": "candidate@1791551429",
+  "old_version": "resipsc@1794226690",
+  "new_version": "candidate@1794227128",
   "n_samples": 3580,
   "metrics": {
     "old": {
-      "sensitivity": 0.6989869753979739,
-      "specificity": 0.9650398061613015,
-      "tp": 483,
-      "fn": 208,
-      "tn": 2788,
-      "fp": 101
+      "sensitivity": 0.8219971056439942,
+      "specificity": 0.9394254067151263,
+      "tp": 568,
+      "fn": 123,
+      "tn": 2714,
+      "fp": 175
     },
     "new": {
-      "sensitivity": 0.7293777134587555,
-      "specificity": 0.9383869851159571,
-      "tp": 504,
-      "fn": 187,
-      "tn": 2711,
-      "fp": 178
+      "sensitivity": 0.7250361794500724,
+      "specificity": 0.9442713741779163,
+      "tp": 501,
+      "fn": 190,
+      "tn": 2728,
+      "fp": 161
     },
-    "sensitivity_delta": 0.03039073806078152,
-    "specificity_delta": -0.026652821045344388,
-    "decision_concordance": 0.9513966480446927,
-    "cohens_kappa": 0.8332523133524498,
+    "sensitivity_delta": -0.09696092619392183,
+    "specificity_delta": 0.00484596746278998,
+    "decision_concordance": 0.9550279329608938,
+    "cohens_kappa": 0.8575491675086155,
     "bland_altman": {
-      "mean_difference": 0.03171261509814354,
-      "std_difference": 0.06113179473433107,
+      "mean_difference": -0.009095562421386413,
+      "std_difference": 0.06020050146550899,
       "limits_of_agreement": [
-        -0.08810570258114536,
-        0.15153093277743243
+        -0.12708854529378405,
+        0.10889742045101121
       ],
-      "mean_of_means": 0.2272389329438955
+      "mean_of_means": 0.24481698383164605
     }
   },
   "acceptance_criteria": {
