@@ -1,0 +1,7 @@
+﻿# Resipsc V3 Infrastructure Dependencies
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pydantic>=2.0.0
+zarr>=2.15.0
+scvi-tools>=1.0.0
+tiledbsoma>=1.0.0

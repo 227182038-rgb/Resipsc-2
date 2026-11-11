@@ -1,0 +1,53 @@
+﻿# Resipsc V3 Production Dockerfile
+# Multi-stage build for minimal production image
+
+# Build stage
+FROM python:3.11-slim as builder
+
+WORKDIR /app
+
+# Install build dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \\
+    gcc \\
+    g++ \\
+    libhdf5-dev \\
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements-v3.txt .
+RUN pip install --no-cache-dir --user -r requirements-v3.txt
+
+# Production stage
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Runtime dependencies only
+RUN apt-get update && apt-get install -y --no-install-recommends \\
+    libhdf5-103 \\
+    libgomp1 \\
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy installed packages from builder
+COPY --from=builder /root/.local /root/.local
+
+# Copy application code
+COPY src/ ./src/
+COPY resipsc/ ./resipsc/
+COPY requirements-v3.txt .
+
+# Environment
+ENV PYTHONPATH=/app
+ENV PATH=/root/.local/bin:
+ENV PYTHONUNBUFFERED=1
+
+# Create non-root user
+RUN useradd --create-home --shell /bin/bash resipsc
+USER resipsc
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \\
+    CMD curl -f http://localhost:8000/health || exit 1
+
+EXPOSE 8000
+
+CMD [\"uvicorn\", \"src.api.inference_service:app\", \"--host\", \"0.0.0.0\", \"--port\", \"8000\", \"--workers\", \"4\"]
